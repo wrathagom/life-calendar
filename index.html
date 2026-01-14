@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Calendar</title>
+    <link rel="icon" type="image/svg+xml" id="favicon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Modal for settings -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Your Life Calendar</h2>
+            <p>Enter your details to see your life in weeks.</p>
+
+            <form id="settings-form">
+                <div class="form-group">
+                    <label for="sex">Sex</label>
+                    <select id="sex" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country of Residence</label>
+                    <select id="country" required>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <button type="button" class="advanced-toggle" id="advanced-toggle">
+                    Advanced Options
+                    <svg class="chevron" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                    </svg>
+                </button>
+
+                <div class="advanced-options" id="advanced-options">
+                    <div class="form-group">
+                        <label for="theme">Theme</label>
+                        <select id="theme">
+                            <option value="default">Default (Dark)</option>
+                            <option value="catpuccin-mocha">Catpuccin Mocha</option>
+                            <option value="catpuccin-latte">Catpuccin Latte</option>
+                            <option value="gruvbox-dark">Gruvbox Dark</option>
+                            <option value="gruvbox-light">Gruvbox Light</option>
+                            <option value="solarized-dark">Solarized Dark</option>
+                            <option value="solarized-light">Solarized Light</option>
+                            <option value="dracula">Dracula</option>
+                            <option value="nord">Nord</option>
+                            <option value="tokyo-night">Tokyo Night</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Life Highlights</label>
+                        <div id="highlights-list" class="highlights-list">
+                            <!-- Populated by JS -->
+                        </div>
+                        <button type="button" class="add-highlight-btn" id="add-highlight-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                            </svg>
+                            Add Highlight
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="save-btn">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Info modal -->
+    <div id="info-modal" class="modal hidden">
+        <div class="modal-content info-modal-content">
+            <h2>Life Expectancy Info</h2>
+            <div id="info-content">
+                <!-- Populated by JS -->
+            </div>
+            <p class="info-source">
+                Data source: <a href="https://www.worldometers.info/demographics/life-expectancy/" target="_blank" rel="noopener">Worldometers - Life Expectancy by Country (2025)</a>
+            </p>
+            <button type="button" class="save-btn" id="info-close">Close</button>
+        </div>
+    </div>
+
+    <!-- Full-screen calendar -->
+    <div id="calendar-container">
+        <div id="calendar"></div>
+        <div class="floating-menu">
+            <div class="floating-menu-items">
+                <button id="share-btn" title="Share">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/>
+                    </svg>
+                </button>
+                <button id="info-btn" title="Info">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                </button>
+                <button id="settings-gear" title="Settings">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+                    </svg>
+                </button>
+            </div>
+            <button id="menu-toggle" title="Menu">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="chevron-icon">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/>
+                </svg>
+            </button>
+        </div>
+        <div id="share-toast" class="share-toast">Link copied to clipboard!</div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
