@@ -476,8 +476,17 @@ function formatWeekDate(date, weekIndex) {
 // Calculate optimal grid dimensions to fill the viewport
 function calculateGrid(totalWeeks) {
     const gap = 2;
-    const viewportWidth = window.innerWidth;
-    const viewportHeight = window.innerHeight;
+
+    // Use visualViewport if available (more accurate on mobile), otherwise fall back to window
+    const visualVP = window.visualViewport;
+    let viewportWidth = visualVP ? visualVP.width : window.innerWidth;
+    let viewportHeight = visualVP ? visualVP.height : window.innerHeight;
+
+    // Add padding to account for browser chrome and prevent overflow
+    // Mobile browsers have dynamic toolbars that can cause issues
+    const padding = 8;
+    viewportWidth -= padding * 2;
+    viewportHeight -= padding * 2;
 
     let bestColumns = 52;
     let bestRows = Math.ceil(totalWeeks / 52);
@@ -511,7 +520,7 @@ function calculateGrid(totalWeeks) {
 
 // Handle window resize
 let resizeTimeout;
-window.addEventListener('resize', () => {
+function handleResize() {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
         const saved = localStorage.getItem(STORAGE_KEY);
@@ -519,7 +528,14 @@ window.addEventListener('resize', () => {
             renderCalendar(JSON.parse(saved));
         }
     }, 100);
-});
+}
+
+window.addEventListener('resize', handleResize);
+
+// Also listen to visualViewport resize for mobile browsers
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', handleResize);
+}
 
 // Generate shareable URL
 function generateShareURL() {
