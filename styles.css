@@ -548,6 +548,9 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.highlights-list:not(:empty) {
     margin-bottom: 12px;
 }
 
@@ -652,7 +655,11 @@ html, body {
     text-align: center;
     color: var(--text-muted);
     font-size: 0.85rem;
-    padding: 12px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background: var(--bg-primary);
+    border: 1px dashed var(--border-color);
+    border-radius: 6px;
 }
 
 /* Highlight colors on calendar */
@@ -681,4 +688,30 @@ html, body {
 .share-toast.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Mobile tooltip */
+.mobile-tooltip {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    font-size: 0.85rem;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.2s;
+    pointer-events: none;
+    z-index: 150;
+    white-space: nowrap;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.mobile-tooltip.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
 }

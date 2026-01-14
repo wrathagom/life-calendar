@@ -20,6 +20,7 @@ const shareBtn = document.getElementById('share-btn');
 const shareToast = document.getElementById('share-toast');
 const menuToggle = document.getElementById('menu-toggle');
 const floatingMenu = document.querySelector('.floating-menu');
+const mobileTooltip = document.getElementById('mobile-tooltip');
 
 // Storage keys
 const STORAGE_KEY = 'life-calendar-settings';
@@ -175,6 +176,7 @@ function setupEventListeners() {
     addHighlightBtn.addEventListener('click', addHighlight);
     shareBtn.addEventListener('click', shareCalendar);
     menuToggle.addEventListener('click', toggleFloatingMenu);
+    calendar.addEventListener('click', handleWeekTap);
 }
 
 // Toggle floating menu
@@ -432,9 +434,31 @@ function renderCalendar(settings) {
             tooltip += ` - ${highlight.label}`;
         }
         week.title = tooltip;
+        week.dataset.tooltip = tooltip;
 
         calendar.appendChild(week);
     }
+
+}
+
+// Handle tap on week cell for mobile tooltip
+let tooltipTimeout;
+function handleWeekTap(e) {
+    const week = e.target.closest('.week');
+    if (!week) return;
+
+    const tooltip = week.dataset.tooltip;
+    if (!tooltip) return;
+
+    // Show mobile tooltip
+    mobileTooltip.textContent = tooltip;
+    mobileTooltip.classList.add('visible');
+
+    // Hide after delay
+    clearTimeout(tooltipTimeout);
+    tooltipTimeout = setTimeout(() => {
+        mobileTooltip.classList.remove('visible');
+    }, 2500);
 }
 
 // Format date for tooltip
