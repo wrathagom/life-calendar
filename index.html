@@ -6,6 +6,7 @@
     <title>Life Calendar</title>
     <link rel="icon" type="image/svg+xml" id="favicon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'></svg>">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.counter.dev/script.js" data-id="af667829-e0c0-4f79-a071-b16af6abfd49" data-utcoffset="-5"></script>
 </head>
 <body>
     <!-- Modal for settings -->
@@ -87,7 +88,10 @@
                     </div>
                 </div>
 
-                <button type="submit" class="save-btn">Save</button>
+                <div class="modal-buttons">
+                    <button type="button" class="cancel-btn" id="cancel-btn">Cancel</button>
+                    <button type="submit" class="save-btn">Save</button>
+                </div>
             </form>
         </div>
     </div>
@@ -123,6 +127,8 @@
                 <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
             </svg>
         </button>
+        <!-- Swipe indicator for mobile -->
+        <div id="swipe-indicator" class="swipe-indicator"></div>
         <!-- Global floating menu -->
         <div id="global-menu" class="global-menu">
             <div class="global-menu-items">

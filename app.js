@@ -24,6 +24,11 @@ const globalMenu = document.getElementById('global-menu');
 const globalMenuToggle = document.getElementById('global-menu-toggle');
 const shareAllBtn = document.getElementById('share-all-btn');
 const downloadBtn = document.getElementById('download-btn');
+const cancelBtn = document.getElementById('cancel-btn');
+const swipeIndicator = document.getElementById('swipe-indicator');
+
+// Track active calendar index for mobile
+let activeCalendarIndex = 0;
 
 // Maximum number of calendars allowed
 const MAX_CALENDARS = 2;
@@ -38,6 +43,9 @@ let highlights = [];
 
 // Array of calendar settings (supports multiple calendars)
 let calendars = [];
+
+// Track if we're adding a new calendar (for cancel behavior)
+let isAddingNewCalendar = false;
 
 // Initialize
 function init() {
@@ -203,9 +211,72 @@ function setupEventListeners() {
     addHighlightBtn.addEventListener('click', addHighlight);
     addCalendarBtn.addEventListener('click', addNewCalendar);
     calendarsWrapper.addEventListener('click', handleCalendarClick);
+    calendarsWrapper.addEventListener('scroll', handleCalendarScroll);
+    // Touch events for mobile swipe detection
+    calendarsWrapper.addEventListener('touchstart', handleTouchStart, { passive: true });
+    calendarsWrapper.addEventListener('touchend', handleTouchEnd, { passive: true });
     globalMenuToggle.addEventListener('click', toggleGlobalMenu);
     shareAllBtn.addEventListener('click', shareAllCalendars);
     downloadBtn.addEventListener('click', downloadCalendars);
+    cancelBtn.addEventListener('click', cancelModal);
+}
+
+// Handle scroll on calendars wrapper (for mobile swipe detection)
+function handleCalendarScroll() {
+    if (calendars.length <= 1) return;
+    if (isProgrammaticScroll) return;
+
+    const scrollLeft = calendarsWrapper.scrollLeft;
+    const panelWidth = calendarsWrapper.offsetWidth;
+    const newIndex = Math.round(scrollLeft / panelWidth);
+
+    if (newIndex !== activeCalendarIndex && newIndex >= 0 && newIndex < calendars.length) {
+        activeCalendarIndex = newIndex;
+        updateSwipeIndicatorDots();
+    }
+}
+
+// Touch handling for swipe detection
+let touchStartX = 0;
+let isProgrammaticScroll = false;
+
+function handleTouchStart(e) {
+    touchStartX = e.touches[0].clientX;
+}
+
+function handleTouchEnd(e) {
+    const touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+
+    if (calendars.length <= 1) return;
+
+    const threshold = 50; // minimum swipe distance
+
+    if (Math.abs(diff) > threshold) {
+        let newIndex = activeCalendarIndex;
+        if (diff > 0 && activeCalendarIndex < calendars.length - 1) {
+            // Swipe left - go to next calendar
+            newIndex = activeCalendarIndex + 1;
+        } else if (diff < 0 && activeCalendarIndex > 0) {
+            // Swipe right - go to previous calendar
+            newIndex = activeCalendarIndex - 1;
+        }
+
+        if (newIndex !== activeCalendarIndex) {
+            activeCalendarIndex = newIndex;
+            scrollToCalendar(activeCalendarIndex);
+        }
+    }
+}
+
+// Cancel/close modal without saving
+function cancelModal() {
+    modal.classList.add('hidden');
+    // Show calendars again if we have existing calendars
+    if (calendars.length > 0) {
+        calendarContainer.classList.add('visible');
+    }
+    isAddingNewCalendar = false;
 }
 
 // Toggle global menu
@@ -288,6 +359,7 @@ function handleSubmit(e) {
     if (calendars[0]) {
         applyTheme(calendars[0].theme);
     }
+    isAddingNewCalendar = false;
     showCalendars();
 }
 
@@ -544,6 +616,67 @@ function renderAllCalendars() {
 
         renderCalendar(settings, calendarDiv, calendars.length, alignmentInfo);
     });
+
+    // Update swipe indicator for mobile
+    updateSwipeIndicator();
+    // Update active calendar controls for mobile
+    updateActiveCalendarControls();
+
+}
+
+// Update swipe indicator dots
+function updateSwipeIndicator() {
+    if (calendars.length <= 1) {
+        swipeIndicator.innerHTML = '';
+        return;
+    }
+
+    swipeIndicator.innerHTML = calendars.map((_, index) =>
+        `<div class="dot${index === activeCalendarIndex ? ' active' : ''}" data-index="${index}"></div>`
+    ).join('');
+
+    // Add click handlers to dots
+    swipeIndicator.querySelectorAll('.dot').forEach(dot => {
+        dot.addEventListener('click', () => {
+            const index = parseInt(dot.dataset.index);
+            scrollToCalendar(index);
+        });
+    });
+}
+
+// Scroll to a specific calendar (for mobile)
+function scrollToCalendar(index) {
+    const panels = calendarsWrapper.querySelectorAll('.calendar-panel');
+    if (panels[index]) {
+        isProgrammaticScroll = true;
+        panels[index].scrollIntoView({ behavior: 'smooth', inline: 'start' });
+        activeCalendarIndex = index;
+        updateSwipeIndicatorDots();
+        // Reset flag after scroll animation completes
+        setTimeout(() => {
+            isProgrammaticScroll = false;
+        }, 500);
+    }
+}
+
+// Update just the active dot (without re-rendering)
+function updateSwipeIndicatorDots() {
+    swipeIndicator.querySelectorAll('.dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === activeCalendarIndex);
+    });
+    // Also update which calendar controls are visible on mobile
+    updateActiveCalendarControls();
+}
+
+// Update which calendar's controls are visible (for mobile)
+function updateActiveCalendarControls() {
+    const panels = calendarsWrapper.querySelectorAll('.calendar-panel');
+    panels.forEach((panel, index) => {
+        const controls = panel.querySelector('.calendar-controls');
+        if (controls) {
+            controls.classList.toggle('mobile-active', index === activeCalendarIndex);
+        }
+    });
 }
 
 // Calculate aligned grid parameters for multiple calendars
@@ -768,6 +901,14 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
     }
 }
 
+// Get calendar index - on mobile use active calendar, otherwise use data-index
+function getCalendarIndex(element) {
+    if (isMobile() && calendars.length > 1) {
+        return activeCalendarIndex;
+    }
+    return parseInt(element.dataset.index);
+}
+
 // Handle click on calendars wrapper (for week taps and calendar editing)
 function handleCalendarClick(e) {
     // Check for remove button click
@@ -782,7 +923,7 @@ function handleCalendarClick(e) {
     // Check for settings button click
     const settingsBtn = e.target.closest('.calendar-settings-btn');
     if (settingsBtn) {
-        const index = parseInt(settingsBtn.dataset.index);
+        const index = getCalendarIndex(settingsBtn);
         openModal(index);
         return;
     }
@@ -790,7 +931,7 @@ function handleCalendarClick(e) {
     // Check for info button click
     const infoBtn = e.target.closest('.calendar-info-btn');
     if (infoBtn) {
-        const index = parseInt(infoBtn.dataset.index);
+        const index = getCalendarIndex(infoBtn);
         openInfoModal(index);
         return;
     }
@@ -798,7 +939,7 @@ function handleCalendarClick(e) {
     // Check for share button click
     const shareBtn = e.target.closest('.calendar-share-btn');
     if (shareBtn) {
-        const index = parseInt(shareBtn.dataset.index);
+        const index = getCalendarIndex(shareBtn);
         shareCalendar(index);
         return;
     }
@@ -829,6 +970,7 @@ function handleWeekTap(week) {
 
 // Add a new calendar
 function addNewCalendar() {
+    isAddingNewCalendar = true;
     // Open modal for new calendar
     openModal(calendars.length);
 }
@@ -854,6 +996,11 @@ function formatWeekDate(date, weekIndex) {
     return `${month} ${year} (Age ${age}, Week ${weekOfYear})`;
 }
 
+// Check if we're on mobile (matches CSS media query)
+function isMobile() {
+    return window.innerWidth <= 768;
+}
+
 // Calculate optimal grid dimensions to fill the viewport
 function calculateGrid(totalWeeks, numCalendars = 1) {
     const gap = 2;
@@ -869,9 +1016,12 @@ function calculateGrid(totalWeeks, numCalendars = 1) {
     viewportWidth -= padding * 2;
     viewportHeight -= padding * 2;
 
+    // On mobile, calendars are shown one at a time (swipe view), so don't divide width
+    const effectiveNumCalendars = isMobile() ? 1 : numCalendars;
+
     // Divide width by number of calendars (with gap between them)
     const calendarGap = 24;
-    const availableWidth = (viewportWidth - (numCalendars - 1) * calendarGap) / numCalendars;
+    const availableWidth = (viewportWidth - (effectiveNumCalendars - 1) * calendarGap) / effectiveNumCalendars;
 
     let bestColumns = 52;
     let bestRows = Math.ceil(totalWeeks / 52);
