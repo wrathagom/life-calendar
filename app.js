@@ -616,6 +616,37 @@ function getWeekIndexForDate(dob, date) {
     return diffWeeks;
 }
 
+// Get SVG polygon points for multi-highlight splits
+function getHighlightPolygons(count) {
+    // Returns array of SVG polygon point strings for each segment
+    // Using 100x100 viewBox coordinates
+    switch (count) {
+        case 2:
+            // Diagonal split: top-left triangle, bottom-right triangle
+            return [
+                '0,0 100,0 0,100',
+                '100,0 100,100 0,100'
+            ];
+        case 3:
+            // Y-split / pinwheel: top, bottom-right, bottom-left
+            return [
+                '0,0 100,0 50,50',
+                '100,0 100,100 50,50',
+                '0,0 50,50 100,100 0,100'
+            ];
+        case 4:
+            // X-split into quarters: left, top, right, bottom
+            return [
+                '0,0 50,50 0,100',
+                '0,0 100,0 50,50',
+                '100,0 100,100 50,50',
+                '50,50 100,100 0,100'
+            ];
+        default:
+            return [];
+    }
+}
+
 // Get all highlights for a week index (supports overlapping highlights)
 function getHighlightsForWeek(weekIndex, dob) {
     const birthDate = new Date(dob);
@@ -690,19 +721,26 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
 
             if (weekHighlights.length > 0) {
                 week.classList.add('highlighted');
-                week.classList.add(`highlights-${weekHighlights.length}`);
 
                 if (weekHighlights.length === 1) {
                     // Single highlight - use background color directly
                     week.style.backgroundColor = weekHighlights[0].color;
                 } else {
-                    // Multiple highlights - create segment divs
-                    weekHighlights.forEach((h) => {
-                        const segment = document.createElement('div');
-                        segment.className = 'highlight-segment';
-                        segment.style.backgroundColor = h.color;
-                        week.appendChild(segment);
+                    // Multiple highlights - create SVG with polygon segments
+                    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                    svg.setAttribute('viewBox', '0 0 100 100');
+                    svg.setAttribute('preserveAspectRatio', 'none');
+                    svg.classList.add('highlight-svg');
+
+                    const polygonPoints = getHighlightPolygons(weekHighlights.length);
+                    weekHighlights.forEach((h, idx) => {
+                        const polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                        polygon.setAttribute('points', polygonPoints[idx]);
+                        polygon.setAttribute('fill', h.color);
+                        svg.appendChild(polygon);
                     });
+
+                    week.appendChild(svg);
                 }
             } else if (lifeWeekIndex < weeksLived) {
                 week.classList.add('lived');

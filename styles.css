@@ -957,50 +957,12 @@ html, body {
     overflow: hidden;
 }
 
-.highlight-segment {
+.week.highlighted svg.highlight-svg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-/* 2 highlights: diagonal split */
-.week.highlights-2 .highlight-segment:nth-child(1) {
-    clip-path: polygon(0 0, 100% 0, 0 100%);
-}
-.week.highlights-2 .highlight-segment:nth-child(2) {
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
-}
-
-/* 3 highlights: Y-split (pinwheel style) */
-.week.highlights-3 .highlight-segment:nth-child(1) {
-    clip-path: polygon(0 0, 100% 0, 50% 50%);
-}
-.week.highlights-3 .highlight-segment:nth-child(2) {
-    clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-}
-.week.highlights-3 .highlight-segment:nth-child(3) {
-    clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%);
-}
-
-/* 4 highlights: quarters (X-split) */
-.week.highlights-4 .highlight-segment:nth-child(1) {
-    clip-path: polygon(0 0, 50% 50%, 0 100%);
-}
-.week.highlights-4 .highlight-segment:nth-child(2) {
-    clip-path: polygon(0 0, 100% 0, 50% 50%);
-}
-.week.highlights-4 .highlight-segment:nth-child(3) {
-    clip-path: polygon(100% 0, 100% 100%, 50% 50%);
-}
-.week.highlights-4 .highlight-segment:nth-child(4) {
-    clip-path: polygon(50% 50%, 100% 100%, 0 100%);
-}
-
-/* Highlight colors on calendar */
-.week.highlighted {
-    position: relative;
 }
 
 /* Share toast notification */
