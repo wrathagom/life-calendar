@@ -314,6 +314,8 @@ html, body {
     border-radius: 12px;
     max-width: 400px;
     width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
     border: 1px solid var(--border-color);
 }
 
@@ -409,6 +411,8 @@ html, body {
 /* Advanced options container */
 .advanced-options {
     display: none;
+    flex-direction: column;
+    gap: 16px;
     margin-bottom: 16px;
     padding: 16px;
     background: var(--bg-primary);
@@ -417,7 +421,7 @@ html, body {
 }
 
 .advanced-options.visible {
-    display: block;
+    display: flex;
 }
 
 .advanced-options .form-group {
@@ -844,12 +848,14 @@ html, body {
     background: var(--bg-primary);
     border: 1px solid var(--border-color);
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .highlight-row {
     display: flex;
     gap: 8px;
     align-items: center;
+    min-width: 0;
 }
 
 .highlight-item input[type="text"] {
@@ -864,6 +870,7 @@ html, body {
 
 .highlight-item input[type="date"] {
     flex: 1;
+    min-width: 0;
     padding: 8px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
