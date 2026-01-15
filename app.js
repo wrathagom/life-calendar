@@ -616,12 +616,13 @@ function getWeekIndexForDate(dob, date) {
     return diffWeeks;
 }
 
-// Get highlight for a week index
-function getHighlightForWeek(weekIndex, dob) {
+// Get all highlights for a week index (supports overlapping highlights)
+function getHighlightsForWeek(weekIndex, dob) {
     const birthDate = new Date(dob);
     const weekDate = new Date(birthDate);
     weekDate.setDate(weekDate.getDate() + weekIndex * 7);
 
+    const matchingHighlights = [];
     for (const highlight of highlights) {
         if (!highlight.startDate || !highlight.endDate) continue;
 
@@ -629,10 +630,11 @@ function getHighlightForWeek(weekIndex, dob) {
         const endDate = new Date(highlight.endDate);
 
         if (weekDate >= startDate && weekDate <= endDate) {
-            return highlight;
+            matchingHighlights.push(highlight);
         }
     }
-    return null;
+    // Limit to 4 highlights max for display
+    return matchingHighlights.slice(0, 4);
 }
 
 // Render a single calendar
@@ -683,11 +685,25 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
             // This week is outside this person's lifespan - show as empty/transparent
             week.classList.add('empty');
         } else {
-            // Check for highlight first (only for primary calendar)
-            const highlight = calendarIndex === 0 ? getHighlightForWeek(lifeWeekIndex, settings.dob) : null;
-            if (highlight) {
+            // Check for highlights (only for primary calendar)
+            const weekHighlights = calendarIndex === 0 ? getHighlightsForWeek(lifeWeekIndex, settings.dob) : [];
+
+            if (weekHighlights.length > 0) {
                 week.classList.add('highlighted');
-                week.style.backgroundColor = highlight.color;
+                week.classList.add(`highlights-${weekHighlights.length}`);
+
+                if (weekHighlights.length === 1) {
+                    // Single highlight - use background color directly
+                    week.style.backgroundColor = weekHighlights[0].color;
+                } else {
+                    // Multiple highlights - create segment divs
+                    weekHighlights.forEach((h) => {
+                        const segment = document.createElement('div');
+                        segment.className = 'highlight-segment';
+                        segment.style.backgroundColor = h.color;
+                        week.appendChild(segment);
+                    });
+                }
             } else if (lifeWeekIndex < weeksLived) {
                 week.classList.add('lived');
             } else if (lifeWeekIndex === weeksLived) {
@@ -700,8 +716,11 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
             const weekDate = new Date(birthDate);
             weekDate.setDate(weekDate.getDate() + lifeWeekIndex * 7);
             let tooltip = formatWeekDate(weekDate, lifeWeekIndex);
-            if (highlight && highlight.label) {
-                tooltip += ` - ${highlight.label}`;
+            if (weekHighlights.length > 0) {
+                const labels = weekHighlights.map(h => h.label).filter(l => l);
+                if (labels.length > 0) {
+                    tooltip += ` - ${labels.join(', ')}`;
+                }
             }
             week.title = tooltip;
             week.dataset.tooltip = tooltip;
