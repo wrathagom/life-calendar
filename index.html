@@ -15,6 +15,11 @@
             <p>Enter your details to see your life in weeks.</p>
 
             <form id="settings-form">
+                <input type="hidden" id="calendar-index" value="0">
+                <div class="form-group">
+                    <label for="name">Name (optional)</label>
+                    <input type="text" id="name" placeholder="Leave blank to hide label">
+                </div>
                 <div class="form-group">
                     <label for="sex">Sex</label>
                     <select id="sex" required>
@@ -57,7 +62,15 @@
                             <option value="dracula">Dracula</option>
                             <option value="nord">Nord</option>
                             <option value="tokyo-night">Tokyo Night</option>
+                            <option value="rose-pine">Rosé Pine</option>
+                            <option value="rose-pine-moon">Rosé Pine Moon</option>
+                            <option value="rose-pine-dawn">Rosé Pine Dawn</option>
                         </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="custom-life-expectancy">Custom Life Expectancy (years)</label>
+                        <input type="number" id="custom-life-expectancy" min="1" max="150" step="0.1" placeholder="Leave blank to use country average">
                     </div>
 
                     <div class="form-group">
@@ -95,28 +108,46 @@
 
     <!-- Full-screen calendar -->
     <div id="calendar-container">
-        <div id="calendar"></div>
-        <div class="floating-menu">
-            <div class="floating-menu-items">
-                <button id="share-btn" title="Share">
+        <div id="calendars-wrapper">
+            <div class="calendar-panel" data-index="0">
+                <button class="remove-calendar-btn hidden" title="Remove calendar">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+                    </svg>
+                </button>
+                <div class="calendar" data-index="0"></div>
+            </div>
+        </div>
+        <button id="add-calendar-btn" class="add-calendar-btn" title="Add another calendar">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+            </svg>
+        </button>
+        <!-- Global floating menu -->
+        <div id="global-menu" class="global-menu">
+            <div class="global-menu-items">
+                <button id="download-btn" class="global-menu-item" title="Download as Image">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                    </svg>
+                </button>
+                <button id="share-all-btn" class="global-menu-item" title="Share All Calendars">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/>
                     </svg>
                 </button>
-                <button id="info-btn" title="Info">
+                <a href="https://github.com/wrathagom/life-calendar" target="_blank" rel="noopener" class="global-menu-item" title="GitHub">
                     <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
-                </button>
-                <button id="settings-gear" title="Settings">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
-                    </svg>
-                </button>
+                </a>
             </div>
-            <button id="menu-toggle" title="Menu">
-                <svg viewBox="0 0 24 24" fill="currentColor" class="chevron-icon">
-                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"/>
+            <button id="global-menu-toggle" class="global-menu-toggle" title="Menu">
+                <svg class="menu-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+                </svg>
+                <svg class="close-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
                 </svg>
             </button>
         </div>
@@ -124,6 +155,7 @@
         <div id="mobile-tooltip" class="mobile-tooltip"></div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="data.js"></script>
     <script src="app.js"></script>
 </body>

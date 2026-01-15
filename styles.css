@@ -215,6 +215,69 @@
     --gear-icon-hover: #a9b1d6;
 }
 
+/* Rosé Pine */
+[data-theme="rose-pine"] {
+    --bg-primary: #191724;
+    --bg-secondary: #1f1d2e;
+    --bg-tertiary: #26233a;
+    --text-primary: #e0def4;
+    --text-secondary: #908caa;
+    --text-muted: #6e6a86;
+    --border-color: #26233a;
+    --btn-bg: #c4a7e7;
+    --btn-text: #191724;
+    --btn-hover: #ebbcba;
+    --week-future: #1f1d2e;
+    --week-lived: #c4a7e7;
+    --week-current: #ebbcba;
+    --gear-bg: rgba(31, 29, 46, 0.9);
+    --gear-hover: rgba(38, 35, 58, 0.9);
+    --gear-icon: #6e6a86;
+    --gear-icon-hover: #e0def4;
+}
+
+/* Rosé Pine Moon */
+[data-theme="rose-pine-moon"] {
+    --bg-primary: #232136;
+    --bg-secondary: #2a273f;
+    --bg-tertiary: #393552;
+    --text-primary: #e0def4;
+    --text-secondary: #908caa;
+    --text-muted: #6e6a86;
+    --border-color: #393552;
+    --btn-bg: #c4a7e7;
+    --btn-text: #232136;
+    --btn-hover: #ea9a97;
+    --week-future: #2a273f;
+    --week-lived: #c4a7e7;
+    --week-current: #ea9a97;
+    --gear-bg: rgba(42, 39, 63, 0.9);
+    --gear-hover: rgba(57, 53, 82, 0.9);
+    --gear-icon: #6e6a86;
+    --gear-icon-hover: #e0def4;
+}
+
+/* Rosé Pine Dawn (light version) */
+[data-theme="rose-pine-dawn"] {
+    --bg-primary: #faf4ed;
+    --bg-secondary: #fffaf3;
+    --bg-tertiary: #f2e9e1;
+    --text-primary: #575279;
+    --text-secondary: #797593;
+    --text-muted: #9893a5;
+    --border-color: #f2e9e1;
+    --btn-bg: #907aa9;
+    --btn-text: #faf4ed;
+    --btn-hover: #d7827e;
+    --week-future: #f2e9e1;
+    --week-lived: #907aa9;
+    --week-current: #d7827e;
+    --gear-bg: rgba(255, 250, 243, 0.9);
+    --gear-hover: rgba(242, 233, 225, 0.9);
+    --gear-icon: #9893a5;
+    --gear-icon-hover: #575279;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -294,6 +357,21 @@ html, body {
 .form-group input:focus {
     outline: none;
     border-color: var(--text-muted);
+}
+
+.form-group input::placeholder {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.form-group input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form-group input[type="number"]::-webkit-outer-spin-button,
+.form-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Advanced toggle button */
@@ -378,9 +456,279 @@ html, body {
     display: flex;
 }
 
-#calendar {
+/* Calendars wrapper for side-by-side layout */
+#calendars-wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+
+.calendar-panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 100%;
+    height: 100%;
+}
+
+.calendar-name {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: var(--gear-bg);
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.calendar {
     display: grid;
     gap: 2px;
+    cursor: pointer;
+}
+
+/* Remove calendar button */
+.remove-calendar-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background: var(--gear-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.calendar-panel:hover .remove-calendar-btn:not(.hidden) {
+    opacity: 1;
+}
+
+.remove-calendar-btn:hover {
+    background: var(--gear-hover);
+}
+
+.remove-calendar-btn svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gear-icon);
+    transition: color 0.2s;
+}
+
+.remove-calendar-btn:hover svg {
+    color: #ef4444;
+}
+
+.remove-calendar-btn.hidden {
+    display: none;
+}
+
+/* Add calendar button */
+.add-calendar-btn {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    width: 48px;
+    height: 48px;
+    background: var(--gear-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 100;
+    transition: background 0.2s, transform 0.2s, opacity 0.2s;
+}
+
+.add-calendar-btn svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gear-icon);
+    transition: color 0.2s;
+}
+
+.add-calendar-btn:hover {
+    background: var(--gear-hover);
+}
+
+.add-calendar-btn:hover svg {
+    color: var(--gear-icon-hover);
+}
+
+.add-calendar-btn.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Global floating menu */
+.global-menu {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: 100;
+}
+
+.global-menu-toggle {
+    width: 48px;
+    height: 48px;
+    background: var(--gear-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: background 0.2s;
+}
+
+.global-menu-toggle svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gear-icon);
+    transition: color 0.2s, opacity 0.2s, transform 0.2s;
+}
+
+.global-menu-toggle .close-icon {
+    position: absolute;
+    opacity: 0;
+    transform: rotate(-90deg);
+}
+
+.global-menu.expanded .global-menu-toggle .menu-icon {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.global-menu.expanded .global-menu-toggle .close-icon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.global-menu-toggle:hover {
+    background: var(--gear-hover);
+}
+
+.global-menu-toggle:hover svg {
+    color: var(--gear-icon-hover);
+}
+
+.global-menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.global-menu.expanded .global-menu-items {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.global-menu-item {
+    width: 44px;
+    height: 44px;
+    background: var(--gear-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.global-menu-item svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gear-icon);
+    transition: color 0.2s;
+}
+
+.global-menu-item:hover {
+    background: var(--gear-hover);
+}
+
+.global-menu-item:hover svg {
+    color: var(--gear-icon-hover);
+}
+
+/* Per-calendar controls */
+.calendar-controls {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 10;
+}
+
+.calendar-panel:hover .calendar-controls {
+    opacity: 1;
+}
+
+.calendar-controls button {
+    width: 36px;
+    height: 36px;
+    background: var(--gear-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    transition: background 0.2s;
+}
+
+.calendar-controls button svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gear-icon);
+    transition: color 0.2s;
+}
+
+.calendar-controls button:hover {
+    background: var(--gear-hover);
+}
+
+.calendar-controls button:hover svg {
+    color: var(--gear-icon-hover);
 }
 
 /* Each week cell */
@@ -403,77 +751,11 @@ html, body {
     background: var(--week-future);
 }
 
-/* Floating menu container */
-.floating-menu {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    z-index: 100;
+.week.empty {
+    background: transparent;
+    pointer-events: none;
 }
 
-/* Hidden menu items */
-.floating-menu-items {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
-}
-
-.floating-menu.expanded .floating-menu-items {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-/* Shared button styles */
-.floating-menu button {
-    width: 48px;
-    height: 48px;
-    background: var(--gear-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s, transform 0.2s;
-    padding: 10px;
-}
-
-.floating-menu button svg {
-    width: 100%;
-    height: 100%;
-    color: var(--gear-icon);
-    transition: color 0.2s, transform 0.2s;
-}
-
-.floating-menu button:hover {
-    background: var(--gear-hover);
-}
-
-.floating-menu button:hover svg {
-    color: var(--gear-icon-hover);
-}
-
-/* Menu toggle button */
-#menu-toggle .chevron-icon {
-    transition: transform 0.2s;
-}
-
-.floating-menu.expanded #menu-toggle .chevron-icon {
-    transform: rotate(180deg);
-}
-
-#settings-gear:hover {
-    transform: rotate(30deg);
-}
 
 /* Info modal specific styles */
 .info-modal-content {
