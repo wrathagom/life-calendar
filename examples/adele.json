@@ -1,0 +1,61 @@
+{
+  "name": "Adele",
+  "sex": "female",
+  "dob": "1988-05-05",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "19 Era",
+      "startDate": "2008-01-28",
+      "endDate": "2010-12-31",
+      "color": "#6366f1"
+    },
+    {
+      "label": "21 Era",
+      "startDate": "2011-01-24",
+      "endDate": "2014-12-31",
+      "color": "#ef4444"
+    },
+    {
+      "label": "25 Era",
+      "startDate": "2015-11-20",
+      "endDate": "2017-06-29",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "30 Era",
+      "startDate": "2021-11-19",
+      "endDate": "2024-11-23",
+      "color": "#10b981"
+    },
+    {
+      "label": "Las Vegas Residency",
+      "startDate": "2022-11-18",
+      "endDate": "2024-11-23",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to XL Recordings", "date": "2006-09-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "19 Released", "date": "2008-01-28", "color": "#6366f1", "shape": "star" },
+    { "label": "BRIT Critics' Choice Award", "date": "2008-02-20", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Grammy Best New Artist", "date": "2009-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "21 Released", "date": "2011-01-24", "color": "#ef4444", "shape": "star" },
+    { "label": "Rolling in the Deep #1", "date": "2011-05-21", "color": "#ef4444", "shape": "diamond" },
+    { "label": "6 Grammys in One Night", "date": "2012-02-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Angelo Born", "date": "2012-10-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Skyfall (James Bond)", "date": "2012-10-05", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Oscar for Skyfall", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "MBE from Queen Elizabeth", "date": "2013-12-19", "color": "#9333ea", "shape": "diamond" },
+    { "label": "25 Released", "date": "2015-11-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Hello Breaks Records", "date": "2015-10-23", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "5 Grammys for 25", "date": "2017-02-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "30 Released", "date": "2021-11-19", "color": "#10b981", "shape": "star" },
+    { "label": "Easy On Me #1", "date": "2021-10-15", "color": "#10b981", "shape": "diamond" },
+    { "label": "Vegas Residency Begins", "date": "2022-11-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy for Easy On Me", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "BRIT Global Icon Award", "date": "2022-02-08", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Vegas Residency Ends", "date": "2024-11-23", "color": "#f59e0b", "shape": "star" }
+  ]
+}

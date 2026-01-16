@@ -52,10 +52,31 @@ let editingCalendarIndex = 0;
 let isAddingNewCalendar = false;
 
 // Initialize
-function init() {
+async function init() {
     populateCountries();
 
-    // Check for URL parameters first
+    // Check for example parameter first
+    const urlParams = new URLSearchParams(window.location.search);
+    const exampleName = urlParams.get('example');
+
+    if (exampleName) {
+        // Try to load example from static JSON file
+        const exampleData = await loadExample(exampleName);
+        if (exampleData) {
+            calendars = [exampleData];
+            if (exampleData.theme) {
+                themeSelect.value = exampleData.theme;
+                applyTheme(exampleData.theme);
+            } else {
+                updateFavicon();
+            }
+            showCalendars();
+            setupEventListeners();
+            return;
+        }
+    }
+
+    // Check for URL hash parameters
     const urlData = loadFromURL();
     if (urlData) {
         // Load from URL - calendars now include their periods/moments
@@ -81,6 +102,35 @@ function init() {
     }
 
     setupEventListeners();
+}
+
+// Load example from static JSON file
+async function loadExample(name) {
+    try {
+        // Sanitize the name to prevent directory traversal
+        const safeName = name.replace(/[^a-zA-Z0-9-_]/g, '');
+        const response = await fetch(`examples/${safeName}.json`);
+        if (!response.ok) {
+            console.warn(`Example "${name}" not found`);
+            return null;
+        }
+        const data = await response.json();
+
+        // Convert to calendar format
+        return {
+            name: data.name || null,
+            sex: data.sex || 'female',
+            dob: data.dob,
+            country: data.country,
+            theme: data.theme || 'default',
+            customLifeExpectancy: data.customLifeExpectancy || null,
+            periods: data.periods || [],
+            moments: data.moments || []
+        };
+    } catch (e) {
+        console.error(`Failed to load example "${name}":`, e);
+        return null;
+    }
 }
 
 // Populate country dropdown

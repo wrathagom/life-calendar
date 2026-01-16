@@ -1,0 +1,61 @@
+{
+  "name": "The Weeknd",
+  "sex": "male",
+  "dob": "1990-02-16",
+  "country": "Canada",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2011-03-21",
+      "endDate": "2012-11-12",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Kiss Land Era",
+      "startDate": "2013-09-10",
+      "endDate": "2014-08-31",
+      "color": "#1f2937"
+    },
+    {
+      "label": "Beauty Behind the Madness",
+      "startDate": "2015-08-28",
+      "endDate": "2016-11-24",
+      "color": "#ef4444"
+    },
+    {
+      "label": "After Hours Era",
+      "startDate": "2020-03-20",
+      "endDate": "2022-01-06",
+      "color": "#dc2626"
+    },
+    {
+      "label": "After Hours Til Dawn Tour",
+      "startDate": "2022-07-14",
+      "endDate": "2025-09-30",
+      "color": "#f97316"
+    }
+  ],
+  "moments": [
+    { "label": "House of Balloons (Mixtape)", "date": "2011-03-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Thursday (Mixtape)", "date": "2011-08-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Echoes of Silence (Mixtape)", "date": "2011-12-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Republic Records", "date": "2012-09-05", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Trilogy Released", "date": "2012-11-13", "color": "#6b7280", "shape": "star" },
+    { "label": "Kiss Land Released", "date": "2013-09-10", "color": "#1f2937", "shape": "star" },
+    { "label": "Earned It (Fifty Shades)", "date": "2014-12-23", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Beauty Behind the Madness", "date": "2015-08-28", "color": "#ef4444", "shape": "star" },
+    { "label": "Can't Feel My Face #1", "date": "2015-08-08", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Grammy Best Urban Album", "date": "2016-02-15", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Starboy Released", "date": "2016-11-25", "color": "#ef4444", "shape": "star" },
+    { "label": "Starboy #1", "date": "2016-12-03", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Grammy for Starboy", "date": "2018-01-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "After Hours Released", "date": "2020-03-20", "color": "#dc2626", "shape": "star" },
+    { "label": "Blinding Lights Phenomenon", "date": "2020-03-20", "color": "#dc2626", "shape": "diamond" },
+    { "label": "Super Bowl LV Halftime", "date": "2021-02-07", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Dawn FM Released", "date": "2022-01-07", "color": "#0ea5e9", "shape": "star" },
+    { "label": "After Hours Til Dawn Tour", "date": "2022-07-14", "color": "#f97316", "shape": "star" },
+    { "label": "Blinding Lights Most Streamed", "date": "2022-12-05", "color": "#dc2626", "shape": "heart" },
+    { "label": "Hurry Up Tomorrow (Film)", "date": "2025-05-16", "color": "#6366f1", "shape": "diamond" }
+  ]
+}

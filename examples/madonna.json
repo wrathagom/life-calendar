@@ -1,0 +1,61 @@
+{
+  "name": "Madonna",
+  "sex": "female",
+  "dob": "1958-08-16",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1982-10-06",
+      "endDate": "1989-03-20",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Reinvention Era",
+      "startDate": "1990-04-03",
+      "endDate": "1996-11-04",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Electronic Era",
+      "startDate": "1998-02-24",
+      "endDate": "2003-04-21",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Confessions Era",
+      "startDate": "2005-11-11",
+      "endDate": "2008-04-28",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Celebration Tour",
+      "startDate": "2023-10-14",
+      "endDate": "2024-05-04",
+      "color": "#06b6d4"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to New York", "date": "1978-07-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Sire Records", "date": "1982-10-06", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Holiday Single", "date": "1983-09-07", "color": "#ec4899", "shape": "star" },
+    { "label": "Like a Virgin #1", "date": "1984-12-22", "color": "#ec4899", "shape": "star" },
+    { "label": "Married Sean Penn", "date": "1985-08-16", "color": "#ef4444", "shape": "heart" },
+    { "label": "True Blue Released", "date": "1986-06-30", "color": "#3b82f6", "shape": "star" },
+    { "label": "Like a Prayer Released", "date": "1989-03-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Vogue #1", "date": "1990-05-19", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Daughter Lourdes Born", "date": "1996-10-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Evita Film", "date": "1996-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Golden Globe for Evita", "date": "1997-01-19", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Ray of Light Released", "date": "1998-02-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "Grammy for Ray of Light", "date": "1999-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Rocco Born", "date": "2000-08-11", "color": "#ef4444", "shape": "heart" },
+    { "label": "Confessions Released", "date": "2005-11-11", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy for Confessions", "date": "2007-02-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rock Hall of Fame", "date": "2008-03-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Super Bowl XLVI Halftime", "date": "2012-02-05", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Celebration Tour Begins", "date": "2023-10-14", "color": "#06b6d4", "shape": "star" },
+    { "label": "Billboard Woman of Year", "date": "2016-12-09", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

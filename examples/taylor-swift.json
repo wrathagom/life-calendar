@@ -1,0 +1,61 @@
+{
+  "name": "Taylor Swift",
+  "sex": "female",
+  "dob": "1989-12-13",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Country Era",
+      "startDate": "2006-10-24",
+      "endDate": "2012-10-21",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Pop Transition (1989/Rep)",
+      "startDate": "2014-10-27",
+      "endDate": "2019-08-22",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Folklore/Evermore",
+      "startDate": "2020-07-24",
+      "endDate": "2022-10-20",
+      "color": "#8d99ae"
+    },
+    {
+      "label": "Re-Recording Era",
+      "startDate": "2021-04-09",
+      "endDate": "2023-10-27",
+      "color": "#10b981"
+    },
+    {
+      "label": "Eras Tour",
+      "startDate": "2023-03-17",
+      "endDate": "2024-12-08",
+      "color": "#8b5cf6"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to Nashville", "date": "2003-01-01", "color": "#10b981", "shape": "star" },
+    { "label": "Signed to Big Machine", "date": "2005-11-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Debut Album", "date": "2006-10-24", "color": "#40916c", "shape": "star" },
+    { "label": "Fearless", "date": "2008-11-11", "color": "#f4d35e", "shape": "star" },
+    { "label": "VMA Kanye Incident", "date": "2009-09-13", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Grammy AOTY - Fearless", "date": "2010-01-31", "color": "#ef4444", "shape": "heart" },
+    { "label": "1989 - Pop Era Begins", "date": "2014-10-27", "color": "#00b4d8", "shape": "star" },
+    { "label": "Grammy AOTY - 1989", "date": "2016-02-15", "color": "#ef4444", "shape": "heart" },
+    { "label": "Reputation", "date": "2017-11-10", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Masters Sold (Controversy)", "date": "2019-06-30", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Folklore (Surprise!)", "date": "2020-07-24", "color": "#8d99ae", "shape": "star" },
+    { "label": "Grammy AOTY - Folklore", "date": "2021-03-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Fearless (Taylor's Version)", "date": "2021-04-09", "color": "#f4d35e", "shape": "diamond" },
+    { "label": "Red (Taylor's Version)", "date": "2021-11-12", "color": "#d62828", "shape": "diamond" },
+    { "label": "Midnights", "date": "2022-10-21", "color": "#023e8a", "shape": "star" },
+    { "label": "Eras Tour Begins", "date": "2023-03-17", "color": "#8b5cf6", "shape": "star" },
+    { "label": "Travis Kelce Relationship", "date": "2023-07-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Time Person of the Year", "date": "2023-12-06", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy AOTY - Midnights (4th!)", "date": "2024-02-04", "color": "#ef4444", "shape": "heart" },
+    { "label": "Eras Tour $2B Record", "date": "2024-10-01", "color": "#8b5cf6", "shape": "heart" }
+  ]
+}

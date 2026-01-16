@@ -1,0 +1,61 @@
+{
+  "name": "SZA",
+  "sex": "female",
+  "dob": "1989-11-08",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2012-10-29",
+      "endDate": "2017-06-08",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Ctrl Era",
+      "startDate": "2017-06-09",
+      "endDate": "2022-12-08",
+      "color": "#10b981"
+    },
+    {
+      "label": "SOS Era",
+      "startDate": "2022-12-09",
+      "endDate": "2024-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Grand National Tour",
+      "startDate": "2025-04-19",
+      "endDate": "2025-06-18",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Lana Deluxe Era",
+      "startDate": "2024-12-20",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "See.SZA.Run Mixtape", "date": "2012-10-29", "color": "#6b7280", "shape": "star" },
+    { "label": "S EP Released", "date": "2013-04-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to TDE", "date": "2013-07-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Z EP Released", "date": "2014-04-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Co-wrote Feeling Myself", "date": "2014-12-15", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Ctrl Released", "date": "2017-06-09", "color": "#10b981", "shape": "star" },
+    { "label": "Love Galore Hit", "date": "2017-04-28", "color": "#10b981", "shape": "diamond" },
+    { "label": "The Weekend Success", "date": "2017-09-29", "color": "#10b981", "shape": "diamond" },
+    { "label": "Grammy for Kiss Me More", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "SOS Released", "date": "2022-12-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "Kill Bill #1", "date": "2023-02-25", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "SOS Breaks Records", "date": "2023-03-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "9 Grammy Nominations", "date": "2023-11-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "3 Grammys for SOS", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "100 Weeks in Top 10", "date": "2024-10-19", "color": "#3b82f6", "shape": "heart" },
+    { "label": "Super Bowl with Kendrick", "date": "2025-02-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Saturn Grammy", "date": "2025-02-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Lana Released", "date": "2024-12-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Grand National Tour", "date": "2025-04-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Highest-Grossing Co-Headlining Tour", "date": "2025-06-01", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

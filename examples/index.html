@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Calendar Examples</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .subtitle {
+            color: #888;
+            margin-bottom: 2rem;
+        }
+        .subtitle a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        .subtitle a:hover {
+            text-decoration: underline;
+        }
+        .category {
+            margin-bottom: 2rem;
+        }
+        .category h2 {
+            font-size: 1.25rem;
+            color: #888;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #333;
+        }
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .example-card {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 1rem;
+            text-decoration: none;
+            color: #e5e5e5;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .example-card:hover {
+            background: #252525;
+            transform: translateY(-2px);
+        }
+        .example-name {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        .example-meta {
+            font-size: 0.875rem;
+            color: #888;
+        }
+        .loading {
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Life Calendar Examples</h1>
+        <p class="subtitle">Pre-made life calendars for notable people. <a href="../">Back to app</a></p>
+
+        <div id="examples">
+            <p class="loading">Loading examples...</p>
+        </div>
+    </div>
+
+    <script>
+        const categories = {
+            musicians: {
+                title: 'Musicians',
+                examples: []
+            }
+            // Future categories can be added here:
+            // athletes: { title: 'Athletes', examples: [] },
+            // scientists: { title: 'Scientists', examples: [] },
+        };
+
+        // Known examples (will be expanded as more are added)
+        const exampleFiles = [
+            { file: 'adele', category: 'musicians' },
+            { file: 'beyonce', category: 'musicians' },
+            { file: 'justin-bieber', category: 'musicians' },
+            { file: 'madonna', category: 'musicians' },
+            { file: 'nicki-minaj', category: 'musicians' },
+            { file: 'sza', category: 'musicians' },
+            { file: 'taylor-swift', category: 'musicians' },
+            { file: 'the-weeknd', category: 'musicians' },
+        ];
+
+        async function loadExamples() {
+            const container = document.getElementById('examples');
+
+            // Load each example's metadata
+            for (const { file, category } of exampleFiles) {
+                try {
+                    const response = await fetch(`${file}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        categories[category].examples.push({
+                            file,
+                            name: data.name,
+                            periods: data.periods?.length || 0,
+                            moments: data.moments?.length || 0
+                        });
+                    }
+                } catch (e) {
+                    console.warn(`Failed to load ${file}:`, e);
+                }
+            }
+
+            // Render categories
+            container.innerHTML = '';
+            for (const [key, cat] of Object.entries(categories)) {
+                if (cat.examples.length === 0) continue;
+
+                // Sort alphabetically
+                cat.examples.sort((a, b) => a.name.localeCompare(b.name));
+
+                const section = document.createElement('div');
+                section.className = 'category';
+                section.innerHTML = `
+                    <h2>${cat.title}</h2>
+                    <div class="examples-grid">
+                        ${cat.examples.map(ex => `
+                            <a href="../?example=${ex.file}" class="example-card">
+                                <div class="example-name">${ex.name}</div>
+                                <div class="example-meta">${ex.periods} periods, ${ex.moments} moments</div>
+                            </a>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(section);
+            }
+        }
+
+        loadExamples();
+    </script>
+</body>
+</html>

@@ -26,6 +26,45 @@ A distraction-free web app that visualizes your life in weeks. Each square repre
    - View life stats and expected death date (info icon)
    - Copy a shareable URL (share icon)
 
+## Examples
+
+Pre-made life calendars for notable people. [View all examples](examples/).
+
+### Musicians
+
+| Name | Link |
+|------|------|
+| Adele | [View](https://calebmkeller.com/life-calendar?example=adele) |
+| Beyoncé | [View](https://calebmkeller.com/life-calendar?example=beyonce) |
+| Justin Bieber | [View](https://calebmkeller.com/life-calendar?example=justin-bieber) |
+| Madonna | [View](https://calebmkeller.com/life-calendar?example=madonna) |
+| Nicki Minaj | [View](https://calebmkeller.com/life-calendar?example=nicki-minaj) |
+| SZA | [View](https://calebmkeller.com/life-calendar?example=sza) |
+| Taylor Swift | [View](https://calebmkeller.com/life-calendar?example=taylor-swift) |
+| The Weeknd | [View](https://calebmkeller.com/life-calendar?example=the-weeknd) |
+
+### Adding Examples
+
+Examples are JSON files in the `examples/` directory. To add one:
+
+```json
+{
+  "name": "Person Name",
+  "sex": "female",
+  "dob": "1990-01-15",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    { "label": "Era Name", "startDate": "2010-01-01", "endDate": "2015-12-31", "color": "#ef4444" }
+  ],
+  "moments": [
+    { "label": "Event", "date": "2012-06-15", "color": "#fbbf24", "shape": "star" }
+  ]
+}
+```
+
+Available shapes: `star`, `heart`, `diamond`, `circle`
+
 ## Local Development
 
 No build step required. Just serve the files:

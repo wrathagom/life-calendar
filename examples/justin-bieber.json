@@ -1,0 +1,61 @@
+{
+  "name": "Justin Bieber",
+  "sex": "male",
+  "dob": "1994-03-01",
+  "country": "Canada",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Teen Pop Era",
+      "startDate": "2009-11-17",
+      "endDate": "2012-06-18",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Transition Period",
+      "startDate": "2012-06-19",
+      "endDate": "2015-11-12",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Purpose Era",
+      "startDate": "2015-11-13",
+      "endDate": "2017-07-24",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Comeback Era",
+      "startDate": "2020-01-03",
+      "endDate": "2022-06-10",
+      "color": "#10b981"
+    },
+    {
+      "label": "Health Recovery",
+      "startDate": "2022-06-11",
+      "endDate": "2024-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Discovered by Scooter Braun", "date": "2007-01-01", "color": "#9333ea", "shape": "star" },
+    { "label": "Signed to Island Records", "date": "2008-10-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "One Time Released", "date": "2009-05-18", "color": "#9333ea", "shape": "star" },
+    { "label": "My World EP", "date": "2009-11-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Baby Goes Viral", "date": "2010-01-18", "color": "#ec4899", "shape": "diamond" },
+    { "label": "My World 2.0 #1", "date": "2010-03-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Never Say Never Film", "date": "2011-02-11", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Under the Mistletoe", "date": "2011-11-01", "color": "#ef4444", "shape": "star" },
+    { "label": "Believe Released", "date": "2012-06-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Purpose Released", "date": "2015-11-13", "color": "#3b82f6", "shape": "star" },
+    { "label": "What Do You Mean #1", "date": "2015-09-28", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Grammy for Where Are U Now", "date": "2016-02-15", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Despacito Remix", "date": "2017-04-17", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Married Hailey Baldwin", "date": "2018-09-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Changes Released", "date": "2020-02-14", "color": "#10b981", "shape": "star" },
+    { "label": "10,000 Hours Grammy", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Justice Released", "date": "2021-03-19", "color": "#10b981", "shape": "star" },
+    { "label": "Peaches #1", "date": "2021-04-03", "color": "#10b981", "shape": "diamond" },
+    { "label": "Ramsay Hunt Diagnosis", "date": "2022-06-10", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Son Jack Blues Born", "date": "2024-08-23", "color": "#ef4444", "shape": "heart" }
+  ]
+}
