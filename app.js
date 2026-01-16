@@ -15,8 +15,10 @@ const calendarsWrapper = document.getElementById('calendars-wrapper');
 const infoModal = document.getElementById('info-modal');
 const infoContent = document.getElementById('info-content');
 const infoClose = document.getElementById('info-close');
-const highlightsList = document.getElementById('highlights-list');
-const addHighlightBtn = document.getElementById('add-highlight-btn');
+const periodsList = document.getElementById('periods-list');
+const addPeriodBtn = document.getElementById('add-period-btn');
+const momentsList = document.getElementById('moments-list');
+const addMomentBtn = document.getElementById('add-moment-btn');
 const shareToast = document.getElementById('share-toast');
 const mobileTooltip = document.getElementById('mobile-tooltip');
 const addCalendarBtn = document.getElementById('add-calendar-btn');
@@ -35,14 +37,16 @@ const MAX_CALENDARS = 2;
 
 // Storage keys
 const STORAGE_KEY = 'life-calendar-settings';
-const HIGHLIGHTS_KEY = 'life-calendar-highlights';
+const PERIODS_KEY = 'life-calendar-periods';
+const MOMENTS_KEY = 'life-calendar-moments';
 const CALENDARS_KEY = 'life-calendar-calendars';
 
-// Highlights array (for primary calendar)
-let highlights = [];
-
 // Array of calendar settings (supports multiple calendars)
+// Each calendar has: { name, sex, dob, country, theme, customLifeExpectancy, periods: [], moments: [] }
 let calendars = [];
+
+// Currently editing calendar index (for periods/moments UI)
+let editingCalendarIndex = 0;
 
 // Track if we're adding a new calendar (for cancel behavior)
 let isAddingNewCalendar = false;
@@ -54,10 +58,13 @@ function init() {
     // Check for URL parameters first
     const urlData = loadFromURL();
     if (urlData) {
-        // Load from URL
-        highlights = urlData.highlights || [];
-        calendars = urlData.calendars || [urlData.settings];
-        renderHighlightsList();
+        // Load from URL - calendars now include their periods/moments
+        calendars = urlData.calendars;
+        // Ensure each calendar has periods and moments arrays
+        calendars.forEach(cal => {
+            cal.periods = cal.periods || [];
+            cal.moments = cal.moments || [];
+        });
 
         // Apply theme from first calendar
         if (calendars[0] && calendars[0].theme) {
@@ -69,7 +76,6 @@ function init() {
         showCalendars();
     } else {
         // Load from localStorage
-        loadHighlights();
         loadCalendars();
         updateFavicon();
     }
@@ -87,83 +93,169 @@ function populateCountries() {
     });
 }
 
-// Load highlights from storage
-function loadHighlights() {
-    const saved = localStorage.getItem(HIGHLIGHTS_KEY);
-    if (saved) {
-        highlights = JSON.parse(saved);
-    }
-    renderHighlightsList();
+// Get periods for the currently editing calendar
+function getCurrentPeriods() {
+    if (!calendars[editingCalendarIndex]) return [];
+    return calendars[editingCalendarIndex].periods || [];
 }
 
-// Save highlights to storage
-function saveHighlights() {
-    localStorage.setItem(HIGHLIGHTS_KEY, JSON.stringify(highlights));
+// Get moments for the currently editing calendar
+function getCurrentMoments() {
+    if (!calendars[editingCalendarIndex]) return [];
+    return calendars[editingCalendarIndex].moments || [];
 }
 
-// Render highlights list in settings
-function renderHighlightsList() {
-    if (highlights.length === 0) {
-        highlightsList.innerHTML = '<p class="highlights-empty">No highlights yet</p>';
+// Render periods list in settings for current calendar
+function renderPeriodsList() {
+    const periods = getCurrentPeriods();
+    if (periods.length === 0) {
+        periodsList.innerHTML = '<p class="periods-empty">No periods yet</p>';
         return;
     }
 
-    highlightsList.innerHTML = highlights.map((h, index) => `
-        <div class="highlight-item" data-index="${index}">
-            <div class="highlight-row">
-                <input type="text" value="${h.label}" placeholder="Label" data-field="label">
-                <input type="color" value="${h.color}" data-field="color">
-                <button type="button" class="highlight-delete" data-index="${index}">
+    periodsList.innerHTML = periods.map((p, index) => `
+        <div class="period-item" data-index="${index}">
+            <div class="period-row">
+                <input type="text" value="${p.label || ''}" placeholder="Label" data-field="label">
+                <input type="color" value="${p.color || '#ef4444'}" data-field="color">
+                <button type="button" class="period-delete" data-index="${index}">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
                     </svg>
                 </button>
             </div>
-            <div class="highlight-row">
-                <input type="date" value="${h.startDate}" data-field="startDate">
-                <input type="date" value="${h.endDate}" data-field="endDate">
+            <div class="period-row">
+                <input type="date" value="${p.startDate || ''}" data-field="startDate">
+                <input type="date" value="${p.endDate || ''}" data-field="endDate">
             </div>
         </div>
     `).join('');
 
     // Add event listeners for inputs
-    highlightsList.querySelectorAll('input').forEach(input => {
-        input.addEventListener('change', handleHighlightChange);
+    periodsList.querySelectorAll('input').forEach(input => {
+        input.addEventListener('change', handlePeriodChange);
     });
 
     // Add event listeners for delete buttons
-    highlightsList.querySelectorAll('.highlight-delete').forEach(btn => {
-        btn.addEventListener('click', handleHighlightDelete);
+    periodsList.querySelectorAll('.period-delete').forEach(btn => {
+        btn.addEventListener('click', handlePeriodDelete);
     });
 }
 
-// Handle highlight input change
-function handleHighlightChange(e) {
-    const item = e.target.closest('.highlight-item');
+// Render moments list in settings for current calendar
+function renderMomentsList() {
+    const moments = getCurrentMoments();
+    if (moments.length === 0) {
+        momentsList.innerHTML = '<p class="moments-empty">No moments yet</p>';
+        return;
+    }
+
+    momentsList.innerHTML = moments.map((m, index) => `
+        <div class="moment-item" data-index="${index}">
+            <div class="moment-row">
+                <input type="text" value="${m.label || ''}" placeholder="Label" data-field="label">
+                <input type="color" value="${m.color || '#fbbf24'}" data-field="color">
+                <button type="button" class="moment-delete" data-index="${index}">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="moment-row">
+                <input type="date" value="${m.date || ''}" data-field="date">
+                <select data-field="shape">
+                    <option value="star" ${m.shape === 'star' || !m.shape ? 'selected' : ''}>Star</option>
+                    <option value="heart" ${m.shape === 'heart' ? 'selected' : ''}>Heart</option>
+                    <option value="diamond" ${m.shape === 'diamond' ? 'selected' : ''}>Diamond</option>
+                    <option value="circle" ${m.shape === 'circle' ? 'selected' : ''}>Circle</option>
+                </select>
+            </div>
+        </div>
+    `).join('');
+
+    // Add event listeners for inputs and selects
+    momentsList.querySelectorAll('input, select').forEach(input => {
+        input.addEventListener('change', handleMomentChange);
+    });
+
+    // Add event listeners for delete buttons
+    momentsList.querySelectorAll('.moment-delete').forEach(btn => {
+        btn.addEventListener('click', handleMomentDelete);
+    });
+}
+
+// Handle period input change
+function handlePeriodChange(e) {
+    const item = e.target.closest('.period-item');
     const index = parseInt(item.dataset.index);
     const field = e.target.dataset.field;
-    highlights[index][field] = e.target.value;
-    saveHighlights();
+    if (calendars[editingCalendarIndex] && calendars[editingCalendarIndex].periods) {
+        calendars[editingCalendarIndex].periods[index][field] = e.target.value;
+        saveCalendars();
+    }
 }
 
-// Handle highlight delete
-function handleHighlightDelete(e) {
+// Handle period delete
+function handlePeriodDelete(e) {
     const index = parseInt(e.currentTarget.dataset.index);
-    highlights.splice(index, 1);
-    saveHighlights();
-    renderHighlightsList();
+    if (calendars[editingCalendarIndex] && calendars[editingCalendarIndex].periods) {
+        calendars[editingCalendarIndex].periods.splice(index, 1);
+        saveCalendars();
+        renderPeriodsList();
+    }
 }
 
-// Add new highlight
-function addHighlight() {
-    highlights.push({
+// Add new period
+function addPeriod() {
+    if (!calendars[editingCalendarIndex]) return;
+    if (!calendars[editingCalendarIndex].periods) {
+        calendars[editingCalendarIndex].periods = [];
+    }
+    calendars[editingCalendarIndex].periods.push({
         label: '',
         startDate: '',
         endDate: '',
         color: '#ef4444'
     });
-    saveHighlights();
-    renderHighlightsList();
+    saveCalendars();
+    renderPeriodsList();
+}
+
+// Handle moment input change
+function handleMomentChange(e) {
+    const item = e.target.closest('.moment-item');
+    const index = parseInt(item.dataset.index);
+    const field = e.target.dataset.field;
+    if (calendars[editingCalendarIndex] && calendars[editingCalendarIndex].moments) {
+        calendars[editingCalendarIndex].moments[index][field] = e.target.value;
+        saveCalendars();
+    }
+}
+
+// Handle moment delete
+function handleMomentDelete(e) {
+    const index = parseInt(e.currentTarget.dataset.index);
+    if (calendars[editingCalendarIndex] && calendars[editingCalendarIndex].moments) {
+        calendars[editingCalendarIndex].moments.splice(index, 1);
+        saveCalendars();
+        renderMomentsList();
+    }
+}
+
+// Add new moment
+function addMoment() {
+    if (!calendars[editingCalendarIndex]) return;
+    if (!calendars[editingCalendarIndex].moments) {
+        calendars[editingCalendarIndex].moments = [];
+    }
+    calendars[editingCalendarIndex].moments.push({
+        label: '',
+        date: '',
+        color: '#fbbf24',
+        shape: 'star'
+    });
+    saveCalendars();
+    renderMomentsList();
 }
 
 // Load calendars from storage
@@ -172,6 +264,11 @@ function loadCalendars() {
     const savedCalendars = localStorage.getItem(CALENDARS_KEY);
     if (savedCalendars) {
         calendars = JSON.parse(savedCalendars);
+        // Ensure each calendar has periods and moments arrays
+        calendars.forEach(cal => {
+            cal.periods = cal.periods || [];
+            cal.moments = cal.moments || [];
+        });
         if (calendars.length > 0 && calendars[0].theme) {
             themeSelect.value = calendars[0].theme;
             applyTheme(calendars[0].theme);
@@ -184,11 +281,24 @@ function loadCalendars() {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
         const settings = JSON.parse(saved);
+        // Migrate legacy periods/moments from separate storage keys
+        let legacyPeriods = [];
+        let legacyMoments = [];
+        const savedPeriods = localStorage.getItem(PERIODS_KEY) || localStorage.getItem('life-calendar-highlights');
+        const savedMoments = localStorage.getItem(MOMENTS_KEY);
+        if (savedPeriods) legacyPeriods = JSON.parse(savedPeriods);
+        if (savedMoments) legacyMoments = JSON.parse(savedMoments);
+
+        settings.periods = legacyPeriods;
+        settings.moments = legacyMoments;
         calendars = [settings];
+
         if (settings.theme) {
             themeSelect.value = settings.theme;
             applyTheme(settings.theme);
         }
+        // Save in new format
+        saveCalendars();
         showCalendars();
     }
 }
@@ -208,7 +318,8 @@ function setupEventListeners() {
     advancedToggle.addEventListener('click', toggleAdvanced);
     themeSelect.addEventListener('change', previewTheme);
     infoClose.addEventListener('click', closeInfoModal);
-    addHighlightBtn.addEventListener('click', addHighlight);
+    addPeriodBtn.addEventListener('click', addPeriod);
+    addMomentBtn.addEventListener('click', addMoment);
     addCalendarBtn.addEventListener('click', addNewCalendar);
     calendarsWrapper.addEventListener('click', handleCalendarClick);
     calendarsWrapper.addEventListener('scroll', handleCalendarScroll);
@@ -338,20 +449,27 @@ function handleSubmit(e) {
     const calendarIndex = parseInt(calendarIndexInput.value);
     const customLE = customLifeExpectancyInput.value;
 
-    const settings = {
-        name: nameInput.value.trim() || null,
-        sex: sexSelect.value,
-        dob: dobInput.value,
-        country: countrySelect.value,
-        theme: themeSelect.value,
-        customLifeExpectancy: customLE ? parseFloat(customLE) : null
-    };
-
     // Update or add calendar settings
     if (calendarIndex < calendars.length) {
-        calendars[calendarIndex] = settings;
+        // Update existing calendar - preserve periods and moments
+        calendars[calendarIndex].name = nameInput.value.trim() || null;
+        calendars[calendarIndex].sex = sexSelect.value;
+        calendars[calendarIndex].dob = dobInput.value;
+        calendars[calendarIndex].country = countrySelect.value;
+        calendars[calendarIndex].theme = themeSelect.value;
+        calendars[calendarIndex].customLifeExpectancy = customLE ? parseFloat(customLE) : null;
     } else {
-        calendars.push(settings);
+        // Add new calendar with empty periods/moments
+        calendars.push({
+            name: nameInput.value.trim() || null,
+            sex: sexSelect.value,
+            dob: dobInput.value,
+            country: countrySelect.value,
+            theme: themeSelect.value,
+            customLifeExpectancy: customLE ? parseFloat(customLE) : null,
+            periods: [],
+            moments: []
+        });
     }
 
     saveCalendars();
@@ -510,6 +628,7 @@ function closeInfoModal() {
 // Open modal for a specific calendar
 function openModal(calendarIndex = 0) {
     calendarIndexInput.value = calendarIndex;
+    editingCalendarIndex = calendarIndex;
 
     // Populate form with existing calendar data or defaults
     const settings = calendars[calendarIndex] || {};
@@ -528,9 +647,16 @@ function openModal(calendarIndex = 0) {
         modalTitle.textContent = 'Your Life Calendar';
     }
 
+    // Show periods/moments sections and render the lists
+    const periodsSection = document.getElementById('periods-section');
+    const momentsSection = document.getElementById('moments-section');
+    periodsSection.style.display = '';
+    momentsSection.style.display = '';
+    renderPeriodsList();
+    renderMomentsList();
+
     modal.classList.remove('hidden');
     calendarContainer.classList.remove('visible');
-    renderHighlightsList();
 }
 
 // Show all calendars
@@ -749,8 +875,8 @@ function getWeekIndexForDate(dob, date) {
     return diffWeeks;
 }
 
-// Get SVG polygon points for multi-highlight splits
-function getHighlightPolygons(count) {
+// Get SVG polygon points for multi-period splits
+function getPeriodPolygons(count) {
     // Returns array of SVG polygon point strings for each segment
     // Using 100x100 viewBox coordinates
     switch (count) {
@@ -780,25 +906,65 @@ function getHighlightPolygons(count) {
     }
 }
 
-// Get all highlights for a week index (supports overlapping highlights)
-function getHighlightsForWeek(weekIndex, dob) {
+// Get all periods for a week index (supports overlapping periods)
+function getPeriodsForWeek(weekIndex, dob, calendarIndex) {
+    const calendar = calendars[calendarIndex];
+    if (!calendar || !calendar.periods) return [];
+
     const birthDate = new Date(dob);
     const weekDate = new Date(birthDate);
     weekDate.setDate(weekDate.getDate() + weekIndex * 7);
 
-    const matchingHighlights = [];
-    for (const highlight of highlights) {
-        if (!highlight.startDate || !highlight.endDate) continue;
+    const matchingPeriods = [];
+    for (const period of calendar.periods) {
+        if (!period.startDate || !period.endDate) continue;
 
-        const startDate = new Date(highlight.startDate);
-        const endDate = new Date(highlight.endDate);
+        const startDate = new Date(period.startDate);
+        const endDate = new Date(period.endDate);
 
         if (weekDate >= startDate && weekDate <= endDate) {
-            matchingHighlights.push(highlight);
+            matchingPeriods.push(period);
         }
     }
-    // Limit to 4 highlights max for display
-    return matchingHighlights.slice(0, 4);
+    // Limit to 4 periods max for display
+    return matchingPeriods.slice(0, 4);
+}
+
+// Get moment for a week index
+function getMomentForWeek(weekIndex, dob, calendarIndex) {
+    const calendar = calendars[calendarIndex];
+    if (!calendar || !calendar.moments) return null;
+
+    const birthDate = new Date(dob);
+    const weekDate = new Date(birthDate);
+    weekDate.setDate(weekDate.getDate() + weekIndex * 7);
+    const weekEnd = new Date(weekDate);
+    weekEnd.setDate(weekEnd.getDate() + 7);
+
+    for (const moment of calendar.moments) {
+        if (!moment.date) continue;
+        const momentDate = new Date(moment.date);
+        if (momentDate >= weekDate && momentDate < weekEnd) {
+            return moment;
+        }
+    }
+    return null;
+}
+
+// Get SVG path for moment shape
+function getMomentShapeSVG(shape, color) {
+    switch (shape) {
+        case 'star':
+            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
+        case 'heart':
+            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
+        case 'diamond':
+            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2L2 12l10 10 10-10L12 2z"/></svg>`;
+        case 'circle':
+            return `<svg viewBox="0 0 24 24" fill="${color}"><circle cx="12" cy="12" r="10"/></svg>`;
+        default:
+            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
+    }
 }
 
 // Render a single calendar
@@ -849,27 +1015,29 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
             // This week is outside this person's lifespan - show as empty/transparent
             week.classList.add('empty');
         } else {
-            // Check for highlights (only for primary calendar)
-            const weekHighlights = calendarIndex === 0 ? getHighlightsForWeek(lifeWeekIndex, settings.dob) : [];
+            // Check for periods for this calendar
+            const weekPeriods = getPeriodsForWeek(lifeWeekIndex, settings.dob, calendarIndex);
+            // Check for moments for this calendar
+            const weekMoment = getMomentForWeek(lifeWeekIndex, settings.dob, calendarIndex);
 
-            if (weekHighlights.length > 0) {
-                week.classList.add('highlighted');
+            if (weekPeriods.length > 0) {
+                week.classList.add('has-period');
 
-                if (weekHighlights.length === 1) {
-                    // Single highlight - use background color directly
-                    week.style.backgroundColor = weekHighlights[0].color;
+                if (weekPeriods.length === 1) {
+                    // Single period - use background color directly
+                    week.style.backgroundColor = weekPeriods[0].color;
                 } else {
-                    // Multiple highlights - create SVG with polygon segments
+                    // Multiple periods - create SVG with polygon segments
                     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
                     svg.setAttribute('viewBox', '0 0 100 100');
                     svg.setAttribute('preserveAspectRatio', 'none');
-                    svg.classList.add('highlight-svg');
+                    svg.classList.add('period-svg');
 
-                    const polygonPoints = getHighlightPolygons(weekHighlights.length);
-                    weekHighlights.forEach((h, idx) => {
+                    const polygonPoints = getPeriodPolygons(weekPeriods.length);
+                    weekPeriods.forEach((p, idx) => {
                         const polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
                         polygon.setAttribute('points', polygonPoints[idx]);
-                        polygon.setAttribute('fill', h.color);
+                        polygon.setAttribute('fill', p.color);
                         svg.appendChild(polygon);
                     });
 
@@ -883,15 +1051,27 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
                 week.classList.add('future');
             }
 
+            // Add moment marker if this week has a moment
+            if (weekMoment) {
+                week.classList.add('has-moment');
+                const marker = document.createElement('div');
+                marker.className = 'moment-marker';
+                marker.innerHTML = getMomentShapeSVG(weekMoment.shape || 'star', weekMoment.color || '#fbbf24');
+                week.appendChild(marker);
+            }
+
             // Calculate the date for this week and set tooltip
             const weekDate = new Date(birthDate);
             weekDate.setDate(weekDate.getDate() + lifeWeekIndex * 7);
             let tooltip = formatWeekDate(weekDate, lifeWeekIndex);
-            if (weekHighlights.length > 0) {
-                const labels = weekHighlights.map(h => h.label).filter(l => l);
+            if (weekPeriods.length > 0) {
+                const labels = weekPeriods.map(p => p.label).filter(l => l);
                 if (labels.length > 0) {
                     tooltip += ` - ${labels.join(', ')}`;
                 }
+            }
+            if (weekMoment && weekMoment.label) {
+                tooltip += ` ★ ${weekMoment.label}`;
             }
             week.title = tooltip;
             week.dataset.tooltip = tooltip;
@@ -1080,24 +1260,28 @@ function generateShareURL(calendarIndex = -1) {
         ? [calendars[calendarIndex]]
         : calendars;
 
-    // Only include highlights if sharing the primary calendar (or all)
-    const includeHighlights = calendarIndex === -1 || calendarIndex === 0;
-
     const data = {
-        calendars: calendarsToShare.map(settings => ({
-            n: settings.name || null,
-            s: settings.sex === 'male' ? 'm' : 'f',
-            d: settings.dob,
-            c: settings.country,
-            t: settings.theme || 'default',
-            le: settings.customLifeExpectancy || null
-        })),
-        h: includeHighlights ? highlights.filter(h => h.startDate && h.endDate).map(h => ({
-            l: h.label,
-            s: h.startDate,
-            e: h.endDate,
-            c: h.color
-        })) : []
+        calendars: calendarsToShare.map(cal => ({
+            n: cal.name || null,
+            s: cal.sex === 'male' ? 'm' : 'f',
+            d: cal.dob,
+            c: cal.country,
+            t: cal.theme || 'default',
+            le: cal.customLifeExpectancy || null,
+            // Include periods and moments per-calendar
+            p: (cal.periods || []).filter(p => p.startDate && p.endDate).map(p => ({
+                l: p.label,
+                s: p.startDate,
+                e: p.endDate,
+                c: p.color
+            })),
+            m: (cal.moments || []).filter(m => m.date).map(m => ({
+                l: m.label,
+                d: m.date,
+                c: m.color,
+                sh: m.shape || 'star'
+            }))
+        }))
     };
 
     const encoded = btoa(JSON.stringify(data));
@@ -1115,24 +1299,63 @@ function loadFromURL() {
     try {
         const data = JSON.parse(atob(hash));
 
-        // Support new multi-calendar format
+        // Support new multi-calendar format with per-calendar periods/moments
         if (data.calendars) {
-            return {
-                calendars: data.calendars.map(c => ({
-                    name: c.n || null,
-                    sex: c.s === 'm' ? 'male' : 'female',
-                    dob: c.d,
-                    country: c.c,
-                    theme: c.t || 'default',
-                    customLifeExpectancy: c.le || null
-                })),
-                highlights: (data.h || []).map(h => ({
-                    label: h.l,
-                    startDate: h.s,
-                    endDate: h.e,
-                    color: h.c
-                }))
-            };
+            // Check if periods/moments are per-calendar (new format) or top-level (legacy)
+            const hasPerCalendarData = data.calendars.some(c => c.p || c.m);
+
+            if (hasPerCalendarData) {
+                // New format: periods/moments stored per-calendar
+                return {
+                    calendars: data.calendars.map(c => ({
+                        name: c.n || null,
+                        sex: c.s === 'm' ? 'male' : 'female',
+                        dob: c.d,
+                        country: c.c,
+                        theme: c.t || 'default',
+                        customLifeExpectancy: c.le || null,
+                        periods: (c.p || []).map(p => ({
+                            label: p.l,
+                            startDate: p.s,
+                            endDate: p.e,
+                            color: p.c
+                        })),
+                        moments: (c.m || []).map(m => ({
+                            label: m.l,
+                            date: m.d,
+                            color: m.c,
+                            shape: m.sh || 'star'
+                        }))
+                    }))
+                };
+            } else {
+                // Legacy format: periods/moments at top level (assign to first calendar)
+                const periodsData = data.p || data.h || [];
+                const momentsData = data.m || [];
+
+                return {
+                    calendars: data.calendars.map((c, idx) => ({
+                        name: c.n || null,
+                        sex: c.s === 'm' ? 'male' : 'female',
+                        dob: c.d,
+                        country: c.c,
+                        theme: c.t || 'default',
+                        customLifeExpectancy: c.le || null,
+                        periods: idx === 0 ? periodsData.map(p => ({
+                            label: p.l,
+                            startDate: p.s,
+                            endDate: p.e,
+                            color: p.c
+                        })) : [],
+                        moments: idx === 0 ? momentsData.map(m => ({
+                            label: m.l,
+                            date: m.d,
+                            color: m.c,
+                            shape: m.sh || 'star'
+                        })) : []
+                    }))
+                };
+            }
         }
 
         // Support legacy single-calendar format
@@ -1142,14 +1365,15 @@ function loadFromURL() {
                 dob: data.d,
                 country: data.c,
                 theme: data.t || 'default',
-                customLifeExpectancy: null
-            }],
-            highlights: (data.h || []).map(h => ({
-                label: h.l,
-                startDate: h.s,
-                endDate: h.e,
-                color: h.c
-            }))
+                customLifeExpectancy: null,
+                periods: (data.h || []).map(h => ({
+                    label: h.l,
+                    startDate: h.s,
+                    endDate: h.e,
+                    color: h.c
+                })),
+                moments: []
+            }]
         };
     } catch (e) {
         console.error('Failed to parse URL data:', e);

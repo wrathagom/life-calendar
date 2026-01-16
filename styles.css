@@ -760,9 +760,11 @@ html, body {
 
 /* Each week cell */
 .week {
+    position: relative;
     background: var(--week-future);
     border-radius: 1px;
     aspect-ratio: 1;
+    overflow: hidden;
 }
 
 .week.lived {
@@ -852,18 +854,21 @@ html, body {
     color: var(--week-current);
 }
 
-/* Highlights styling */
-.highlights-list {
+/* Periods styling (date ranges) */
+.periods-list,
+.moments-list {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.highlights-list:not(:empty) {
+.periods-list:not(:empty),
+.moments-list:not(:empty) {
     margin-bottom: 12px;
 }
 
-.highlight-item {
+.period-item,
+.moment-item {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -874,14 +879,16 @@ html, body {
     overflow: hidden;
 }
 
-.highlight-row {
+.period-row,
+.moment-row {
     display: flex;
     gap: 8px;
     align-items: center;
     min-width: 0;
 }
 
-.highlight-item input[type="text"] {
+.period-item input[type="text"],
+.moment-item input[type="text"] {
     flex: 1;
     padding: 8px;
     border: 1px solid var(--border-color);
@@ -891,7 +898,8 @@ html, body {
     font-size: 0.9rem;
 }
 
-.highlight-item input[type="date"] {
+.period-item input[type="date"],
+.moment-item input[type="date"] {
     flex: 1;
     min-width: 0;
     padding: 8px;
@@ -902,7 +910,8 @@ html, body {
     font-size: 0.85rem;
 }
 
-.highlight-item input[type="color"] {
+.period-item input[type="color"],
+.moment-item input[type="color"] {
     width: 36px;
     height: 36px;
     padding: 2px;
@@ -912,7 +921,8 @@ html, body {
     cursor: pointer;
 }
 
-.highlight-delete {
+.period-delete,
+.moment-delete {
     width: 36px;
     height: 36px;
     padding: 0;
@@ -927,17 +937,31 @@ html, body {
     transition: color 0.2s, border-color 0.2s;
 }
 
-.highlight-delete:hover {
+.period-delete:hover,
+.moment-delete:hover {
     color: #ef4444;
     border-color: #ef4444;
 }
 
-.highlight-delete svg {
+.period-delete svg,
+.moment-delete svg {
     width: 18px;
     height: 18px;
 }
 
-.add-highlight-btn {
+.moment-item select {
+    flex: 0 0 auto;
+    width: 90px;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+}
+
+.add-period-btn,
+.add-moment-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -953,17 +977,20 @@ html, body {
     transition: border-color 0.2s, color 0.2s;
 }
 
-.add-highlight-btn:hover {
+.add-period-btn:hover,
+.add-moment-btn:hover {
     border-color: var(--text-muted);
     color: var(--text-primary);
 }
 
-.add-highlight-btn svg {
+.add-period-btn svg,
+.add-moment-btn svg {
     width: 18px;
     height: 18px;
 }
 
-.highlights-empty {
+.periods-empty,
+.moments-empty {
     text-align: center;
     color: var(--text-muted);
     font-size: 0.85rem;
@@ -974,18 +1001,32 @@ html, body {
     border-radius: 6px;
 }
 
-/* Multi-highlight segments for overlapping highlights */
-.week.highlighted {
+/* Multi-period segments for overlapping periods */
+.week.has-period {
     position: relative;
     overflow: hidden;
 }
 
-.week.highlighted svg.highlight-svg {
+.week.has-period svg.period-svg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Moment marker (shape inside cell) */
+
+.week .moment-marker {
+    position: absolute;
+    inset: 5%;
+    pointer-events: none;
+}
+
+.week .moment-marker svg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 /* Share toast notification */
