@@ -1,0 +1,49 @@
+{
+  "name": "Dua Lipa",
+  "sex": "female",
+  "dob": "1995-08-22",
+  "country": "United Kingdom",
+  "theme": "tokyo-night",
+  "periods": [
+    {
+      "label": "Self-Titled Era",
+      "startDate": "2015-08-21",
+      "endDate": "2020-03-26",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Future Nostalgia Era",
+      "startDate": "2020-03-27",
+      "endDate": "2024-05-02",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Radical Optimism Era",
+      "startDate": "2024-05-03",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to London Alone (15)", "date": "2010-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "First YouTube Covers", "date": "2012-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Warner Music", "date": "2015-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "New Love Debut Single", "date": "2015-08-21", "color": "#ec4899", "shape": "star" },
+    { "label": "Dua Lipa Self-Titled", "date": "2017-06-02", "color": "#ec4899", "shape": "star" },
+    { "label": "New Rules #1 UK", "date": "2017-09-09", "color": "#ec4899", "shape": "diamond" },
+    { "label": "IDGAF Success", "date": "2018-01-12", "color": "#ec4899", "shape": "diamond" },
+    { "label": "One Kiss #1 (8 weeks UK)", "date": "2018-04-28", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Grammy Best New Artist", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best Dance Recording", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Future Nostalgia Released", "date": "2020-03-27", "color": "#9333ea", "shape": "star" },
+    { "label": "Don't Start Now #1", "date": "2020-02-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Levitating Global Hit", "date": "2020-10-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy Best Pop Vocal Album", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Future Nostalgia Tour", "date": "2022-02-09", "color": "#9333ea", "shape": "star" },
+    { "label": "Barbie Soundtrack", "date": "2023-07-21", "color": "#ec4899", "shape": "star" },
+    { "label": "Radical Optimism Released", "date": "2024-05-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Glastonbury Headline", "date": "2024-06-28", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Radical Optimism Tour", "date": "2024-06-05", "color": "#f59e0b", "shape": "star" },
+    { "label": "Houdini Success", "date": "2023-11-09", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

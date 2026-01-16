@@ -1,0 +1,59 @@
+{
+  "name": "Ryan Gosling",
+  "sex": "male",
+  "dob": "1980-11-12",
+  "country": "Canada",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Child Star Era",
+      "startDate": "1993-01-01",
+      "endDate": "2000-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Indie Breakthrough",
+      "startDate": "2001-01-01",
+      "endDate": "2010-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Leading Man Era",
+      "startDate": "2011-01-01",
+      "endDate": "2019-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Blockbuster Era",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Mickey Mouse Club", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Breaker High TV Series", "date": "1997-09-15", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Young Hercules", "date": "1998-09-12", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Believer - Breakthrough", "date": "2001-01-19", "color": "#3b82f6", "shape": "star" },
+    { "label": "Murder by Numbers", "date": "2002-04-19", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Notebook", "date": "2004-06-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Half Nelson - Oscar Nom", "date": "2006-08-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "Lars and the Real Girl", "date": "2007-10-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Blue Valentine", "date": "2010-12-29", "color": "#3b82f6", "shape": "star" },
+    { "label": "Drive", "date": "2011-09-16", "color": "#9333ea", "shape": "star" },
+    { "label": "Crazy, Stupid, Love", "date": "2011-07-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Place Beyond the Pines", "date": "2013-03-29", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Esmeralda Born", "date": "2014-09-12", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Big Short", "date": "2015-12-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Amada Born", "date": "2016-04-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "La La Land - Oscar Nom", "date": "2016-12-09", "color": "#9333ea", "shape": "star" },
+    { "label": "Golden Globe - La La Land", "date": "2017-01-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Blade Runner 2049", "date": "2017-10-06", "color": "#9333ea", "shape": "star" },
+    { "label": "First Man", "date": "2018-10-12", "color": "#9333ea", "shape": "star" },
+    { "label": "The Gray Man", "date": "2022-07-22", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Barbie - Ken", "date": "2023-07-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oscar Nom - Barbie", "date": "2024-01-23", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "I'm Just Ken - Grammy Nom", "date": "2024-02-04", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "The Fall Guy", "date": "2024-05-03", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

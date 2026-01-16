@@ -1,0 +1,53 @@
+{
+  "name": "Lil Baby",
+  "sex": "male",
+  "dob": "1994-12-03",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Perfect Timing Era",
+      "startDate": "2017-04-19",
+      "endDate": "2018-05-24",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Harder Than Ever Era",
+      "startDate": "2018-05-25",
+      "endDate": "2020-02-27",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "My Turn Era",
+      "startDate": "2020-02-28",
+      "endDate": "2023-10-12",
+      "color": "#9333ea"
+    },
+    {
+      "label": "It's Only Me / WHAM Era",
+      "startDate": "2022-10-14",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Perfect Timing Mixtape", "date": "2017-04-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Quality Control/Motown", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Harder Than Hard Mixtape", "date": "2017-07-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Too Hard Mixtape", "date": "2017-12-14", "color": "#6b7280", "shape": "star" },
+    { "label": "Harder Than Ever #3 Album", "date": "2018-05-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Yes Indeed with Drake Hit", "date": "2018-05-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Drip Too Hard with Gunna", "date": "2018-11-17", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Street Gossip Mixtape", "date": "2018-11-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "My Turn #1 Album", "date": "2020-02-28", "color": "#9333ea", "shape": "star" },
+    { "label": "Woah Hit", "date": "2020-01-10", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Bigger Picture (BLM)", "date": "2020-06-12", "color": "#9333ea", "shape": "star" },
+    { "label": "Grammy Nom for The Bigger Picture", "date": "2021-03-14", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "My Turn Top Album of 2020", "date": "2020-12-31", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Voice of the Heroes with Lil Durk", "date": "2021-06-04", "color": "#9333ea", "shape": "star" },
+    { "label": "It's Only Me #1 Album", "date": "2022-10-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "Forever Hit", "date": "2022-10-07", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy for Hurricane", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "WHAM with EST Gee Album", "date": "2024-10-25", "color": "#f59e0b", "shape": "star" }
+  ]
+}

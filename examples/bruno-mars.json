@@ -1,0 +1,61 @@
+{
+  "name": "Bruno Mars",
+  "sex": "male",
+  "dob": "1985-10-08",
+  "country": "United States",
+  "theme": "gold",
+  "periods": [
+    {
+      "label": "Songwriting/Production Era",
+      "startDate": "2006-01-01",
+      "endDate": "2010-10-03",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Doo-Wops & Hooligans Era",
+      "startDate": "2010-10-04",
+      "endDate": "2012-12-10",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Unorthodox Jukebox Era",
+      "startDate": "2012-12-11",
+      "endDate": "2016-11-17",
+      "color": "#ef4444"
+    },
+    {
+      "label": "24K Magic Era",
+      "startDate": "2016-11-18",
+      "endDate": "2021-03-04",
+      "color": "#fbbf24"
+    },
+    {
+      "label": "Silk Sonic Era",
+      "startDate": "2021-03-05",
+      "endDate": "2024-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to Los Angeles", "date": "2003-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Motown", "date": "2004-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Dropped by Motown", "date": "2007-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Founded Smeezingtons", "date": "2009-01-01", "color": "#10b981", "shape": "star" },
+    { "label": "Nothin' on You (B.o.B)", "date": "2010-04-27", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Just the Way You Are #1", "date": "2010-09-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Doo-Wops & Hooligans", "date": "2010-10-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grenade #1", "date": "2011-01-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Unorthodox Jukebox", "date": "2012-12-11", "color": "#ef4444", "shape": "star" },
+    { "label": "Locked Out of Heaven #1", "date": "2012-12-22", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Super Bowl XLVIII Halftime", "date": "2014-02-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Uptown Funk #1 (14 weeks)", "date": "2015-01-17", "color": "#ec4899", "shape": "diamond" },
+    { "label": "24K Magic Released", "date": "2016-11-18", "color": "#fbbf24", "shape": "star" },
+    { "label": "That's What I Like #1", "date": "2017-04-01", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Super Bowl LII Halftime", "date": "2018-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "7 Grammys for 24K Magic", "date": "2018-01-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Silk Sonic Formed", "date": "2021-03-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Leave the Door Open #1", "date": "2021-04-03", "color": "#9333ea", "shape": "diamond" },
+    { "label": "An Evening with Silk Sonic", "date": "2021-11-12", "color": "#9333ea", "shape": "star" },
+    { "label": "Grammy Record of Year", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

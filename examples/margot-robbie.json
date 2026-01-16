@@ -1,0 +1,55 @@
+{
+  "name": "Margot Robbie",
+  "sex": "female",
+  "dob": "1990-07-02",
+  "country": "Australia",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Australian TV Era",
+      "startDate": "2008-01-01",
+      "endDate": "2012-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Hollywood Breakthrough",
+      "startDate": "2013-01-01",
+      "endDate": "2016-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List & Producer",
+      "startDate": "2017-01-01",
+      "endDate": "2022-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Barbie Era",
+      "startDate": "2023-01-01",
+      "endDate": "2025-12-31",
+      "color": "#ec4899"
+    }
+  ],
+  "moments": [
+    { "label": "Neighbours TV Series", "date": "2008-06-10", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Hollywood", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Pan Am TV Series", "date": "2011-09-25", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Wolf of Wall Street Breakthrough", "date": "2013-12-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Focus", "date": "2015-02-27", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Legend of Tarzan", "date": "2016-07-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Suicide Squad - Harley Quinn", "date": "2016-08-05", "color": "#3b82f6", "shape": "star" },
+    { "label": "Founded LuckyChap Entertainment", "date": "2014-01-01", "color": "#9333ea", "shape": "heart" },
+    { "label": "Married Tom Ackerley", "date": "2016-12-18", "color": "#ef4444", "shape": "heart" },
+    { "label": "I, Tonya - Oscar Nom", "date": "2017-12-08", "color": "#9333ea", "shape": "star" },
+    { "label": "Mary Queen of Scots", "date": "2018-12-07", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Once Upon a Time in Hollywood", "date": "2019-07-26", "color": "#9333ea", "shape": "star" },
+    { "label": "Bombshell - Oscar Nom", "date": "2019-12-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Birds of Prey", "date": "2020-02-07", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Suicide Squad", "date": "2021-08-06", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Babylon", "date": "2022-12-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Barbie - Record Breaking", "date": "2023-07-21", "color": "#ec4899", "shape": "star" },
+    { "label": "Oscar Nom - Barbie", "date": "2024-01-23", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "$1.4 Billion Barbie", "date": "2023-08-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Born", "date": "2024-10-01", "color": "#ef4444", "shape": "heart" }
+  ]
+}

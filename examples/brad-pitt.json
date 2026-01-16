@@ -1,0 +1,57 @@
+{
+  "name": "Brad Pitt",
+  "sex": "male",
+  "dob": "1963-12-18",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Roles",
+      "startDate": "1987-01-01",
+      "endDate": "1994-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Movie Star Era",
+      "startDate": "1995-01-01",
+      "endDate": "2004-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Producer & Actor",
+      "startDate": "2005-01-01",
+      "endDate": "2014-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Oscar Winner & Beyond",
+      "startDate": "2015-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to LA", "date": "1986-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Thelma & Louise Breakthrough", "date": "1991-05-24", "color": "#6b7280", "shape": "star" },
+    { "label": "A River Runs Through It", "date": "1992-10-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Legends of the Fall", "date": "1994-12-23", "color": "#6b7280", "shape": "star" },
+    { "label": "Interview with the Vampire", "date": "1994-11-11", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Se7en", "date": "1995-09-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "12 Monkeys - Oscar Nom", "date": "1995-12-29", "color": "#3b82f6", "shape": "star" },
+    { "label": "Fight Club", "date": "1999-10-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Jennifer Aniston", "date": "2000-07-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "Ocean's Eleven", "date": "2001-12-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "Troy", "date": "2004-05-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Mr. & Mrs. Smith", "date": "2005-06-10", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Married Angelina Jolie", "date": "2014-08-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Curious Case of Benjamin Button", "date": "2008-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Inglourious Basterds", "date": "2009-08-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Moneyball", "date": "2011-09-23", "color": "#9333ea", "shape": "star" },
+    { "label": "12 Years a Slave - Producer Oscar", "date": "2014-03-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Big Short", "date": "2015-12-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Once Upon a Time in Hollywood", "date": "2019-07-26", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oscar Win - Best Supporting", "date": "2020-02-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Bullet Train", "date": "2022-08-05", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Babylon", "date": "2022-12-23", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

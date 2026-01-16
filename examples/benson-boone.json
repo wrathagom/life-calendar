@@ -1,0 +1,43 @@
+{
+  "name": "Benson Boone",
+  "sex": "male",
+  "dob": "2002-06-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "American Idol Era",
+      "startDate": "2021-02-14",
+      "endDate": "2022-02-24",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Walk Me Home Era",
+      "startDate": "2022-02-25",
+      "endDate": "2024-04-04",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Fireworks & Rollerblades Era",
+      "startDate": "2024-04-05",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "American Idol Audition", "date": "2021-02-14", "color": "#6b7280", "shape": "star" },
+    { "label": "Left American Idol by Choice", "date": "2021-03-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed by Dan Reynolds (Imagine Dragons)", "date": "2021-06-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Signed to Warner Records", "date": "2021-06-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Ghost Town Single", "date": "2021-08-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Walk Me Home EP", "date": "2022-02-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "In the Stars Hit", "date": "2022-09-15", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Beautiful Things Released", "date": "2024-01-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Beautiful Things #1 Global", "date": "2024-03-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Fireworks & Rollerblades Album", "date": "2024-04-05", "color": "#f59e0b", "shape": "star" },
+    { "label": "Album #1 in Multiple Countries", "date": "2024-04-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "MTV EMA Best New Act", "date": "2024-11-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Slow It Down Hit", "date": "2024-04-05", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy Nominations", "date": "2024-11-08", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

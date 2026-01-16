@@ -1,0 +1,54 @@
+{
+  "name": "Viola Davis",
+  "sex": "female",
+  "dob": "1965-08-11",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & Early Career",
+      "startDate": "1988-01-01",
+      "endDate": "2001-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Film Breakthrough",
+      "startDate": "2002-01-01",
+      "endDate": "2010-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "The Help & HTGAWM Era",
+      "startDate": "2011-01-01",
+      "endDate": "2019-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "EGOT & Legacy",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Juilliard Graduate", "date": "1988-05-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Broadway Debut - Seven Guitars", "date": "1996-01-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Tony Award - King Hedley II", "date": "2001-06-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Julius Tennon", "date": "2003-06-21", "color": "#ef4444", "shape": "heart" },
+    { "label": "Doubt Breakthrough", "date": "2008-12-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Oscar Nom - Doubt", "date": "2009-02-22", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Adopted Daughter Genesis", "date": "2011-10-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Help", "date": "2011-08-10", "color": "#9333ea", "shape": "star" },
+    { "label": "How to Get Away with Murder", "date": "2014-09-25", "color": "#9333ea", "shape": "star" },
+    { "label": "First Black Emmy Drama Lead", "date": "2015-09-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Tony Award - Fences", "date": "2010-06-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Fences - Oscar Win", "date": "2017-02-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "First Black Triple Crown", "date": "2017-02-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Widows", "date": "2018-11-16", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Ma Rainey's Black Bottom", "date": "2020-12-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Woman King", "date": "2022-09-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy Win - Audiobook", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "EGOT Complete", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Air", "date": "2023-04-05", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

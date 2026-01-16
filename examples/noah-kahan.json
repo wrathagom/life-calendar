@@ -1,0 +1,45 @@
+{
+  "name": "Noah Kahan",
+  "sex": "male",
+  "dob": "1997-01-01",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Busyhead Era",
+      "startDate": "2019-01-18",
+      "endDate": "2021-09-09",
+      "color": "#6b7280"
+    },
+    {
+      "label": "I Was / I Am Era",
+      "startDate": "2021-09-10",
+      "endDate": "2022-06-23",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Stick Season Era",
+      "startDate": "2022-10-14",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Hurt Somebody EP", "date": "2017-09-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Republic Records", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Busyhead Debut Album", "date": "2019-01-18", "color": "#6b7280", "shape": "star" },
+    { "label": "I Was / I Am Album", "date": "2021-09-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "Cape Elizabeth EP", "date": "2020-06-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Stick Season Album", "date": "2022-10-14", "color": "#10b981", "shape": "star" },
+    { "label": "Stick Season Song Goes Viral", "date": "2023-01-01", "color": "#10b981", "shape": "diamond" },
+    { "label": "Stick Season (We'll All Be Here Forever)", "date": "2023-06-09", "color": "#10b981", "shape": "star" },
+    { "label": "Northern Attitude with Hozier", "date": "2023-11-03", "color": "#10b981", "shape": "diamond" },
+    { "label": "Forever Hit", "date": "2023-12-08", "color": "#10b981", "shape": "diamond" },
+    { "label": "Grammy Nominations", "date": "2024-02-04", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "SNL Performance", "date": "2024-01-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "We'll All Be Here Forever Tour", "date": "2024-02-01", "color": "#10b981", "shape": "diamond" },
+    { "label": "Dial Drunk Hozier Remix #2", "date": "2024-02-03", "color": "#10b981", "shape": "diamond" },
+    { "label": "Mental Health Advocacy", "date": "2023-06-01", "color": "#ec4899", "shape": "heart" },
+    { "label": "Fenway Park Sold Out Shows", "date": "2024-07-19", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

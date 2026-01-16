@@ -1,0 +1,50 @@
+{
+  "name": "Gunna",
+  "sex": "male",
+  "dob": "1993-06-14",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Drip Season Era",
+      "startDate": "2016-09-30",
+      "endDate": "2019-02-21",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Drip or Drown 2 Era",
+      "startDate": "2019-02-22",
+      "endDate": "2020-05-21",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "WUNNA Era",
+      "startDate": "2020-05-22",
+      "endDate": "2022-01-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "DS4 / One of Wun Era",
+      "startDate": "2022-01-07",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Drip Season Mixtape", "date": "2016-09-30", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Young Thug's YSL", "date": "2016-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Drip Season 2 Mixtape", "date": "2017-10-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Drip Harder with Lil Baby", "date": "2018-10-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Drip Too Hard #4 Hot 100", "date": "2018-11-17", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Drip or Drown 2 #3 Album", "date": "2019-02-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Drip Season 3 Mixtape", "date": "2018-02-02", "color": "#6b7280", "shape": "star" },
+    { "label": "WUNNA #1 Album", "date": "2020-05-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Rockstar (SpongeBob)", "date": "2020-04-24", "color": "#9333ea", "shape": "diamond" },
+    { "label": "DS4EVER #1 Album", "date": "2022-01-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "Pushin P #1", "date": "2022-01-22", "color": "#f59e0b", "shape": "star" },
+    { "label": "YSL RICO Arrest", "date": "2022-05-09", "color": "#6b7280", "shape": "circle" },
+    { "label": "Plea Deal Release", "date": "2022-12-14", "color": "#6b7280", "shape": "circle" },
+    { "label": "A Gift & a Curse Album", "date": "2023-06-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "One of Wun Album", "date": "2024-08-02", "color": "#f59e0b", "shape": "star" }
+  ]
+}

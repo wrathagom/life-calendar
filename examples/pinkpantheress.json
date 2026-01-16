@@ -1,0 +1,43 @@
+{
+  "name": "PinkPantheress",
+  "sex": "female",
+  "dob": "2001-04-18",
+  "country": "United Kingdom",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "TikTok Era",
+      "startDate": "2021-01-01",
+      "endDate": "2021-10-14",
+      "color": "#ec4899"
+    },
+    {
+      "label": "To Hell with It Era",
+      "startDate": "2021-10-15",
+      "endDate": "2023-11-09",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Heaven Knows Era",
+      "startDate": "2023-11-10",
+      "endDate": "2025-12-31",
+      "color": "#3b82f6"
+    }
+  ],
+  "moments": [
+    { "label": "Started Posting on TikTok", "date": "2021-01-01", "color": "#ec4899", "shape": "star" },
+    { "label": "Pain Goes Viral", "date": "2021-04-01", "color": "#ec4899", "shape": "star" },
+    { "label": "Break It Off Viral", "date": "2021-05-01", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Signed to Parlophone/Elektra", "date": "2021-08-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Just for Me Hit", "date": "2021-08-13", "color": "#9333ea", "shape": "diamond" },
+    { "label": "To Hell with It Mixtape", "date": "2021-10-15", "color": "#9333ea", "shape": "star" },
+    { "label": "BRIT Rising Star Award", "date": "2022-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Boy's a Liar Hit", "date": "2022-10-14", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Boy's a Liar Pt. 2 with Ice Spice", "date": "2023-02-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Boy's a Liar Pt. 2 Top 5", "date": "2023-02-18", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Grammy Nomination", "date": "2024-02-04", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Heaven Knows Album", "date": "2023-11-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "Nice to Meet You Hit", "date": "2023-11-10", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Toured with Coldplay", "date": "2023-06-01", "color": "#3b82f6", "shape": "diamond" }
+  ]
+}

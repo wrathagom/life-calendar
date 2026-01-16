@@ -1,0 +1,61 @@
+{
+  "name": "Eminem",
+  "sex": "male",
+  "dob": "1972-10-17",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Underground Era",
+      "startDate": "1988-01-01",
+      "endDate": "1999-02-22",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Slim Shady / Marshall Mathers",
+      "startDate": "1999-02-23",
+      "endDate": "2004-11-11",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Hiatus / Recovery Era",
+      "startDate": "2005-01-01",
+      "endDate": "2013-11-04",
+      "color": "#ef4444"
+    },
+    {
+      "label": "MMLP2 / Revival Era",
+      "startDate": "2013-11-05",
+      "endDate": "2020-01-16",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Music to Be Murdered By / Death of Slim Shady",
+      "startDate": "2020-01-17",
+      "endDate": "2025-12-31",
+      "color": "#1a1a1a"
+    }
+  ],
+  "moments": [
+    { "label": "First Rap Battle (14)", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Infinite Album", "date": "1996-11-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Discovered by Dr. Dre", "date": "1998-03-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Slim Shady LP", "date": "1999-02-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "My Name Is Success", "date": "1999-01-25", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Grammy Best Rap Album", "date": "2000-02-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Marshall Mathers LP", "date": "2000-05-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Real Slim Shady #1", "date": "2000-05-16", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Eminem Show", "date": "2002-05-26", "color": "#3b82f6", "shape": "star" },
+    { "label": "8 Mile Film", "date": "2002-11-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oscar for Lose Yourself", "date": "2003-03-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Encore Released", "date": "2004-11-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Drug Addiction Lowest", "date": "2007-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Relapse (Return)", "date": "2009-05-15", "color": "#ef4444", "shape": "star" },
+    { "label": "Recovery Released", "date": "2010-06-18", "color": "#ef4444", "shape": "star" },
+    { "label": "Love the Way You Lie #1", "date": "2010-07-24", "color": "#ef4444", "shape": "diamond" },
+    { "label": "The Marshall Mathers LP 2", "date": "2013-11-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Kamikaze Surprise Release", "date": "2018-08-31", "color": "#9333ea", "shape": "star" },
+    { "label": "Music to Be Murdered By", "date": "2020-01-17", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Rock Hall of Fame", "date": "2022-11-05", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

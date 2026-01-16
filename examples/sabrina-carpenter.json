@@ -1,0 +1,54 @@
+{
+  "name": "Sabrina Carpenter",
+  "sex": "female",
+  "dob": "1999-05-11",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Disney Channel Era",
+      "startDate": "2011-01-01",
+      "endDate": "2017-01-20",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Evolution / Singular Era",
+      "startDate": "2016-10-14",
+      "endDate": "2022-07-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Emails I Can't Send Era",
+      "startDate": "2022-07-15",
+      "endDate": "2024-08-22",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Short n' Sweet Era",
+      "startDate": "2024-08-23",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "YouTube Cover Artist", "date": "2009-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Girl Meets World Premiere", "date": "2014-06-27", "color": "#ec4899", "shape": "star" },
+    { "label": "Eyes Wide Open Debut Album", "date": "2015-04-14", "color": "#ec4899", "shape": "star" },
+    { "label": "Evolution Album", "date": "2016-10-14", "color": "#9333ea", "shape": "star" },
+    { "label": "Singular: Act I", "date": "2018-11-09", "color": "#9333ea", "shape": "star" },
+    { "label": "Singular: Act II", "date": "2019-07-19", "color": "#9333ea", "shape": "star" },
+    { "label": "Mean Girls Broadway", "date": "2020-03-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Skin Controversy/Hit", "date": "2021-01-22", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Taylor Swift Eras Tour Opener", "date": "2023-03-17", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Emails I Can't Send Album", "date": "2022-07-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Nonsense Viral Hit", "date": "2022-07-15", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Feather Goes Viral", "date": "2023-10-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Espresso #1 UK", "date": "2024-04-12", "color": "#f59e0b", "shape": "star" },
+    { "label": "Please Please Please #1 US", "date": "2024-06-22", "color": "#f59e0b", "shape": "star" },
+    { "label": "Short n' Sweet #1 Album", "date": "2024-08-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Taste #1 UK", "date": "2024-08-30", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "MTV VMA Song of the Year", "date": "2024-09-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "SNL Host & Musical Guest", "date": "2024-10-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Nominations", "date": "2024-11-08", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Kid Cudi",
+  "sex": "male",
+  "dob": "1984-01-30",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "A Kid Named Cudi Era",
+      "startDate": "2008-07-17",
+      "endDate": "2009-09-14",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Man on the Moon Era",
+      "startDate": "2009-09-15",
+      "endDate": "2013-04-15",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Indicud / Satellite Era",
+      "startDate": "2013-04-16",
+      "endDate": "2016-12-15",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Passion, Pain & Demon Slayin' Era",
+      "startDate": "2016-12-16",
+      "endDate": "2020-12-10",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Man on the Moon III Era",
+      "startDate": "2020-12-11",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to NYC", "date": "2004-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "A Kid Named Cudi Mixtape", "date": "2008-07-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Day 'n' Nite Breakthrough", "date": "2008-09-16", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to G.O.O.D. Music", "date": "2008-09-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Man on the Moon I", "date": "2009-09-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Pursuit of Happiness Hit", "date": "2009-09-15", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Man on the Moon II", "date": "2010-11-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "Mr. Rager Hit", "date": "2010-11-09", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Indicud Album", "date": "2013-04-16", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Vada Born", "date": "2010-03-26", "color": "#ef4444", "shape": "heart" },
+    { "label": "WZRD Rock Album", "date": "2012-02-28", "color": "#9333ea", "shape": "star" },
+    { "label": "Entered Rehab for Depression", "date": "2016-10-04", "color": "#6b7280", "shape": "circle" },
+    { "label": "Passion, Pain & Demon Slayin'", "date": "2016-12-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "Kids See Ghosts with Kanye", "date": "2018-06-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "Man on the Moon III", "date": "2020-12-11", "color": "#10b981", "shape": "star" },
+    { "label": "Entergalactic Album/Film", "date": "2022-09-30", "color": "#10b981", "shape": "star" },
+    { "label": "SNL Dress Tribute to Kurt Cobain", "date": "2021-04-10", "color": "#f59e0b", "shape": "heart" },
+    { "label": "Insano Album", "date": "2024-01-12", "color": "#10b981", "shape": "star" }
+  ]
+}

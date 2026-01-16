@@ -1,0 +1,56 @@
+{
+  "name": "Samuel L. Jackson",
+  "sex": "male",
+  "dob": "1948-12-21",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & Early Film",
+      "startDate": "1972-01-01",
+      "endDate": "1990-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Breakthrough Era",
+      "startDate": "1991-01-01",
+      "endDate": "1999-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Action Star Era",
+      "startDate": "2000-01-01",
+      "endDate": "2011-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "MCU & Legend",
+      "startDate": "2012-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Morehouse College Graduate", "date": "1972-05-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Married LaTanya Richardson", "date": "1980-08-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "School Daze", "date": "1988-02-12", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Goodfellas", "date": "1990-09-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Jungle Fever Breakthrough", "date": "1991-06-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "Cannes - Best Supporting", "date": "1991-05-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Jurassic Park", "date": "1993-06-11", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Pulp Fiction - Jules", "date": "1994-10-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "Oscar Nomination - Pulp Fiction", "date": "1995-03-27", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Die Hard with a Vengeance", "date": "1995-05-19", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Jackie Brown", "date": "1997-12-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Star Wars: Episode I", "date": "1999-05-19", "color": "#3b82f6", "shape": "star" },
+    { "label": "Unbreakable", "date": "2000-11-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Nick Fury First Appearance", "date": "2008-05-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Avengers", "date": "2012-05-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "Django Unchained", "date": "2012-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Hateful Eight", "date": "2015-12-25", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Glass", "date": "2019-01-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Honorary Oscar", "date": "2022-03-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Secret Invasion", "date": "2023-06-21", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Highest Grossing Actor All-Time", "date": "2023-01-01", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

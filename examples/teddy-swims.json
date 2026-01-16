@@ -1,0 +1,43 @@
+{
+  "name": "Teddy Swims",
+  "sex": "male",
+  "dob": "1992-09-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "YouTube Covers Era",
+      "startDate": "2019-06-01",
+      "endDate": "2021-08-05",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Unlearning Era",
+      "startDate": "2021-08-06",
+      "endDate": "2024-01-11",
+      "color": "#9333ea"
+    },
+    {
+      "label": "I've Tried Everything Era",
+      "startDate": "2024-01-12",
+      "endDate": "2025-12-31",
+      "color": "#3b82f6"
+    }
+  ],
+  "moments": [
+    { "label": "Started YouTube Channel", "date": "2019-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Warner Records", "date": "2020-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Picky EP", "date": "2020-01-31", "color": "#6b7280", "shape": "star" },
+    { "label": "Unlearning EP", "date": "2021-08-06", "color": "#9333ea", "shape": "star" },
+    { "label": "Simple Things Single", "date": "2021-11-19", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Lose Control Released", "date": "2023-07-14", "color": "#9333ea", "shape": "star" },
+    { "label": "Lose Control Goes Viral", "date": "2023-10-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "I've Tried Everything Album", "date": "2024-01-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Lose Control #1 US", "date": "2024-02-17", "color": "#3b82f6", "shape": "star" },
+    { "label": "5 Weeks at #1", "date": "2024-03-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Door Hit", "date": "2024-01-12", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "SNL Musical Guest", "date": "2024-03-02", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "BET Award", "date": "2024-06-30", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Nominations", "date": "2024-11-08", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

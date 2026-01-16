@@ -1,0 +1,57 @@
+{
+  "name": "Matt Damon",
+  "sex": "male",
+  "dob": "1970-10-08",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1988-01-01",
+      "endDate": "1996-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Good Will Hunting Era",
+      "startDate": "1997-01-01",
+      "endDate": "2001-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Bourne & A-List",
+      "startDate": "2002-01-01",
+      "endDate": "2015-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Veteran Star",
+      "startDate": "2016-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Mystic Pizza", "date": "1988-10-21", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Harvard Attended", "date": "1988-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "School Ties", "date": "1992-09-18", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Courage Under Fire", "date": "1996-07-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Good Will Hunting - Oscar Win (Screenplay)", "date": "1998-03-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Saving Private Ryan", "date": "1998-07-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "Rounders", "date": "1998-09-11", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Talented Mr. Ripley", "date": "1999-12-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Ocean's Eleven", "date": "2001-12-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Bourne Identity", "date": "2002-06-14", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Luciana Barroso", "date": "2005-12-09", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Departed", "date": "2006-10-06", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Alexia (Step)", "date": "1999-01-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Isabella Born", "date": "2006-06-11", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Gia Born", "date": "2008-08-20", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Stella Born", "date": "2010-10-20", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Martian - Oscar Nom", "date": "2015-10-02", "color": "#9333ea", "shape": "star" },
+    { "label": "Jason Bourne", "date": "2016-07-29", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Ford v Ferrari", "date": "2019-11-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "Stillwater", "date": "2021-07-30", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oppenheimer", "date": "2023-07-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Air", "date": "2023-04-05", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

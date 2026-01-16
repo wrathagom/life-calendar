@@ -1,0 +1,64 @@
+{
+  "name": "Sia",
+  "sex": "female",
+  "dob": "1975-12-18",
+  "country": "Australia",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Australian Career",
+      "startDate": "1997-01-01",
+      "endDate": "2004-01-08",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Colour the Small One Era",
+      "startDate": "2004-01-09",
+      "endDate": "2008-04-07",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Some People Have Real Problems Era",
+      "startDate": "2008-04-08",
+      "endDate": "2014-07-03",
+      "color": "#9333ea"
+    },
+    {
+      "label": "1000 Forms of Fear Era",
+      "startDate": "2014-07-04",
+      "endDate": "2017-01-26",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "This Is Acting Era",
+      "startDate": "2016-01-29",
+      "endDate": "2021-02-11",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Music Film Era",
+      "startDate": "2021-02-12",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "OnlySee Debut Album", "date": "1997-12-23", "color": "#6b7280", "shape": "star" },
+    { "label": "Healing Is Difficult", "date": "2001-07-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Breathe Me (Six Feet Under)", "date": "2004-08-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "Colour the Small One", "date": "2004-01-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Some People Have Real Problems", "date": "2008-01-08", "color": "#9333ea", "shape": "star" },
+    { "label": "Wrote Diamonds for Rihanna", "date": "2012-09-26", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Wrote Titanium with David Guetta", "date": "2011-08-12", "color": "#9333ea", "shape": "diamond" },
+    { "label": "1000 Forms of Fear #1", "date": "2014-07-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "Chandelier Breakthrough", "date": "2014-03-17", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy Nominations for Chandelier", "date": "2015-02-08", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Elastic Heart Video Controversy", "date": "2015-01-07", "color": "#6b7280", "shape": "circle" },
+    { "label": "This Is Acting Album", "date": "2016-01-29", "color": "#ec4899", "shape": "star" },
+    { "label": "Cheap Thrills #1", "date": "2016-08-27", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Adopted Son", "date": "2019-01-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Adopted Daughter", "date": "2019-01-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Music Film Released", "date": "2021-02-12", "color": "#10b981", "shape": "star" },
+    { "label": "Reasonable Woman Album", "date": "2024-05-03", "color": "#10b981", "shape": "star" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Sam Smith",
+  "sex": "male",
+  "dob": "1992-05-19",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2012-10-22",
+      "endDate": "2014-05-25",
+      "color": "#6b7280"
+    },
+    {
+      "label": "In the Lonely Hour Era",
+      "startDate": "2014-05-26",
+      "endDate": "2017-11-02",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "The Thrill of It All Era",
+      "startDate": "2017-11-03",
+      "endDate": "2020-02-13",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Love Goes Era",
+      "startDate": "2020-02-14",
+      "endDate": "2023-01-26",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Gloria Era",
+      "startDate": "2023-01-27",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Latch with Disclosure", "date": "2012-10-22", "color": "#6b7280", "shape": "star" },
+    { "label": "La La La with Naughty Boy", "date": "2013-05-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Money on My Mind #1 UK", "date": "2014-02-16", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Stay with Me Breakthrough", "date": "2014-04-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "In the Lonely Hour", "date": "2014-05-26", "color": "#3b82f6", "shape": "star" },
+    { "label": "4 Grammy Awards", "date": "2015-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Writing's on the Wall (Spectre)", "date": "2015-09-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oscar for Best Original Song", "date": "2016-02-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Golden Globe Win", "date": "2016-01-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Thrill of It All #1", "date": "2017-11-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Too Good at Goodbyes Hit", "date": "2017-09-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Came Out as Non-Binary", "date": "2019-09-13", "color": "#ec4899", "shape": "heart" },
+    { "label": "Dancing with a Stranger", "date": "2019-01-11", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Love Goes Album", "date": "2020-10-30", "color": "#ec4899", "shape": "star" },
+    { "label": "Unholy with Kim Petras #1", "date": "2022-10-15", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Gloria Album", "date": "2023-01-27", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy for Unholy", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

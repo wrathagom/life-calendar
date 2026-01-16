@@ -1,0 +1,55 @@
+{
+  "name": "Cardi B",
+  "sex": "female",
+  "dob": "1992-10-11",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Social Media Rise",
+      "startDate": "2013-01-01",
+      "endDate": "2017-02-16",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Love & Hip Hop Era",
+      "startDate": "2015-11-16",
+      "endDate": "2017-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Invasion of Privacy Era",
+      "startDate": "2017-02-17",
+      "endDate": "2020-08-06",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Singles Era",
+      "startDate": "2020-08-07",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Instagram Fame Begins", "date": "2013-01-01", "color": "#ec4899", "shape": "star" },
+    { "label": "Vine Popularity", "date": "2014-01-01", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Love & Hip Hop: NY Debut", "date": "2015-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Bodak Yellow Released", "date": "2017-06-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bodak Yellow #1 (3 weeks)", "date": "2017-09-25", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "First Solo Female Rapper #1 Since 1998", "date": "2017-09-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Signed to Atlantic Records", "date": "2017-02-17", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Secretly Married Offset", "date": "2017-09-20", "color": "#ef4444", "shape": "heart" },
+    { "label": "Invasion of Privacy", "date": "2018-04-06", "color": "#f59e0b", "shape": "star" },
+    { "label": "I Like It #1", "date": "2018-07-14", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Daughter Kulture Born", "date": "2018-07-10", "color": "#ef4444", "shape": "heart" },
+    { "label": "Grammy Best Rap Album", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "First Female Solo Rap Album Grammy", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "WAP #1 with Megan", "date": "2020-08-22", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Up #1", "date": "2021-03-13", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Son Wave Born", "date": "2021-09-04", "color": "#ef4444", "shape": "heart" },
+    { "label": "Hot Shit Success", "date": "2022-07-01", "color": "#9333ea", "shape": "star" },
+    { "label": "Bongos Hit", "date": "2023-09-07", "color": "#9333ea", "shape": "diamond" },
+    { "label": "6 #1 Hot 100 Singles", "date": "2023-09-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Third Child Born", "date": "2024-09-07", "color": "#ef4444", "shape": "heart" }
+  ]
+}

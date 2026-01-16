@@ -1,0 +1,50 @@
+{
+  "name": "Gracie Abrams",
+  "sex": "female",
+  "dob": "2000-09-07",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Minor Era",
+      "startDate": "2019-08-23",
+      "endDate": "2021-11-25",
+      "color": "#6b7280"
+    },
+    {
+      "label": "This Is What It Feels Like Era",
+      "startDate": "2021-11-26",
+      "endDate": "2023-06-01",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Good Riddance Era",
+      "startDate": "2023-02-24",
+      "endDate": "2024-06-20",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "The Secret of Us Era",
+      "startDate": "2024-06-21",
+      "endDate": "2025-12-31",
+      "color": "#ec4899"
+    }
+  ],
+  "moments": [
+    { "label": "Mean It Single Debut", "date": "2019-08-23", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Interscope Records", "date": "2020-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "minor EP", "date": "2020-07-10", "color": "#6b7280", "shape": "star" },
+    { "label": "I Miss You, I'm Sorry Hit", "date": "2020-12-18", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Olivia Rodrigo SOUR Tour", "date": "2022-04-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "This Is What It Feels Like EP", "date": "2021-11-26", "color": "#9333ea", "shape": "star" },
+    { "label": "Taylor Swift Eras Tour Opener", "date": "2023-03-17", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Good Riddance Debut Album", "date": "2023-02-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "I Know It Won't Work Hit", "date": "2023-02-24", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Secret of Us Album #2", "date": "2024-06-21", "color": "#ec4899", "shape": "star" },
+    { "label": "Risk Hit", "date": "2024-03-22", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Close to You Hit", "date": "2024-04-19", "color": "#ec4899", "shape": "diamond" },
+    { "label": "That's So True Viral Hit", "date": "2024-10-18", "color": "#ec4899", "shape": "star" },
+    { "label": "Us. with Taylor Swift #1", "date": "2024-06-29", "color": "#fbbf24", "shape": "heart" },
+    { "label": "First Headline Arena Tour", "date": "2024-09-05", "color": "#ec4899", "shape": "diamond" }
+  ]
+}

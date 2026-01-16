@@ -1,0 +1,57 @@
+{
+  "name": "Robert Downey Jr.",
+  "sex": "male",
+  "dob": "1965-04-04",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1970-01-01",
+      "endDate": "1992-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Struggles Era",
+      "startDate": "1993-01-01",
+      "endDate": "2002-12-31",
+      "color": "#64748b"
+    },
+    {
+      "label": "Comeback",
+      "startDate": "2003-01-01",
+      "endDate": "2007-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Iron Man Era",
+      "startDate": "2008-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Film Debut - Pound (Age 5)", "date": "1970-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Saturday Night Live Cast", "date": "1985-11-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Weird Science", "date": "1985-08-02", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Less Than Zero", "date": "1987-11-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Chaplin - Oscar Nom", "date": "1992-12-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Married Deborah Falconer", "date": "1992-05-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Indio Born", "date": "1993-09-07", "color": "#ef4444", "shape": "heart" },
+    { "label": "First Arrest", "date": "1996-06-23", "color": "#64748b", "shape": "circle" },
+    { "label": "Ally McBeal", "date": "2000-09-28", "color": "#64748b", "shape": "diamond" },
+    { "label": "Golden Globe - Ally McBeal", "date": "2001-01-21", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Got Sober", "date": "2003-07-01", "color": "#10b981", "shape": "heart" },
+    { "label": "Married Susan Levin", "date": "2005-08-27", "color": "#ef4444", "shape": "heart" },
+    { "label": "Kiss Kiss Bang Bang", "date": "2005-10-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "Zodiac", "date": "2007-03-02", "color": "#3b82f6", "shape": "star" },
+    { "label": "Iron Man - Tony Stark Debut", "date": "2008-05-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "Tropic Thunder", "date": "2008-08-13", "color": "#f59e0b", "shape": "star" },
+    { "label": "Sherlock Holmes", "date": "2009-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Avengers", "date": "2012-05-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "Avengers: Endgame", "date": "2019-04-26", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oppenheimer", "date": "2023-07-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Oscar Win - Oppenheimer", "date": "2024-03-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Golden Globe - Oppenheimer", "date": "2024-01-07", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

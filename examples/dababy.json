@@ -1,0 +1,50 @@
+{
+  "name": "DaBaby",
+  "sex": "male",
+  "dob": "1991-12-22",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2015-01-01",
+      "endDate": "2019-03-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Baby on Baby Era",
+      "startDate": "2019-03-01",
+      "endDate": "2019-09-26",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Kirk Era",
+      "startDate": "2019-09-27",
+      "endDate": "2020-04-16",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Blame It on Baby Era",
+      "startDate": "2020-04-17",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Nonfiction Mixtape", "date": "2015-03-01", "color": "#6b7280", "shape": "star" },
+    { "label": "God's Work Mixtape", "date": "2016-01-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Blank Blank Mixtape", "date": "2018-03-03", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Interscope", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Baby on Baby Album #7", "date": "2019-03-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "Suge Breakthrough Hit", "date": "2019-03-04", "color": "#3b82f6", "shape": "star" },
+    { "label": "Kirk #1 Album", "date": "2019-09-27", "color": "#9333ea", "shape": "star" },
+    { "label": "BOP Hit", "date": "2019-09-27", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy Nom Best Rap Song", "date": "2020-01-26", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Blame It on Baby #1 Album", "date": "2020-04-17", "color": "#ef4444", "shape": "star" },
+    { "label": "Rockstar with Roddy Ricch #1", "date": "2020-06-20", "color": "#ef4444", "shape": "star" },
+    { "label": "Rockstar #1 for 7 Weeks", "date": "2020-07-18", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Levitating Remix Hit", "date": "2020-10-01", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Grammy for Rockstar", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rolling Loud Controversy", "date": "2021-07-25", "color": "#6b7280", "shape": "circle" }
+  ]
+}

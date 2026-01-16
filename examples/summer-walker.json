@@ -1,0 +1,42 @@
+{
+  "name": "Summer Walker",
+  "sex": "female",
+  "dob": "1996-04-11",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Last Day of Summer Era",
+      "startDate": "2018-10-19",
+      "endDate": "2019-10-03",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Over It Era",
+      "startDate": "2019-10-04",
+      "endDate": "2021-11-04",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Still Over It Era",
+      "startDate": "2021-11-05",
+      "endDate": "2025-12-31",
+      "color": "#3b82f6"
+    }
+  ],
+  "moments": [
+    { "label": "Girls Need Love Single", "date": "2018-10-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to LVRN/Interscope", "date": "2018-03-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Last Day of Summer EP", "date": "2018-10-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Girls Need Love Remix Drake", "date": "2019-01-11", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Over It Debut Album #2", "date": "2019-10-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Playing Games Hit", "date": "2019-10-04", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Biggest R&B Debut (Female) in 2019", "date": "2019-10-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Daughter Born", "date": "2021-03-22", "color": "#ef4444", "shape": "heart" },
+    { "label": "Still Over It #1 Album", "date": "2021-11-05", "color": "#3b82f6", "shape": "star" },
+    { "label": "No Love Hit", "date": "2021-10-08", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Biggest R&B Album Week (Female)", "date": "2021-11-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Twins Born", "date": "2023-04-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Clear 2: Soft Life EP", "date": "2023-12-08", "color": "#3b82f6", "shape": "star" }
+  ]
+}

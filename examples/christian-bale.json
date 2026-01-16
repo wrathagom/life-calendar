@@ -1,0 +1,57 @@
+{
+  "name": "Christian Bale",
+  "sex": "male",
+  "dob": "1974-01-30",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Child Actor Era",
+      "startDate": "1986-01-01",
+      "endDate": "1994-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Indie & Character Roles",
+      "startDate": "1995-01-01",
+      "endDate": "2004-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Batman Era",
+      "startDate": "2005-01-01",
+      "endDate": "2013-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Character Transformer",
+      "startDate": "2014-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Commercial Acting Begins", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Empire of the Sun", "date": "1987-12-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Newsies", "date": "1992-04-10", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Little Women", "date": "1994-12-21", "color": "#6b7280", "shape": "diamond" },
+    { "label": "American Psycho", "date": "2000-04-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Machinist - 63 lb Loss", "date": "2004-01-18", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Sibi Blažić", "date": "2000-01-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "Batman Begins", "date": "2005-06-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Emmeline Born", "date": "2005-03-27", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Prestige", "date": "2006-10-20", "color": "#9333ea", "shape": "star" },
+    { "label": "The Dark Knight", "date": "2008-07-18", "color": "#9333ea", "shape": "star" },
+    { "label": "The Fighter - Oscar Win", "date": "2011-02-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Dark Knight Rises", "date": "2012-07-20", "color": "#9333ea", "shape": "star" },
+    { "label": "American Hustle - Oscar Nom", "date": "2013-12-13", "color": "#9333ea", "shape": "star" },
+    { "label": "Son Joseph Born", "date": "2014-08-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Big Short - Oscar Nom", "date": "2015-12-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Vice - Oscar Nom", "date": "2018-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Golden Globe - Vice", "date": "2019-01-06", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Ford v Ferrari", "date": "2019-11-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "Thor: Love and Thunder - Gorr", "date": "2022-07-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Amsterdam", "date": "2022-10-07", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "The Pale Blue Eye", "date": "2023-01-06", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

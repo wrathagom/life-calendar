@@ -1,0 +1,69 @@
+{
+  "name": "Justin Timberlake",
+  "sex": "male",
+  "dob": "1981-01-31",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "*NSYNC Era",
+      "startDate": "1995-01-01",
+      "endDate": "2002-03-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Justified Era",
+      "startDate": "2002-11-05",
+      "endDate": "2006-09-11",
+      "color": "#9333ea"
+    },
+    {
+      "label": "FutureSex/LoveSounds Era",
+      "startDate": "2006-09-12",
+      "endDate": "2013-03-14",
+      "color": "#ec4899"
+    },
+    {
+      "label": "The 20/20 Experience Era",
+      "startDate": "2013-03-15",
+      "endDate": "2018-02-01",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Man of the Woods Era",
+      "startDate": "2018-02-02",
+      "endDate": "2024-03-14",
+      "color": "#10b981"
+    },
+    {
+      "label": "Everything I Thought It Was Era",
+      "startDate": "2024-03-15",
+      "endDate": "2025-12-31",
+      "color": "#6b7280"
+    }
+  ],
+  "moments": [
+    { "label": "Mickey Mouse Club", "date": "1993-01-01", "color": "#fbbf24", "shape": "star" },
+    { "label": "*NSYNC Formed", "date": "1995-01-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "*NSYNC Debut Album", "date": "1998-03-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "No Strings Attached #1", "date": "2000-03-21", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Celebrity Album", "date": "2001-07-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "Justified Solo Debut", "date": "2002-11-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Cry Me a River Hit", "date": "2002-11-26", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy for Justified", "date": "2004-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "SexyBack #1", "date": "2006-09-09", "color": "#ec4899", "shape": "diamond" },
+    { "label": "FutureSex/LoveSounds", "date": "2006-09-12", "color": "#ec4899", "shape": "star" },
+    { "label": "What Goes Around #1", "date": "2007-03-03", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Social Network Film", "date": "2010-10-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Married Jessica Biel", "date": "2012-10-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "The 20/20 Experience #1", "date": "2013-03-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Suit & Tie Hit", "date": "2013-01-14", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Can't Stop the Feeling #1", "date": "2016-05-21", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Son Silas Born", "date": "2015-04-11", "color": "#ef4444", "shape": "heart" },
+    { "label": "Man of the Woods Album", "date": "2018-02-02", "color": "#10b981", "shape": "star" },
+    { "label": "Super Bowl Halftime", "date": "2018-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Phineas Born", "date": "2020-07-17", "color": "#ef4444", "shape": "heart" },
+    { "label": "Everything I Thought It Was", "date": "2024-03-15", "color": "#6b7280", "shape": "star" },
+    { "label": "*NSYNC Reunion Performance", "date": "2023-09-12", "color": "#3b82f6", "shape": "heart" }
+  ]
+}

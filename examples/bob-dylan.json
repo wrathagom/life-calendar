@@ -1,0 +1,61 @@
+{
+  "name": "Bob Dylan",
+  "sex": "male",
+  "dob": "1941-05-24",
+  "country": "United States",
+  "theme": "gruvbox-dark",
+  "periods": [
+    {
+      "label": "Folk Revival",
+      "startDate": "1961-01-24",
+      "endDate": "1965-07-24",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Electric Era",
+      "startDate": "1965-07-25",
+      "endDate": "1966-07-29",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Country/Nashville",
+      "startDate": "1967-10-17",
+      "endDate": "1975-01-16",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Rolling Thunder / Christian",
+      "startDate": "1975-10-30",
+      "endDate": "1983-11-07",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Never Ending Tour",
+      "startDate": "1988-06-07",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Arrived in New York", "date": "1961-01-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Bob Dylan Debut Album", "date": "1962-03-19", "color": "#6b7280", "shape": "star" },
+    { "label": "The Freewheelin'", "date": "1963-05-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Blowin' in the Wind Released", "date": "1963-05-27", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Times They Are a-Changin'", "date": "1964-01-13", "color": "#6b7280", "shape": "star" },
+    { "label": "Another Side of Bob Dylan", "date": "1964-08-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Bringing It All Back Home", "date": "1965-03-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Like a Rolling Stone", "date": "1965-07-20", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Newport Folk Fest Electric", "date": "1965-07-25", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Highway 61 Revisited", "date": "1965-08-30", "color": "#3b82f6", "shape": "star" },
+    { "label": "Blonde on Blonde", "date": "1966-05-16", "color": "#3b82f6", "shape": "star" },
+    { "label": "Motorcycle Accident", "date": "1966-07-29", "color": "#6b7280", "shape": "diamond" },
+    { "label": "John Wesley Harding", "date": "1967-12-27", "color": "#f59e0b", "shape": "star" },
+    { "label": "Nashville Skyline", "date": "1969-04-09", "color": "#f59e0b", "shape": "star" },
+    { "label": "Blood on the Tracks", "date": "1975-01-17", "color": "#ef4444", "shape": "star" },
+    { "label": "Rolling Thunder Revue", "date": "1975-10-30", "color": "#9333ea", "shape": "star" },
+    { "label": "Rock Hall of Fame", "date": "1988-01-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Time Out of Mind Grammy", "date": "1998-02-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Nobel Prize in Literature", "date": "2016-10-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rough and Rowdy Ways", "date": "2020-06-19", "color": "#10b981", "shape": "star" }
+  ]
+}

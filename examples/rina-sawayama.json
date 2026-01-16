@@ -1,0 +1,50 @@
+{
+  "name": "Rina Sawayama",
+  "sex": "female",
+  "dob": "1990-08-16",
+  "country": "Japan",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2013-01-01",
+      "endDate": "2017-10-26",
+      "color": "#6b7280"
+    },
+    {
+      "label": "RINA Era",
+      "startDate": "2017-10-27",
+      "endDate": "2020-04-16",
+      "color": "#ec4899"
+    },
+    {
+      "label": "SAWAYAMA Era",
+      "startDate": "2020-04-17",
+      "endDate": "2022-09-15",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Hold the Girl Era",
+      "startDate": "2022-09-16",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to London at 5", "date": "1995-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Cambridge Politics Degree", "date": "2012-06-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Sleeping in Waking EP", "date": "2013-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "RINA Mini-Album", "date": "2017-10-27", "color": "#ec4899", "shape": "star" },
+    { "label": "Cherry Viral Hit", "date": "2018-11-02", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Signed to Dirty Hit", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "SAWAYAMA Debut Album", "date": "2020-04-17", "color": "#9333ea", "shape": "star" },
+    { "label": "XS Hit", "date": "2020-03-03", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Changed BRIT Award Rules", "date": "2021-06-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "UK Music Award Rising Star", "date": "2021-02-01", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "John Wick 4 Film Role", "date": "2023-03-24", "color": "#f59e0b", "shape": "star" },
+    { "label": "Hold the Girl Album", "date": "2022-09-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "This Hell Hit", "date": "2022-06-09", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Elton John Collaboration (Chosen Family)", "date": "2021-04-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Signed to Interscope", "date": "2024-05-01", "color": "#9333ea", "shape": "diamond" }
+  ]
+}

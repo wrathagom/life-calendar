@@ -1,0 +1,50 @@
+{
+  "name": "Brent Faiyaz",
+  "sex": "male",
+  "dob": "1995-09-19",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "A.M. Paradox Era",
+      "startDate": "2016-06-01",
+      "endDate": "2017-04-12",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Sonder Son Era",
+      "startDate": "2017-10-13",
+      "endDate": "2020-02-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "F*ck the World / Make It Out Alive Era",
+      "startDate": "2020-02-07",
+      "endDate": "2022-07-07",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Wasteland Era",
+      "startDate": "2022-07-08",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "A.M. Paradox EP", "date": "2016-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Crew with GoldLink #1 Viral", "date": "2017-04-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Sonder Formed", "date": "2016-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Grammy Nom for Crew", "date": "2018-01-28", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Sonder Son Debut Album", "date": "2017-10-13", "color": "#9333ea", "shape": "star" },
+    { "label": "Lost Records Label Founded", "date": "2017-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "F*ck the World EP", "date": "2020-02-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "Clouded Single", "date": "2020-06-19", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Dead Man Walking Hit", "date": "2020-02-07", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Make It Out Alive EP", "date": "2021-08-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Wasting Time Success", "date": "2021-08-06", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Wasteland Album #2", "date": "2022-07-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "All Mine Hit", "date": "2022-07-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Villain Hit", "date": "2022-07-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Rolling Loud Headliner", "date": "2023-03-04", "color": "#f59e0b", "shape": "heart" }
+  ]
+}

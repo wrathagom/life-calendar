@@ -1,0 +1,50 @@
+{
+  "name": "Playboi Carti",
+  "sex": "male",
+  "dob": "1996-09-13",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2015-08-14",
+      "endDate": "2017-04-13",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Self-Titled Era",
+      "startDate": "2017-04-14",
+      "endDate": "2018-05-10",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Die Lit Era",
+      "startDate": "2018-05-11",
+      "endDate": "2020-12-24",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Whole Lotta Red Era",
+      "startDate": "2020-12-25",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "In Abundance Mixtape", "date": "2015-08-14", "color": "#6b7280", "shape": "star" },
+    { "label": "Broke Boi Goes Viral", "date": "2015-06-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to A$AP Mob/Interscope", "date": "2016-09-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Magnolia Breakthrough", "date": "2017-03-10", "color": "#ef4444", "shape": "star" },
+    { "label": "Playboi Carti Mixtape", "date": "2017-04-14", "color": "#ef4444", "shape": "star" },
+    { "label": "wokeuplikethis* Hit", "date": "2017-04-14", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Die Lit Album", "date": "2018-05-11", "color": "#9333ea", "shape": "star" },
+    { "label": "Shoota Hit", "date": "2018-05-11", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Son Onyx Born", "date": "2020-12-24", "color": "#ef4444", "shape": "heart" },
+    { "label": "@ MEH Single", "date": "2020-04-16", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Whole Lotta Red #1 Album", "date": "2020-12-25", "color": "#ef4444", "shape": "star" },
+    { "label": "Sky TikTok Viral", "date": "2021-02-01", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Narcissist Tour", "date": "2021-10-14", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Rolling Loud Headliner", "date": "2022-07-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Antagonist Tour", "date": "2024-09-08", "color": "#ef4444", "shape": "diamond" }
+  ]
+}

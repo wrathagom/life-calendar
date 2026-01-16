@@ -1,0 +1,56 @@
+{
+  "name": "Anne Hathaway",
+  "sex": "female",
+  "dob": "1982-11-12",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Disney Princess Era",
+      "startDate": "1999-01-01",
+      "endDate": "2005-12-31",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Transition to Drama",
+      "startDate": "2006-01-01",
+      "endDate": "2011-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Oscar Era",
+      "startDate": "2012-01-01",
+      "endDate": "2019-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Renaissance Era",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "TV Debut - Get Real", "date": "1999-09-22", "color": "#ec4899", "shape": "star" },
+    { "label": "The Princess Diaries", "date": "2001-08-03", "color": "#ec4899", "shape": "star" },
+    { "label": "Ella Enchanted", "date": "2004-04-09", "color": "#ec4899", "shape": "diamond" },
+    { "label": "The Princess Diaries 2", "date": "2004-08-11", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Brokeback Mountain", "date": "2005-12-09", "color": "#ec4899", "shape": "star" },
+    { "label": "The Devil Wears Prada", "date": "2006-06-30", "color": "#3b82f6", "shape": "star" },
+    { "label": "Becoming Jane", "date": "2007-08-03", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Rachel Getting Married - Oscar Nom", "date": "2008-09-03", "color": "#3b82f6", "shape": "star" },
+    { "label": "Love & Other Drugs", "date": "2010-11-24", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Oscar Host with James Franco", "date": "2011-02-27", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Dark Knight Rises - Catwoman", "date": "2012-07-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Les Misérables - Oscar Win", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Adam Shulman", "date": "2012-09-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "Interstellar", "date": "2014-11-07", "color": "#9333ea", "shape": "star" },
+    { "label": "Son Jonathan Born", "date": "2016-03-24", "color": "#ef4444", "shape": "heart" },
+    { "label": "Ocean's 8", "date": "2018-06-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Son Jack Born", "date": "2019-11-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Witches", "date": "2020-10-22", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "WeCrashed", "date": "2022-03-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Armageddon Time", "date": "2022-10-28", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "The Idea of You", "date": "2024-05-02", "color": "#f59e0b", "shape": "star" }
+  ]
+}

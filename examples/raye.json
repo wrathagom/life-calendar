@@ -1,0 +1,50 @@
+{
+  "name": "Raye",
+  "sex": "female",
+  "dob": "1997-10-24",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "BRIT School / Early Career",
+      "startDate": "2014-11-21",
+      "endDate": "2019-10-01",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Major Label Era",
+      "startDate": "2019-10-02",
+      "endDate": "2021-07-15",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Independent Era",
+      "startDate": "2021-07-16",
+      "endDate": "2023-02-02",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "My 21st Century Blues Era",
+      "startDate": "2023-02-03",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Welcome to the Winter EP", "date": "2014-11-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Polydor", "date": "2016-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Second EP", "date": "2016-02-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Wrote for Beyoncé", "date": "2020-07-31", "color": "#9333ea", "shape": "diamond" },
+    { "label": "You Don't Know Me with Jax Jones", "date": "2016-11-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Bed with Joel Corry/David Guetta #1", "date": "2021-05-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Left Polydor (Twitter Thread)", "date": "2021-07-15", "color": "#6b7280", "shape": "circle" },
+    { "label": "Went Independent", "date": "2021-07-16", "color": "#3b82f6", "shape": "heart" },
+    { "label": "My 21st Century Blues Album", "date": "2023-02-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Escapism #1 UK & Billboard", "date": "2023-01-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "6 BRIT Award Wins (Record)", "date": "2024-03-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Most BRIT Wins in Single Night", "date": "2024-03-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Ice Cream Man Breakthrough", "date": "2023-02-03", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Oscar Performance", "date": "2024-03-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Genesis Album", "date": "2025-01-31", "color": "#f59e0b", "shape": "star" }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Charli XCX",
+  "sex": "female",
+  "dob": "1992-08-02",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Myspace Era",
+      "startDate": "2008-01-01",
+      "endDate": "2012-04-15",
+      "color": "#6b7280"
+    },
+    {
+      "label": "True Romance Era",
+      "startDate": "2013-04-12",
+      "endDate": "2014-12-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Sucker / Vroom Vroom Era",
+      "startDate": "2014-12-15",
+      "endDate": "2019-09-12",
+      "color": "#ec4899"
+    },
+    {
+      "label": "How I'm Feeling Now / Crash Era",
+      "startDate": "2019-09-13",
+      "endDate": "2024-06-06",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Brat Era",
+      "startDate": "2024-06-07",
+      "endDate": "2025-12-31",
+      "color": "#84cc16"
+    }
+  ],
+  "moments": [
+    { "label": "Started Posting on Myspace", "date": "2008-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Wrote I Love It for Icona Pop", "date": "2012-05-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "True Romance Debut Album", "date": "2013-04-12", "color": "#9333ea", "shape": "star" },
+    { "label": "Boom Clap Hit (#1 UK)", "date": "2014-06-17", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Fancy with Iggy Azalea #1", "date": "2014-06-07", "color": "#9333ea", "shape": "star" },
+    { "label": "Sucker Album", "date": "2014-12-15", "color": "#ec4899", "shape": "star" },
+    { "label": "Vroom Vroom EP (PC Music)", "date": "2016-02-26", "color": "#ec4899", "shape": "star" },
+    { "label": "Number 1 Angel Mixtape", "date": "2017-03-10", "color": "#ec4899", "shape": "star" },
+    { "label": "Pop 2 Mixtape", "date": "2017-12-15", "color": "#ec4899", "shape": "star" },
+    { "label": "Charli Album", "date": "2019-09-13", "color": "#3b82f6", "shape": "star" },
+    { "label": "How I'm Feeling Now (Lockdown)", "date": "2020-05-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Crash Album #1 UK", "date": "2022-03-18", "color": "#3b82f6", "shape": "star" },
+    { "label": "Engaged to George Daniel", "date": "2023-10-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Brat Album", "date": "2024-06-07", "color": "#84cc16", "shape": "star" },
+    { "label": "Brat Summer Phenomenon", "date": "2024-06-15", "color": "#84cc16", "shape": "heart" },
+    { "label": "360 Hit", "date": "2024-05-01", "color": "#84cc16", "shape": "diamond" },
+    { "label": "Apple with Sophie #1 UK", "date": "2024-10-26", "color": "#84cc16", "shape": "diamond" },
+    { "label": "Grammy Nominations", "date": "2024-11-08", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

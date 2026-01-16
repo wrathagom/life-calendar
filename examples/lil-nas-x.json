@@ -1,0 +1,55 @@
+{
+  "name": "Lil Nas X",
+  "sex": "male",
+  "dob": "1999-04-09",
+  "country": "United States",
+  "theme": "dracula",
+  "periods": [
+    {
+      "label": "Social Media / Viral Era",
+      "startDate": "2018-12-03",
+      "endDate": "2019-06-29",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Old Town Road Phenomenon",
+      "startDate": "2019-03-01",
+      "endDate": "2020-05-31",
+      "color": "#10b981"
+    },
+    {
+      "label": "Montero Era",
+      "startDate": "2021-03-26",
+      "endDate": "2023-09-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Post-Montero Era",
+      "startDate": "2023-09-15",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Twitter Fame Began", "date": "2017-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Old Town Road Released", "date": "2018-12-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Song Goes Viral on TikTok", "date": "2019-02-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Removed from Country Chart", "date": "2019-03-26", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Billy Ray Cyrus Remix", "date": "2019-04-05", "color": "#10b981", "shape": "star" },
+    { "label": "Old Town Road #1 (19 weeks)", "date": "2019-04-13", "color": "#10b981", "shape": "diamond" },
+    { "label": "Longest #1 in History", "date": "2019-07-29", "color": "#fbbf24", "shape": "heart" },
+    { "label": "7 EP Released", "date": "2019-06-21", "color": "#10b981", "shape": "star" },
+    { "label": "Came Out Publicly", "date": "2019-06-30", "color": "#ec4899", "shape": "heart" },
+    { "label": "Grammy Best Pop Duo/Group", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best Music Video", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Montero (Call Me) Released", "date": "2021-03-26", "color": "#9333ea", "shape": "star" },
+    { "label": "Satan Shoes Controversy", "date": "2021-03-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Montero #1", "date": "2021-04-03", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Montero Album Released", "date": "2021-09-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Industry Baby #1", "date": "2021-10-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Long Live Montero Tour", "date": "2022-09-06", "color": "#9333ea", "shape": "star" },
+    { "label": "Star Walkin' (LoL Worlds)", "date": "2022-09-23", "color": "#9333ea", "shape": "star" },
+    { "label": "J Christ Released", "date": "2024-01-05", "color": "#ef4444", "shape": "star" },
+    { "label": "3 Grammy Wins Total", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

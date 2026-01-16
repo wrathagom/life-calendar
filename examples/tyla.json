@@ -1,0 +1,44 @@
+{
+  "name": "Tyla",
+  "sex": "female",
+  "dob": "2002-01-30",
+  "country": "South Africa",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2019-07-26",
+      "endDate": "2023-07-27",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Water Era",
+      "startDate": "2023-07-28",
+      "endDate": "2024-03-21",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "TYLA Era",
+      "startDate": "2024-03-22",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Getting Late Debut Single", "date": "2019-07-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Epic Records", "date": "2021-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Been Thinking Single", "date": "2022-08-26", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Are You Single Collab", "date": "2023-04-07", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Water Released", "date": "2023-07-28", "color": "#3b82f6", "shape": "star" },
+    { "label": "Water TikTok Viral", "date": "2023-09-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Water #7 Billboard Hot 100", "date": "2024-02-03", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Grammy for Best African Music", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "First SA Grammy Winner for AMV", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "TYLA Debut Album #1", "date": "2024-03-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Truth or Dare Hit", "date": "2024-03-22", "color": "#9333ea", "shape": "diamond" },
+    { "label": "BET Best New Artist", "date": "2024-06-30", "color": "#fbbf24", "shape": "heart" },
+    { "label": "MTV VMA Best Afrobeats", "date": "2024-09-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Billboard Women in Music Rising Star", "date": "2024-03-06", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Push 2 Start Hit", "date": "2024-10-18", "color": "#9333ea", "shape": "diamond" }
+  ]
+}

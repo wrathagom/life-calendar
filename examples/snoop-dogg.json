@@ -1,0 +1,60 @@
+{
+  "name": "Snoop Dogg",
+  "sex": "male",
+  "dob": "1971-10-20",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Death Row Era",
+      "startDate": "1992-01-01",
+      "endDate": "1998-01-14",
+      "color": "#ef4444"
+    },
+    {
+      "label": "No Limit Era",
+      "startDate": "1998-01-15",
+      "endDate": "2002-12-31",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Dogg Pound/Geffen Era",
+      "startDate": "2003-01-01",
+      "endDate": "2008-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Malice N Wonderland Era",
+      "startDate": "2009-01-01",
+      "endDate": "2015-05-11",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Gospel/Cultural Icon Era",
+      "startDate": "2018-03-16",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Deep Cover Debut", "date": "1992-04-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Featured on The Chronic", "date": "1992-12-15", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Doggystyle #1 Debut", "date": "1993-11-23", "color": "#ef4444", "shape": "star" },
+    { "label": "Gin and Juice Hit", "date": "1994-02-01", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Murder Acquittal", "date": "1996-02-20", "color": "#6b7280", "shape": "circle" },
+    { "label": "Tha Doggfather", "date": "1996-11-12", "color": "#ef4444", "shape": "star" },
+    { "label": "Da Game Is to Be Sold", "date": "1998-08-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "R&G (Rhythm & Gangsta)", "date": "2004-11-16", "color": "#3b82f6", "shape": "star" },
+    { "label": "Drop It Like It's Hot #1", "date": "2004-10-30", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Married Shante Taylor", "date": "1997-06-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Corde Born", "date": "1994-08-21", "color": "#ef4444", "shape": "heart" },
+    { "label": "Snoop Lion (Reggae)", "date": "2012-07-31", "color": "#9333ea", "shape": "star" },
+    { "label": "Bush Album", "date": "2015-05-12", "color": "#9333ea", "shape": "star" },
+    { "label": "Bible of Love Gospel Album", "date": "2018-03-16", "color": "#10b981", "shape": "star" },
+    { "label": "Hollywood Star", "date": "2018-11-19", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Super Bowl Halftime", "date": "2022-02-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Paris Olympics Torchbearer", "date": "2024-07-26", "color": "#fbbf24", "shape": "star" },
+    { "label": "Death Row Records Owner", "date": "2022-02-09", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Missionary Album", "date": "2024-12-13", "color": "#10b981", "shape": "star" }
+  ]
+}

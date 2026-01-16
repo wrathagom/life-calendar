@@ -1,0 +1,52 @@
+{
+  "name": "Zendaya",
+  "sex": "female",
+  "dob": "1996-09-01",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Disney Channel Era",
+      "startDate": "2010-01-01",
+      "endDate": "2016-12-31",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Film Transition",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Euphoria & Blockbusters",
+      "startDate": "2019-01-01",
+      "endDate": "2023-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Leading Star Era",
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Shake It Up Cast", "date": "2010-11-07", "color": "#ec4899", "shape": "star" },
+    { "label": "Music Debut - Swag It Out", "date": "2011-07-01", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Zendaya Album", "date": "2013-09-17", "color": "#ec4899", "shape": "star" },
+    { "label": "K.C. Undercover Lead", "date": "2015-01-18", "color": "#ec4899", "shape": "star" },
+    { "label": "Spider-Man: Homecoming", "date": "2017-07-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Greatest Showman", "date": "2017-12-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Euphoria Premiere", "date": "2019-06-16", "color": "#9333ea", "shape": "star" },
+    { "label": "Spider-Man: Far From Home", "date": "2019-07-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Emmy Win - Euphoria", "date": "2020-09-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Youngest Drama Lead Emmy Winner", "date": "2020-09-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Malcolm & Marie", "date": "2021-02-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Dune", "date": "2021-10-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Spider-Man: No Way Home", "date": "2021-12-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Second Emmy Win", "date": "2022-09-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Challengers - Lead Role", "date": "2024-04-26", "color": "#f59e0b", "shape": "star" },
+    { "label": "Dune: Part Two", "date": "2024-03-01", "color": "#f59e0b", "shape": "star" },
+    { "label": "CFDA Fashion Icon Award", "date": "2021-11-10", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

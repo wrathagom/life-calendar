@@ -1,0 +1,54 @@
+{
+  "name": "Dwayne Johnson",
+  "sex": "male",
+  "dob": "1972-05-02",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Football Era",
+      "startDate": "1991-01-01",
+      "endDate": "1995-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "WWE Era",
+      "startDate": "1996-01-01",
+      "endDate": "2004-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Transition to Film",
+      "startDate": "2005-01-01",
+      "endDate": "2010-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Hollywood A-List",
+      "startDate": "2011-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "University of Miami Football", "date": "1991-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "National Championship", "date": "1991-01-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Dany Garcia", "date": "1997-05-03", "color": "#ef4444", "shape": "heart" },
+    { "label": "WWE Debut - Survivor Series", "date": "1996-11-17", "color": "#3b82f6", "shape": "star" },
+    { "label": "Daughter Simone Born", "date": "2001-08-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "WWF Champion", "date": "1998-11-15", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Mummy Returns - Film Debut", "date": "2001-05-04", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Scorpion King", "date": "2002-04-19", "color": "#3b82f6", "shape": "star" },
+    { "label": "Walking Tall", "date": "2004-04-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Fast Five - Joins Franchise", "date": "2011-04-29", "color": "#f59e0b", "shape": "star" },
+    { "label": "Married Lauren Hashian", "date": "2019-08-18", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Jasmine Born", "date": "2015-12-16", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Tiana Born", "date": "2018-04-17", "color": "#ef4444", "shape": "heart" },
+    { "label": "Moana - Voice Role", "date": "2016-11-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Jumanji: Welcome to the Jungle", "date": "2017-12-20", "color": "#f59e0b", "shape": "star" },
+    { "label": "Highest-Paid Actor", "date": "2019-08-21", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Black Adam", "date": "2022-10-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Young Rock TV Series", "date": "2021-02-16", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Moana 2", "date": "2024-11-27", "color": "#f59e0b", "shape": "star" }
+  ]
+}

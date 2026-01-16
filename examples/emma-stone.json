@@ -1,0 +1,53 @@
+{
+  "name": "Emma Stone",
+  "sex": "female",
+  "dob": "1988-11-06",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2004-01-01",
+      "endDate": "2009-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Comedy Star Era",
+      "startDate": "2010-01-01",
+      "endDate": "2013-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List Era",
+      "startDate": "2014-01-01",
+      "endDate": "2019-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Oscar Winner Era",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to LA at 15", "date": "2004-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Superbad Breakthrough", "date": "2007-08-17", "color": "#6b7280", "shape": "star" },
+    { "label": "The House Bunny", "date": "2008-08-22", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Zombieland", "date": "2009-10-02", "color": "#6b7280", "shape": "star" },
+    { "label": "Easy A - Breakthrough", "date": "2010-09-17", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Help", "date": "2011-08-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Amazing Spider-Man", "date": "2012-07-03", "color": "#3b82f6", "shape": "star" },
+    { "label": "Birdman - Oscar Nom", "date": "2014-10-17", "color": "#9333ea", "shape": "star" },
+    { "label": "La La Land - Oscar Win", "date": "2017-02-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Golden Globe - La La Land", "date": "2017-01-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Battle of the Sexes", "date": "2017-09-22", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Favourite - Oscar Nom", "date": "2018-11-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Dave McCary", "date": "2020-09-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Louise Born", "date": "2021-03-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Cruella", "date": "2021-05-28", "color": "#f59e0b", "shape": "star" },
+    { "label": "Poor Things - Oscar Win", "date": "2024-03-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Venice - Best Actress", "date": "2023-09-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Kinds of Kindness", "date": "2024-06-21", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

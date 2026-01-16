@@ -1,0 +1,61 @@
+{
+  "name": "50 Cent",
+  "sex": "male",
+  "dob": "1975-07-06",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2000-01-01",
+      "endDate": "2003-02-05",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Get Rich or Die Tryin' Era",
+      "startDate": "2003-02-06",
+      "endDate": "2005-03-07",
+      "color": "#ef4444"
+    },
+    {
+      "label": "The Massacre Era",
+      "startDate": "2005-03-08",
+      "endDate": "2007-09-10",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Curtis Era",
+      "startDate": "2007-09-11",
+      "endDate": "2014-11-10",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Power Producer Era",
+      "startDate": "2014-06-07",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Columbia", "date": "1999-06-29", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Shot 9 Times", "date": "2000-05-24", "color": "#6b7280", "shape": "circle" },
+    { "label": "Guess Who's Back Mixtape", "date": "2002-04-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Shady/Aftermath", "date": "2002-07-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Get Rich or Die Tryin' #1", "date": "2003-02-06", "color": "#ef4444", "shape": "star" },
+    { "label": "In Da Club #1", "date": "2003-02-22", "color": "#ef4444", "shape": "diamond" },
+    { "label": "21 Questions #1", "date": "2003-06-14", "color": "#ef4444", "shape": "diamond" },
+    { "label": "G-Unit Founded", "date": "2003-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "The Massacre #1", "date": "2005-03-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "Candy Shop #1", "date": "2005-04-02", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Get Rich Film", "date": "2005-11-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Curtis Album", "date": "2007-09-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "Ayo Technology Hit", "date": "2007-07-10", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Son Marquise Born", "date": "1996-10-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Sire Born", "date": "2012-09-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Bankruptcy Filing", "date": "2015-07-13", "color": "#6b7280", "shape": "circle" },
+    { "label": "Power TV Show Premiere", "date": "2014-06-07", "color": "#9333ea", "shape": "star" },
+    { "label": "Power Finale", "date": "2020-02-09", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Hollywood Star", "date": "2020-01-30", "color": "#fbbf24", "shape": "heart" },
+    { "label": "BMF Show Premiere", "date": "2021-09-26", "color": "#9333ea", "shape": "star" }
+  ]
+}

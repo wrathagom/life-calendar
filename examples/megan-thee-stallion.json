@@ -1,0 +1,61 @@
+{
+  "name": "Megan Thee Stallion",
+  "sex": "female",
+  "dob": "1995-02-15",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2016-01-01",
+      "endDate": "2020-03-05",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Hot Girl Summer / Suga",
+      "startDate": "2019-05-17",
+      "endDate": "2020-11-19",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Good News Era",
+      "startDate": "2020-11-20",
+      "endDate": "2022-08-11",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Traumazine Era",
+      "startDate": "2022-08-12",
+      "endDate": "2024-06-27",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Megan Era",
+      "startDate": "2024-06-28",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Rich Ratchet Mixtape", "date": "2016-04-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Make It Hot EP", "date": "2017-10-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to 300 Entertainment", "date": "2018-11-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Tina Snow Mixtape", "date": "2018-06-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Fever Mixtape", "date": "2019-05-17", "color": "#ec4899", "shape": "star" },
+    { "label": "Hot Girl Summer Viral", "date": "2019-08-09", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Mother Holly Passed", "date": "2019-03-22", "color": "#6b7280", "shape": "heart" },
+    { "label": "Suga EP", "date": "2020-03-06", "color": "#ec4899", "shape": "star" },
+    { "label": "Savage Remix with Beyoncé", "date": "2020-04-29", "color": "#ec4899", "shape": "diamond" },
+    { "label": "WAP #1 (4 weeks)", "date": "2020-08-22", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Shot by Tory Lanez", "date": "2020-07-12", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Good News Released", "date": "2020-11-20", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy Best New Artist", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "3 Grammys in One Night", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Texas Southern Degree", "date": "2021-12-11", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Traumazine Released", "date": "2022-08-12", "color": "#9333ea", "shape": "star" },
+    { "label": "Tory Lanez Convicted", "date": "2022-12-23", "color": "#10b981", "shape": "diamond" },
+    { "label": "Hiss Viral Hit", "date": "2024-01-26", "color": "#10b981", "shape": "diamond" },
+    { "label": "Megan Album Released", "date": "2024-06-28", "color": "#10b981", "shape": "star" },
+    { "label": "6 Grammy Wins Total", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

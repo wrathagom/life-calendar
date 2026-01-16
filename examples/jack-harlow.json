@@ -1,0 +1,44 @@
+{
+  "name": "Jack Harlow",
+  "sex": "male",
+  "dob": "1998-03-13",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2015-11-17",
+      "endDate": "2020-01-20",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Thats What They All Say Era",
+      "startDate": "2020-01-21",
+      "endDate": "2022-05-05",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Come Home the Kids Miss You Era",
+      "startDate": "2022-05-06",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "The Handsome Harlow Mixtape", "date": "2015-11-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Finally Handsome Mixtape", "date": "2016-09-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Gazebo EP", "date": "2017-10-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Generation Now/Atlantic", "date": "2018-08-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Loose Mixtape", "date": "2018-08-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Confetti Mixtape", "date": "2019-11-08", "color": "#6b7280", "shape": "star" },
+    { "label": "What's Poppin' Goes Viral", "date": "2020-01-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "What's Poppin' Remix Top 2", "date": "2020-07-04", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "That's What They All Say Album", "date": "2020-12-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "Industry Baby with Lil Nas X #1", "date": "2021-10-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Nomination", "date": "2022-11-15", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "First Class #1", "date": "2022-04-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Come Home the Kids Miss You #3", "date": "2022-05-06", "color": "#9333ea", "shape": "star" },
+    { "label": "White Men Can't Jump Film", "date": "2023-05-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Jackman Album", "date": "2023-09-29", "color": "#9333ea", "shape": "star" }
+  ]
+}

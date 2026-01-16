@@ -1,0 +1,49 @@
+{
+  "name": "Olivia Rodrigo",
+  "sex": "female",
+  "dob": "2003-02-20",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Disney Channel Era",
+      "startDate": "2016-01-01",
+      "endDate": "2021-01-07",
+      "color": "#ec4899"
+    },
+    {
+      "label": "SOUR Era",
+      "startDate": "2021-01-08",
+      "endDate": "2023-09-07",
+      "color": "#9333ea"
+    },
+    {
+      "label": "GUTS Era",
+      "startDate": "2023-09-08",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Bizaardvark (Disney)", "date": "2016-06-24", "color": "#ec4899", "shape": "star" },
+    { "label": "High School Musical Series", "date": "2019-11-12", "color": "#ec4899", "shape": "star" },
+    { "label": "All I Want Released", "date": "2019-11-14", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Drivers License Released", "date": "2021-01-08", "color": "#9333ea", "shape": "star" },
+    { "label": "Drivers License #1 (8 weeks)", "date": "2021-01-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Signed to Geffen Records", "date": "2021-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Deja Vu Released", "date": "2021-04-01", "color": "#9333ea", "shape": "star" },
+    { "label": "Good 4 U #1", "date": "2021-05-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "SOUR Album Released", "date": "2021-05-21", "color": "#9333ea", "shape": "star" },
+    { "label": "3 Grammys Including Best New", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "SOUR Tour", "date": "2022-04-02", "color": "#9333ea", "shape": "star" },
+    { "label": "White House Visit", "date": "2021-07-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Vampire Released", "date": "2023-06-30", "color": "#ef4444", "shape": "star" },
+    { "label": "Vampire #1", "date": "2023-07-15", "color": "#ef4444", "shape": "diamond" },
+    { "label": "GUTS Album Released", "date": "2023-09-08", "color": "#ef4444", "shape": "star" },
+    { "label": "GUTS World Tour", "date": "2024-02-23", "color": "#ef4444", "shape": "star" },
+    { "label": "Grammy Best Pop Vocal Album", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "GUTS (Spilled) Deluxe", "date": "2024-03-22", "color": "#ef4444", "shape": "star" },
+    { "label": "4 Grammy Wins Total", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Obsessed Success", "date": "2024-03-22", "color": "#ef4444", "shape": "diamond" }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Zach Bryan",
+  "sex": "male",
+  "dob": "1996-04-02",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Navy / Independent Era",
+      "startDate": "2019-08-24",
+      "endDate": "2022-05-19",
+      "color": "#6b7280"
+    },
+    {
+      "label": "American Heartbreak Era",
+      "startDate": "2022-05-20",
+      "endDate": "2023-08-24",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Self-Titled Era",
+      "startDate": "2023-08-25",
+      "endDate": "2024-07-03",
+      "color": "#9333ea"
+    },
+    {
+      "label": "The Great American Bar Scene Era",
+      "startDate": "2024-07-04",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Enlisted in US Navy", "date": "2013-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "DeAnn Album (YouTube Release)", "date": "2019-08-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Elisabeth EP", "date": "2020-05-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Quiet, Heavy Dreams EP", "date": "2020-11-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Warner Records", "date": "2021-11-18", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Honorable Navy Discharge", "date": "2021-10-15", "color": "#6b7280", "shape": "circle" },
+    { "label": "American Heartbreak #5", "date": "2022-05-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Something in the Orange Hit", "date": "2022-04-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "All My Homies Hate Ticketmaster", "date": "2023-04-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "Zach Bryan Self-Titled #1", "date": "2023-08-25", "color": "#9333ea", "shape": "star" },
+    { "label": "I Remember Everything #1", "date": "2023-09-16", "color": "#9333ea", "shape": "star" },
+    { "label": "CMA Award for Musical Event", "date": "2023-11-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy for I Remember Everything", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Great American Bar Scene #2", "date": "2024-07-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "Pink Skies Hit", "date": "2024-07-04", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "28 to 3 Hit", "date": "2024-10-18", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

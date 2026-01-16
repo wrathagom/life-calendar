@@ -1,0 +1,62 @@
+{
+  "name": "Freddie Mercury",
+  "sex": "male",
+  "dob": "1946-09-05",
+  "country": "United Kingdom",
+  "theme": "gold",
+  "customLifeExpectancy": 45.21,
+  "periods": [
+    {
+      "label": "Pre-Queen Era",
+      "startDate": "1964-01-01",
+      "endDate": "1970-06-26",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Queen Formation & Rise",
+      "startDate": "1970-06-27",
+      "endDate": "1975-10-30",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Queen Peak Era",
+      "startDate": "1975-10-31",
+      "endDate": "1982-05-20",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Works / Live Aid Era",
+      "startDate": "1984-02-27",
+      "endDate": "1986-08-09",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Final Years",
+      "startDate": "1986-08-10",
+      "endDate": "1991-11-24",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to England", "date": "1964-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Met Brian May & Roger", "date": "1970-04-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Queen Formed", "date": "1970-06-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Queen Debut Album", "date": "1973-07-13", "color": "#3b82f6", "shape": "star" },
+    { "label": "Queen II", "date": "1974-03-08", "color": "#3b82f6", "shape": "star" },
+    { "label": "Sheer Heart Attack", "date": "1974-11-08", "color": "#3b82f6", "shape": "star" },
+    { "label": "A Night at the Opera", "date": "1975-11-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bohemian Rhapsody #1", "date": "1975-10-31", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "News of the World", "date": "1977-10-28", "color": "#f59e0b", "shape": "star" },
+    { "label": "We Will Rock You/Champions", "date": "1977-10-07", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Jazz Album", "date": "1978-11-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Game #1 US", "date": "1980-06-30", "color": "#f59e0b", "shape": "star" },
+    { "label": "Crazy Little Thing #1 US", "date": "1980-02-23", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Another One Bites #1 US", "date": "1980-10-04", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Under Pressure w/ Bowie", "date": "1981-10-26", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Live Aid Performance", "date": "1985-07-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "A Kind of Magic", "date": "1986-06-02", "color": "#ef4444", "shape": "star" },
+    { "label": "Final Concert (Knebworth)", "date": "1986-08-09", "color": "#ef4444", "shape": "heart" },
+    { "label": "Innuendo Album", "date": "1991-02-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Passed Away", "date": "1991-11-24", "color": "#6b7280", "shape": "heart" }
+  ]
+}

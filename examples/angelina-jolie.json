@@ -1,0 +1,60 @@
+{
+  "name": "Angelina Jolie",
+  "sex": "female",
+  "dob": "1975-06-04",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1993-01-01",
+      "endDate": "1998-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Oscar & Action Star",
+      "startDate": "1999-01-01",
+      "endDate": "2005-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Humanitarian & Mother",
+      "startDate": "2006-01-01",
+      "endDate": "2014-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Director & Advocate",
+      "startDate": "2015-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Film Debut - Cyborg 2", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Hackers", "date": "1995-09-15", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Married Jonny Lee Miller", "date": "1996-03-28", "color": "#ef4444", "shape": "heart" },
+    { "label": "George Wallace - Golden Globe", "date": "1997-08-13", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Gia - Golden Globe", "date": "1998-01-31", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Girl, Interrupted - Oscar Win", "date": "2000-03-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Billy Bob Thornton", "date": "2000-05-05", "color": "#ef4444", "shape": "heart" },
+    { "label": "Lara Croft: Tomb Raider", "date": "2001-06-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Adopted Son Maddox", "date": "2002-03-10", "color": "#ef4444", "shape": "heart" },
+    { "label": "UNHCR Goodwill Ambassador", "date": "2001-08-27", "color": "#10b981", "shape": "heart" },
+    { "label": "Mr. & Mrs. Smith", "date": "2005-06-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "Adopted Daughter Zahara", "date": "2005-07-06", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Shiloh Born", "date": "2006-05-27", "color": "#ef4444", "shape": "heart" },
+    { "label": "Adopted Son Pax", "date": "2007-03-15", "color": "#ef4444", "shape": "heart" },
+    { "label": "A Mighty Heart", "date": "2007-06-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Changeling - Oscar Nom", "date": "2008-10-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Twins Knox & Vivienne Born", "date": "2008-07-12", "color": "#ef4444", "shape": "heart" },
+    { "label": "Salt", "date": "2010-07-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "In the Land of Blood and Honey - Director", "date": "2011-12-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Maleficent", "date": "2014-05-30", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Brad Pitt", "date": "2014-08-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "Unbroken - Director", "date": "2014-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "First They Killed My Father", "date": "2017-09-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "Eternals", "date": "2021-11-05", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Maria (Maria Callas)", "date": "2024-11-27", "color": "#f59e0b", "shape": "star" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Dolly Parton",
+  "sex": "female",
+  "dob": "1946-01-19",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Early Nashville Years",
+      "startDate": "1964-01-01",
+      "endDate": "1974-02-15",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Country Superstar",
+      "startDate": "1974-02-16",
+      "endDate": "1980-10-27",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Pop Crossover / Film Era",
+      "startDate": "1977-06-15",
+      "endDate": "1989-11-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Return to Country",
+      "startDate": "1989-11-07",
+      "endDate": "2008-02-10",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Living Legend Era",
+      "startDate": "2008-02-11",
+      "endDate": "2025-12-31",
+      "color": "#fbbf24"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to Nashville (Day After Graduation)", "date": "1964-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Married Carl Dean", "date": "1966-05-30", "color": "#ef4444", "shape": "heart" },
+    { "label": "Porter Wagoner Show", "date": "1967-09-05", "color": "#f59e0b", "shape": "star" },
+    { "label": "Jolene Released", "date": "1973-10-15", "color": "#ec4899", "shape": "star" },
+    { "label": "Jolene #1 Country", "date": "1974-02-16", "color": "#ec4899", "shape": "diamond" },
+    { "label": "I Will Always Love You", "date": "1974-03-18", "color": "#ec4899", "shape": "star" },
+    { "label": "Here You Come Again", "date": "1977-10-03", "color": "#9333ea", "shape": "star" },
+    { "label": "9 to 5 Film", "date": "1980-12-19", "color": "#9333ea", "shape": "star" },
+    { "label": "9 to 5 Song #1", "date": "1981-02-21", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy 9 to 5", "date": "1982-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Islands in the Stream w/ Kenny", "date": "1983-10-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Steel Magnolias Film", "date": "1989-11-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Whitney's I Will Always Love You", "date": "1992-11-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Dollywood Opened", "date": "1986-05-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Trio with Emmylou & Linda", "date": "1987-03-02", "color": "#3b82f6", "shape": "star" },
+    { "label": "Grammy Lifetime Achievement", "date": "2011-02-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rock Hall of Fame (Declined)", "date": "2022-05-07", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Rock Hall of Fame (Inducted)", "date": "2022-11-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rockstar Album", "date": "2023-11-17", "color": "#ef4444", "shape": "star" },
+    { "label": "11 Grammy Wins Total", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

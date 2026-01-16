@@ -1,0 +1,61 @@
+{
+  "name": "Shakira",
+  "sex": "female",
+  "dob": "1977-02-02",
+  "country": "Colombia",
+  "theme": "gold",
+  "periods": [
+    {
+      "label": "Early Colombian Career",
+      "startDate": "1990-06-01",
+      "endDate": "1998-09-28",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Dónde Están los Ladrones Era",
+      "startDate": "1998-09-29",
+      "endDate": "2001-11-12",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "English Crossover",
+      "startDate": "2001-11-13",
+      "endDate": "2010-10-18",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Sale el Sol / She Wolf Era",
+      "startDate": "2009-10-09",
+      "endDate": "2017-05-25",
+      "color": "#9333ea"
+    },
+    {
+      "label": "El Dorado / Las Mujeres Era",
+      "startDate": "2017-05-26",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "First Album Magia", "date": "1991-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Pies Descalzos", "date": "1995-10-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Dónde Están los Ladrones", "date": "1998-09-29", "color": "#f59e0b", "shape": "star" },
+    { "label": "MTV Unplugged Success", "date": "2000-01-12", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Laundry Service (English)", "date": "2001-11-13", "color": "#ec4899", "shape": "star" },
+    { "label": "Whenever, Wherever Global", "date": "2001-10-26", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Hips Don't Lie #1 Global", "date": "2006-06-17", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Oral Fixation Vol. 2", "date": "2005-11-28", "color": "#ec4899", "shape": "star" },
+    { "label": "She Wolf Album", "date": "2009-10-09", "color": "#9333ea", "shape": "star" },
+    { "label": "Waka Waka (World Cup)", "date": "2010-06-07", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Sale el Sol", "date": "2010-10-19", "color": "#9333ea", "shape": "star" },
+    { "label": "The Voice Coach", "date": "2013-03-25", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Son Milan Born", "date": "2013-01-22", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Sasha Born", "date": "2015-01-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "El Dorado Album", "date": "2017-05-26", "color": "#ef4444", "shape": "star" },
+    { "label": "Super Bowl LIV Halftime", "date": "2020-02-02", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Split from Piqué", "date": "2022-06-04", "color": "#6b7280", "shape": "diamond" },
+    { "label": "BZRP Music Session #53", "date": "2023-01-11", "color": "#ef4444", "shape": "star" },
+    { "label": "Las Mujeres Ya No Lloran", "date": "2024-03-22", "color": "#ef4444", "shape": "star" },
+    { "label": "3 Grammy Wins Total", "date": "2006-02-08", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Mariah Carey",
+  "sex": "female",
+  "dob": "1970-03-27",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Columbia Records Era",
+      "startDate": "1990-06-12",
+      "endDate": "2001-01-22",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Virgin/Island Struggle",
+      "startDate": "2001-01-23",
+      "endDate": "2005-04-11",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Emancipation / Comeback",
+      "startDate": "2005-04-12",
+      "endDate": "2014-05-26",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Vegas / Christmas Queen",
+      "startDate": "2014-05-27",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Columbia Records", "date": "1988-12-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Mariah Carey Debut Album", "date": "1990-06-12", "color": "#ec4899", "shape": "star" },
+    { "label": "Vision of Love #1", "date": "1990-08-04", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Married Tommy Mottola", "date": "1993-06-05", "color": "#ef4444", "shape": "heart" },
+    { "label": "Music Box Album", "date": "1993-08-31", "color": "#ec4899", "shape": "star" },
+    { "label": "Hero #1", "date": "1993-12-25", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Daydream Album", "date": "1995-10-03", "color": "#ec4899", "shape": "star" },
+    { "label": "One Sweet Day #1 (16 weeks)", "date": "1995-12-02", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Fantasy #1", "date": "1995-09-30", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Butterfly Album", "date": "1997-09-16", "color": "#ec4899", "shape": "star" },
+    { "label": "Glitter Soundtrack", "date": "2001-09-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Breakdown / Hospitalized", "date": "2001-07-26", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Emancipation of Mimi", "date": "2005-04-12", "color": "#f59e0b", "shape": "star" },
+    { "label": "We Belong Together #1 (14 weeks)", "date": "2005-06-04", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy Best R&B Album", "date": "2006-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Twins Moroccan & Monroe Born", "date": "2011-04-30", "color": "#ef4444", "shape": "heart" },
+    { "label": "All I Want for Christmas Revival", "date": "2019-12-21", "color": "#ef4444", "shape": "diamond" },
+    { "label": "All I Want for Christmas #1", "date": "2019-12-21", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Rock Hall of Fame", "date": "2023-11-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "19 #1 Singles Record", "date": "2008-04-12", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

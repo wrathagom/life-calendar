@@ -1,0 +1,43 @@
+{
+  "name": "Victoria Monét",
+  "sex": "female",
+  "dob": "1989-05-01",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Songwriting Era",
+      "startDate": "2010-01-01",
+      "endDate": "2018-08-02",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Life After Love Era",
+      "startDate": "2018-08-03",
+      "endDate": "2023-08-24",
+      "color": "#9333ea"
+    },
+    {
+      "label": "JAGUAR II Era",
+      "startDate": "2023-08-25",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Atlantic (Duo)", "date": "2009-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Started Songwriting Career", "date": "2010-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Wrote for Fifth Harmony", "date": "2013-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Wrote Thank U, Next with Ariana", "date": "2018-11-30", "color": "#6b7280", "shape": "star" },
+    { "label": "Wrote 7 Rings with Ariana", "date": "2019-01-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Grammy for Thank U, Next (Writer)", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Life After Love Vol 1 EP", "date": "2018-08-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Jaguar EP", "date": "2020-08-07", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Hazel Born", "date": "2021-02-26", "color": "#ef4444", "shape": "heart" },
+    { "label": "JAGUAR II Album", "date": "2023-08-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "On My Mama Hit", "date": "2023-08-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "3 Grammy Wins", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Best New Artist Grammy", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Alicia Hit", "date": "2023-10-13", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

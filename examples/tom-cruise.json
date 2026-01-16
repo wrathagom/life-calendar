@@ -1,0 +1,57 @@
+{
+  "name": "Tom Cruise",
+  "sex": "male",
+  "dob": "1962-07-03",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1981-01-01",
+      "endDate": "1985-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Top Gun Era",
+      "startDate": "1986-01-01",
+      "endDate": "1995-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Mission: Impossible Begins",
+      "startDate": "1996-01-01",
+      "endDate": "2010-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Action Legend Era",
+      "startDate": "2011-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Film Debut - Endless Love", "date": "1981-07-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Risky Business", "date": "1983-08-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Top Gun", "date": "1986-05-16", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Color of Money", "date": "1986-10-17", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Married Mimi Rogers", "date": "1987-05-09", "color": "#ef4444", "shape": "heart" },
+    { "label": "Rain Man", "date": "1988-12-16", "color": "#3b82f6", "shape": "star" },
+    { "label": "Born on the Fourth of July - Oscar Nom", "date": "1989-12-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Nicole Kidman", "date": "1990-12-24", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Isabella Adopted", "date": "1992-12-22", "color": "#ef4444", "shape": "heart" },
+    { "label": "A Few Good Men", "date": "1992-12-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Connor Adopted", "date": "1995-01-17", "color": "#ef4444", "shape": "heart" },
+    { "label": "Jerry Maguire - Oscar Nom", "date": "1996-12-13", "color": "#9333ea", "shape": "star" },
+    { "label": "Mission: Impossible", "date": "1996-05-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Eyes Wide Shut", "date": "1999-07-16", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Magnolia - Oscar Nom", "date": "1999-12-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Katie Holmes", "date": "2006-11-18", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Suri Born", "date": "2006-04-18", "color": "#ef4444", "shape": "heart" },
+    { "label": "Mission: Impossible - Ghost Protocol", "date": "2011-12-16", "color": "#f59e0b", "shape": "star" },
+    { "label": "Edge of Tomorrow", "date": "2014-06-06", "color": "#f59e0b", "shape": "star" },
+    { "label": "Top Gun: Maverick", "date": "2022-05-27", "color": "#f59e0b", "shape": "star" },
+    { "label": "$1.4 Billion - Top Gun: Maverick", "date": "2022-08-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Mission: Impossible - Dead Reckoning", "date": "2023-07-12", "color": "#f59e0b", "shape": "star" }
+  ]
+}

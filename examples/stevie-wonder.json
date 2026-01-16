@@ -1,0 +1,61 @@
+{
+  "name": "Stevie Wonder",
+  "sex": "male",
+  "dob": "1950-05-13",
+  "country": "United States",
+  "theme": "gold",
+  "periods": [
+    {
+      "label": "Little Stevie Wonder",
+      "startDate": "1961-01-01",
+      "endDate": "1971-05-21",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Classic Period",
+      "startDate": "1972-03-03",
+      "endDate": "1980-09-29",
+      "color": "#10b981"
+    },
+    {
+      "label": "Hotter Than July Era",
+      "startDate": "1980-09-30",
+      "endDate": "1987-10-19",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Later Career",
+      "startDate": "1995-10-24",
+      "endDate": "2005-10-25",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Living Legend Era",
+      "startDate": "2005-10-26",
+      "endDate": "2025-12-31",
+      "color": "#fbbf24"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Motown (Age 11)", "date": "1961-01-01", "color": "#f59e0b", "shape": "star" },
+    { "label": "Fingertips #1 (Age 13)", "date": "1963-08-10", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Uptight Success", "date": "1965-12-04", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Signed You, Me & Us", "date": "1966-02-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "Full Creative Control", "date": "1971-05-21", "color": "#10b981", "shape": "diamond" },
+    { "label": "Music of My Mind", "date": "1972-03-03", "color": "#10b981", "shape": "star" },
+    { "label": "Talking Book", "date": "1972-10-27", "color": "#10b981", "shape": "star" },
+    { "label": "Superstition #1", "date": "1972-12-16", "color": "#10b981", "shape": "diamond" },
+    { "label": "Innervisions", "date": "1973-08-03", "color": "#10b981", "shape": "star" },
+    { "label": "Car Accident (Nearly Fatal)", "date": "1973-08-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Fulfillingness' First Finale", "date": "1974-07-22", "color": "#10b981", "shape": "star" },
+    { "label": "Songs in the Key of Life", "date": "1976-09-28", "color": "#10b981", "shape": "star" },
+    { "label": "Grammy Album of Year x3", "date": "1977-02-19", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Hotter Than July", "date": "1980-09-29", "color": "#3b82f6", "shape": "star" },
+    { "label": "MLK Day Campaign", "date": "1981-01-15", "color": "#ef4444", "shape": "heart" },
+    { "label": "I Just Called #1 Global", "date": "1984-10-13", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Oscar for I Just Called", "date": "1985-03-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Rock Hall of Fame", "date": "1989-01-18", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Gershwin Prize for Pop", "date": "2009-02-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "25 Grammy Wins Total", "date": "2006-02-08", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

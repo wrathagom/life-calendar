@@ -1,0 +1,55 @@
+{
+  "name": "Meryl Streep",
+  "sex": "female",
+  "dob": "1949-06-22",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & Early Film",
+      "startDate": "1975-01-01",
+      "endDate": "1979-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Rise to Stardom",
+      "startDate": "1980-01-01",
+      "endDate": "1989-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Acclaimed Performer",
+      "startDate": "1990-01-01",
+      "endDate": "2005-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Living Legend Era",
+      "startDate": "2006-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Yale Drama School MFA", "date": "1975-05-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Broadway Debut - Trelawny", "date": "1975-10-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Julia Film Debut", "date": "1977-10-02", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Deer Hunter", "date": "1978-12-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Oscar Nom - The Deer Hunter", "date": "1979-04-09", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Married Don Gummer", "date": "1978-09-30", "color": "#ef4444", "shape": "heart" },
+    { "label": "Kramer vs. Kramer - Oscar Win", "date": "1980-04-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Sophie's Choice - Oscar Win", "date": "1983-04-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Out of Africa", "date": "1985-12-18", "color": "#9333ea", "shape": "star" },
+    { "label": "A Cry in the Dark", "date": "1988-11-11", "color": "#9333ea", "shape": "star" },
+    { "label": "Death Becomes Her", "date": "1992-07-31", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "The Bridges of Madison County", "date": "1995-06-02", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Hours", "date": "2002-12-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Devil Wears Prada", "date": "2006-06-30", "color": "#f59e0b", "shape": "star" },
+    { "label": "Mamma Mia!", "date": "2008-07-18", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Julie & Julia", "date": "2009-08-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Iron Lady - Oscar Win", "date": "2012-02-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Record 21 Oscar Nominations", "date": "2017-01-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Big Little Lies", "date": "2019-06-09", "color": "#f59e0b", "shape": "star" },
+    { "label": "Only Murders in the Building", "date": "2023-08-08", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

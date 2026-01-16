@@ -1,0 +1,65 @@
+{
+  "name": "Selena Gomez",
+  "sex": "female",
+  "dob": "1992-07-22",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Disney Era",
+      "startDate": "2007-08-17",
+      "endDate": "2012-07-06",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Stars Dance Era",
+      "startDate": "2013-07-23",
+      "endDate": "2015-10-08",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Revival Era",
+      "startDate": "2015-10-09",
+      "endDate": "2019-10-22",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Rare Era",
+      "startDate": "2020-01-10",
+      "endDate": "2023-08-24",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Single Soon Era",
+      "startDate": "2023-08-25",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Barney & Friends Start", "date": "2002-06-01", "color": "#9333ea", "shape": "star" },
+    { "label": "Wizards of Waverly Place Premiere", "date": "2007-10-12", "color": "#ec4899", "shape": "star" },
+    { "label": "Kiss & Tell Album", "date": "2009-09-29", "color": "#ec4899", "shape": "star" },
+    { "label": "Started Dating Justin Bieber", "date": "2010-12-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "A Year Without Rain", "date": "2010-09-21", "color": "#ec4899", "shape": "star" },
+    { "label": "When the Sun Goes Down", "date": "2011-06-28", "color": "#ec4899", "shape": "star" },
+    { "label": "Spring Breakers Film", "date": "2012-09-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Stars Dance Album #1", "date": "2013-07-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Come & Get It Hit", "date": "2013-04-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Revival Album", "date": "2015-10-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "Good for You Hit", "date": "2015-06-22", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Lupus Diagnosis Public", "date": "2015-10-08", "color": "#6b7280", "shape": "circle" },
+    { "label": "13 Reasons Why Producer", "date": "2017-03-31", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Kidney Transplant", "date": "2017-09-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Rare Album", "date": "2020-01-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "Lose You to Love Me #1", "date": "2019-11-02", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Rare Beauty Launch", "date": "2020-09-03", "color": "#ec4899", "shape": "star" },
+    { "label": "Only Murders in the Building Start", "date": "2021-08-31", "color": "#10b981", "shape": "star" },
+    { "label": "Calm Down with Rema Hit", "date": "2022-08-26", "color": "#10b981", "shape": "diamond" },
+    { "label": "Emmy Nomination", "date": "2022-07-12", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Single Soon Release", "date": "2023-08-25", "color": "#10b981", "shape": "star" },
+    { "label": "Emilia Pérez Film", "date": "2024-05-18", "color": "#fbbf24", "shape": "star" },
+    { "label": "Golden Globe Win", "date": "2025-01-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Engaged to Benny Blanco", "date": "2024-12-11", "color": "#ef4444", "shape": "heart" }
+  ]
+}

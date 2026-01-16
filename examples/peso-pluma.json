@@ -1,0 +1,51 @@
+{
+  "name": "Peso Pluma",
+  "sex": "male",
+  "dob": "1999-06-15",
+  "country": "Mexico",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2020-01-01",
+      "endDate": "2022-10-13",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Efectos Secundarios Era",
+      "startDate": "2022-10-14",
+      "endDate": "2023-06-22",
+      "color": "#10b981"
+    },
+    {
+      "label": "Génesis Era",
+      "startDate": "2023-06-23",
+      "endDate": "2024-06-19",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Éxodo Era",
+      "startDate": "2024-06-20",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Debut Single El Belicón", "date": "2020-11-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Double P Records", "date": "2022-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "El Belicón Goes Viral", "date": "2022-06-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Efectos Secundarios Album", "date": "2022-10-14", "color": "#10b981", "shape": "star" },
+    { "label": "AMG with Natanael Cano Hit", "date": "2022-05-06", "color": "#10b981", "shape": "diamond" },
+    { "label": "Ella Baila Sola Massive Hit", "date": "2023-03-23", "color": "#10b981", "shape": "star" },
+    { "label": "Ella Baila Sola #4 Billboard", "date": "2023-06-17", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Génesis Album #3 Billboard", "date": "2023-06-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bzrp Session 55", "date": "2023-04-12", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Death Threats from Cartel", "date": "2023-08-01", "color": "#6b7280", "shape": "circle" },
+    { "label": "Coachella Performance", "date": "2024-04-13", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Billboard Latin Music Awards", "date": "2023-10-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Nomination Best New Artist", "date": "2024-02-04", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Éxodo Album", "date": "2024-06-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Most Streamed Mexican Artist", "date": "2023-12-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Latin Grammy", "date": "2023-11-16", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

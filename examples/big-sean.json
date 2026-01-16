@@ -1,0 +1,50 @@
+{
+  "name": "Big Sean",
+  "sex": "male",
+  "dob": "1988-03-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2007-09-30",
+      "endDate": "2011-06-27",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Finally Famous Era",
+      "startDate": "2011-06-28",
+      "endDate": "2013-08-26",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Hall of Fame / Dark Sky Paradise Era",
+      "startDate": "2013-08-27",
+      "endDate": "2017-02-02",
+      "color": "#9333ea"
+    },
+    {
+      "label": "I Decided / Detroit 2 Era",
+      "startDate": "2017-02-03",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Freestyled for Kanye at Radio Station", "date": "2005-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to G.O.O.D. Music", "date": "2007-09-30", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Finally Famous Mixtape Series", "date": "2007-09-30", "color": "#6b7280", "shape": "star" },
+    { "label": "Finally Famous Album", "date": "2011-06-28", "color": "#3b82f6", "shape": "star" },
+    { "label": "Dance (A$$) Hit", "date": "2011-08-15", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Mercy Verse", "date": "2012-04-03", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Hall of Fame Album", "date": "2013-08-27", "color": "#9333ea", "shape": "star" },
+    { "label": "Dark Sky Paradise #1", "date": "2015-02-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Blessings Hit", "date": "2015-02-10", "color": "#9333ea", "shape": "diamond" },
+    { "label": "IDFWU Hit", "date": "2015-01-27", "color": "#9333ea", "shape": "diamond" },
+    { "label": "I Decided #1 Album", "date": "2017-02-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bounce Back Hit", "date": "2016-12-09", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Twenty88 with Jhené Aiko", "date": "2016-04-01", "color": "#ec4899", "shape": "star" },
+    { "label": "Detroit 2 #1 Album", "date": "2020-09-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "Son Noah Born", "date": "2022-11-08", "color": "#ef4444", "shape": "heart" }
+  ]
+}

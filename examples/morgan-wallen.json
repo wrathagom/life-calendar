@@ -1,0 +1,54 @@
+{
+  "name": "Morgan Wallen",
+  "sex": "male",
+  "dob": "1993-05-13",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "The Voice / Early Career",
+      "startDate": "2014-01-01",
+      "endDate": "2018-04-26",
+      "color": "#6b7280"
+    },
+    {
+      "label": "If I Know Me Era",
+      "startDate": "2018-04-27",
+      "endDate": "2021-01-07",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Dangerous Era",
+      "startDate": "2021-01-08",
+      "endDate": "2023-03-02",
+      "color": "#9333ea"
+    },
+    {
+      "label": "One Thing at a Time Era",
+      "startDate": "2023-03-03",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "The Voice Season 6", "date": "2014-02-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Big Loud Records", "date": "2016-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "If I Know Me Debut Album", "date": "2018-04-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Up Down Hit", "date": "2017-12-08", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Whiskey Glasses #1 Country", "date": "2019-07-13", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Chasin' You #1 Country", "date": "2020-04-25", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Son Indigo Born", "date": "2020-07-10", "color": "#ef4444", "shape": "heart" },
+    { "label": "7 Summers Hit", "date": "2020-08-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Dangerous: Double Album #1", "date": "2021-01-08", "color": "#9333ea", "shape": "star" },
+    { "label": "10 Weeks at #1 Billboard", "date": "2021-03-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Controversy/Suspension", "date": "2021-02-02", "color": "#6b7280", "shape": "circle" },
+    { "label": "Wasted on You #1 Hot 100", "date": "2021-02-13", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Sand in My Boots Hit", "date": "2021-09-04", "color": "#9333ea", "shape": "diamond" },
+    { "label": "One Thing at a Time #1", "date": "2023-03-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Last Night #1 (16 Weeks)", "date": "2023-03-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "36 Songs on Hot 100 (Record)", "date": "2023-03-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "CMA Entertainer of the Year", "date": "2023-11-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Billboard #1 for 19 Weeks", "date": "2023-07-15", "color": "#fbbf24", "shape": "heart" },
+    { "label": "I Had Some Help with Post Malone", "date": "2024-05-10", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Lady Gaga",
+  "sex": "female",
+  "dob": "1986-03-28",
+  "country": "United States",
+  "theme": "dracula",
+  "periods": [
+    {
+      "label": "The Fame Era",
+      "startDate": "2008-08-19",
+      "endDate": "2011-05-22",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Born This Way Era",
+      "startDate": "2011-05-23",
+      "endDate": "2013-11-10",
+      "color": "#9333ea"
+    },
+    {
+      "label": "ARTPOP / Cheek to Cheek",
+      "startDate": "2013-11-11",
+      "endDate": "2016-10-20",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Joanne / A Star Is Born",
+      "startDate": "2016-10-21",
+      "endDate": "2020-05-28",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Chromatica / Acting Era",
+      "startDate": "2020-05-29",
+      "endDate": "2024-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Def Jam (dropped)", "date": "2006-09-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Interscope", "date": "2007-09-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Just Dance Released", "date": "2008-04-08", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Fame Released", "date": "2008-08-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Poker Face #1 Global", "date": "2009-04-11", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "The Fame Monster EP", "date": "2009-11-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bad Romance Phenomenon", "date": "2009-10-26", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy Best Dance Recording", "date": "2010-01-31", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Born This Way Released", "date": "2011-05-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Born This Way #1 (6 weeks)", "date": "2011-02-26", "color": "#9333ea", "shape": "diamond" },
+    { "label": "ARTPOP Released", "date": "2013-11-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "Cheek to Cheek with Tony", "date": "2014-09-19", "color": "#3b82f6", "shape": "star" },
+    { "label": "Grammy Traditional Pop Album", "date": "2015-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Super Bowl LI Halftime", "date": "2017-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Joanne Released", "date": "2016-10-21", "color": "#ec4899", "shape": "star" },
+    { "label": "A Star Is Born Premiere", "date": "2018-08-31", "color": "#ec4899", "shape": "star" },
+    { "label": "Oscar for Shallow", "date": "2019-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Chromatica Released", "date": "2020-05-29", "color": "#10b981", "shape": "star" },
+    { "label": "House of Gucci Film", "date": "2021-11-24", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Joker 2 Premiere", "date": "2024-10-04", "color": "#ef4444", "shape": "star" }
+  ]
+}

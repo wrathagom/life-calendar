@@ -1,0 +1,52 @@
+{
+  "name": "Burna Boy",
+  "sex": "male",
+  "dob": "1991-07-02",
+  "country": "Nigeria",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "L.I.F.E. Era",
+      "startDate": "2012-09-01",
+      "endDate": "2015-11-24",
+      "color": "#6b7280"
+    },
+    {
+      "label": "On a Spaceship Era",
+      "startDate": "2015-11-25",
+      "endDate": "2018-04-26",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "African Giant Era",
+      "startDate": "2018-04-27",
+      "endDate": "2020-08-13",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Twice as Tall / I Told Them Era",
+      "startDate": "2020-08-14",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Like to Party Debut", "date": "2012-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "L.I.F.E. Debut Album", "date": "2013-08-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Atlantic Records", "date": "2017-01-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Outside Album", "date": "2018-01-26", "color": "#3b82f6", "shape": "star" },
+    { "label": "Ye Hit Goes Viral", "date": "2018-04-27", "color": "#f59e0b", "shape": "star" },
+    { "label": "Coachella Debut", "date": "2019-04-14", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "African Giant Album", "date": "2019-07-26", "color": "#f59e0b", "shape": "star" },
+    { "label": "Grammy Nomination African Giant", "date": "2019-11-20", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Anybody Hit", "date": "2019-04-05", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Twice as Tall Album", "date": "2020-08-14", "color": "#10b981", "shape": "star" },
+    { "label": "Grammy Win for Twice as Tall", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Love, Damini Album", "date": "2022-07-08", "color": "#10b981", "shape": "star" },
+    { "label": "Last Last Global Hit", "date": "2022-05-13", "color": "#10b981", "shape": "star" },
+    { "label": "I Told Them... Album", "date": "2023-08-25", "color": "#10b981", "shape": "star" },
+    { "label": "City Boys Hit", "date": "2023-08-25", "color": "#10b981", "shape": "diamond" },
+    { "label": "Sold Out Madison Square Garden", "date": "2022-04-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Sold Out London Stadium", "date": "2023-06-03", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

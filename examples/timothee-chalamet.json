@@ -1,0 +1,46 @@
+{
+  "name": "Timothée Chalamet",
+  "sex": "male",
+  "dob": "1995-12-27",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2008-01-01",
+      "endDate": "2016-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Breakthrough Era",
+      "startDate": "2017-01-01",
+      "endDate": "2020-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Blockbuster Star",
+      "startDate": "2021-01-01",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Law & Order First Role", "date": "2009-11-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Homeland Recurring Role", "date": "2012-10-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Interstellar", "date": "2014-11-07", "color": "#6b7280", "shape": "star" },
+    { "label": "Miss Stevens", "date": "2016-03-14", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Call Me by Your Name", "date": "2017-01-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Oscar Nom - Youngest in 80 Years", "date": "2018-01-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Lady Bird", "date": "2017-11-03", "color": "#3b82f6", "shape": "star" },
+    { "label": "Beautiful Boy", "date": "2018-10-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "The King", "date": "2019-11-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Little Women", "date": "2019-12-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Dune", "date": "2021-10-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Don't Look Up", "date": "2021-12-24", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Bones and All", "date": "2022-11-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Wonka - Lead Role", "date": "2023-12-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Dune: Part Two", "date": "2024-03-01", "color": "#9333ea", "shape": "star" },
+    { "label": "A Complete Unknown (Bob Dylan)", "date": "2024-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Golden Globe - Complete Unknown", "date": "2025-01-05", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

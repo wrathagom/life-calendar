@@ -1,0 +1,55 @@
+{
+  "name": "Charlize Theron",
+  "sex": "female",
+  "dob": "1975-08-07",
+  "country": "South Africa",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1995-01-01",
+      "endDate": "2002-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Oscar Era",
+      "startDate": "2003-01-01",
+      "endDate": "2010-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Action Star Era",
+      "startDate": "2011-01-01",
+      "endDate": "2018-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Producer & Star",
+      "startDate": "2019-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Ballet Training in NYC", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Los Angeles", "date": "1994-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Children of the Corn III", "date": "1995-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Devil's Advocate", "date": "1997-10-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Mighty Joe Young", "date": "1998-12-25", "color": "#6b7280", "shape": "diamond" },
+    { "label": "The Cider House Rules", "date": "1999-12-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Monster - Oscar Win", "date": "2004-02-29", "color": "#fbbf24", "shape": "heart" },
+    { "label": "North Country - Oscar Nom", "date": "2005-10-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Aeon Flux", "date": "2005-12-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Hancock", "date": "2008-07-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Adopted Son Jackson", "date": "2012-03-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Snow White & the Huntsman", "date": "2012-06-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "Prometheus", "date": "2012-06-08", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Mad Max: Fury Road", "date": "2015-05-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Adopted Daughter August", "date": "2015-07-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Atomic Blonde", "date": "2017-07-28", "color": "#3b82f6", "shape": "star" },
+    { "label": "Tully", "date": "2018-05-04", "color": "#3b82f6", "shape": "star" },
+    { "label": "Bombshell - Oscar Nom", "date": "2019-12-20", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Old Guard", "date": "2020-07-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "Fast X", "date": "2023-05-19", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

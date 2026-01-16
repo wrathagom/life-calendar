@@ -1,0 +1,55 @@
+{
+  "name": "Joaquin Phoenix",
+  "sex": "male",
+  "dob": "1974-10-28",
+  "country": "Puerto Rico",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Child Actor Era",
+      "startDate": "1982-01-01",
+      "endDate": "1994-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Breakthrough Era",
+      "startDate": "1995-01-01",
+      "endDate": "2004-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Acclaimed Actor",
+      "startDate": "2005-01-01",
+      "endDate": "2018-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Joker Era",
+      "startDate": "2019-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "TV Debut - Seven Brides", "date": "1982-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "SpaceCamp", "date": "1986-06-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Brother River Phoenix Death", "date": "1993-10-31", "color": "#6b7280", "shape": "circle" },
+    { "label": "To Die For", "date": "1995-09-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Inventing the Abbotts", "date": "1997-04-04", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Gladiator - Oscar Nom", "date": "2000-05-05", "color": "#3b82f6", "shape": "star" },
+    { "label": "Signs", "date": "2002-08-02", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Walk the Line - Oscar Nom", "date": "2005-11-18", "color": "#9333ea", "shape": "star" },
+    { "label": "Golden Globe - Walk the Line", "date": "2006-01-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "I'm Still Here (Documentary)", "date": "2010-09-10", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Master - Oscar Nom", "date": "2012-09-14", "color": "#9333ea", "shape": "star" },
+    { "label": "Her", "date": "2013-12-18", "color": "#9333ea", "shape": "star" },
+    { "label": "Inherent Vice", "date": "2014-12-12", "color": "#9333ea", "shape": "diamond" },
+    { "label": "You Were Never Really Here", "date": "2017-05-27", "color": "#9333ea", "shape": "star" },
+    { "label": "Cannes - Best Actor", "date": "2017-05-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Joker - Oscar Win", "date": "2020-02-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son River Born", "date": "2020-09-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "C'mon C'mon", "date": "2021-11-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Napoleon", "date": "2023-11-22", "color": "#f59e0b", "shape": "star" },
+    { "label": "Joker: Folie à Deux", "date": "2024-10-04", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

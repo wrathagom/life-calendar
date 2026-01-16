@@ -1,0 +1,61 @@
+{
+  "name": "Ariana Grande",
+  "sex": "female",
+  "dob": "1993-06-26",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Broadway/Nickelodeon Era",
+      "startDate": "2008-08-01",
+      "endDate": "2013-08-29",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Yours Truly / My Everything",
+      "startDate": "2013-08-30",
+      "endDate": "2016-05-19",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Dangerous Woman Era",
+      "startDate": "2016-05-20",
+      "endDate": "2018-08-16",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Sweetener / Thank U, Next Era",
+      "startDate": "2018-08-17",
+      "endDate": "2020-10-29",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Positions / Acting Era",
+      "startDate": "2020-10-30",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Broadway Debut (13)", "date": "2008-08-01", "color": "#f59e0b", "shape": "star" },
+    { "label": "Victorious Premiere", "date": "2010-03-27", "color": "#f59e0b", "shape": "star" },
+    { "label": "Signed to Republic Records", "date": "2011-08-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Yours Truly Released", "date": "2013-08-30", "color": "#ec4899", "shape": "star" },
+    { "label": "The Way Top 10", "date": "2013-04-02", "color": "#ec4899", "shape": "diamond" },
+    { "label": "My Everything Released", "date": "2014-08-25", "color": "#ec4899", "shape": "star" },
+    { "label": "Problem #1", "date": "2014-06-21", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Dangerous Woman Released", "date": "2016-05-20", "color": "#ef4444", "shape": "star" },
+    { "label": "Manchester Arena Bombing", "date": "2017-05-22", "color": "#6b7280", "shape": "diamond" },
+    { "label": "One Love Manchester Concert", "date": "2017-06-04", "color": "#ef4444", "shape": "heart" },
+    { "label": "Sweetener Released", "date": "2018-08-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Thank U, Next Single", "date": "2018-11-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Thank U, Next Album", "date": "2019-02-08", "color": "#9333ea", "shape": "star" },
+    { "label": "7 Rings #1", "date": "2019-02-09", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy Best Pop Vocal", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Positions Released", "date": "2020-10-30", "color": "#10b981", "shape": "star" },
+    { "label": "Married Dalton Gomez", "date": "2021-05-15", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Voice Coach", "date": "2021-03-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Wicked Film Premiere", "date": "2024-11-22", "color": "#10b981", "shape": "star" },
+    { "label": "Eternal Sunshine", "date": "2024-03-08", "color": "#fbbf24", "shape": "star" }
+  ]
+}

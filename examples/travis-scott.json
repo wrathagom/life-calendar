@@ -1,0 +1,55 @@
+{
+  "name": "Travis Scott",
+  "sex": "male",
+  "dob": "1991-04-30",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2012-01-01",
+      "endDate": "2015-09-03",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Rodeo Era",
+      "startDate": "2015-09-04",
+      "endDate": "2018-08-02",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Astroworld Era",
+      "startDate": "2018-08-03",
+      "endDate": "2023-07-27",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Utopia Era",
+      "startDate": "2023-07-28",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Dropped Out of UT Austin", "date": "2012-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Owl Pharaoh Mixtape", "date": "2013-05-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to GOOD Music/Epic", "date": "2013-04-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Days Before Rodeo", "date": "2014-08-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Rodeo Album Released", "date": "2015-09-04", "color": "#ef4444", "shape": "star" },
+    { "label": "Antidote Success", "date": "2015-07-16", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Birds in the Trap", "date": "2016-09-02", "color": "#ef4444", "shape": "star" },
+    { "label": "Goosebumps Hit", "date": "2016-08-08", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Cactus Jack Records Founded", "date": "2017-03-01", "color": "#10b981", "shape": "diamond" },
+    { "label": "Astroworld Released", "date": "2018-08-03", "color": "#f59e0b", "shape": "star" },
+    { "label": "Sicko Mode #1", "date": "2018-10-06", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Daughter Stormi Born", "date": "2018-02-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Super Bowl LIII Halftime", "date": "2019-02-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Astroworld Festival Tragedy", "date": "2021-11-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Son Aire Born", "date": "2022-02-02", "color": "#ef4444", "shape": "heart" },
+    { "label": "Utopia Released", "date": "2023-07-28", "color": "#9333ea", "shape": "star" },
+    { "label": "K-Pop #1", "date": "2023-08-12", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Circus Maximus Tour", "date": "2023-10-27", "color": "#9333ea", "shape": "star" },
+    { "label": "McDonald's Collab", "date": "2020-09-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Nike/Jordan Partnership", "date": "2017-04-01", "color": "#ef4444", "shape": "diamond" }
+  ]
+}

@@ -622,6 +622,7 @@ html, body {
 }
 
 .global-menu-toggle {
+    position: relative;
     width: 48px;
     height: 48px;
     background: var(--gear-bg);

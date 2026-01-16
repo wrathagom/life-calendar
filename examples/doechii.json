@@ -1,0 +1,43 @@
+{
+  "name": "Doechii",
+  "sex": "female",
+  "dob": "1998-08-14",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Independent Era",
+      "startDate": "2018-08-14",
+      "endDate": "2021-08-01",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Oh the Places You'll Go Era",
+      "startDate": "2021-08-02",
+      "endDate": "2024-08-08",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Alligator Bites Never Heal Era",
+      "startDate": "2024-08-09",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Started Making Music", "date": "2018-08-14", "color": "#6b7280", "shape": "star" },
+    { "label": "Yucky Blucky Fruitcake Single", "date": "2020-08-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Top Dawg Entertainment", "date": "2021-08-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Crazy Viral Hit", "date": "2022-04-08", "color": "#9333ea", "shape": "star" },
+    { "label": "Oh the Places You'll Go EP", "date": "2022-03-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Persuasive Hit", "date": "2022-03-04", "color": "#9333ea", "shape": "diamond" },
+    { "label": "What It Is (SZA Collab)", "date": "2023-01-27", "color": "#9333ea", "shape": "star" },
+    { "label": "Grammy Nomination Best New Artist", "date": "2023-11-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Alligator Bites Never Heal", "date": "2024-08-09", "color": "#10b981", "shape": "star" },
+    { "label": "Nissan Altima Viral", "date": "2024-08-09", "color": "#10b981", "shape": "diamond" },
+    { "label": "Denial Is a River Hit", "date": "2024-08-09", "color": "#10b981", "shape": "diamond" },
+    { "label": "BET Hip Hop Awards Freestyle", "date": "2024-10-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "4 Grammy Nominations", "date": "2024-11-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Catfish (With JT)", "date": "2024-08-09", "color": "#10b981", "shape": "diamond" }
+  ]
+}

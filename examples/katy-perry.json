@@ -1,0 +1,70 @@
+{
+  "name": "Katy Perry",
+  "sex": "female",
+  "dob": "1984-10-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Gospel Era",
+      "startDate": "2001-03-06",
+      "endDate": "2006-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "One of the Boys Era",
+      "startDate": "2007-01-01",
+      "endDate": "2010-08-23",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Teenage Dream Era",
+      "startDate": "2010-08-24",
+      "endDate": "2013-10-17",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Prism Era",
+      "startDate": "2013-10-18",
+      "endDate": "2017-06-08",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Witness Era",
+      "startDate": "2017-06-09",
+      "endDate": "2020-08-13",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "143 Era",
+      "startDate": "2024-09-20",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Katy Hudson Gospel Album", "date": "2001-03-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Capitol Records", "date": "2007-04-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "I Kissed a Girl #1", "date": "2008-06-28", "color": "#ec4899", "shape": "star" },
+    { "label": "Hot n Cold Hit", "date": "2008-09-09", "color": "#ec4899", "shape": "diamond" },
+    { "label": "One of the Boys Album", "date": "2008-06-17", "color": "#ec4899", "shape": "star" },
+    { "label": "Married Russell Brand", "date": "2010-10-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "Teenage Dream Album", "date": "2010-08-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "California Gurls #1", "date": "2010-06-19", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Firework #1", "date": "2010-12-18", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "E.T. #1", "date": "2011-04-09", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Last Friday Night #1", "date": "2011-08-20", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Ties Michael Jackson Record", "date": "2011-08-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Divorced Russell Brand", "date": "2012-02-10", "color": "#6b7280", "shape": "circle" },
+    { "label": "Roar #1", "date": "2013-09-28", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Prism Album", "date": "2013-10-18", "color": "#9333ea", "shape": "star" },
+    { "label": "Dark Horse #1", "date": "2014-01-25", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Super Bowl Halftime", "date": "2015-02-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Witness Album", "date": "2017-06-09", "color": "#f59e0b", "shape": "star" },
+    { "label": "American Idol Judge", "date": "2018-03-11", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Engaged to Orlando Bloom", "date": "2019-02-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Daisy Born", "date": "2020-08-26", "color": "#ef4444", "shape": "heart" },
+    { "label": "143 Album", "date": "2024-09-20", "color": "#ef4444", "shape": "star" },
+    { "label": "The Lifetimes Tour", "date": "2025-04-23", "color": "#ef4444", "shape": "diamond" }
+  ]
+}

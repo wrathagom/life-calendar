@@ -1,0 +1,61 @@
+{
+  "name": "Tyler, the Creator",
+  "sex": "male",
+  "dob": "1991-03-06",
+  "country": "United States",
+  "theme": "gruvbox-dark",
+  "periods": [
+    {
+      "label": "Odd Future Era",
+      "startDate": "2007-12-01",
+      "endDate": "2013-04-01",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Wolf / Cherry Bomb Era",
+      "startDate": "2013-04-02",
+      "endDate": "2017-07-20",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Flower Boy Era",
+      "startDate": "2017-07-21",
+      "endDate": "2019-05-16",
+      "color": "#fbbf24"
+    },
+    {
+      "label": "IGOR / Call Me Era",
+      "startDate": "2019-05-17",
+      "endDate": "2023-10-26",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Chromakopia Era",
+      "startDate": "2024-10-28",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Odd Future Formed", "date": "2007-12-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Bastard Mixtape", "date": "2009-12-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Yonkers Goes Viral", "date": "2011-02-14", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Goblin Released", "date": "2011-05-10", "color": "#6b7280", "shape": "star" },
+    { "label": "VMA Best New Artist", "date": "2011-08-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Wolf Released", "date": "2013-04-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "Cherry Bomb Released", "date": "2015-04-13", "color": "#f59e0b", "shape": "star" },
+    { "label": "Golf Wang Fashion Line", "date": "2011-10-01", "color": "#10b981", "shape": "diamond" },
+    { "label": "Flower Boy Released", "date": "2017-07-21", "color": "#fbbf24", "shape": "star" },
+    { "label": "Flower Boy Grammy Nom", "date": "2018-01-28", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "UK Ban Lifted", "date": "2019-03-01", "color": "#10b981", "shape": "diamond" },
+    { "label": "IGOR Released", "date": "2019-05-17", "color": "#ec4899", "shape": "star" },
+    { "label": "IGOR #1", "date": "2019-05-25", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Grammy Best Rap Album (IGOR)", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Call Me If You Get Lost", "date": "2021-06-25", "color": "#ec4899", "shape": "star" },
+    { "label": "Call Me #1", "date": "2021-07-03", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Grammy Best Rap Album x2", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Camp Flog Gnaw Festival", "date": "2012-11-01", "color": "#f59e0b", "shape": "star" },
+    { "label": "Chromakopia Released", "date": "2024-10-28", "color": "#10b981", "shape": "star" },
+    { "label": "Chromakopia #1", "date": "2024-11-02", "color": "#10b981", "shape": "diamond" }
+  ]
+}

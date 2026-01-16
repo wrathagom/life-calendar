@@ -1,0 +1,55 @@
+{
+  "name": "Luke Combs",
+  "sex": "male",
+  "dob": "1990-03-02",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Independent Era",
+      "startDate": "2014-02-01",
+      "endDate": "2017-06-01",
+      "color": "#6b7280"
+    },
+    {
+      "label": "This One's for You Era",
+      "startDate": "2017-06-02",
+      "endDate": "2019-11-07",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "What You See Is What You Get Era",
+      "startDate": "2019-11-08",
+      "endDate": "2022-06-23",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Gettin' Old Era",
+      "startDate": "2023-03-24",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "The Way She Rides EP", "date": "2014-02-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Can I Get an Outlaw EP", "date": "2015-10-01", "color": "#6b7280", "shape": "star" },
+    { "label": "This One's for You EP", "date": "2017-06-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "Hurricane #1 Country", "date": "2016-09-12", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Signed to Columbia Nashville", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "When It Rains It Pours #1", "date": "2017-12-09", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "This One's for You Album", "date": "2017-06-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "Beautiful Crazy #1", "date": "2019-01-05", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "CMA New Artist of the Year", "date": "2018-11-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "What You See Is What You Get #1", "date": "2019-11-08", "color": "#3b82f6", "shape": "star" },
+    { "label": "Billboard 200 #1", "date": "2019-11-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "CMA Entertainer of the Year", "date": "2021-11-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Nicole Hocking", "date": "2020-08-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Growin' Up Album", "date": "2022-06-24", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Tex Born", "date": "2022-06-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Gettin' Old Album #1", "date": "2023-03-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Fast Car Cover #1", "date": "2023-05-20", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy for Fast Car", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Beau Born", "date": "2023-08-15", "color": "#ef4444", "shape": "heart" },
+    { "label": "Fathers & Sons Album", "date": "2024-10-18", "color": "#9333ea", "shape": "star" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Chris Brown",
+  "sex": "male",
+  "dob": "1989-05-05",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Teen Sensation Era",
+      "startDate": "2005-11-29",
+      "endDate": "2009-02-07",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Comeback Era",
+      "startDate": "2009-09-02",
+      "endDate": "2014-08-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Royalty / Heartbreak Era",
+      "startDate": "2015-12-18",
+      "endDate": "2019-06-27",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Breezy / 11:11 Era",
+      "startDate": "2022-06-24",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Jive Records", "date": "2004-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Chris Brown Debut Album", "date": "2005-11-29", "color": "#3b82f6", "shape": "star" },
+    { "label": "Run It! #1", "date": "2005-11-26", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Exclusive Album", "date": "2007-11-06", "color": "#3b82f6", "shape": "star" },
+    { "label": "Kiss Kiss #1", "date": "2007-11-17", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Forever Success", "date": "2008-05-27", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Graffiti Album", "date": "2009-12-08", "color": "#6b7280", "shape": "star" },
+    { "label": "F.A.M.E. Album #1", "date": "2011-03-22", "color": "#6b7280", "shape": "star" },
+    { "label": "Grammy Best R&B Album", "date": "2012-02-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Fortune Album #1", "date": "2012-07-03", "color": "#6b7280", "shape": "star" },
+    { "label": "X Album", "date": "2014-09-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Daughter Royalty Born", "date": "2014-06-27", "color": "#ef4444", "shape": "heart" },
+    { "label": "Royalty Album", "date": "2015-12-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "Heartbreak on a Full Moon", "date": "2017-10-31", "color": "#f59e0b", "shape": "star" },
+    { "label": "Indigo Album #1", "date": "2019-06-28", "color": "#f59e0b", "shape": "star" },
+    { "label": "Go Crazy #3 Hot 100", "date": "2020-10-17", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Son Aeko Born", "date": "2019-11-20", "color": "#ef4444", "shape": "heart" },
+    { "label": "Breezy Album", "date": "2022-06-24", "color": "#9333ea", "shape": "star" },
+    { "label": "11:11 Album", "date": "2023-11-11", "color": "#9333ea", "shape": "star" },
+    { "label": "11:11 Tour", "date": "2024-06-05", "color": "#9333ea", "shape": "star" }
+  ]
+}

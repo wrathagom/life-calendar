@@ -1,0 +1,56 @@
+{
+  "name": "Sandra Bullock",
+  "sex": "female",
+  "dob": "1964-07-26",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "1987-01-01",
+      "endDate": "1993-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Speed & Rise",
+      "startDate": "1994-01-01",
+      "endDate": "2003-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List & Oscar",
+      "startDate": "2004-01-01",
+      "endDate": "2015-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Selective Roles",
+      "startDate": "2016-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Hangmen Film Debut", "date": "1987-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Demolition Man", "date": "1993-10-08", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Speed - Breakthrough", "date": "1994-06-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "While You Were Sleeping", "date": "1995-04-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Net", "date": "1995-07-28", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "A Time to Kill", "date": "1996-07-24", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Speed 2: Cruise Control", "date": "1997-06-13", "color": "#3b82f6", "shape": "circle" },
+    { "label": "Miss Congeniality", "date": "2000-12-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Two Weeks Notice", "date": "2002-12-20", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Crash", "date": "2005-05-06", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Jesse James", "date": "2005-07-16", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Proposal", "date": "2009-06-19", "color": "#9333ea", "shape": "star" },
+    { "label": "The Blind Side - Oscar Win", "date": "2010-03-07", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Adopted Son Louis", "date": "2010-01-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Gravity - Oscar Nom", "date": "2013-10-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Adopted Daughter Laila", "date": "2015-12-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Ocean's 8", "date": "2018-06-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Bird Box", "date": "2018-12-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Unforgivable", "date": "2021-12-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Lost City", "date": "2022-03-25", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Bullet Train", "date": "2022-08-05", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

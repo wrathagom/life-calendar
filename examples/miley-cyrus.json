@@ -1,0 +1,61 @@
+{
+  "name": "Miley Cyrus",
+  "sex": "female",
+  "dob": "1992-11-23",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Hannah Montana Era",
+      "startDate": "2006-03-24",
+      "endDate": "2011-01-16",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Transition / Can't Be Tamed",
+      "startDate": "2010-06-18",
+      "endDate": "2013-06-02",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Bangerz Era",
+      "startDate": "2013-06-03",
+      "endDate": "2017-05-10",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Younger Now / Plastic Hearts",
+      "startDate": "2017-05-11",
+      "endDate": "2023-03-09",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Endless Summer Vacation Era",
+      "startDate": "2023-03-10",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Hannah Montana Premiere", "date": "2006-03-24", "color": "#ec4899", "shape": "star" },
+    { "label": "Hannah Montana Soundtrack #1", "date": "2006-10-24", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Meet Miley Cyrus", "date": "2007-06-26", "color": "#ec4899", "shape": "star" },
+    { "label": "See You Again Hit", "date": "2007-09-04", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Breakout Album", "date": "2008-07-22", "color": "#ec4899", "shape": "star" },
+    { "label": "Party in the U.S.A.", "date": "2009-08-11", "color": "#ec4899", "shape": "diamond" },
+    { "label": "The Last Song Film", "date": "2010-03-31", "color": "#9333ea", "shape": "star" },
+    { "label": "Can't Be Tamed Album", "date": "2010-06-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Engaged to Liam Hemsworth", "date": "2012-06-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "We Can't Stop Success", "date": "2013-06-03", "color": "#ef4444", "shape": "diamond" },
+    { "label": "VMA Twerking Controversy", "date": "2013-08-25", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Wrecking Ball #1", "date": "2013-09-25", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Bangerz Album #1", "date": "2013-10-04", "color": "#ef4444", "shape": "star" },
+    { "label": "Married Liam Hemsworth", "date": "2018-12-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "Plastic Hearts Album", "date": "2020-11-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Midnight Sky Success", "date": "2020-08-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Endless Summer Vacation", "date": "2023-03-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "Flowers #1 (8 weeks)", "date": "2023-01-27", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy Record of Year", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" },
+    { "label": "First Grammy Win", "date": "2024-02-04", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "David Bowie",
+  "sex": "male",
+  "dob": "1947-01-08",
+  "country": "United Kingdom",
+  "theme": "dracula",
+  "customLifeExpectancy": 69.01,
+  "periods": [
+    {
+      "label": "Early Experimentation",
+      "startDate": "1964-06-05",
+      "endDate": "1972-06-05",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Ziggy Stardust Era",
+      "startDate": "1972-06-06",
+      "endDate": "1974-05-23",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Soul/Berlin Era",
+      "startDate": "1974-05-24",
+      "endDate": "1979-05-17",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Commercial Peak (80s)",
+      "startDate": "1980-09-12",
+      "endDate": "1990-03-30",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Later Reinventions",
+      "startDate": "1993-04-05",
+      "endDate": "2016-01-10",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "First Single (Davie Jones)", "date": "1964-06-05", "color": "#6b7280", "shape": "star" },
+    { "label": "David Bowie Name Adopted", "date": "1966-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Space Oddity", "date": "1969-07-11", "color": "#6b7280", "shape": "star" },
+    { "label": "The Man Who Sold the World", "date": "1970-11-04", "color": "#6b7280", "shape": "star" },
+    { "label": "Hunky Dory", "date": "1971-12-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Ziggy Stardust Album", "date": "1972-06-06", "color": "#ef4444", "shape": "star" },
+    { "label": "Starman TV Performance", "date": "1972-07-06", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Aladdin Sane", "date": "1973-04-13", "color": "#ef4444", "shape": "star" },
+    { "label": "Ziggy Stardust Retired", "date": "1973-07-03", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Diamond Dogs", "date": "1974-05-24", "color": "#f59e0b", "shape": "star" },
+    { "label": "Young Americans (Soul)", "date": "1975-03-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "Fame #1 US", "date": "1975-09-20", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Station to Station", "date": "1976-01-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Low (Berlin Trilogy)", "date": "1977-01-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "Heroes", "date": "1977-10-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "Let's Dance Mega Hit", "date": "1983-04-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "Under Pressure w/ Queen", "date": "1981-10-26", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Rock Hall of Fame", "date": "1996-01-17", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Blackstar Released", "date": "2016-01-08", "color": "#9333ea", "shape": "star" },
+    { "label": "Passed Away", "date": "2016-01-10", "color": "#6b7280", "shape": "heart" }
+  ]
+}

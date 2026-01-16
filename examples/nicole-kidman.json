@@ -1,0 +1,57 @@
+{
+  "name": "Nicole Kidman",
+  "sex": "female",
+  "dob": "1967-06-20",
+  "country": "Australia",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Australian Career",
+      "startDate": "1983-01-01",
+      "endDate": "1989-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Hollywood Rise",
+      "startDate": "1990-01-01",
+      "endDate": "2001-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Oscar Era",
+      "startDate": "2002-01-01",
+      "endDate": "2015-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "TV & Film Renaissance",
+      "startDate": "2016-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Film Debut - Bush Christmas", "date": "1983-11-01", "color": "#6b7280", "shape": "star" },
+    { "label": "BMX Bandits", "date": "1983-10-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Dead Calm", "date": "1989-04-07", "color": "#6b7280", "shape": "star" },
+    { "label": "Days of Thunder", "date": "1990-06-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Tom Cruise", "date": "1990-12-24", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Isabella Adopted", "date": "1992-12-22", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Connor Adopted", "date": "1995-01-17", "color": "#ef4444", "shape": "heart" },
+    { "label": "To Die For", "date": "1995-09-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Eyes Wide Shut", "date": "1999-07-16", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Moulin Rouge!", "date": "2001-06-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Others", "date": "2001-08-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Hours - Oscar Win", "date": "2003-02-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Cold Mountain", "date": "2003-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Keith Urban", "date": "2006-06-25", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Sunday Rose Born", "date": "2008-07-07", "color": "#ef4444", "shape": "heart" },
+    { "label": "Daughter Faith Margaret Born", "date": "2010-12-28", "color": "#ef4444", "shape": "heart" },
+    { "label": "Lion", "date": "2016-11-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Big Little Lies - Emmy Win", "date": "2017-09-17", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Being the Ricardos - Oscar Nom", "date": "2021-12-21", "color": "#f59e0b", "shape": "star" },
+    { "label": "Expats", "date": "2024-01-26", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Babygirl", "date": "2024-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Venice Best Actress", "date": "2024-09-07", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

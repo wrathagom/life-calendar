@@ -1,0 +1,56 @@
+{
+  "name": "Aretha Franklin",
+  "sex": "female",
+  "dob": "1942-03-25",
+  "country": "United States",
+  "theme": "gold",
+  "customLifeExpectancy": 76.41,
+  "periods": [
+    {
+      "label": "Gospel & Early Career",
+      "startDate": "1956-01-01",
+      "endDate": "1966-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Atlantic Records Peak",
+      "startDate": "1967-02-10",
+      "endDate": "1979-12-31",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Arista Records Era",
+      "startDate": "1980-10-28",
+      "endDate": "1998-12-31",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Living Legend Era",
+      "startDate": "1999-01-01",
+      "endDate": "2018-08-16",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "First Recording (Age 14)", "date": "1956-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Columbia", "date": "1960-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Atlantic Records", "date": "1966-11-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "I Never Loved a Man", "date": "1967-02-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "Respect #1", "date": "1967-06-03", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "(You Make Me Feel Like) Natural Woman", "date": "1967-09-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Chain of Fools #1", "date": "1968-02-17", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Think Released", "date": "1968-05-13", "color": "#f59e0b", "shape": "star" },
+    { "label": "First Grammy Win", "date": "1968-02-29", "color": "#fbbf24", "shape": "heart" },
+    { "label": "MLK Funeral Performance", "date": "1968-04-09", "color": "#ef4444", "shape": "heart" },
+    { "label": "Amazing Grace (Gospel)", "date": "1972-01-13", "color": "#9333ea", "shape": "star" },
+    { "label": "Jumped to Arista Records", "date": "1980-10-28", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Jump to It Comeback", "date": "1982-06-21", "color": "#ec4899", "shape": "star" },
+    { "label": "Freeway of Love Hit", "date": "1985-07-08", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Rock Hall of Fame (1st Woman)", "date": "1987-01-21", "color": "#fbbf24", "shape": "heart" },
+    { "label": "I Knew You Were Waiting", "date": "1987-04-18", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Obama Inauguration", "date": "2009-01-20", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Presidential Medal of Freedom", "date": "2005-11-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "18 Grammy Wins Total", "date": "2008-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Passed Away", "date": "2018-08-16", "color": "#6b7280", "shape": "heart" }
+  ]
+}

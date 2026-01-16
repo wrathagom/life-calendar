@@ -1,0 +1,58 @@
+{
+  "name": "Robin Williams",
+  "sex": "male",
+  "dob": "1951-07-21",
+  "country": "United States",
+  "theme": "default",
+  "customLifeExpectancy": 63.08,
+  "periods": [
+    {
+      "label": "Stand-Up & Early Career",
+      "startDate": "1976-01-01",
+      "endDate": "1981-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Mork & Film Rise",
+      "startDate": "1978-01-01",
+      "endDate": "1991-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Dramatic Actor Era",
+      "startDate": "1992-01-01",
+      "endDate": "2002-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Later Career",
+      "startDate": "2003-01-01",
+      "endDate": "2014-08-11",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Juilliard Scholarship", "date": "1973-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Stand-Up Begins", "date": "1976-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Happy Days - Mork Debut", "date": "1978-02-28", "color": "#3b82f6", "shape": "star" },
+    { "label": "Mork & Mindy Series", "date": "1978-09-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Valerie Velardi", "date": "1978-06-04", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Zachary Born", "date": "1983-04-11", "color": "#ef4444", "shape": "heart" },
+    { "label": "Good Morning, Vietnam - Oscar Nom", "date": "1987-12-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "Dead Poets Society - Oscar Nom", "date": "1989-06-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Marsha Garces", "date": "1989-04-30", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Fisher King - Oscar Nom", "date": "1991-09-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Daughter Zelda Born", "date": "1989-07-31", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Cody Born", "date": "1991-11-25", "color": "#ef4444", "shape": "heart" },
+    { "label": "Aladdin - Genie", "date": "1992-11-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Mrs. Doubtfire", "date": "1993-11-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Jumanji", "date": "1995-12-15", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Birdcage", "date": "1996-03-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Good Will Hunting - Oscar Win", "date": "1998-03-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "One Hour Photo", "date": "2002-08-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Insomnia", "date": "2002-05-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Susan Schneider", "date": "2011-10-22", "color": "#ef4444", "shape": "heart" },
+    { "label": "Night at the Museum", "date": "2006-12-22", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Passed Away", "date": "2014-08-11", "color": "#6b7280", "shape": "circle" }
+  ]
+}

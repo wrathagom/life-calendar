@@ -1,0 +1,62 @@
+{
+  "name": "Elvis Presley",
+  "sex": "male",
+  "dob": "1935-01-08",
+  "country": "United States",
+  "theme": "gold",
+  "customLifeExpectancy": 42.54,
+  "periods": [
+    {
+      "label": "Sun Records Era",
+      "startDate": "1953-08-18",
+      "endDate": "1955-11-20",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Rise to Fame",
+      "startDate": "1956-01-27",
+      "endDate": "1958-03-24",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Army & Hollywood",
+      "startDate": "1958-03-25",
+      "endDate": "1968-12-02",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "'68 Comeback / Vegas",
+      "startDate": "1968-12-03",
+      "endDate": "1973-01-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Final Years",
+      "startDate": "1973-01-15",
+      "endDate": "1977-08-16",
+      "color": "#6b7280"
+    }
+  ],
+  "moments": [
+    { "label": "First Recording (Sun)", "date": "1953-08-18", "color": "#f59e0b", "shape": "star" },
+    { "label": "That's All Right Mama", "date": "1954-07-05", "color": "#f59e0b", "shape": "star" },
+    { "label": "Signed to RCA Records", "date": "1955-11-21", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Heartbreak Hotel #1", "date": "1956-04-21", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Elvis Presley Album #1", "date": "1956-05-12", "color": "#ef4444", "shape": "star" },
+    { "label": "Ed Sullivan Show Debut", "date": "1956-09-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Hound Dog / Don't Be Cruel", "date": "1956-07-13", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Love Me Tender Film", "date": "1956-11-15", "color": "#ef4444", "shape": "star" },
+    { "label": "Jailhouse Rock", "date": "1957-10-17", "color": "#ef4444", "shape": "star" },
+    { "label": "Drafted into Army", "date": "1957-12-20", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Mother Gladys Died", "date": "1958-08-14", "color": "#6b7280", "shape": "heart" },
+    { "label": "Met Priscilla Beaulieu", "date": "1959-09-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Discharged from Army", "date": "1960-03-05", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Married Priscilla", "date": "1967-05-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Lisa Marie Born", "date": "1968-02-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "'68 Comeback Special", "date": "1968-12-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Vegas Residency Begins", "date": "1969-07-31", "color": "#9333ea", "shape": "star" },
+    { "label": "Aloha from Hawaii (1B viewers)", "date": "1973-01-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Divorce from Priscilla", "date": "1973-10-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Passed Away", "date": "1977-08-16", "color": "#6b7280", "shape": "heart" }
+  ]
+}

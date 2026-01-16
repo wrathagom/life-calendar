@@ -1,0 +1,61 @@
+{
+  "name": "Harry Styles",
+  "sex": "male",
+  "dob": "1994-02-01",
+  "country": "United Kingdom",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "One Direction Era",
+      "startDate": "2010-07-23",
+      "endDate": "2016-01-01",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Self-Titled Solo Era",
+      "startDate": "2017-05-12",
+      "endDate": "2019-12-12",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Fine Line Era",
+      "startDate": "2019-12-13",
+      "endDate": "2022-05-19",
+      "color": "#fbbf24"
+    },
+    {
+      "label": "Harry's House Era",
+      "startDate": "2022-05-20",
+      "endDate": "2024-07-21",
+      "color": "#10b981"
+    },
+    {
+      "label": "Acting Focus",
+      "startDate": "2022-09-05",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "X Factor Audition", "date": "2010-04-11", "color": "#6b7280", "shape": "star" },
+    { "label": "One Direction Formed", "date": "2010-07-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "What Makes You Beautiful", "date": "2011-09-11", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Up All Night #1 US", "date": "2012-03-21", "color": "#3b82f6", "shape": "star" },
+    { "label": "Take Me Home", "date": "2012-11-09", "color": "#3b82f6", "shape": "star" },
+    { "label": "Midnight Memories", "date": "2013-11-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Four Released", "date": "2014-11-17", "color": "#3b82f6", "shape": "star" },
+    { "label": "Made in the A.M.", "date": "2015-11-13", "color": "#3b82f6", "shape": "star" },
+    { "label": "1D Hiatus Announced", "date": "2015-08-23", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed Solo to Columbia", "date": "2016-06-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Sign of the Times", "date": "2017-04-07", "color": "#ec4899", "shape": "star" },
+    { "label": "Harry Styles (Self-Titled)", "date": "2017-05-12", "color": "#ec4899", "shape": "star" },
+    { "label": "Dunkirk Film Debut", "date": "2017-07-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Fine Line Released", "date": "2019-12-13", "color": "#fbbf24", "shape": "star" },
+    { "label": "Watermelon Sugar #1", "date": "2020-08-08", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Grammy Best Pop Solo", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Harry's House Released", "date": "2022-05-20", "color": "#10b981", "shape": "star" },
+    { "label": "As It Was #1 (15 weeks)", "date": "2022-04-16", "color": "#10b981", "shape": "diamond" },
+    { "label": "Grammy Album of Year", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Love On Tour Record", "date": "2023-07-22", "color": "#10b981", "shape": "heart" }
+  ]
+}

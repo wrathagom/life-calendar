@@ -1,0 +1,60 @@
+{
+  "name": "WizKid",
+  "sex": "male",
+  "dob": "1990-07-16",
+  "country": "Nigeria",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Superstar Era",
+      "startDate": "2011-06-12",
+      "endDate": "2014-09-16",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Ayo Era",
+      "startDate": "2014-09-17",
+      "endDate": "2017-07-13",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Sounds from the Other Side Era",
+      "startDate": "2017-07-14",
+      "endDate": "2020-10-29",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Made in Lagos Era",
+      "startDate": "2020-10-30",
+      "endDate": "2024-11-21",
+      "color": "#10b981"
+    },
+    {
+      "label": "Morayo Era",
+      "startDate": "2024-11-22",
+      "endDate": "2025-12-31",
+      "color": "#ec4899"
+    }
+  ],
+  "moments": [
+    { "label": "Holla at Your Boy Debut", "date": "2010-01-02", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Empire Mates", "date": "2009-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Superstar Debut Album", "date": "2011-06-12", "color": "#3b82f6", "shape": "star" },
+    { "label": "Ayo Album", "date": "2014-09-17", "color": "#9333ea", "shape": "star" },
+    { "label": "Ojuelegba Breakthrough", "date": "2014-07-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Ojuelegba Drake Remix", "date": "2015-07-06", "color": "#9333ea", "shape": "star" },
+    { "label": "One Dance #1 Global", "date": "2016-04-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Sounds from the Other Side", "date": "2017-07-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "Starboy Records Founded", "date": "2013-03-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Son Boluwatife Born", "date": "2011-05-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Fever Hit", "date": "2018-10-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Made in Lagos Album", "date": "2020-10-30", "color": "#10b981", "shape": "star" },
+    { "label": "Essence Global Phenomenon", "date": "2020-10-30", "color": "#10b981", "shape": "star" },
+    { "label": "Essence Top 10 Billboard", "date": "2021-10-02", "color": "#10b981", "shape": "diamond" },
+    { "label": "Grammy for Essence", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Made in Lagos Deluxe", "date": "2021-08-27", "color": "#10b981", "shape": "star" },
+    { "label": "Sold Out MSG", "date": "2022-11-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "More Love, Less Ego Album", "date": "2022-11-11", "color": "#10b981", "shape": "star" },
+    { "label": "Morayo Album", "date": "2024-11-22", "color": "#ec4899", "shape": "star" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "H.E.R.",
+  "sex": "female",
+  "dob": "1997-06-27",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Child Prodigy Era",
+      "startDate": "2007-01-01",
+      "endDate": "2016-09-08",
+      "color": "#6b7280"
+    },
+    {
+      "label": "H.E.R. Era",
+      "startDate": "2016-09-09",
+      "endDate": "2021-06-17",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Back of My Mind Era",
+      "startDate": "2021-06-18",
+      "endDate": "2025-12-31",
+      "color": "#3b82f6"
+    }
+  ],
+  "moments": [
+    { "label": "Today Show Performance at 10", "date": "2007-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to RCA as Gabi Wilson", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Radio Disney Appearances", "date": "2014-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "H.E.R. Volume 1 EP", "date": "2016-09-09", "color": "#9333ea", "shape": "star" },
+    { "label": "Focus Breakthrough", "date": "2016-09-09", "color": "#9333ea", "shape": "diamond" },
+    { "label": "H.E.R. Volume 2 EP", "date": "2017-06-16", "color": "#9333ea", "shape": "star" },
+    { "label": "H.E.R. Compilation Album", "date": "2017-10-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Best Part with Daniel Caesar", "date": "2017-08-25", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy Best R&B Album", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best R&B Performance", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "I Used to Know Her", "date": "2019-08-23", "color": "#9333ea", "shape": "star" },
+    { "label": "Oscar for Fight for You", "date": "2021-04-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Song of the Year", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Back of My Mind Album", "date": "2021-06-18", "color": "#3b82f6", "shape": "star" },
+    { "label": "Damage Hit", "date": "2020-10-21", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Super Bowl Performance", "date": "2021-02-07", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Color Purple Film", "date": "2023-12-25", "color": "#f59e0b", "shape": "star" }
+  ]
+}

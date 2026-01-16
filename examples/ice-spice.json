@@ -1,0 +1,45 @@
+{
+  "name": "Ice Spice",
+  "sex": "female",
+  "dob": "2000-01-01",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Breakthrough Era",
+      "startDate": "2022-08-10",
+      "endDate": "2023-07-20",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Like..? / Barbie Era",
+      "startDate": "2023-01-20",
+      "endDate": "2024-07-25",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Y2K! Era",
+      "startDate": "2024-07-26",
+      "endDate": "2025-12-31",
+      "color": "#3b82f6"
+    }
+  ],
+  "moments": [
+    { "label": "Started Making Music", "date": "2021-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Munch (Feelin' U) Goes Viral", "date": "2022-08-10", "color": "#f59e0b", "shape": "star" },
+    { "label": "Drake Shoutout", "date": "2022-10-15", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Signed to 10K Projects/Capitol", "date": "2022-08-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Bikini Bottom Hit", "date": "2022-12-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Like..? EP Release", "date": "2023-01-20", "color": "#ec4899", "shape": "star" },
+    { "label": "Boy's a Liar Pt. 2 with PinkPantheress", "date": "2023-02-03", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Super Bowl Appearance", "date": "2023-02-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Nominations", "date": "2023-11-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Princess Diana Remix with Nicki", "date": "2023-04-14", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Karma Remix with Taylor Swift", "date": "2023-05-26", "color": "#ec4899", "shape": "star" },
+    { "label": "Barbie World for Barbie Movie", "date": "2023-06-23", "color": "#ec4899", "shape": "star" },
+    { "label": "MTV VMA Best New Artist", "date": "2023-09-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Deli Hit", "date": "2023-08-04", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Y2K! Album", "date": "2024-07-26", "color": "#3b82f6", "shape": "star" },
+    { "label": "Think U the Shit Single", "date": "2024-01-11", "color": "#3b82f6", "shape": "diamond" }
+  ]
+}

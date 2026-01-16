@@ -1,0 +1,57 @@
+{
+  "name": "Jhené Aiko",
+  "sex": "female",
+  "dob": "1988-03-16",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "B2K Era",
+      "startDate": "2002-01-01",
+      "endDate": "2003-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Hiatus / Comeback",
+      "startDate": "2011-03-16",
+      "endDate": "2014-09-15",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Souled Out Era",
+      "startDate": "2014-09-16",
+      "endDate": "2017-07-13",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Trip / Chilombo Era",
+      "startDate": "2017-09-22",
+      "endDate": "2024-07-18",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Magic Hour Era",
+      "startDate": "2024-07-19",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Epic (B2K Era)", "date": "2002-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Daughter Namiko Born", "date": "2008-11-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Brother Miyagi's Death", "date": "2012-07-19", "color": "#6b7280", "shape": "circle" },
+    { "label": "Sailing Soul(s) Mixtape", "date": "2011-03-16", "color": "#9333ea", "shape": "star" },
+    { "label": "Signed to Def Jam", "date": "2012-06-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "3:16 AM EP", "date": "2014-03-16", "color": "#9333ea", "shape": "star" },
+    { "label": "The Worst Hit", "date": "2013-06-18", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Souled Out Debut Album", "date": "2014-09-16", "color": "#3b82f6", "shape": "star" },
+    { "label": "Twenty88 with Big Sean", "date": "2016-04-01", "color": "#ec4899", "shape": "star" },
+    { "label": "Trip Album", "date": "2017-09-22", "color": "#ec4899", "shape": "star" },
+    { "label": "Grammy Nominations", "date": "2018-12-07", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Chilombo Album", "date": "2020-03-06", "color": "#ec4899", "shape": "star" },
+    { "label": "P*$$y Fairy (OTW) Hit", "date": "2019-10-04", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Grammy for Lightning & Thunder", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Noah Born with Big Sean", "date": "2022-11-08", "color": "#ef4444", "shape": "heart" },
+    { "label": "Magic Hour Album", "date": "2024-07-19", "color": "#f59e0b", "shape": "star" }
+  ]
+}

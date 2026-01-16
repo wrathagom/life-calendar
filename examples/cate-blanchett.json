@@ -1,0 +1,56 @@
+{
+  "name": "Cate Blanchett",
+  "sex": "female",
+  "dob": "1969-05-14",
+  "country": "Australia",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Australian Theater",
+      "startDate": "1992-01-01",
+      "endDate": "1997-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "International Breakthrough",
+      "startDate": "1998-01-01",
+      "endDate": "2006-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List Era",
+      "startDate": "2007-01-01",
+      "endDate": "2015-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Living Legend",
+      "startDate": "2016-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "NIDA Graduate", "date": "1992-12-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Sydney Theatre Company", "date": "1993-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Married Andrew Upton", "date": "1997-12-29", "color": "#ef4444", "shape": "heart" },
+    { "label": "Elizabeth - Golden Globe Win", "date": "1998-10-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "Oscar Nom - Elizabeth", "date": "1999-03-21", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "The Talented Mr. Ripley", "date": "1999-12-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Dashiell Born", "date": "2001-12-03", "color": "#ef4444", "shape": "heart" },
+    { "label": "Lord of the Rings - Galadriel", "date": "2001-12-19", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Roman Born", "date": "2004-04-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Aviator - Oscar Win", "date": "2005-02-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Ignatius Born", "date": "2008-04-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "I'm Not There - Bob Dylan", "date": "2007-11-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Elizabeth: The Golden Age", "date": "2007-10-12", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Curious Case of Benjamin Button", "date": "2008-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Blue Jasmine - Oscar Win", "date": "2014-02-22", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Carol - Oscar Nom", "date": "2015-11-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Edith Adopted", "date": "2015-03-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Thor: Ragnarok - Hela", "date": "2017-11-03", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Ocean's 8", "date": "2018-06-08", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Tár - Oscar Nom", "date": "2022-10-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "Venice Film Festival - Best Actress", "date": "2022-09-10", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Jennifer Lawrence",
+  "sex": "female",
+  "dob": "1990-08-15",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2006-01-01",
+      "endDate": "2009-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Breakthrough Era",
+      "startDate": "2010-01-01",
+      "endDate": "2013-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Hunger Games & X-Men",
+      "startDate": "2014-01-01",
+      "endDate": "2019-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Motherhood & New Era",
+      "startDate": "2020-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Company Town TV Debut", "date": "2006-03-25", "color": "#6b7280", "shape": "star" },
+    { "label": "The Bill Engvall Show", "date": "2007-09-18", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Winter's Bone - Oscar Nom", "date": "2010-06-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "X-Men: First Class - Mystique", "date": "2011-06-03", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Hunger Games Premiere", "date": "2012-03-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "Silver Linings Playbook - Oscar Win", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Youngest Actress 3 Oscar Noms", "date": "2013-01-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "American Hustle - Oscar Nom", "date": "2013-12-13", "color": "#3b82f6", "shape": "star" },
+    { "label": "Catching Fire", "date": "2013-11-22", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "X-Men: Days of Future Past", "date": "2014-05-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Mockingjay - Part 1", "date": "2014-11-21", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Joy - Oscar Nom", "date": "2015-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "mother!", "date": "2017-09-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Red Sparrow", "date": "2018-03-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Married Cooke Maroney", "date": "2019-10-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Don't Look Up", "date": "2021-12-24", "color": "#f59e0b", "shape": "star" },
+    { "label": "Son Cy Born", "date": "2022-02-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Causeway", "date": "2022-11-04", "color": "#f59e0b", "shape": "star" },
+    { "label": "No Hard Feelings", "date": "2023-06-23", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Bread & Roses Producer", "date": "2024-11-22", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

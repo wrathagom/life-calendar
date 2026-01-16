@@ -1,0 +1,58 @@
+{
+  "name": "Audrey Hepburn",
+  "sex": "female",
+  "dob": "1929-05-04",
+  "country": "Belgium",
+  "theme": "default",
+  "customLifeExpectancy": 63.75,
+  "periods": [
+    {
+      "label": "Ballet & Early Work",
+      "startDate": "1948-01-01",
+      "endDate": "1952-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Hollywood Golden Age",
+      "startDate": "1953-01-01",
+      "endDate": "1967-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Semi-Retirement",
+      "startDate": "1968-01-01",
+      "endDate": "1988-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "UNICEF Ambassador",
+      "startDate": "1988-01-01",
+      "endDate": "1993-01-20",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Survived WWII in Netherlands", "date": "1945-05-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Moved to London for Ballet", "date": "1948-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Broadway - Gigi", "date": "1951-11-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Roman Holiday - Oscar Win", "date": "1954-03-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Sabrina", "date": "1954-09-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Mel Ferrer", "date": "1954-09-25", "color": "#ef4444", "shape": "heart" },
+    { "label": "War and Peace", "date": "1956-08-21", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Funny Face", "date": "1957-02-13", "color": "#9333ea", "shape": "star" },
+    { "label": "The Nun's Story", "date": "1959-06-18", "color": "#9333ea", "shape": "star" },
+    { "label": "Son Sean Born", "date": "1960-07-17", "color": "#ef4444", "shape": "heart" },
+    { "label": "Breakfast at Tiffany's", "date": "1961-10-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Charade", "date": "1963-12-05", "color": "#9333ea", "shape": "star" },
+    { "label": "My Fair Lady", "date": "1964-10-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Tony Award - Ondine", "date": "1954-03-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Wait Until Dark", "date": "1967-10-26", "color": "#9333ea", "shape": "star" },
+    { "label": "Married Andrea Dotti", "date": "1969-01-18", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Luca Born", "date": "1970-02-08", "color": "#ef4444", "shape": "heart" },
+    { "label": "Robin and Marian", "date": "1976-03-11", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "UNICEF Goodwill Ambassador", "date": "1988-03-08", "color": "#10b981", "shape": "heart" },
+    { "label": "Always - Final Film", "date": "1989-12-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Presidential Medal of Freedom", "date": "1992-12-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Passed Away", "date": "1993-01-20", "color": "#6b7280", "shape": "circle" }
+  ]
+}

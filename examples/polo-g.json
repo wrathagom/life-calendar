@@ -1,0 +1,47 @@
+{
+  "name": "Polo G",
+  "sex": "male",
+  "dob": "1999-01-06",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Die a Legend Era",
+      "startDate": "2019-06-07",
+      "endDate": "2020-05-14",
+      "color": "#6b7280"
+    },
+    {
+      "label": "THE GOAT Era",
+      "startDate": "2020-05-15",
+      "endDate": "2021-06-10",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Hall of Fame Era",
+      "startDate": "2021-06-11",
+      "endDate": "2024-06-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Hood Poet Era",
+      "startDate": "2024-06-07",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Finer Things Breakthrough", "date": "2018-07-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Columbia Records", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Die a Legend Debut", "date": "2019-06-07", "color": "#6b7280", "shape": "star" },
+    { "label": "Pop Out with Lil Tjay Hit", "date": "2019-02-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "THE GOAT #2 Album", "date": "2020-05-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Flex Hit", "date": "2020-05-15", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Martin & Gina Hit", "date": "2020-08-21", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Go Stupid with Stunna 4 Vegas", "date": "2020-01-17", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Hall of Fame #1 Album", "date": "2021-06-11", "color": "#9333ea", "shape": "star" },
+    { "label": "RAPSTAR #1", "date": "2021-04-17", "color": "#9333ea", "shape": "star" },
+    { "label": "For the Love of New York Hit", "date": "2023-07-28", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Hood Poet Album", "date": "2024-06-07", "color": "#f59e0b", "shape": "star" }
+  ]
+}

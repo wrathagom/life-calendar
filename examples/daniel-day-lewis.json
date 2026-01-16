@@ -1,0 +1,54 @@
+{
+  "name": "Daniel Day-Lewis",
+  "sex": "male",
+  "dob": "1957-04-29",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & Early Film",
+      "startDate": "1971-01-01",
+      "endDate": "1988-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Method Acting Rise",
+      "startDate": "1989-01-01",
+      "endDate": "1997-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Selective Roles",
+      "startDate": "1998-01-01",
+      "endDate": "2012-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Final Era & Retirement",
+      "startDate": "2013-01-01",
+      "endDate": "2017-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Film Debut - Sunday Bloody Sunday", "date": "1971-07-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Bristol Old Vic Theatre School", "date": "1973-09-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Gandhi", "date": "1982-12-08", "color": "#6b7280", "shape": "diamond" },
+    { "label": "A Room with a View", "date": "1985-04-11", "color": "#6b7280", "shape": "star" },
+    { "label": "My Beautiful Laundrette", "date": "1985-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "My Left Foot - Oscar Win", "date": "1990-02-25", "color": "#fbbf24", "shape": "heart" },
+    { "label": "The Last of the Mohicans", "date": "1992-09-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "In the Name of the Father", "date": "1993-12-29", "color": "#3b82f6", "shape": "star" },
+    { "label": "Married Rebecca Miller", "date": "1996-11-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "The Crucible", "date": "1996-12-20", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Son Ronan Born", "date": "1998-06-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Cashel Born", "date": "2002-05-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Gangs of New York", "date": "2002-12-20", "color": "#9333ea", "shape": "star" },
+    { "label": "There Will Be Blood - Oscar Win", "date": "2008-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Nine", "date": "2009-12-18", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Lincoln - Oscar Win", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Only 3-Time Best Actor Winner", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Phantom Thread - Oscar Nom", "date": "2017-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Announced Retirement", "date": "2017-06-20", "color": "#6b7280", "shape": "diamond" }
+  ]
+}

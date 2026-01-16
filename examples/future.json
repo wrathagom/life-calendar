@@ -1,0 +1,62 @@
+{
+  "name": "Future",
+  "sex": "male",
+  "dob": "1983-11-20",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2010-01-01",
+      "endDate": "2012-04-16",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Pluto Era",
+      "startDate": "2012-04-17",
+      "endDate": "2015-03-16",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "DS2/What a Time Era",
+      "startDate": "2015-03-17",
+      "endDate": "2017-02-16",
+      "color": "#9333ea"
+    },
+    {
+      "label": "FUTURE/HNDRXX Era",
+      "startDate": "2017-02-17",
+      "endDate": "2020-05-14",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "I NEVER LIKED YOU Era",
+      "startDate": "2022-04-29",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "1000 Mixtape", "date": "2010-09-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Epic/A1/Freebandz", "date": "2011-09-22", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Tony Montana Breakthrough", "date": "2011-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Pluto Debut Album", "date": "2012-04-17", "color": "#3b82f6", "shape": "star" },
+    { "label": "Turn On the Lights Hit", "date": "2012-09-11", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Honest Album", "date": "2014-04-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Future Zahir Born", "date": "2014-05-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Monster Mixtape", "date": "2014-10-28", "color": "#3b82f6", "shape": "star" },
+    { "label": "Beast Mode Mixtape", "date": "2015-01-15", "color": "#9333ea", "shape": "star" },
+    { "label": "56 Nights Mixtape", "date": "2015-03-17", "color": "#9333ea", "shape": "star" },
+    { "label": "DS2 #1 Album", "date": "2015-07-17", "color": "#9333ea", "shape": "star" },
+    { "label": "What a Time with Drake", "date": "2015-09-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Evol Album", "date": "2016-02-06", "color": "#9333ea", "shape": "star" },
+    { "label": "FUTURE #1 Album", "date": "2017-02-17", "color": "#f59e0b", "shape": "star" },
+    { "label": "HNDRXX #1 Back to Back", "date": "2017-02-24", "color": "#f59e0b", "shape": "star" },
+    { "label": "Life Is Good with Drake", "date": "2020-01-10", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "High Off Life Album", "date": "2020-05-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "I NEVER LIKED YOU #1", "date": "2022-04-29", "color": "#10b981", "shape": "star" },
+    { "label": "Wait for U #1", "date": "2022-05-14", "color": "#10b981", "shape": "diamond" },
+    { "label": "We Don't Trust You with Metro", "date": "2024-03-22", "color": "#10b981", "shape": "star" },
+    { "label": "We Still Don't Trust You", "date": "2024-04-12", "color": "#10b981", "shape": "star" }
+  ]
+}

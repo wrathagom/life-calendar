@@ -1,0 +1,40 @@
+{
+  "name": "Bruno Major",
+  "sex": "male",
+  "dob": "1988-10-05",
+  "country": "United Kingdom",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "A Song for Every Moon Era",
+      "startDate": "2016-07-01",
+      "endDate": "2019-04-04",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "To Let a Good Thing Die Era",
+      "startDate": "2019-04-05",
+      "endDate": "2022-10-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Columbo Era",
+      "startDate": "2022-10-07",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Studied Jazz Guitar at BIMM", "date": "2007-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "First Single Just the Same", "date": "2015-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Easily Viral Breakthrough", "date": "2016-07-01", "color": "#3b82f6", "shape": "star" },
+    { "label": "A Song for Every Moon Complete", "date": "2017-07-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Toured with Sam Smith", "date": "2018-02-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Nothing Hit", "date": "2019-04-05", "color": "#9333ea", "shape": "star" },
+    { "label": "To Let a Good Thing Die Album", "date": "2019-04-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Global Streaming Success", "date": "2020-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Columbo Album", "date": "2022-10-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "We Were Never Really Friends Hit", "date": "2022-10-07", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "First US Headline Tour", "date": "2023-04-01", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

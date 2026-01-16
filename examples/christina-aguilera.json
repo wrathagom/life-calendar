@@ -1,0 +1,67 @@
+{
+  "name": "Christina Aguilera",
+  "sex": "female",
+  "dob": "1980-12-18",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Teen Pop Era",
+      "startDate": "1999-08-24",
+      "endDate": "2002-10-28",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Stripped Era",
+      "startDate": "2002-10-29",
+      "endDate": "2006-08-14",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Back to Basics Era",
+      "startDate": "2006-08-15",
+      "endDate": "2010-06-07",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Bionic Era",
+      "startDate": "2010-06-08",
+      "endDate": "2012-11-12",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Lotus Era",
+      "startDate": "2012-11-13",
+      "endDate": "2018-06-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Liberation Era",
+      "startDate": "2018-06-15",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Mickey Mouse Club", "date": "1993-01-01", "color": "#fbbf24", "shape": "star" },
+    { "label": "Reflection (Mulan)", "date": "1998-06-02", "color": "#ec4899", "shape": "star" },
+    { "label": "Genie in a Bottle #1", "date": "1999-08-14", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Self-Titled Debut Album", "date": "1999-08-24", "color": "#ec4899", "shape": "star" },
+    { "label": "What a Girl Wants #1", "date": "2000-01-15", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Grammy Best New Artist", "date": "2000-02-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Lady Marmalade #1", "date": "2001-06-09", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Stripped Album", "date": "2002-10-29", "color": "#6b7280", "shape": "star" },
+    { "label": "Beautiful Hit", "date": "2002-11-16", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Grammy for Beautiful", "date": "2004-02-08", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Married Jordan Bratman", "date": "2005-11-19", "color": "#ef4444", "shape": "heart" },
+    { "label": "Back to Basics Album", "date": "2006-08-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "Ain't No Other Man Grammy", "date": "2007-02-11", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Son Max Born", "date": "2008-01-12", "color": "#ef4444", "shape": "heart" },
+    { "label": "Bionic Album", "date": "2010-06-08", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Voice Coach Start", "date": "2011-04-26", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Burlesque Film", "date": "2010-11-24", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Lotus Album", "date": "2012-11-13", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Summer Born", "date": "2014-08-16", "color": "#ef4444", "shape": "heart" },
+    { "label": "Liberation Album", "date": "2018-06-15", "color": "#10b981", "shape": "star" }
+  ]
+}

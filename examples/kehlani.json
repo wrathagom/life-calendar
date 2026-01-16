@@ -1,0 +1,55 @@
+{
+  "name": "Kehlani",
+  "sex": "female",
+  "dob": "1995-04-24",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Poplyfe / Early Career",
+      "startDate": "2011-01-01",
+      "endDate": "2015-04-23",
+      "color": "#6b7280"
+    },
+    {
+      "label": "You Should Be Here Era",
+      "startDate": "2015-04-24",
+      "endDate": "2017-10-26",
+      "color": "#9333ea"
+    },
+    {
+      "label": "SweetSexySavage Era",
+      "startDate": "2017-01-27",
+      "endDate": "2020-05-07",
+      "color": "#ec4899"
+    },
+    {
+      "label": "It Was Good Until It Wasn't Era",
+      "startDate": "2020-05-08",
+      "endDate": "2022-06-23",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Blue Water Road Era",
+      "startDate": "2022-04-29",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Poplyfe on America's Got Talent", "date": "2011-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Cloud 19 Mixtape", "date": "2014-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Atlantic Records", "date": "2015-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "You Should Be Here Mixtape", "date": "2015-04-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Grammy Nom for YSBH", "date": "2016-02-15", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Gangsta (Suicide Squad)", "date": "2016-06-13", "color": "#9333ea", "shape": "star" },
+    { "label": "SweetSexySavage Album #3", "date": "2017-01-27", "color": "#ec4899", "shape": "star" },
+    { "label": "Honey Hit", "date": "2017-02-15", "color": "#ec4899", "shape": "diamond" },
+    { "label": "Daughter Adeya Born", "date": "2019-03-23", "color": "#ef4444", "shape": "heart" },
+    { "label": "It Was Good Until It Wasn't", "date": "2020-05-08", "color": "#3b82f6", "shape": "star" },
+    { "label": "Toxic Hit", "date": "2020-09-04", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Blue Water Road Album", "date": "2022-04-29", "color": "#f59e0b", "shape": "star" },
+    { "label": "Came Out as Lesbian", "date": "2021-04-22", "color": "#ec4899", "shape": "heart" },
+    { "label": "Crash Album", "date": "2024-06-21", "color": "#f59e0b", "shape": "star" }
+  ]
+}

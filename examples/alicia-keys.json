@@ -1,0 +1,63 @@
+{
+  "name": "Alicia Keys",
+  "sex": "female",
+  "dob": "1981-01-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Songs in A Minor Era",
+      "startDate": "2001-06-05",
+      "endDate": "2003-12-01",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Diary Era",
+      "startDate": "2003-12-02",
+      "endDate": "2007-11-12",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "As I Am / Element Era",
+      "startDate": "2007-11-13",
+      "endDate": "2012-11-11",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Girl on Fire Era",
+      "startDate": "2012-11-12",
+      "endDate": "2016-11-03",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Here/ALICIA Era",
+      "startDate": "2016-11-04",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Signed to Columbia at 15", "date": "1996-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to J Records", "date": "2000-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Songs in A Minor #1", "date": "2001-06-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Fallin' #1", "date": "2001-08-18", "color": "#9333ea", "shape": "diamond" },
+    { "label": "5 Grammy Awards (Record)", "date": "2002-02-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Diary of Alicia Keys #1", "date": "2003-12-02", "color": "#3b82f6", "shape": "star" },
+    { "label": "If I Ain't Got You Hit", "date": "2004-02-10", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "My Boo #1 with Usher", "date": "2004-10-30", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Unplugged Album", "date": "2005-10-11", "color": "#3b82f6", "shape": "star" },
+    { "label": "As I Am Album", "date": "2007-11-13", "color": "#f59e0b", "shape": "star" },
+    { "label": "No One #1", "date": "2007-11-10", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Empire State of Mind #1", "date": "2009-10-31", "color": "#f59e0b", "shape": "star" },
+    { "label": "Married Swizz Beatz", "date": "2010-07-31", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Egypt Born", "date": "2010-10-14", "color": "#ef4444", "shape": "heart" },
+    { "label": "Girl on Fire Album #1", "date": "2012-11-27", "color": "#ef4444", "shape": "star" },
+    { "label": "Girl on Fire Hit", "date": "2012-09-04", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Son Genesis Born", "date": "2014-12-27", "color": "#ef4444", "shape": "heart" },
+    { "label": "HERE Album", "date": "2016-11-04", "color": "#10b981", "shape": "star" },
+    { "label": "Grammy Host 2019", "date": "2019-02-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "ALICIA Album", "date": "2020-09-18", "color": "#10b981", "shape": "star" },
+    { "label": "Keys Album", "date": "2021-12-10", "color": "#10b981", "shape": "star" },
+    { "label": "Hell's Kitchen Musical Opens", "date": "2024-04-20", "color": "#f59e0b", "shape": "heart" }
+  ]
+}

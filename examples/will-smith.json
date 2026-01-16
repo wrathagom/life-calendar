@@ -1,0 +1,56 @@
+{
+  "name": "Will Smith",
+  "sex": "male",
+  "dob": "1968-09-25",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "DJ Jazzy Jeff Era",
+      "startDate": "1986-01-01",
+      "endDate": "1990-09-09",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Fresh Prince Era",
+      "startDate": "1990-09-10",
+      "endDate": "1996-05-20",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Movie Star Era",
+      "startDate": "1996-05-21",
+      "endDate": "2010-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Later Career",
+      "startDate": "2011-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "DJ Jazzy Jeff Partnership", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Parents Just Don't Understand", "date": "1988-05-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "First Grammy Win", "date": "1989-02-22", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Fresh Prince of Bel-Air Premiere", "date": "1990-09-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "Son Trey Born", "date": "1992-11-11", "color": "#ef4444", "shape": "heart" },
+    { "label": "Married Jada Pinkett", "date": "1997-12-31", "color": "#ef4444", "shape": "heart" },
+    { "label": "Son Jaden Born", "date": "1998-07-08", "color": "#ef4444", "shape": "heart" },
+    { "label": "Bad Boys", "date": "1995-04-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "Independence Day", "date": "1996-07-03", "color": "#9333ea", "shape": "star" },
+    { "label": "Men in Black", "date": "1997-07-02", "color": "#9333ea", "shape": "star" },
+    { "label": "Daughter Willow Born", "date": "2000-10-31", "color": "#ef4444", "shape": "heart" },
+    { "label": "Ali - Oscar Nom", "date": "2001-12-25", "color": "#9333ea", "shape": "star" },
+    { "label": "Hitch", "date": "2005-02-11", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Pursuit of Happyness - Oscar Nom", "date": "2006-12-15", "color": "#9333ea", "shape": "star" },
+    { "label": "I Am Legend", "date": "2007-12-14", "color": "#9333ea", "shape": "star" },
+    { "label": "Hancock", "date": "2008-07-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Aladdin - Genie", "date": "2019-05-24", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "King Richard - Oscar Win", "date": "2022-03-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Oscars Incident", "date": "2022-03-27", "color": "#6b7280", "shape": "circle" },
+    { "label": "Emancipation", "date": "2022-12-09", "color": "#f59e0b", "shape": "star" },
+    { "label": "Bad Boys: Ride or Die", "date": "2024-06-07", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

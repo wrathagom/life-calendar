@@ -1,0 +1,55 @@
+{
+  "name": "Lizzo",
+  "sex": "female",
+  "dob": "1988-04-27",
+  "country": "United States",
+  "theme": "rose-pine",
+  "periods": [
+    {
+      "label": "Independent Era",
+      "startDate": "2013-01-01",
+      "endDate": "2016-10-06",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Coconut Oil / Big GRRRL",
+      "startDate": "2016-10-07",
+      "endDate": "2019-04-18",
+      "color": "#ec4899"
+    },
+    {
+      "label": "Cuz I Love You Era",
+      "startDate": "2019-04-19",
+      "endDate": "2022-07-14",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Special Era",
+      "startDate": "2022-07-15",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Moved to Minneapolis", "date": "2011-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Formed GRRRL PRTY", "date": "2012-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Lizzobangers Debut", "date": "2013-10-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Big GRRRL Small World", "date": "2015-12-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Atlantic Records", "date": "2016-06-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Coconut Oil EP", "date": "2016-10-07", "color": "#ec4899", "shape": "star" },
+    { "label": "Juice Released", "date": "2019-01-04", "color": "#9333ea", "shape": "star" },
+    { "label": "Cuz I Love You Album", "date": "2019-04-19", "color": "#9333ea", "shape": "star" },
+    { "label": "Truth Hurts Goes Viral", "date": "2019-07-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Truth Hurts #1 (7 weeks)", "date": "2019-09-14", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Good as Hell Resurges", "date": "2019-10-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "3 Grammys in One Night", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best Pop Solo", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Played James Madison's Flute", "date": "2022-09-27", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Special Album Released", "date": "2022-07-15", "color": "#f59e0b", "shape": "star" },
+    { "label": "About Damn Time #1", "date": "2022-07-02", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy Record of Year", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Special Tour", "date": "2022-09-23", "color": "#f59e0b", "shape": "star" },
+    { "label": "Watch Out for the Big Grrrls (Emmy)", "date": "2022-09-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "4 Grammy Wins Total", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

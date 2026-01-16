@@ -1,0 +1,45 @@
+{
+  "name": "Tems",
+  "sex": "female",
+  "dob": "1995-06-11",
+  "country": "Nigeria",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Career",
+      "startDate": "2018-08-01",
+      "endDate": "2020-09-14",
+      "color": "#6b7280"
+    },
+    {
+      "label": "For Broken Ears Era",
+      "startDate": "2020-09-15",
+      "endDate": "2022-09-29",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Born in the Wild Era",
+      "startDate": "2022-09-30",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Mr Rebel Single Debut", "date": "2018-08-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Try Me Breakthrough", "date": "2019-07-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Arrested at Lagos Concert", "date": "2020-10-11", "color": "#6b7280", "shape": "circle" },
+    { "label": "For Broken Ears EP", "date": "2020-09-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Essence with WizKid", "date": "2020-10-30", "color": "#9333ea", "shape": "star" },
+    { "label": "Essence Justin Bieber Remix", "date": "2021-08-13", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Essence Hits Billboard Top 10", "date": "2021-10-02", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Signed to RCA Records", "date": "2021-06-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Drake Wait for U Feature", "date": "2022-04-29", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Wait for U #1", "date": "2022-05-14", "color": "#fbbf24", "shape": "star" },
+    { "label": "If Orange Was a Place EP", "date": "2021-09-15", "color": "#9333ea", "shape": "star" },
+    { "label": "Free Mind Hit", "date": "2022-09-30", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy for Wait for U", "date": "2023-02-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Oscar for Lift Me Up", "date": "2023-03-12", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Born in the Wild Album", "date": "2024-06-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "Love Me JeJe Hit", "date": "2024-01-26", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

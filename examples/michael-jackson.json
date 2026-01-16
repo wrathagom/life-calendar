@@ -1,0 +1,62 @@
+{
+  "name": "Michael Jackson",
+  "sex": "male",
+  "dob": "1958-08-29",
+  "country": "United States",
+  "theme": "default",
+  "customLifeExpectancy": 50.75,
+  "periods": [
+    {
+      "label": "Jackson 5 Era",
+      "startDate": "1964-01-01",
+      "endDate": "1975-06-15",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Early Solo Career",
+      "startDate": "1971-10-07",
+      "endDate": "1982-11-29",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Thriller Era",
+      "startDate": "1982-11-30",
+      "endDate": "1987-08-30",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Bad / Dangerous Era",
+      "startDate": "1987-08-31",
+      "endDate": "1997-05-19",
+      "color": "#1a1a1a"
+    },
+    {
+      "label": "Later Career",
+      "startDate": "2001-10-30",
+      "endDate": "2009-06-25",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "Jackson 5 Formed", "date": "1964-01-01", "color": "#f59e0b", "shape": "star" },
+    { "label": "Signed to Motown", "date": "1969-01-27", "color": "#9333ea", "shape": "diamond" },
+    { "label": "I Want You Back #1", "date": "1970-01-31", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Got to Be There (Solo)", "date": "1971-10-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "Ben #1", "date": "1972-10-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Off the Wall", "date": "1979-08-10", "color": "#3b82f6", "shape": "star" },
+    { "label": "Don't Stop 'Til You Get Enough", "date": "1979-07-28", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Thriller Released", "date": "1982-11-30", "color": "#ef4444", "shape": "star" },
+    { "label": "Billie Jean #1", "date": "1983-03-05", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Beat It #1", "date": "1983-04-30", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Motown 25 Moonwalk", "date": "1983-05-16", "color": "#fbbf24", "shape": "heart" },
+    { "label": "8 Grammys in One Night", "date": "1984-02-28", "color": "#fbbf24", "shape": "heart" },
+    { "label": "We Are the World", "date": "1985-03-07", "color": "#10b981", "shape": "star" },
+    { "label": "Bad Released", "date": "1987-08-31", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Dangerous Released", "date": "1991-11-26", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Married Lisa Marie Presley", "date": "1994-05-26", "color": "#ef4444", "shape": "heart" },
+    { "label": "HIStory Released", "date": "1995-06-20", "color": "#9333ea", "shape": "star" },
+    { "label": "Son Prince Born", "date": "1997-02-13", "color": "#ef4444", "shape": "heart" },
+    { "label": "Invincible Released", "date": "2001-10-30", "color": "#9333ea", "shape": "star" },
+    { "label": "Passed Away", "date": "2009-06-25", "color": "#6b7280", "shape": "heart" }
+  ]
+}

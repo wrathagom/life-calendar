@@ -1,0 +1,56 @@
+{
+  "name": "Denzel Washington",
+  "sex": "male",
+  "dob": "1954-12-28",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & TV Era",
+      "startDate": "1977-01-01",
+      "endDate": "1987-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Film Breakthrough",
+      "startDate": "1988-01-01",
+      "endDate": "1995-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List Star",
+      "startDate": "1996-01-01",
+      "endDate": "2009-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Legend & Director",
+      "startDate": "2010-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Fordham University Graduate", "date": "1977-05-01", "color": "#6b7280", "shape": "star" },
+    { "label": "St. Elsewhere TV Series", "date": "1982-10-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Married Pauletta Pearson", "date": "1983-06-25", "color": "#ef4444", "shape": "heart" },
+    { "label": "Cry Freedom", "date": "1987-11-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Glory - Oscar Win", "date": "1990-03-26", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Mo' Better Blues", "date": "1990-08-03", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Malcolm X", "date": "1992-11-18", "color": "#3b82f6", "shape": "star" },
+    { "label": "Philadelphia", "date": "1993-12-22", "color": "#3b82f6", "shape": "star" },
+    { "label": "Crimson Tide", "date": "1995-05-12", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Courage Under Fire", "date": "1996-07-12", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Hurricane", "date": "1999-12-29", "color": "#9333ea", "shape": "star" },
+    { "label": "Remember the Titans", "date": "2000-09-29", "color": "#9333ea", "shape": "star" },
+    { "label": "Training Day - Oscar Win", "date": "2002-03-24", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Man on Fire", "date": "2004-04-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "American Gangster", "date": "2007-11-02", "color": "#9333ea", "shape": "star" },
+    { "label": "Flight", "date": "2012-11-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "Fences - Director/Star", "date": "2016-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Roman J. Israel, Esq.", "date": "2017-11-17", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "The Tragedy of Macbeth", "date": "2021-12-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "The Equalizer 3", "date": "2023-09-01", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Gladiator II", "date": "2024-11-22", "color": "#f59e0b", "shape": "star" }
+  ]
+}

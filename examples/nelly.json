@@ -1,0 +1,53 @@
+{
+  "name": "Nelly",
+  "sex": "male",
+  "dob": "1974-11-02",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Country Grammar Era",
+      "startDate": "2000-06-27",
+      "endDate": "2002-06-24",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Nellyville Era",
+      "startDate": "2002-06-25",
+      "endDate": "2004-09-13",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Suit/Sweat Era",
+      "startDate": "2004-09-14",
+      "endDate": "2008-09-15",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Comeback Era",
+      "startDate": "2010-11-16",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "St. Lunatics Formed", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Country Grammar #1 Album", "date": "2000-06-27", "color": "#ef4444", "shape": "star" },
+    { "label": "Ride wit Me Hit", "date": "2001-02-13", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Nellyville #1 Album", "date": "2002-06-25", "color": "#f59e0b", "shape": "star" },
+    { "label": "Hot in Herre #1", "date": "2002-07-06", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Dilemma #1 with Kelly Rowland", "date": "2002-08-31", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Grammy for Dilemma", "date": "2003-02-23", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Suit Album", "date": "2004-09-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "Sweat Album", "date": "2004-09-14", "color": "#3b82f6", "shape": "star" },
+    { "label": "Over and Over with Tim McGraw", "date": "2004-11-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Grillz #1", "date": "2005-12-17", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Sister Jackie's Death", "date": "2005-03-24", "color": "#6b7280", "shape": "circle" },
+    { "label": "5.0 Album", "date": "2010-11-16", "color": "#9333ea", "shape": "star" },
+    { "label": "Just a Dream Hit", "date": "2010-08-17", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Relationship with Ashanti Public", "date": "2014-01-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Engaged to Ashanti", "date": "2023-04-01", "color": "#ef4444", "shape": "heart" },
+    { "label": "Heartland Album", "date": "2021-08-27", "color": "#9333ea", "shape": "star" },
+    { "label": "Las Vegas Residency", "date": "2024-06-01", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}

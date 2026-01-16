@@ -1,0 +1,56 @@
+{
+  "name": "Morgan Freeman",
+  "sex": "male",
+  "dob": "1937-06-01",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Theater & TV Era",
+      "startDate": "1964-01-01",
+      "endDate": "1986-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Film Breakthrough",
+      "startDate": "1987-01-01",
+      "endDate": "1994-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "A-List Era",
+      "startDate": "1995-01-01",
+      "endDate": "2009-12-31",
+      "color": "#9333ea"
+    },
+    {
+      "label": "Living Legend",
+      "startDate": "2010-01-01",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Broadway Debut - Hello Dolly!", "date": "1967-11-01", "color": "#6b7280", "shape": "star" },
+    { "label": "The Electric Company (TV)", "date": "1971-10-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Street Smart - Oscar Nom", "date": "1987-03-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Lean on Me", "date": "1989-03-03", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Driving Miss Daisy - Oscar Nom", "date": "1989-12-15", "color": "#3b82f6", "shape": "star" },
+    { "label": "Glory", "date": "1989-12-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Robin Hood: Prince of Thieves", "date": "1991-06-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Unforgiven", "date": "1992-08-07", "color": "#3b82f6", "shape": "star" },
+    { "label": "The Shawshank Redemption", "date": "1994-09-23", "color": "#3b82f6", "shape": "star" },
+    { "label": "Se7en", "date": "1995-09-22", "color": "#9333ea", "shape": "star" },
+    { "label": "Deep Impact", "date": "1998-05-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Bruce Almighty", "date": "2003-05-23", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Million Dollar Baby - Oscar Win", "date": "2005-02-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Batman Begins - Lucius Fox", "date": "2005-06-15", "color": "#9333ea", "shape": "star" },
+    { "label": "March of the Penguins - Narrator", "date": "2005-07-08", "color": "#9333ea", "shape": "diamond" },
+    { "label": "The Dark Knight", "date": "2008-07-18", "color": "#9333ea", "shape": "star" },
+    { "label": "Invictus - Oscar Nom", "date": "2009-12-11", "color": "#9333ea", "shape": "star" },
+    { "label": "The Dark Knight Rises", "date": "2012-07-20", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "AFI Life Achievement Award", "date": "2011-06-09", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Lucy", "date": "2014-07-25", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "SAG Life Achievement Award", "date": "2018-01-21", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

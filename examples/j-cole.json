@@ -1,0 +1,61 @@
+{
+  "name": "J. Cole",
+  "sex": "male",
+  "dob": "1985-01-28",
+  "country": "United States",
+  "theme": "gruvbox-dark",
+  "periods": [
+    {
+      "label": "Mixtape Era",
+      "startDate": "2007-05-04",
+      "endDate": "2011-09-26",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Cole World / Born Sinner",
+      "startDate": "2011-09-27",
+      "endDate": "2014-12-08",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Forest Hills Drive Era",
+      "startDate": "2014-12-09",
+      "endDate": "2018-04-19",
+      "color": "#10b981"
+    },
+    {
+      "label": "KOD / The Off-Season",
+      "startDate": "2018-04-20",
+      "endDate": "2023-04-06",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Might Delete Later Era",
+      "startDate": "2024-04-05",
+      "endDate": "2025-12-31",
+      "color": "#9333ea"
+    }
+  ],
+  "moments": [
+    { "label": "The Come Up Mixtape", "date": "2007-05-04", "color": "#6b7280", "shape": "star" },
+    { "label": "The Warm Up Mixtape", "date": "2009-06-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Roc Nation", "date": "2009-02-09", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Friday Night Lights Mixtape", "date": "2010-11-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Cole World: The Sideline Story", "date": "2011-09-27", "color": "#3b82f6", "shape": "star" },
+    { "label": "Cole World #1 Debut", "date": "2011-10-01", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Born Sinner Released", "date": "2013-06-18", "color": "#3b82f6", "shape": "star" },
+    { "label": "2014 Forest Hills Drive", "date": "2014-12-09", "color": "#10b981", "shape": "star" },
+    { "label": "Forest Hills Drive Tour", "date": "2015-01-22", "color": "#10b981", "shape": "star" },
+    { "label": "Platinum No Features", "date": "2015-04-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "4 Your Eyez Only", "date": "2016-12-09", "color": "#10b981", "shape": "star" },
+    { "label": "Dreamville Label Founded", "date": "2007-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "KOD Released", "date": "2018-04-20", "color": "#f59e0b", "shape": "star" },
+    { "label": "KOD #1 Debut", "date": "2018-04-28", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Middle Child Hit", "date": "2019-01-23", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "The Off-Season", "date": "2021-05-14", "color": "#f59e0b", "shape": "star" },
+    { "label": "6 Consecutive #1 Albums", "date": "2021-05-22", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Might Delete Later", "date": "2024-04-05", "color": "#9333ea", "shape": "star" },
+    { "label": "Apologized for Kendrick Diss", "date": "2024-04-07", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Grammy Best Rap Song", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" }
+  ]
+}

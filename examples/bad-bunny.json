@@ -1,0 +1,61 @@
+{
+  "name": "Bad Bunny",
+  "sex": "male",
+  "dob": "1994-03-10",
+  "country": "Puerto Rico",
+  "theme": "dracula",
+  "periods": [
+    {
+      "label": "SoundCloud Era",
+      "startDate": "2016-01-01",
+      "endDate": "2018-12-23",
+      "color": "#6b7280"
+    },
+    {
+      "label": "X 100PRE / Oasis Era",
+      "startDate": "2018-12-24",
+      "endDate": "2020-02-28",
+      "color": "#9333ea"
+    },
+    {
+      "label": "YHLQMDLG / Lockdown Era",
+      "startDate": "2020-02-29",
+      "endDate": "2022-05-05",
+      "color": "#ef4444"
+    },
+    {
+      "label": "Un Verano Sin Ti Era",
+      "startDate": "2022-05-06",
+      "endDate": "2023-10-12",
+      "color": "#f59e0b"
+    },
+    {
+      "label": "Nadie Sabe Lo Que Va a Pasar Mañana",
+      "startDate": "2023-10-13",
+      "endDate": "2025-12-31",
+      "color": "#10b981"
+    }
+  ],
+  "moments": [
+    { "label": "Diles Breakout Single", "date": "2016-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Hear This Music", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Soy Peor Viral Hit", "date": "2017-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Tu No Metes Cabra", "date": "2017-04-20", "color": "#6b7280", "shape": "star" },
+    { "label": "I Like It with Cardi B #1", "date": "2018-07-14", "color": "#9333ea", "shape": "diamond" },
+    { "label": "X 100PRE Released", "date": "2018-12-24", "color": "#9333ea", "shape": "star" },
+    { "label": "Oasis with J Balvin", "date": "2019-06-28", "color": "#9333ea", "shape": "star" },
+    { "label": "YHLQMDLG Released", "date": "2020-02-29", "color": "#ef4444", "shape": "star" },
+    { "label": "Las Que No Iban a Salir", "date": "2020-05-10", "color": "#ef4444", "shape": "star" },
+    { "label": "El Último Tour Del Mundo", "date": "2020-11-27", "color": "#ef4444", "shape": "star" },
+    { "label": "First All-Spanish #1 Album", "date": "2020-12-05", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best Latin Pop Album", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Un Verano Sin Ti Released", "date": "2022-05-06", "color": "#f59e0b", "shape": "star" },
+    { "label": "Most Streamed Album on Spotify", "date": "2022-12-31", "color": "#fbbf24", "shape": "heart" },
+    { "label": "World's Most Streamed Artist", "date": "2022-12-01", "color": "#fbbf24", "shape": "heart" },
+    { "label": "WWE Appearance", "date": "2023-04-01", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Nadie Sabe Released", "date": "2023-10-13", "color": "#10b981", "shape": "star" },
+    { "label": "Monaco #1", "date": "2023-10-21", "color": "#10b981", "shape": "diamond" },
+    { "label": "Most Wanted Tour", "date": "2024-02-21", "color": "#10b981", "shape": "star" },
+    { "label": "Grammy Album of Year Nom", "date": "2023-11-10", "color": "#fbbf24", "shape": "diamond" }
+  ]
+}

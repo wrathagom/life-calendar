@@ -1,0 +1,55 @@
+{
+  "name": "Metro Boomin",
+  "sex": "male",
+  "dob": "1993-09-16",
+  "country": "United States",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Early Producer Era",
+      "startDate": "2009-01-01",
+      "endDate": "2013-12-31",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Breakout Era",
+      "startDate": "2014-01-01",
+      "endDate": "2016-12-31",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "NOT ALL HEROES Era",
+      "startDate": "2017-01-01",
+      "endDate": "2022-11-03",
+      "color": "#9333ea"
+    },
+    {
+      "label": "HEROES & VILLAINS Era",
+      "startDate": "2022-11-04",
+      "endDate": "2025-12-31",
+      "color": "#ef4444"
+    }
+  ],
+  "moments": [
+    { "label": "Started Producing at 13", "date": "2006-09-16", "color": "#6b7280", "shape": "star" },
+    { "label": "First Official Credit", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Connected with Future", "date": "2012-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Karate Chop Remix", "date": "2013-01-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Produced U Don't Know", "date": "2014-04-22", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Produced Jumpman", "date": "2015-09-20", "color": "#3b82f6", "shape": "star" },
+    { "label": "Produced Father Stretch My Hands", "date": "2016-02-14", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Produced Bad and Boujee #1", "date": "2017-01-21", "color": "#9333ea", "shape": "star" },
+    { "label": "Produced Congratulations", "date": "2016-12-09", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Mother's Death", "date": "2018-06-03", "color": "#6b7280", "shape": "circle" },
+    { "label": "NOT ALL HEROES Album", "date": "2018-11-02", "color": "#9333ea", "shape": "star" },
+    { "label": "Produced Without Me", "date": "2018-10-11", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Grammy Producer of the Year Nom", "date": "2019-02-10", "color": "#fbbf24", "shape": "diamond" },
+    { "label": "Produced Heartless with Weeknd", "date": "2019-11-27", "color": "#9333ea", "shape": "diamond" },
+    { "label": "HEROES & VILLAINS #1", "date": "2022-12-02", "color": "#ef4444", "shape": "star" },
+    { "label": "Creepin' Success", "date": "2022-12-02", "color": "#ef4444", "shape": "diamond" },
+    { "label": "Spider-Verse 2 Soundtrack", "date": "2023-06-02", "color": "#f59e0b", "shape": "star" },
+    { "label": "We Don't Trust You with Future #1", "date": "2024-03-22", "color": "#ef4444", "shape": "star" },
+    { "label": "Like That #1", "date": "2024-04-06", "color": "#ef4444", "shape": "diamond" },
+    { "label": "We Still Don't Trust You #1", "date": "2024-04-12", "color": "#ef4444", "shape": "star" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Daniel Caesar",
+  "sex": "male",
+  "dob": "1995-04-05",
+  "country": "Canada",
+  "theme": "default",
+  "periods": [
+    {
+      "label": "Praise Break Era",
+      "startDate": "2014-04-01",
+      "endDate": "2017-08-24",
+      "color": "#6b7280"
+    },
+    {
+      "label": "Freudian Era",
+      "startDate": "2017-08-25",
+      "endDate": "2019-06-27",
+      "color": "#3b82f6"
+    },
+    {
+      "label": "Case Study 01 Era",
+      "startDate": "2019-06-28",
+      "endDate": "2023-04-06",
+      "color": "#9333ea"
+    },
+    {
+      "label": "NEVER ENOUGH Era",
+      "startDate": "2023-04-07",
+      "endDate": "2025-12-31",
+      "color": "#f59e0b"
+    }
+  ],
+  "moments": [
+    { "label": "Praise Break EP", "date": "2014-04-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Pilgrim's Paradise EP", "date": "2015-06-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Get You with Kali Uchis", "date": "2017-04-04", "color": "#3b82f6", "shape": "star" },
+    { "label": "Freudian Debut Album", "date": "2017-08-25", "color": "#3b82f6", "shape": "star" },
+    { "label": "Best Part with H.E.R.", "date": "2017-08-25", "color": "#3b82f6", "shape": "diamond" },
+    { "label": "Grammy for Best Part", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Grammy Best R&B Album", "date": "2019-02-10", "color": "#fbbf24", "shape": "heart" },
+    { "label": "Case Study 01 Album", "date": "2019-06-28", "color": "#9333ea", "shape": "star" },
+    { "label": "Who Hurt You? Hit", "date": "2019-06-28", "color": "#9333ea", "shape": "diamond" },
+    { "label": "Peaches with Justin Bieber", "date": "2021-03-19", "color": "#f59e0b", "shape": "star" },
+    { "label": "Peaches #1", "date": "2021-03-27", "color": "#fbbf24", "shape": "heart" },
+    { "label": "NEVER ENOUGH Album", "date": "2023-04-07", "color": "#f59e0b", "shape": "star" },
+    { "label": "Always Hit", "date": "2023-02-23", "color": "#f59e0b", "shape": "diamond" },
+    { "label": "Toronto to Summer Tour", "date": "2023-07-14", "color": "#f59e0b", "shape": "diamond" }
+  ]
+}
