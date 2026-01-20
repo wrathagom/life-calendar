@@ -37,7 +37,7 @@
     }
   ],
   "moments": [
-    { "label": "Moved to New York", "date": "1978-07-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to New York", "date": "1978-07-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Sire Records", "date": "1982-10-06", "color": "#9333ea", "shape": "diamond" },
     { "label": "Holiday Single", "date": "1983-09-07", "color": "#ec4899", "shape": "star" },
     { "label": "Like a Virgin #1", "date": "1984-12-22", "color": "#ec4899", "shape": "star" },

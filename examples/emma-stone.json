@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2004-01-01",
       "endDate": "2009-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Comedy Star Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Moved to LA at 15", "date": "2004-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Superbad Breakthrough", "date": "2007-08-17", "color": "#6b7280", "shape": "star" },
-    { "label": "The House Bunny", "date": "2008-08-22", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Zombieland", "date": "2009-10-02", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to LA at 15", "date": "2004-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Superbad Breakthrough", "date": "2007-08-17", "color": "#64748b", "shape": "star" },
+    { "label": "The House Bunny", "date": "2008-08-22", "color": "#64748b", "shape": "diamond" },
+    { "label": "Zombieland", "date": "2009-10-02", "color": "#64748b", "shape": "star" },
     { "label": "Easy A - Breakthrough", "date": "2010-09-17", "color": "#3b82f6", "shape": "star" },
     { "label": "The Help", "date": "2011-08-10", "color": "#3b82f6", "shape": "star" },
     { "label": "The Amazing Spider-Man", "date": "2012-07-03", "color": "#3b82f6", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2007-04-01",
       "endDate": "2010-11-22",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Pink Friday Era",
@@ -37,9 +37,9 @@
     }
   ],
   "moments": [
-    { "label": "Moved to Queens, NY", "date": "1987-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Queens, NY", "date": "1987-01-01", "color": "#64748b", "shape": "star" },
     { "label": "LaGuardia High School", "date": "1996-09-01", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Playtime Is Over Mixtape", "date": "2007-04-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Playtime Is Over Mixtape", "date": "2007-04-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Young Money", "date": "2009-08-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Pink Friday Released", "date": "2010-11-23", "color": "#ec4899", "shape": "star" },
     { "label": "Super Bass Diamond", "date": "2011-04-05", "color": "#ec4899", "shape": "diamond" },

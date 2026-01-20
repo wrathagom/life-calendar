@@ -39,7 +39,7 @@
       "label": "Everything I Thought It Was Era",
       "startDate": "2024-03-15",
       "endDate": "2025-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     }
   ],
   "moments": [
@@ -54,7 +54,7 @@
     { "label": "SexyBack #1", "date": "2006-09-09", "color": "#ec4899", "shape": "diamond" },
     { "label": "FutureSex/LoveSounds", "date": "2006-09-12", "color": "#ec4899", "shape": "star" },
     { "label": "What Goes Around #1", "date": "2007-03-03", "color": "#ec4899", "shape": "diamond" },
-    { "label": "Social Network Film", "date": "2010-10-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Social Network Film", "date": "2010-10-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Married Jessica Biel", "date": "2012-10-19", "color": "#ef4444", "shape": "heart" },
     { "label": "The 20/20 Experience #1", "date": "2013-03-19", "color": "#f59e0b", "shape": "star" },
     { "label": "Suit & Tie Hit", "date": "2013-01-14", "color": "#f59e0b", "shape": "diamond" },
@@ -63,7 +63,7 @@
     { "label": "Man of the Woods Album", "date": "2018-02-02", "color": "#10b981", "shape": "star" },
     { "label": "Super Bowl Halftime", "date": "2018-02-04", "color": "#fbbf24", "shape": "heart" },
     { "label": "Son Phineas Born", "date": "2020-07-17", "color": "#ef4444", "shape": "heart" },
-    { "label": "Everything I Thought It Was", "date": "2024-03-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Everything I Thought It Was", "date": "2024-03-15", "color": "#64748b", "shape": "star" },
     { "label": "*NSYNC Reunion Performance", "date": "2023-09-12", "color": "#3b82f6", "shape": "heart" }
   ]
 }

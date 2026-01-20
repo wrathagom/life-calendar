@@ -10,7 +10,7 @@
       "label": "Ballet & Early Work",
       "startDate": "1948-01-01",
       "endDate": "1952-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Hollywood Golden Age",
@@ -32,9 +32,9 @@
     }
   ],
   "moments": [
-    { "label": "Survived WWII in Netherlands", "date": "1945-05-05", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Moved to London for Ballet", "date": "1948-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Broadway - Gigi", "date": "1951-11-24", "color": "#6b7280", "shape": "star" },
+    { "label": "Survived WWII in Netherlands", "date": "1945-05-05", "color": "#64748b", "shape": "diamond" },
+    { "label": "Moved to London for Ballet", "date": "1948-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Broadway - Gigi", "date": "1951-11-24", "color": "#64748b", "shape": "star" },
     { "label": "Roman Holiday - Oscar Win", "date": "1954-03-25", "color": "#fbbf24", "shape": "heart" },
     { "label": "Sabrina", "date": "1954-09-22", "color": "#9333ea", "shape": "star" },
     { "label": "Married Mel Ferrer", "date": "1954-09-25", "color": "#ef4444", "shape": "heart" },
@@ -53,6 +53,6 @@
     { "label": "UNICEF Goodwill Ambassador", "date": "1988-03-08", "color": "#10b981", "shape": "heart" },
     { "label": "Always - Final Film", "date": "1989-12-22", "color": "#3b82f6", "shape": "star" },
     { "label": "Presidential Medal of Freedom", "date": "1992-12-01", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Passed Away", "date": "1993-01-20", "color": "#6b7280", "shape": "circle" }
+    { "label": "Passed Away", "date": "1993-01-20", "color": "#64748b", "shape": "circle" }
   ]
 }

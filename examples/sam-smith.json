@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2012-10-22",
       "endDate": "2014-05-25",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "In the Lonely Hour Era",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "Latch with Disclosure", "date": "2012-10-22", "color": "#6b7280", "shape": "star" },
-    { "label": "La La La with Naughty Boy", "date": "2013-05-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Latch with Disclosure", "date": "2012-10-22", "color": "#64748b", "shape": "star" },
+    { "label": "La La La with Naughty Boy", "date": "2013-05-19", "color": "#64748b", "shape": "diamond" },
     { "label": "Money on My Mind #1 UK", "date": "2014-02-16", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Stay with Me Breakthrough", "date": "2014-04-14", "color": "#3b82f6", "shape": "star" },
     { "label": "In the Lonely Hour", "date": "2014-05-26", "color": "#3b82f6", "shape": "star" },

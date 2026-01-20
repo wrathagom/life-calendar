@@ -9,7 +9,7 @@
       "label": "Independent Era",
       "startDate": "2013-01-01",
       "endDate": "2016-10-06",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Coconut Oil / Big GRRRL",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Moved to Minneapolis", "date": "2011-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Formed GRRRL PRTY", "date": "2012-06-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Lizzobangers Debut", "date": "2013-10-15", "color": "#6b7280", "shape": "star" },
-    { "label": "Big GRRRL Small World", "date": "2015-12-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Minneapolis", "date": "2011-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Formed GRRRL PRTY", "date": "2012-06-01", "color": "#64748b", "shape": "star" },
+    { "label": "Lizzobangers Debut", "date": "2013-10-15", "color": "#64748b", "shape": "star" },
+    { "label": "Big GRRRL Small World", "date": "2015-12-11", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Atlantic Records", "date": "2016-06-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Coconut Oil EP", "date": "2016-10-07", "color": "#ec4899", "shape": "star" },
     { "label": "Juice Released", "date": "2019-01-04", "color": "#9333ea", "shape": "star" },

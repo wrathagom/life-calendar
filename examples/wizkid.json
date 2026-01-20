@@ -37,15 +37,15 @@
     }
   ],
   "moments": [
-    { "label": "Holla at Your Boy Debut", "date": "2010-01-02", "color": "#6b7280", "shape": "star" },
-    { "label": "Signed to Empire Mates", "date": "2009-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Holla at Your Boy Debut", "date": "2010-01-02", "color": "#64748b", "shape": "star" },
+    { "label": "Signed to Empire Mates", "date": "2009-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Superstar Debut Album", "date": "2011-06-12", "color": "#3b82f6", "shape": "star" },
     { "label": "Ayo Album", "date": "2014-09-17", "color": "#9333ea", "shape": "star" },
     { "label": "Ojuelegba Breakthrough", "date": "2014-07-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Ojuelegba Drake Remix", "date": "2015-07-06", "color": "#9333ea", "shape": "star" },
     { "label": "One Dance #1 Global", "date": "2016-04-23", "color": "#fbbf24", "shape": "heart" },
     { "label": "Sounds from the Other Side", "date": "2017-07-14", "color": "#f59e0b", "shape": "star" },
-    { "label": "Starboy Records Founded", "date": "2013-03-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Starboy Records Founded", "date": "2013-03-05", "color": "#64748b", "shape": "diamond" },
     { "label": "Son Boluwatife Born", "date": "2011-05-13", "color": "#ef4444", "shape": "heart" },
     { "label": "Fever Hit", "date": "2018-10-01", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Made in Lagos Album", "date": "2020-10-30", "color": "#10b981", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Lizzy Grant Era",
       "startDate": "2005-01-01",
       "endDate": "2011-10-06",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Born to Die / Paradise",
@@ -37,12 +37,12 @@
     }
   ],
   "moments": [
-    { "label": "Started Recording Music", "date": "2005-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Lizzy Grant Album", "date": "2010-01-04", "color": "#6b7280", "shape": "star" },
-    { "label": "Video Games Goes Viral", "date": "2011-06-29", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Started Recording Music", "date": "2005-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Lizzy Grant Album", "date": "2010-01-04", "color": "#64748b", "shape": "star" },
+    { "label": "Video Games Goes Viral", "date": "2011-06-29", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Interscope", "date": "2011-07-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Born to Die Released", "date": "2012-01-27", "color": "#3b82f6", "shape": "star" },
-    { "label": "SNL Performance Controversy", "date": "2012-01-14", "color": "#6b7280", "shape": "diamond" },
+    { "label": "SNL Performance Controversy", "date": "2012-01-14", "color": "#64748b", "shape": "diamond" },
     { "label": "Summertime Sadness Remix", "date": "2013-08-13", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Paradise EP", "date": "2012-11-09", "color": "#3b82f6", "shape": "star" },
     { "label": "Ultraviolence Released", "date": "2014-06-13", "color": "#9333ea", "shape": "star" },

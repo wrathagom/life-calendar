@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2011-03-21",
       "endDate": "2012-11-12",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Kiss Land Era",
@@ -37,11 +37,11 @@
     }
   ],
   "moments": [
-    { "label": "House of Balloons (Mixtape)", "date": "2011-03-21", "color": "#6b7280", "shape": "star" },
-    { "label": "Thursday (Mixtape)", "date": "2011-08-18", "color": "#6b7280", "shape": "star" },
-    { "label": "Echoes of Silence (Mixtape)", "date": "2011-12-21", "color": "#6b7280", "shape": "star" },
+    { "label": "House of Balloons (Mixtape)", "date": "2011-03-21", "color": "#64748b", "shape": "star" },
+    { "label": "Thursday (Mixtape)", "date": "2011-08-18", "color": "#64748b", "shape": "star" },
+    { "label": "Echoes of Silence (Mixtape)", "date": "2011-12-21", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Republic Records", "date": "2012-09-05", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Trilogy Released", "date": "2012-11-13", "color": "#6b7280", "shape": "star" },
+    { "label": "Trilogy Released", "date": "2012-11-13", "color": "#64748b", "shape": "star" },
     { "label": "Kiss Land Released", "date": "2013-09-10", "color": "#1f2937", "shape": "star" },
     { "label": "Earned It (Fifty Shades)", "date": "2014-12-23", "color": "#ec4899", "shape": "diamond" },
     { "label": "Beauty Behind the Madness", "date": "2015-08-28", "color": "#ef4444", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1993-01-01",
       "endDate": "1998-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Oscar & Action Star",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Cyborg 2", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Hackers", "date": "1995-09-15", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Film Debut - Cyborg 2", "date": "1993-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Hackers", "date": "1995-09-15", "color": "#64748b", "shape": "diamond" },
     { "label": "Married Jonny Lee Miller", "date": "1996-03-28", "color": "#ef4444", "shape": "heart" },
     { "label": "George Wallace - Golden Globe", "date": "1997-08-13", "color": "#fbbf24", "shape": "diamond" },
     { "label": "Gia - Golden Globe", "date": "1998-01-31", "color": "#fbbf24", "shape": "diamond" },

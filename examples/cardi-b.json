@@ -15,7 +15,7 @@
       "label": "Love & Hip Hop Era",
       "startDate": "2015-11-16",
       "endDate": "2017-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Invasion of Privacy Era",
@@ -33,7 +33,7 @@
   "moments": [
     { "label": "Instagram Fame Begins", "date": "2013-01-01", "color": "#ec4899", "shape": "star" },
     { "label": "Vine Popularity", "date": "2014-01-01", "color": "#ec4899", "shape": "diamond" },
-    { "label": "Love & Hip Hop: NY Debut", "date": "2015-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Love & Hip Hop: NY Debut", "date": "2015-11-16", "color": "#64748b", "shape": "star" },
     { "label": "Bodak Yellow Released", "date": "2017-06-16", "color": "#f59e0b", "shape": "star" },
     { "label": "Bodak Yellow #1 (3 weeks)", "date": "2017-09-25", "color": "#f59e0b", "shape": "diamond" },
     { "label": "First Solo Female Rapper #1 Since 1998", "date": "2017-09-25", "color": "#fbbf24", "shape": "heart" },

@@ -9,7 +9,7 @@
       "label": "Child Star Era",
       "startDate": "1993-01-01",
       "endDate": "2000-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Indie Breakthrough",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Mickey Mouse Club", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Breaker High TV Series", "date": "1997-09-15", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Young Hercules", "date": "1998-09-12", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Mickey Mouse Club", "date": "1993-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Breaker High TV Series", "date": "1997-09-15", "color": "#64748b", "shape": "diamond" },
+    { "label": "Young Hercules", "date": "1998-09-12", "color": "#64748b", "shape": "diamond" },
     { "label": "The Believer - Breakthrough", "date": "2001-01-19", "color": "#3b82f6", "shape": "star" },
     { "label": "Murder by Numbers", "date": "2002-04-19", "color": "#3b82f6", "shape": "diamond" },
     { "label": "The Notebook", "date": "2004-06-25", "color": "#3b82f6", "shape": "star" },

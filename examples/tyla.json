@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2019-07-26",
       "endDate": "2023-07-27",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Water Era",
@@ -25,10 +25,10 @@
     }
   ],
   "moments": [
-    { "label": "Getting Late Debut Single", "date": "2019-07-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Getting Late Debut Single", "date": "2019-07-26", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Epic Records", "date": "2021-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Been Thinking Single", "date": "2022-08-26", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Are You Single Collab", "date": "2023-04-07", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Been Thinking Single", "date": "2022-08-26", "color": "#64748b", "shape": "diamond" },
+    { "label": "Are You Single Collab", "date": "2023-04-07", "color": "#64748b", "shape": "diamond" },
     { "label": "Water Released", "date": "2023-07-28", "color": "#3b82f6", "shape": "star" },
     { "label": "Water TikTok Viral", "date": "2023-09-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Water #7 Billboard Hot 100", "date": "2024-02-03", "color": "#3b82f6", "shape": "diamond" },

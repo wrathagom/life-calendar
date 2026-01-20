@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2006-01-01",
       "endDate": "2009-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Breakthrough Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Company Town TV Debut", "date": "2006-03-25", "color": "#6b7280", "shape": "star" },
-    { "label": "The Bill Engvall Show", "date": "2007-09-18", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Company Town TV Debut", "date": "2006-03-25", "color": "#64748b", "shape": "star" },
+    { "label": "The Bill Engvall Show", "date": "2007-09-18", "color": "#64748b", "shape": "diamond" },
     { "label": "Winter's Bone - Oscar Nom", "date": "2010-06-11", "color": "#3b82f6", "shape": "star" },
     { "label": "X-Men: First Class - Mystique", "date": "2011-06-03", "color": "#3b82f6", "shape": "star" },
     { "label": "The Hunger Games Premiere", "date": "2012-03-23", "color": "#3b82f6", "shape": "star" },

@@ -9,13 +9,13 @@
       "label": "Early Hustling / Roc-A-Fella",
       "startDate": "1995-01-01",
       "endDate": "2003-11-13",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "The Black Album / Retirement",
       "startDate": "2003-11-14",
       "endDate": "2006-11-20",
-      "color": "#1a1a1a"
+      "color": "#4b5563"
     },
     {
       "label": "Kingdom Come / Blueprint 3",
@@ -37,14 +37,14 @@
     }
   ],
   "moments": [
-    { "label": "Founded Roc-A-Fella Records", "date": "1995-01-03", "color": "#6b7280", "shape": "star" },
-    { "label": "Reasonable Doubt", "date": "1996-06-25", "color": "#6b7280", "shape": "star" },
-    { "label": "In My Lifetime Vol. 1", "date": "1997-11-04", "color": "#6b7280", "shape": "star" },
-    { "label": "Vol. 2... Hard Knock Life", "date": "1998-09-29", "color": "#6b7280", "shape": "star" },
+    { "label": "Founded Roc-A-Fella Records", "date": "1995-01-03", "color": "#64748b", "shape": "star" },
+    { "label": "Reasonable Doubt", "date": "1996-06-25", "color": "#64748b", "shape": "star" },
+    { "label": "In My Lifetime Vol. 1", "date": "1997-11-04", "color": "#64748b", "shape": "star" },
+    { "label": "Vol. 2... Hard Knock Life", "date": "1998-09-29", "color": "#64748b", "shape": "star" },
     { "label": "Hard Knock Life Grammy", "date": "1999-02-24", "color": "#fbbf24", "shape": "heart" },
     { "label": "The Blueprint", "date": "2001-09-11", "color": "#3b82f6", "shape": "star" },
     { "label": "The Blueprint 2", "date": "2002-11-12", "color": "#3b82f6", "shape": "star" },
-    { "label": "The Black Album (Retirement)", "date": "2003-11-14", "color": "#1a1a1a", "shape": "star" },
+    { "label": "The Black Album (Retirement)", "date": "2003-11-14", "color": "#4b5563", "shape": "star" },
     { "label": "Def Jam President", "date": "2004-12-08", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Kingdom Come (Return)", "date": "2006-11-21", "color": "#3b82f6", "shape": "star" },
     { "label": "Married Beyoncé", "date": "2008-04-04", "color": "#ef4444", "shape": "heart" },

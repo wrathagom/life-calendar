@@ -9,7 +9,7 @@
       "label": "Underground Era",
       "startDate": "1988-01-01",
       "endDate": "1999-02-22",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Slim Shady / Marshall Mathers",
@@ -33,12 +33,12 @@
       "label": "Music to Be Murdered By / Death of Slim Shady",
       "startDate": "2020-01-17",
       "endDate": "2025-12-31",
-      "color": "#1a1a1a"
+      "color": "#4b5563"
     }
   ],
   "moments": [
-    { "label": "First Rap Battle (14)", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Infinite Album", "date": "1996-11-12", "color": "#6b7280", "shape": "star" },
+    { "label": "First Rap Battle (14)", "date": "1986-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Infinite Album", "date": "1996-11-12", "color": "#64748b", "shape": "star" },
     { "label": "Discovered by Dr. Dre", "date": "1998-03-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "The Slim Shady LP", "date": "1999-02-23", "color": "#3b82f6", "shape": "star" },
     { "label": "My Name Is Success", "date": "1999-01-25", "color": "#3b82f6", "shape": "diamond" },
@@ -49,13 +49,13 @@
     { "label": "8 Mile Film", "date": "2002-11-08", "color": "#f59e0b", "shape": "star" },
     { "label": "Oscar for Lose Yourself", "date": "2003-03-23", "color": "#fbbf24", "shape": "heart" },
     { "label": "Encore Released", "date": "2004-11-12", "color": "#3b82f6", "shape": "star" },
-    { "label": "Drug Addiction Lowest", "date": "2007-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Drug Addiction Lowest", "date": "2007-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Relapse (Return)", "date": "2009-05-15", "color": "#ef4444", "shape": "star" },
     { "label": "Recovery Released", "date": "2010-06-18", "color": "#ef4444", "shape": "star" },
     { "label": "Love the Way You Lie #1", "date": "2010-07-24", "color": "#ef4444", "shape": "diamond" },
     { "label": "The Marshall Mathers LP 2", "date": "2013-11-05", "color": "#9333ea", "shape": "star" },
     { "label": "Kamikaze Surprise Release", "date": "2018-08-31", "color": "#9333ea", "shape": "star" },
-    { "label": "Music to Be Murdered By", "date": "2020-01-17", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Music to Be Murdered By", "date": "2020-01-17", "color": "#4b5563", "shape": "star" },
     { "label": "Rock Hall of Fame", "date": "2022-11-05", "color": "#fbbf24", "shape": "heart" }
   ]
 }

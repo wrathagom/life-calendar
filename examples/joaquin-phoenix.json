@@ -9,7 +9,7 @@
       "label": "Child Actor Era",
       "startDate": "1982-01-01",
       "endDate": "1994-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Breakthrough Era",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "TV Debut - Seven Brides", "date": "1982-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "SpaceCamp", "date": "1986-06-06", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Brother River Phoenix Death", "date": "1993-10-31", "color": "#6b7280", "shape": "circle" },
+    { "label": "TV Debut - Seven Brides", "date": "1982-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "SpaceCamp", "date": "1986-06-06", "color": "#64748b", "shape": "diamond" },
+    { "label": "Brother River Phoenix Death", "date": "1993-10-31", "color": "#64748b", "shape": "circle" },
     { "label": "To Die For", "date": "1995-09-27", "color": "#3b82f6", "shape": "star" },
     { "label": "Inventing the Abbotts", "date": "1997-04-04", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Gladiator - Oscar Nom", "date": "2000-05-05", "color": "#3b82f6", "shape": "star" },

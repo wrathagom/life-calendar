@@ -9,7 +9,7 @@
       "label": "Independent Era",
       "startDate": "2014-02-01",
       "endDate": "2017-06-01",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "This One's for You Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "The Way She Rides EP", "date": "2014-02-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Can I Get an Outlaw EP", "date": "2015-10-01", "color": "#6b7280", "shape": "star" },
+    { "label": "The Way She Rides EP", "date": "2014-02-01", "color": "#64748b", "shape": "star" },
+    { "label": "Can I Get an Outlaw EP", "date": "2015-10-01", "color": "#64748b", "shape": "star" },
     { "label": "This One's for You EP", "date": "2017-06-02", "color": "#f59e0b", "shape": "star" },
     { "label": "Hurricane #1 Country", "date": "2016-09-12", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Signed to Columbia Nashville", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },

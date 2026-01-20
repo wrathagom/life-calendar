@@ -9,7 +9,7 @@
       "label": "Poplyfe / Early Career",
       "startDate": "2011-01-01",
       "endDate": "2015-04-23",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "You Should Be Here Era",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "Poplyfe on America's Got Talent", "date": "2011-06-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Cloud 19 Mixtape", "date": "2014-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Poplyfe on America's Got Talent", "date": "2011-06-01", "color": "#64748b", "shape": "star" },
+    { "label": "Cloud 19 Mixtape", "date": "2014-09-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Atlantic Records", "date": "2015-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "You Should Be Here Mixtape", "date": "2015-04-24", "color": "#9333ea", "shape": "star" },
     { "label": "Grammy Nom for YSBH", "date": "2016-02-15", "color": "#fbbf24", "shape": "diamond" },

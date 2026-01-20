@@ -9,7 +9,7 @@
       "label": "SoundCloud Era",
       "startDate": "2016-01-01",
       "endDate": "2018-12-23",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "X 100PRE / Oasis Era",
@@ -37,10 +37,10 @@
     }
   ],
   "moments": [
-    { "label": "Diles Breakout Single", "date": "2016-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Diles Breakout Single", "date": "2016-11-16", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Hear This Music", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Soy Peor Viral Hit", "date": "2017-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Tu No Metes Cabra", "date": "2017-04-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Soy Peor Viral Hit", "date": "2017-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Tu No Metes Cabra", "date": "2017-04-20", "color": "#64748b", "shape": "star" },
     { "label": "I Like It with Cardi B #1", "date": "2018-07-14", "color": "#9333ea", "shape": "diamond" },
     { "label": "X 100PRE Released", "date": "2018-12-24", "color": "#9333ea", "shape": "star" },
     { "label": "Oasis with J Balvin", "date": "2019-06-28", "color": "#9333ea", "shape": "star" },

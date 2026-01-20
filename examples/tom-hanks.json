@@ -9,7 +9,7 @@
       "label": "Early Career & Comedy",
       "startDate": "1980-01-01",
       "endDate": "1988-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Transition to Drama",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Bosom Buddies TV Series", "date": "1980-11-27", "color": "#6b7280", "shape": "star" },
-    { "label": "Splash Breakthrough", "date": "1984-03-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Bosom Buddies TV Series", "date": "1980-11-27", "color": "#64748b", "shape": "star" },
+    { "label": "Splash Breakthrough", "date": "1984-03-09", "color": "#64748b", "shape": "star" },
     { "label": "Married Rita Wilson", "date": "1988-04-30", "color": "#ef4444", "shape": "heart" },
-    { "label": "Big - Oscar Nomination", "date": "1988-06-03", "color": "#6b7280", "shape": "star" },
+    { "label": "Big - Oscar Nomination", "date": "1988-06-03", "color": "#64748b", "shape": "star" },
     { "label": "A League of Their Own", "date": "1992-07-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Sleepless in Seattle", "date": "1993-06-25", "color": "#3b82f6", "shape": "star" },
     { "label": "Philadelphia - Oscar Win", "date": "1994-03-21", "color": "#fbbf24", "shape": "heart" },

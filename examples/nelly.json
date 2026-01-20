@@ -31,7 +31,7 @@
     }
   ],
   "moments": [
-    { "label": "St. Lunatics Formed", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "St. Lunatics Formed", "date": "1993-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Country Grammar #1 Album", "date": "2000-06-27", "color": "#ef4444", "shape": "star" },
     { "label": "Ride wit Me Hit", "date": "2001-02-13", "color": "#ef4444", "shape": "diamond" },
     { "label": "Nellyville #1 Album", "date": "2002-06-25", "color": "#f59e0b", "shape": "star" },
@@ -42,7 +42,7 @@
     { "label": "Sweat Album", "date": "2004-09-14", "color": "#3b82f6", "shape": "star" },
     { "label": "Over and Over with Tim McGraw", "date": "2004-11-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Grillz #1", "date": "2005-12-17", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Sister Jackie's Death", "date": "2005-03-24", "color": "#6b7280", "shape": "circle" },
+    { "label": "Sister Jackie's Death", "date": "2005-03-24", "color": "#64748b", "shape": "circle" },
     { "label": "5.0 Album", "date": "2010-11-16", "color": "#9333ea", "shape": "star" },
     { "label": "Just a Dream Hit", "date": "2010-08-17", "color": "#9333ea", "shape": "diamond" },
     { "label": "Relationship with Ashanti Public", "date": "2014-01-01", "color": "#ef4444", "shape": "heart" },

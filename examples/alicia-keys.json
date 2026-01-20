@@ -37,7 +37,7 @@
     }
   ],
   "moments": [
-    { "label": "Signed to Columbia at 15", "date": "1996-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Columbia at 15", "date": "1996-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to J Records", "date": "2000-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Songs in A Minor #1", "date": "2001-06-05", "color": "#9333ea", "shape": "star" },
     { "label": "Fallin' #1", "date": "2001-08-18", "color": "#9333ea", "shape": "diamond" },

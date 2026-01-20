@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2018-08-01",
       "endDate": "2020-09-14",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "For Broken Ears Era",
@@ -25,9 +25,9 @@
     }
   ],
   "moments": [
-    { "label": "Mr Rebel Single Debut", "date": "2018-08-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Try Me Breakthrough", "date": "2019-07-05", "color": "#6b7280", "shape": "star" },
-    { "label": "Arrested at Lagos Concert", "date": "2020-10-11", "color": "#6b7280", "shape": "circle" },
+    { "label": "Mr Rebel Single Debut", "date": "2018-08-01", "color": "#64748b", "shape": "star" },
+    { "label": "Try Me Breakthrough", "date": "2019-07-05", "color": "#64748b", "shape": "star" },
+    { "label": "Arrested at Lagos Concert", "date": "2020-10-11", "color": "#64748b", "shape": "circle" },
     { "label": "For Broken Ears EP", "date": "2020-09-15", "color": "#9333ea", "shape": "star" },
     { "label": "Essence with WizKid", "date": "2020-10-30", "color": "#9333ea", "shape": "star" },
     { "label": "Essence Justin Bieber Remix", "date": "2021-08-13", "color": "#9333ea", "shape": "diamond" },

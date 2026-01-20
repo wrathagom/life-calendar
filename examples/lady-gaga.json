@@ -37,7 +37,7 @@
     }
   ],
   "moments": [
-    { "label": "Signed to Def Jam (dropped)", "date": "2006-09-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Def Jam (dropped)", "date": "2006-09-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Interscope", "date": "2007-09-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Just Dance Released", "date": "2008-04-08", "color": "#f59e0b", "shape": "star" },
     { "label": "The Fame Released", "date": "2008-08-19", "color": "#f59e0b", "shape": "star" },
@@ -55,7 +55,7 @@
     { "label": "A Star Is Born Premiere", "date": "2018-08-31", "color": "#ec4899", "shape": "star" },
     { "label": "Oscar for Shallow", "date": "2019-02-24", "color": "#fbbf24", "shape": "heart" },
     { "label": "Chromatica Released", "date": "2020-05-29", "color": "#10b981", "shape": "star" },
-    { "label": "House of Gucci Film", "date": "2021-11-24", "color": "#1a1a1a", "shape": "star" },
+    { "label": "House of Gucci Film", "date": "2021-11-24", "color": "#4b5563", "shape": "star" },
     { "label": "Joker 2 Premiere", "date": "2024-10-04", "color": "#ef4444", "shape": "star" }
   ]
 }

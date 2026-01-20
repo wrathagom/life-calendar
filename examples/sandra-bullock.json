@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1987-01-01",
       "endDate": "1993-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Speed & Rise",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Hangmen Film Debut", "date": "1987-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Demolition Man", "date": "1993-10-08", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Hangmen Film Debut", "date": "1987-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Demolition Man", "date": "1993-10-08", "color": "#64748b", "shape": "diamond" },
     { "label": "Speed - Breakthrough", "date": "1994-06-10", "color": "#3b82f6", "shape": "star" },
     { "label": "While You Were Sleeping", "date": "1995-04-21", "color": "#3b82f6", "shape": "star" },
     { "label": "The Net", "date": "1995-07-28", "color": "#3b82f6", "shape": "diamond" },

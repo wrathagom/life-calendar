@@ -9,7 +9,7 @@
       "label": "BRIT School / Early Career",
       "startDate": "2014-11-21",
       "endDate": "2019-10-01",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Major Label Era",
@@ -31,13 +31,13 @@
     }
   ],
   "moments": [
-    { "label": "Welcome to the Winter EP", "date": "2014-11-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Welcome to the Winter EP", "date": "2014-11-21", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Polydor", "date": "2016-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Second EP", "date": "2016-02-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Second EP", "date": "2016-02-26", "color": "#64748b", "shape": "star" },
     { "label": "Wrote for Beyoncé", "date": "2020-07-31", "color": "#9333ea", "shape": "diamond" },
     { "label": "You Don't Know Me with Jax Jones", "date": "2016-11-04", "color": "#9333ea", "shape": "star" },
     { "label": "Bed with Joel Corry/David Guetta #1", "date": "2021-05-21", "color": "#9333ea", "shape": "star" },
-    { "label": "Left Polydor (Twitter Thread)", "date": "2021-07-15", "color": "#6b7280", "shape": "circle" },
+    { "label": "Left Polydor (Twitter Thread)", "date": "2021-07-15", "color": "#64748b", "shape": "circle" },
     { "label": "Went Independent", "date": "2021-07-16", "color": "#3b82f6", "shape": "heart" },
     { "label": "My 21st Century Blues Album", "date": "2023-02-03", "color": "#f59e0b", "shape": "star" },
     { "label": "Escapism #1 UK & Billboard", "date": "2023-01-21", "color": "#f59e0b", "shape": "star" },

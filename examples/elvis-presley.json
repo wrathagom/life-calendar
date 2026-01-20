@@ -34,7 +34,7 @@
       "label": "Final Years",
       "startDate": "1973-01-15",
       "endDate": "1977-08-16",
-      "color": "#6b7280"
+      "color": "#64748b"
     }
   ],
   "moments": [
@@ -48,7 +48,7 @@
     { "label": "Love Me Tender Film", "date": "1956-11-15", "color": "#ef4444", "shape": "star" },
     { "label": "Jailhouse Rock", "date": "1957-10-17", "color": "#ef4444", "shape": "star" },
     { "label": "Drafted into Army", "date": "1957-12-20", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Mother Gladys Died", "date": "1958-08-14", "color": "#6b7280", "shape": "heart" },
+    { "label": "Mother Gladys Died", "date": "1958-08-14", "color": "#64748b", "shape": "heart" },
     { "label": "Met Priscilla Beaulieu", "date": "1959-09-13", "color": "#ef4444", "shape": "heart" },
     { "label": "Discharged from Army", "date": "1960-03-05", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Married Priscilla", "date": "1967-05-01", "color": "#ef4444", "shape": "heart" },
@@ -56,7 +56,7 @@
     { "label": "'68 Comeback Special", "date": "1968-12-03", "color": "#9333ea", "shape": "star" },
     { "label": "Vegas Residency Begins", "date": "1969-07-31", "color": "#9333ea", "shape": "star" },
     { "label": "Aloha from Hawaii (1B viewers)", "date": "1973-01-14", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Divorce from Priscilla", "date": "1973-10-09", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Passed Away", "date": "1977-08-16", "color": "#6b7280", "shape": "heart" }
+    { "label": "Divorce from Priscilla", "date": "1973-10-09", "color": "#64748b", "shape": "diamond" },
+    { "label": "Passed Away", "date": "1977-08-16", "color": "#64748b", "shape": "heart" }
   ]
 }

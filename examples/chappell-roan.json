@@ -9,7 +9,7 @@
       "label": "School Nights Era",
       "startDate": "2017-05-15",
       "endDate": "2020-08-21",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Independent Era",
@@ -25,10 +25,10 @@
     }
   ],
   "moments": [
-    { "label": "Signed to Atlantic Records at 17", "date": "2015-06-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Die Young Single", "date": "2017-05-15", "color": "#6b7280", "shape": "star" },
-    { "label": "School Nights EP", "date": "2017-09-29", "color": "#6b7280", "shape": "star" },
-    { "label": "Dropped by Atlantic", "date": "2020-08-21", "color": "#6b7280", "shape": "circle" },
+    { "label": "Signed to Atlantic Records at 17", "date": "2015-06-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Die Young Single", "date": "2017-05-15", "color": "#64748b", "shape": "star" },
+    { "label": "School Nights EP", "date": "2017-09-29", "color": "#64748b", "shape": "star" },
+    { "label": "Dropped by Atlantic", "date": "2020-08-21", "color": "#64748b", "shape": "circle" },
     { "label": "Pink Pony Club Released", "date": "2020-04-03", "color": "#9333ea", "shape": "star" },
     { "label": "Signed to Island/Amusement", "date": "2021-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Naked in Manhattan", "date": "2022-07-15", "color": "#9333ea", "shape": "diamond" },

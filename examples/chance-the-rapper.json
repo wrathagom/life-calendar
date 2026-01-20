@@ -9,7 +9,7 @@
       "label": "10 Day Era",
       "startDate": "2012-04-03",
       "endDate": "2013-04-29",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Acid Rap Era",
@@ -37,10 +37,10 @@
     }
   ],
   "moments": [
-    { "label": "10 Day Mixtape", "date": "2012-04-03", "color": "#6b7280", "shape": "star" },
+    { "label": "10 Day Mixtape", "date": "2012-04-03", "color": "#64748b", "shape": "star" },
     { "label": "Acid Rap Mixtape", "date": "2013-04-30", "color": "#9333ea", "shape": "star" },
     { "label": "Cocoa Butter Kisses Hit", "date": "2013-04-30", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Social Experiment Formed", "date": "2014-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Social Experiment Formed", "date": "2014-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Surf Album", "date": "2015-05-28", "color": "#9333ea", "shape": "star" },
     { "label": "Daughter Kensli Born", "date": "2015-09-20", "color": "#ef4444", "shape": "heart" },
     { "label": "Coloring Book Release", "date": "2016-05-13", "color": "#f59e0b", "shape": "star" },
@@ -53,6 +53,6 @@
     { "label": "Daughter Marli Born", "date": "2019-09-08", "color": "#ef4444", "shape": "heart" },
     { "label": "$1M Donation to Chicago Schools", "date": "2017-03-06", "color": "#10b981", "shape": "heart" },
     { "label": "Star Line Gallery Album", "date": "2024-08-09", "color": "#10b981", "shape": "star" },
-    { "label": "Divorce Announced", "date": "2024-04-11", "color": "#6b7280", "shape": "circle" }
+    { "label": "Divorce Announced", "date": "2024-04-11", "color": "#64748b", "shape": "circle" }
   ]
 }

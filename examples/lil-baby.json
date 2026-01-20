@@ -9,7 +9,7 @@
       "label": "Perfect Timing Era",
       "startDate": "2017-04-19",
       "endDate": "2018-05-24",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Harder Than Ever Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Perfect Timing Mixtape", "date": "2017-04-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Perfect Timing Mixtape", "date": "2017-04-19", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Quality Control/Motown", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Harder Than Hard Mixtape", "date": "2017-07-18", "color": "#6b7280", "shape": "star" },
-    { "label": "Too Hard Mixtape", "date": "2017-12-14", "color": "#6b7280", "shape": "star" },
+    { "label": "Harder Than Hard Mixtape", "date": "2017-07-18", "color": "#64748b", "shape": "star" },
+    { "label": "Too Hard Mixtape", "date": "2017-12-14", "color": "#64748b", "shape": "star" },
     { "label": "Harder Than Ever #3 Album", "date": "2018-05-25", "color": "#3b82f6", "shape": "star" },
     { "label": "Yes Indeed with Drake Hit", "date": "2018-05-25", "color": "#3b82f6", "shape": "star" },
     { "label": "Drip Too Hard with Gunna", "date": "2018-11-17", "color": "#3b82f6", "shape": "diamond" },

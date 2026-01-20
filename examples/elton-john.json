@@ -21,7 +21,7 @@
       "label": "Struggles & Reinvention",
       "startDate": "1976-11-18",
       "endDate": "1992-04-06",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Lion King / Candle Revival",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "Met Bernie Taupin", "date": "1967-06-17", "color": "#6b7280", "shape": "star" },
-    { "label": "Empty Sky Debut", "date": "1969-06-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Met Bernie Taupin", "date": "1967-06-17", "color": "#64748b", "shape": "star" },
+    { "label": "Empty Sky Debut", "date": "1969-06-06", "color": "#64748b", "shape": "star" },
     { "label": "Elton John Album", "date": "1970-04-10", "color": "#f59e0b", "shape": "star" },
     { "label": "Your Song Success", "date": "1970-10-26", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Honky Château #1", "date": "1972-05-19", "color": "#ef4444", "shape": "star" },
@@ -47,7 +47,7 @@
     { "label": "Captain Fantastic #1", "date": "1975-05-19", "color": "#ef4444", "shape": "star" },
     { "label": "Tommy Film Role", "date": "1975-03-19", "color": "#9333ea", "shape": "star" },
     { "label": "Came Out as Bisexual", "date": "1976-10-07", "color": "#ec4899", "shape": "diamond" },
-    { "label": "Rehab for Addiction", "date": "1990-07-29", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Rehab for Addiction", "date": "1990-07-29", "color": "#64748b", "shape": "diamond" },
     { "label": "The Lion King Soundtrack", "date": "1994-06-24", "color": "#fbbf24", "shape": "star" },
     { "label": "Oscar for Can You Feel Love", "date": "1995-03-27", "color": "#fbbf24", "shape": "heart" },
     { "label": "Candle in the Wind (Diana)", "date": "1997-09-13", "color": "#ef4444", "shape": "heart" },

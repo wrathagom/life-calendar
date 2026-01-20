@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2014-11-12",
       "endDate": "2016-07-14",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Savage Mode / Issa Album",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Moved to Atlanta (Age 7)", "date": "1999-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Shot 6 Times, Friend Killed", "date": "2013-10-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Slaughter Tape", "date": "2015-05-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Atlanta (Age 7)", "date": "1999-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Shot 6 Times, Friend Killed", "date": "2013-10-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Slaughter Tape", "date": "2015-05-25", "color": "#64748b", "shape": "star" },
     { "label": "Savage Mode with Metro", "date": "2016-07-15", "color": "#ef4444", "shape": "star" },
     { "label": "X (with Future) Success", "date": "2016-07-22", "color": "#ef4444", "shape": "diamond" },
     { "label": "XXL Freshman Class", "date": "2016-06-13", "color": "#fbbf24", "shape": "heart" },
@@ -42,7 +42,7 @@
     { "label": "Rockstar #1 (8 weeks)", "date": "2017-10-21", "color": "#ef4444", "shape": "diamond" },
     { "label": "I Am > I Was Released", "date": "2018-12-07", "color": "#9333ea", "shape": "star" },
     { "label": "A Lot #1 Rap", "date": "2019-01-19", "color": "#9333ea", "shape": "diamond" },
-    { "label": "ICE Arrest (UK Citizen)", "date": "2019-02-03", "color": "#6b7280", "shape": "diamond" },
+    { "label": "ICE Arrest (UK Citizen)", "date": "2019-02-03", "color": "#64748b", "shape": "diamond" },
     { "label": "Grammy Best Rap Song (A Lot)", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
     { "label": "Savage Mode II", "date": "2020-10-02", "color": "#9333ea", "shape": "star" },
     { "label": "Savage Mode II #1", "date": "2020-10-10", "color": "#9333ea", "shape": "diamond" },

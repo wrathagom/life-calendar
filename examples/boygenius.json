@@ -9,7 +9,7 @@
       "label": "boygenius EP Era",
       "startDate": "2018-10-26",
       "endDate": "2019-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Solo Hiatus Era",
@@ -25,12 +25,12 @@
     }
   ],
   "moments": [
-    { "label": "Julien Baker - Sprained Ankle", "date": "2015-10-23", "color": "#6b7280", "shape": "star" },
-    { "label": "Phoebe Bridgers - Stranger in the Alps", "date": "2017-09-22", "color": "#6b7280", "shape": "star" },
-    { "label": "Lucy Dacus - Historian", "date": "2018-03-02", "color": "#6b7280", "shape": "star" },
-    { "label": "boygenius EP Released", "date": "2018-10-26", "color": "#6b7280", "shape": "star" },
-    { "label": "Supergroup Formed", "date": "2018-06-01", "color": "#6b7280", "shape": "heart" },
-    { "label": "Debut Tour", "date": "2018-11-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Julien Baker - Sprained Ankle", "date": "2015-10-23", "color": "#64748b", "shape": "star" },
+    { "label": "Phoebe Bridgers - Stranger in the Alps", "date": "2017-09-22", "color": "#64748b", "shape": "star" },
+    { "label": "Lucy Dacus - Historian", "date": "2018-03-02", "color": "#64748b", "shape": "star" },
+    { "label": "boygenius EP Released", "date": "2018-10-26", "color": "#64748b", "shape": "star" },
+    { "label": "Supergroup Formed", "date": "2018-06-01", "color": "#64748b", "shape": "heart" },
+    { "label": "Debut Tour", "date": "2018-11-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Phoebe - Punisher Release", "date": "2020-06-19", "color": "#9333ea", "shape": "star" },
     { "label": "Phoebe Grammy Nominations", "date": "2021-03-14", "color": "#fbbf24", "shape": "diamond" },
     { "label": "$20 Single Return", "date": "2023-01-18", "color": "#f59e0b", "shape": "star" },

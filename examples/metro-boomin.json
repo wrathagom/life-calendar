@@ -9,7 +9,7 @@
       "label": "Early Producer Era",
       "startDate": "2009-01-01",
       "endDate": "2013-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Breakout Era",
@@ -31,16 +31,16 @@
     }
   ],
   "moments": [
-    { "label": "Started Producing at 13", "date": "2006-09-16", "color": "#6b7280", "shape": "star" },
-    { "label": "First Official Credit", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Connected with Future", "date": "2012-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Karate Chop Remix", "date": "2013-01-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Started Producing at 13", "date": "2006-09-16", "color": "#64748b", "shape": "star" },
+    { "label": "First Official Credit", "date": "2011-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Connected with Future", "date": "2012-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Karate Chop Remix", "date": "2013-01-25", "color": "#64748b", "shape": "star" },
     { "label": "Produced U Don't Know", "date": "2014-04-22", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Produced Jumpman", "date": "2015-09-20", "color": "#3b82f6", "shape": "star" },
     { "label": "Produced Father Stretch My Hands", "date": "2016-02-14", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Produced Bad and Boujee #1", "date": "2017-01-21", "color": "#9333ea", "shape": "star" },
     { "label": "Produced Congratulations", "date": "2016-12-09", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Mother's Death", "date": "2018-06-03", "color": "#6b7280", "shape": "circle" },
+    { "label": "Mother's Death", "date": "2018-06-03", "color": "#64748b", "shape": "circle" },
     { "label": "NOT ALL HEROES Album", "date": "2018-11-02", "color": "#9333ea", "shape": "star" },
     { "label": "Produced Without Me", "date": "2018-10-11", "color": "#9333ea", "shape": "diamond" },
     { "label": "Grammy Producer of the Year Nom", "date": "2019-02-10", "color": "#fbbf24", "shape": "diamond" },

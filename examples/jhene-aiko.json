@@ -9,7 +9,7 @@
       "label": "B2K Era",
       "startDate": "2002-01-01",
       "endDate": "2003-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Hiatus / Comeback",
@@ -37,9 +37,9 @@
     }
   ],
   "moments": [
-    { "label": "Signed to Epic (B2K Era)", "date": "2002-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Signed to Epic (B2K Era)", "date": "2002-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Daughter Namiko Born", "date": "2008-11-19", "color": "#ef4444", "shape": "heart" },
-    { "label": "Brother Miyagi's Death", "date": "2012-07-19", "color": "#6b7280", "shape": "circle" },
+    { "label": "Brother Miyagi's Death", "date": "2012-07-19", "color": "#64748b", "shape": "circle" },
     { "label": "Sailing Soul(s) Mixtape", "date": "2011-03-16", "color": "#9333ea", "shape": "star" },
     { "label": "Signed to Def Jam", "date": "2012-06-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "3:16 AM EP", "date": "2014-03-16", "color": "#9333ea", "shape": "star" },

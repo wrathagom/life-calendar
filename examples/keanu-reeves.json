@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1984-01-01",
       "endDate": "1993-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Action Star Rise",
@@ -31,17 +31,17 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Youngblood", "date": "1986-01-31", "color": "#6b7280", "shape": "star" },
-    { "label": "Bill & Ted's Excellent Adventure", "date": "1989-02-17", "color": "#6b7280", "shape": "star" },
-    { "label": "Point Break", "date": "1991-07-12", "color": "#6b7280", "shape": "star" },
-    { "label": "My Own Private Idaho", "date": "1991-09-29", "color": "#6b7280", "shape": "star" },
-    { "label": "Bram Stoker's Dracula", "date": "1992-11-13", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Film Debut - Youngblood", "date": "1986-01-31", "color": "#64748b", "shape": "star" },
+    { "label": "Bill & Ted's Excellent Adventure", "date": "1989-02-17", "color": "#64748b", "shape": "star" },
+    { "label": "Point Break", "date": "1991-07-12", "color": "#64748b", "shape": "star" },
+    { "label": "My Own Private Idaho", "date": "1991-09-29", "color": "#64748b", "shape": "star" },
+    { "label": "Bram Stoker's Dracula", "date": "1992-11-13", "color": "#64748b", "shape": "diamond" },
     { "label": "Speed", "date": "1994-06-10", "color": "#3b82f6", "shape": "star" },
     { "label": "A Walk in the Clouds", "date": "1995-08-11", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Devil's Advocate", "date": "1997-10-17", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Stillborn Daughter Ava", "date": "1999-12-24", "color": "#6b7280", "shape": "circle" },
+    { "label": "Stillborn Daughter Ava", "date": "1999-12-24", "color": "#64748b", "shape": "circle" },
     { "label": "The Matrix", "date": "1999-03-31", "color": "#9333ea", "shape": "star" },
-    { "label": "Jennifer Syme Passed", "date": "2001-04-02", "color": "#6b7280", "shape": "circle" },
+    { "label": "Jennifer Syme Passed", "date": "2001-04-02", "color": "#64748b", "shape": "circle" },
     { "label": "The Matrix Reloaded", "date": "2003-05-15", "color": "#9333ea", "shape": "star" },
     { "label": "The Matrix Revolutions", "date": "2003-11-05", "color": "#9333ea", "shape": "star" },
     { "label": "Constantine", "date": "2005-02-18", "color": "#9333ea", "shape": "diamond" },

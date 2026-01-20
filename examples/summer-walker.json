@@ -9,7 +9,7 @@
       "label": "Last Day of Summer Era",
       "startDate": "2018-10-19",
       "endDate": "2019-10-03",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Over It Era",
@@ -25,10 +25,10 @@
     }
   ],
   "moments": [
-    { "label": "Girls Need Love Single", "date": "2018-10-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Girls Need Love Single", "date": "2018-10-19", "color": "#64748b", "shape": "star" },
     { "label": "Signed to LVRN/Interscope", "date": "2018-03-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Last Day of Summer EP", "date": "2018-10-19", "color": "#6b7280", "shape": "star" },
-    { "label": "Girls Need Love Remix Drake", "date": "2019-01-11", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Last Day of Summer EP", "date": "2018-10-19", "color": "#64748b", "shape": "star" },
+    { "label": "Girls Need Love Remix Drake", "date": "2019-01-11", "color": "#64748b", "shape": "diamond" },
     { "label": "Over It Debut Album #2", "date": "2019-10-04", "color": "#9333ea", "shape": "star" },
     { "label": "Playing Games Hit", "date": "2019-10-04", "color": "#9333ea", "shape": "diamond" },
     { "label": "Biggest R&B Debut (Female) in 2019", "date": "2019-10-12", "color": "#fbbf24", "shape": "heart" },

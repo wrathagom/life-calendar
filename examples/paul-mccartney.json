@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Met John Lennon", "date": "1957-07-06", "color": "#6b7280", "shape": "star" },
-    { "label": "Mother Mary Died (Cancer)", "date": "1956-10-31", "color": "#6b7280", "shape": "heart" },
+    { "label": "Met John Lennon", "date": "1957-07-06", "color": "#64748b", "shape": "star" },
+    { "label": "Mother Mary Died (Cancer)", "date": "1956-10-31", "color": "#64748b", "shape": "heart" },
     { "label": "Beatles Formed", "date": "1960-08-17", "color": "#ef4444", "shape": "star" },
     { "label": "Love Me Do Released", "date": "1962-10-05", "color": "#ef4444", "shape": "star" },
     { "label": "Please Please Me #1", "date": "1963-02-22", "color": "#ef4444", "shape": "diamond" },
@@ -42,12 +42,12 @@
     { "label": "Hey Jude #1", "date": "1968-09-14", "color": "#ef4444", "shape": "diamond" },
     { "label": "Married Linda Eastman", "date": "1969-03-12", "color": "#ef4444", "shape": "heart" },
     { "label": "Abbey Road", "date": "1969-09-26", "color": "#ef4444", "shape": "star" },
-    { "label": "Beatles Disbanded", "date": "1970-04-10", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Beatles Disbanded", "date": "1970-04-10", "color": "#64748b", "shape": "diamond" },
     { "label": "Wings Formed", "date": "1971-08-02", "color": "#3b82f6", "shape": "star" },
     { "label": "Band on the Run", "date": "1973-12-05", "color": "#3b82f6", "shape": "star" },
     { "label": "Silly Love Songs #1", "date": "1976-05-22", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Knighted by Queen", "date": "1997-03-11", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Linda Died", "date": "1998-04-17", "color": "#6b7280", "shape": "heart" },
+    { "label": "Linda Died", "date": "1998-04-17", "color": "#64748b", "shape": "heart" },
     { "label": "Super Bowl XXXIX Halftime", "date": "2005-02-06", "color": "#fbbf24", "shape": "heart" },
     { "label": "Married Nancy Shevell", "date": "2011-10-09", "color": "#ef4444", "shape": "heart" },
     { "label": "Rock Hall of Fame (Solo)", "date": "1999-03-15", "color": "#fbbf24", "shape": "heart" }

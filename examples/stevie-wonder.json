@@ -46,7 +46,7 @@
     { "label": "Talking Book", "date": "1972-10-27", "color": "#10b981", "shape": "star" },
     { "label": "Superstition #1", "date": "1972-12-16", "color": "#10b981", "shape": "diamond" },
     { "label": "Innervisions", "date": "1973-08-03", "color": "#10b981", "shape": "star" },
-    { "label": "Car Accident (Nearly Fatal)", "date": "1973-08-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Car Accident (Nearly Fatal)", "date": "1973-08-06", "color": "#64748b", "shape": "diamond" },
     { "label": "Fulfillingness' First Finale", "date": "1974-07-22", "color": "#10b981", "shape": "star" },
     { "label": "Songs in the Key of Life", "date": "1976-09-28", "color": "#10b981", "shape": "star" },
     { "label": "Grammy Album of Year x3", "date": "1977-02-19", "color": "#fbbf24", "shape": "heart" },

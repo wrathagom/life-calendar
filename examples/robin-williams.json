@@ -10,7 +10,7 @@
       "label": "Stand-Up & Early Career",
       "startDate": "1976-01-01",
       "endDate": "1981-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Mork & Film Rise",
@@ -32,8 +32,8 @@
     }
   ],
   "moments": [
-    { "label": "Juilliard Scholarship", "date": "1973-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Stand-Up Begins", "date": "1976-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Juilliard Scholarship", "date": "1973-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "Stand-Up Begins", "date": "1976-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Happy Days - Mork Debut", "date": "1978-02-28", "color": "#3b82f6", "shape": "star" },
     { "label": "Mork & Mindy Series", "date": "1978-09-14", "color": "#3b82f6", "shape": "star" },
     { "label": "Married Valerie Velardi", "date": "1978-06-04", "color": "#ef4444", "shape": "heart" },
@@ -53,6 +53,6 @@
     { "label": "Insomnia", "date": "2002-05-24", "color": "#9333ea", "shape": "star" },
     { "label": "Married Susan Schneider", "date": "2011-10-22", "color": "#ef4444", "shape": "heart" },
     { "label": "Night at the Museum", "date": "2006-12-22", "color": "#f59e0b", "shape": "diamond" },
-    { "label": "Passed Away", "date": "2014-08-11", "color": "#6b7280", "shape": "circle" }
+    { "label": "Passed Away", "date": "2014-08-11", "color": "#64748b", "shape": "circle" }
   ]
 }

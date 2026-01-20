@@ -9,7 +9,7 @@
       "label": "Degrassi Era",
       "startDate": "2001-10-14",
       "endDate": "2007-06-15",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "So Far Gone / Thank Me Later",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "Degrassi Debut", "date": "2001-10-14", "color": "#6b7280", "shape": "star" },
-    { "label": "Room for Improvement Mixtape", "date": "2006-02-14", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Degrassi Debut", "date": "2001-10-14", "color": "#64748b", "shape": "star" },
+    { "label": "Room for Improvement Mixtape", "date": "2006-02-14", "color": "#64748b", "shape": "diamond" },
     { "label": "So Far Gone Mixtape", "date": "2009-02-13", "color": "#3b82f6", "shape": "star" },
     { "label": "Signed to Young Money", "date": "2009-06-29", "color": "#9333ea", "shape": "diamond" },
     { "label": "Thank Me Later #1", "date": "2010-06-15", "color": "#3b82f6", "shape": "star" },
@@ -46,7 +46,7 @@
     { "label": "Grammy for Take Care", "date": "2013-02-10", "color": "#fbbf24", "shape": "heart" },
     { "label": "Nothing Was the Same", "date": "2013-09-24", "color": "#9333ea", "shape": "star" },
     { "label": "Son Adonis Born", "date": "2017-10-11", "color": "#ef4444", "shape": "heart" },
-    { "label": "If You're Reading This", "date": "2015-02-13", "color": "#1a1a1a", "shape": "star" },
+    { "label": "If You're Reading This", "date": "2015-02-13", "color": "#4b5563", "shape": "star" },
     { "label": "Views Released", "date": "2016-04-29", "color": "#f59e0b", "shape": "star" },
     { "label": "One Dance #1 Global", "date": "2016-05-14", "color": "#f59e0b", "shape": "diamond" },
     { "label": "More Life Playlist", "date": "2017-03-18", "color": "#f59e0b", "shape": "star" },
@@ -55,7 +55,7 @@
     { "label": "Certified Lover Boy", "date": "2021-09-03", "color": "#ef4444", "shape": "star" },
     { "label": "Her Loss with 21 Savage", "date": "2022-11-04", "color": "#ef4444", "shape": "star" },
     { "label": "For All The Dogs", "date": "2023-10-06", "color": "#ef4444", "shape": "star" },
-    { "label": "Kendrick Lamar Feud", "date": "2024-04-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Kendrick Lamar Feud", "date": "2024-04-19", "color": "#64748b", "shape": "diamond" },
     { "label": "Most Streamed Artist Spotify", "date": "2023-12-01", "color": "#10b981", "shape": "heart" }
   ]
 }

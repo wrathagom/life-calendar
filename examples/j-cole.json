@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2007-05-04",
       "endDate": "2011-09-26",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Cole World / Born Sinner",
@@ -37,10 +37,10 @@
     }
   ],
   "moments": [
-    { "label": "The Come Up Mixtape", "date": "2007-05-04", "color": "#6b7280", "shape": "star" },
-    { "label": "The Warm Up Mixtape", "date": "2009-06-15", "color": "#6b7280", "shape": "star" },
+    { "label": "The Come Up Mixtape", "date": "2007-05-04", "color": "#64748b", "shape": "star" },
+    { "label": "The Warm Up Mixtape", "date": "2009-06-15", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Roc Nation", "date": "2009-02-09", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Friday Night Lights Mixtape", "date": "2010-11-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Friday Night Lights Mixtape", "date": "2010-11-12", "color": "#64748b", "shape": "star" },
     { "label": "Cole World: The Sideline Story", "date": "2011-09-27", "color": "#3b82f6", "shape": "star" },
     { "label": "Cole World #1 Debut", "date": "2011-10-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Born Sinner Released", "date": "2013-06-18", "color": "#3b82f6", "shape": "star" },
@@ -55,7 +55,7 @@
     { "label": "The Off-Season", "date": "2021-05-14", "color": "#f59e0b", "shape": "star" },
     { "label": "6 Consecutive #1 Albums", "date": "2021-05-22", "color": "#fbbf24", "shape": "heart" },
     { "label": "Might Delete Later", "date": "2024-04-05", "color": "#9333ea", "shape": "star" },
-    { "label": "Apologized for Kendrick Diss", "date": "2024-04-07", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Apologized for Kendrick Diss", "date": "2024-04-07", "color": "#64748b", "shape": "diamond" },
     { "label": "Grammy Best Rap Song", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" }
   ]
 }

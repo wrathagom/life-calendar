@@ -37,7 +37,7 @@
     }
   ],
   "moments": [
-    { "label": "Moved to Nashville (Day After Graduation)", "date": "1964-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Nashville (Day After Graduation)", "date": "1964-06-01", "color": "#64748b", "shape": "star" },
     { "label": "Married Carl Dean", "date": "1966-05-30", "color": "#ef4444", "shape": "heart" },
     { "label": "Porter Wagoner Show", "date": "1967-09-05", "color": "#f59e0b", "shape": "star" },
     { "label": "Jolene Released", "date": "1973-10-15", "color": "#ec4899", "shape": "star" },

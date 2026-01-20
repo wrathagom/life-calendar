@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2012-01-01",
       "endDate": "2015-09-03",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Rodeo Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Dropped Out of UT Austin", "date": "2012-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Owl Pharaoh Mixtape", "date": "2013-05-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Dropped Out of UT Austin", "date": "2012-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Owl Pharaoh Mixtape", "date": "2013-05-21", "color": "#64748b", "shape": "star" },
     { "label": "Signed to GOOD Music/Epic", "date": "2013-04-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Days Before Rodeo", "date": "2014-08-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Days Before Rodeo", "date": "2014-08-18", "color": "#64748b", "shape": "star" },
     { "label": "Rodeo Album Released", "date": "2015-09-04", "color": "#ef4444", "shape": "star" },
     { "label": "Antidote Success", "date": "2015-07-16", "color": "#ef4444", "shape": "diamond" },
     { "label": "Birds in the Trap", "date": "2016-09-02", "color": "#ef4444", "shape": "star" },
@@ -44,7 +44,7 @@
     { "label": "Sicko Mode #1", "date": "2018-10-06", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Daughter Stormi Born", "date": "2018-02-01", "color": "#ef4444", "shape": "heart" },
     { "label": "Super Bowl LIII Halftime", "date": "2019-02-03", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Astroworld Festival Tragedy", "date": "2021-11-05", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Astroworld Festival Tragedy", "date": "2021-11-05", "color": "#64748b", "shape": "diamond" },
     { "label": "Son Aire Born", "date": "2022-02-02", "color": "#ef4444", "shape": "heart" },
     { "label": "Utopia Released", "date": "2023-07-28", "color": "#9333ea", "shape": "star" },
     { "label": "K-Pop #1", "date": "2023-08-12", "color": "#9333ea", "shape": "diamond" },

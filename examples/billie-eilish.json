@@ -9,7 +9,7 @@
       "label": "Early Releases",
       "startDate": "2015-11-18",
       "endDate": "2019-03-28",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "WWAFAWDWG Era",
@@ -34,12 +34,12 @@
     { "label": "Ocean Eyes Released", "date": "2015-11-18", "color": "#3b82f6", "shape": "star" },
     { "label": "Ocean Eyes Goes Viral", "date": "2016-01-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Signed to Darkroom/Interscope", "date": "2016-11-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Don't Smile at Me EP", "date": "2017-08-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Don't Smile at Me EP", "date": "2017-08-11", "color": "#64748b", "shape": "star" },
     { "label": "When We All Fall Asleep", "date": "2019-03-29", "color": "#10b981", "shape": "star" },
     { "label": "Bad Guy #1", "date": "2019-08-24", "color": "#10b981", "shape": "diamond" },
     { "label": "Youngest Grammy Sweep", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
     { "label": "5 Grammys in One Night", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
-    { "label": "No Time to Die (Bond)", "date": "2020-02-13", "color": "#1a1a1a", "shape": "star" },
+    { "label": "No Time to Die (Bond)", "date": "2020-02-13", "color": "#4b5563", "shape": "star" },
     { "label": "Grammy Record of Year x2", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
     { "label": "Happier Than Ever Released", "date": "2021-07-30", "color": "#f59e0b", "shape": "star" },
     { "label": "Oscar for No Time to Die", "date": "2022-03-27", "color": "#fbbf24", "shape": "heart" },

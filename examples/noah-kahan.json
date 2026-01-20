@@ -9,7 +9,7 @@
       "label": "Busyhead Era",
       "startDate": "2019-01-18",
       "endDate": "2021-09-09",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "I Was / I Am Era",
@@ -25,11 +25,11 @@
     }
   ],
   "moments": [
-    { "label": "Hurt Somebody EP", "date": "2017-09-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Hurt Somebody EP", "date": "2017-09-08", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Republic Records", "date": "2017-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Busyhead Debut Album", "date": "2019-01-18", "color": "#6b7280", "shape": "star" },
+    { "label": "Busyhead Debut Album", "date": "2019-01-18", "color": "#64748b", "shape": "star" },
     { "label": "I Was / I Am Album", "date": "2021-09-10", "color": "#3b82f6", "shape": "star" },
-    { "label": "Cape Elizabeth EP", "date": "2020-06-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Cape Elizabeth EP", "date": "2020-06-05", "color": "#64748b", "shape": "star" },
     { "label": "Stick Season Album", "date": "2022-10-14", "color": "#10b981", "shape": "star" },
     { "label": "Stick Season Song Goes Viral", "date": "2023-01-01", "color": "#10b981", "shape": "diamond" },
     { "label": "Stick Season (We'll All Be Here Forever)", "date": "2023-06-09", "color": "#10b981", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Die a Legend Era",
       "startDate": "2019-06-07",
       "endDate": "2020-05-14",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "THE GOAT Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Finer Things Breakthrough", "date": "2018-07-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Finer Things Breakthrough", "date": "2018-07-06", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Columbia Records", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Die a Legend Debut", "date": "2019-06-07", "color": "#6b7280", "shape": "star" },
-    { "label": "Pop Out with Lil Tjay Hit", "date": "2019-02-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Die a Legend Debut", "date": "2019-06-07", "color": "#64748b", "shape": "star" },
+    { "label": "Pop Out with Lil Tjay Hit", "date": "2019-02-01", "color": "#64748b", "shape": "diamond" },
     { "label": "THE GOAT #2 Album", "date": "2020-05-15", "color": "#3b82f6", "shape": "star" },
     { "label": "Flex Hit", "date": "2020-05-15", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Martin & Gina Hit", "date": "2020-08-21", "color": "#3b82f6", "shape": "diamond" },

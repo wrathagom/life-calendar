@@ -33,12 +33,12 @@
       "label": "Dead & Company / Sob Rock Era",
       "startDate": "2015-05-27",
       "endDate": "2025-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     }
   ],
   "moments": [
-    { "label": "Berklee College of Music", "date": "1995-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Dropped Out to Pursue Music", "date": "1997-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Berklee College of Music", "date": "1995-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "Dropped Out to Pursue Music", "date": "1997-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Room for Squares Album", "date": "2001-09-18", "color": "#3b82f6", "shape": "star" },
     { "label": "No Such Thing Hit", "date": "2002-02-25", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Your Body Is a Wonderland Grammy", "date": "2003-02-23", "color": "#fbbf24", "shape": "heart" },
@@ -49,13 +49,13 @@
     { "label": "Gravity Hit", "date": "2006-07-25", "color": "#f59e0b", "shape": "diamond" },
     { "label": "John Mayer Trio", "date": "2005-11-22", "color": "#f59e0b", "shape": "star" },
     { "label": "Battle Studies Album", "date": "2009-11-17", "color": "#10b981", "shape": "star" },
-    { "label": "Vocal Cord Granuloma Surgery", "date": "2012-08-01", "color": "#6b7280", "shape": "circle" },
+    { "label": "Vocal Cord Granuloma Surgery", "date": "2012-08-01", "color": "#64748b", "shape": "circle" },
     { "label": "Born and Raised Album", "date": "2012-05-22", "color": "#10b981", "shape": "star" },
     { "label": "Paradise Valley Album", "date": "2013-08-20", "color": "#10b981", "shape": "star" },
-    { "label": "Dead & Company Formed", "date": "2015-05-27", "color": "#6b7280", "shape": "star" },
-    { "label": "The Search for Everything", "date": "2017-04-14", "color": "#6b7280", "shape": "star" },
-    { "label": "Sob Rock Album", "date": "2021-07-16", "color": "#6b7280", "shape": "star" },
-    { "label": "Dead & Company Final Tour", "date": "2023-05-19", "color": "#6b7280", "shape": "heart" },
-    { "label": "Dead Forever Sphere Residency", "date": "2024-05-16", "color": "#6b7280", "shape": "star" }
+    { "label": "Dead & Company Formed", "date": "2015-05-27", "color": "#64748b", "shape": "star" },
+    { "label": "The Search for Everything", "date": "2017-04-14", "color": "#64748b", "shape": "star" },
+    { "label": "Sob Rock Album", "date": "2021-07-16", "color": "#64748b", "shape": "star" },
+    { "label": "Dead & Company Final Tour", "date": "2023-05-19", "color": "#64748b", "shape": "heart" },
+    { "label": "Dead Forever Sphere Residency", "date": "2024-05-16", "color": "#64748b", "shape": "star" }
   ]
 }

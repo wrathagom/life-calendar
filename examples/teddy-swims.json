@@ -9,7 +9,7 @@
       "label": "YouTube Covers Era",
       "startDate": "2019-06-01",
       "endDate": "2021-08-05",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Unlearning Era",
@@ -25,9 +25,9 @@
     }
   ],
   "moments": [
-    { "label": "Started YouTube Channel", "date": "2019-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Started YouTube Channel", "date": "2019-06-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Warner Records", "date": "2020-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Picky EP", "date": "2020-01-31", "color": "#6b7280", "shape": "star" },
+    { "label": "Picky EP", "date": "2020-01-31", "color": "#64748b", "shape": "star" },
     { "label": "Unlearning EP", "date": "2021-08-06", "color": "#9333ea", "shape": "star" },
     { "label": "Simple Things Single", "date": "2021-11-19", "color": "#9333ea", "shape": "diamond" },
     { "label": "Lose Control Released", "date": "2023-07-14", "color": "#9333ea", "shape": "star" },

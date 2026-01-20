@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "2013-01-01",
       "endDate": "2017-10-26",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "RINA Era",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Moved to London at 5", "date": "1995-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Cambridge Politics Degree", "date": "2012-06-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Sleeping in Waking EP", "date": "2013-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to London at 5", "date": "1995-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Cambridge Politics Degree", "date": "2012-06-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Sleeping in Waking EP", "date": "2013-01-01", "color": "#64748b", "shape": "star" },
     { "label": "RINA Mini-Album", "date": "2017-10-27", "color": "#ec4899", "shape": "star" },
     { "label": "Cherry Viral Hit", "date": "2018-11-02", "color": "#ec4899", "shape": "diamond" },
     { "label": "Signed to Dirty Hit", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },

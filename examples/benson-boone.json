@@ -9,7 +9,7 @@
       "label": "American Idol Era",
       "startDate": "2021-02-14",
       "endDate": "2022-02-24",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Walk Me Home Era",
@@ -25,11 +25,11 @@
     }
   ],
   "moments": [
-    { "label": "American Idol Audition", "date": "2021-02-14", "color": "#6b7280", "shape": "star" },
-    { "label": "Left American Idol by Choice", "date": "2021-03-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "American Idol Audition", "date": "2021-02-14", "color": "#64748b", "shape": "star" },
+    { "label": "Left American Idol by Choice", "date": "2021-03-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed by Dan Reynolds (Imagine Dragons)", "date": "2021-06-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Signed to Warner Records", "date": "2021-06-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Ghost Town Single", "date": "2021-08-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Ghost Town Single", "date": "2021-08-27", "color": "#64748b", "shape": "star" },
     { "label": "Walk Me Home EP", "date": "2022-02-25", "color": "#3b82f6", "shape": "star" },
     { "label": "In the Stars Hit", "date": "2022-09-15", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Beautiful Things Released", "date": "2024-01-19", "color": "#f59e0b", "shape": "star" },

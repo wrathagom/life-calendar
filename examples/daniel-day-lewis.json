@@ -9,7 +9,7 @@
       "label": "Theater & Early Film",
       "startDate": "1971-01-01",
       "endDate": "1988-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Method Acting Rise",
@@ -31,11 +31,11 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Sunday Bloody Sunday", "date": "1971-07-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Bristol Old Vic Theatre School", "date": "1973-09-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Gandhi", "date": "1982-12-08", "color": "#6b7280", "shape": "diamond" },
-    { "label": "A Room with a View", "date": "1985-04-11", "color": "#6b7280", "shape": "star" },
-    { "label": "My Beautiful Laundrette", "date": "1985-11-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Film Debut - Sunday Bloody Sunday", "date": "1971-07-01", "color": "#64748b", "shape": "star" },
+    { "label": "Bristol Old Vic Theatre School", "date": "1973-09-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Gandhi", "date": "1982-12-08", "color": "#64748b", "shape": "diamond" },
+    { "label": "A Room with a View", "date": "1985-04-11", "color": "#64748b", "shape": "star" },
+    { "label": "My Beautiful Laundrette", "date": "1985-11-16", "color": "#64748b", "shape": "star" },
     { "label": "My Left Foot - Oscar Win", "date": "1990-02-25", "color": "#fbbf24", "shape": "heart" },
     { "label": "The Last of the Mohicans", "date": "1992-09-25", "color": "#3b82f6", "shape": "star" },
     { "label": "In the Name of the Father", "date": "1993-12-29", "color": "#3b82f6", "shape": "star" },
@@ -49,6 +49,6 @@
     { "label": "Lincoln - Oscar Win", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
     { "label": "Only 3-Time Best Actor Winner", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
     { "label": "Phantom Thread - Oscar Nom", "date": "2017-12-25", "color": "#f59e0b", "shape": "star" },
-    { "label": "Announced Retirement", "date": "2017-06-20", "color": "#6b7280", "shape": "diamond" }
+    { "label": "Announced Retirement", "date": "2017-06-20", "color": "#64748b", "shape": "diamond" }
   ]
 }

@@ -9,7 +9,7 @@
       "label": "Independent Era",
       "startDate": "2018-08-14",
       "endDate": "2021-08-01",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Oh the Places You'll Go Era",
@@ -25,8 +25,8 @@
     }
   ],
   "moments": [
-    { "label": "Started Making Music", "date": "2018-08-14", "color": "#6b7280", "shape": "star" },
-    { "label": "Yucky Blucky Fruitcake Single", "date": "2020-08-11", "color": "#6b7280", "shape": "star" },
+    { "label": "Started Making Music", "date": "2018-08-14", "color": "#64748b", "shape": "star" },
+    { "label": "Yucky Blucky Fruitcake Single", "date": "2020-08-11", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Top Dawg Entertainment", "date": "2021-08-02", "color": "#9333ea", "shape": "diamond" },
     { "label": "Crazy Viral Hit", "date": "2022-04-08", "color": "#9333ea", "shape": "star" },
     { "label": "Oh the Places You'll Go EP", "date": "2022-03-04", "color": "#9333ea", "shape": "star" },

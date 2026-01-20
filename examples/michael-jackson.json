@@ -28,7 +28,7 @@
       "label": "Bad / Dangerous Era",
       "startDate": "1987-08-31",
       "endDate": "1997-05-19",
-      "color": "#1a1a1a"
+      "color": "#4b5563"
     },
     {
       "label": "Later Career",
@@ -51,12 +51,12 @@
     { "label": "Motown 25 Moonwalk", "date": "1983-05-16", "color": "#fbbf24", "shape": "heart" },
     { "label": "8 Grammys in One Night", "date": "1984-02-28", "color": "#fbbf24", "shape": "heart" },
     { "label": "We Are the World", "date": "1985-03-07", "color": "#10b981", "shape": "star" },
-    { "label": "Bad Released", "date": "1987-08-31", "color": "#1a1a1a", "shape": "star" },
-    { "label": "Dangerous Released", "date": "1991-11-26", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Bad Released", "date": "1987-08-31", "color": "#4b5563", "shape": "star" },
+    { "label": "Dangerous Released", "date": "1991-11-26", "color": "#4b5563", "shape": "star" },
     { "label": "Married Lisa Marie Presley", "date": "1994-05-26", "color": "#ef4444", "shape": "heart" },
     { "label": "HIStory Released", "date": "1995-06-20", "color": "#9333ea", "shape": "star" },
     { "label": "Son Prince Born", "date": "1997-02-13", "color": "#ef4444", "shape": "heart" },
     { "label": "Invincible Released", "date": "2001-10-30", "color": "#9333ea", "shape": "star" },
-    { "label": "Passed Away", "date": "2009-06-25", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "2009-06-25", "color": "#64748b", "shape": "heart" }
   ]
 }

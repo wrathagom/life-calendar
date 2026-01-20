@@ -9,7 +9,7 @@
       "label": "Hot Boys Era",
       "startDate": "1996-01-01",
       "endDate": "2002-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Tha Carter Series Era",
@@ -37,9 +37,9 @@
     }
   ],
   "moments": [
-    { "label": "Signed to Cash Money at 9", "date": "1991-11-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Joined Hot Boys", "date": "1996-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Tha Block Is Hot Debut", "date": "1999-11-02", "color": "#6b7280", "shape": "star" },
+    { "label": "Signed to Cash Money at 9", "date": "1991-11-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Joined Hot Boys", "date": "1996-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Tha Block Is Hot Debut", "date": "1999-11-02", "color": "#64748b", "shape": "star" },
     { "label": "Daughter Reginae Born", "date": "1998-11-29", "color": "#ef4444", "shape": "heart" },
     { "label": "Tha Carter I", "date": "2004-06-29", "color": "#ef4444", "shape": "star" },
     { "label": "Tha Carter II", "date": "2005-12-06", "color": "#ef4444", "shape": "star" },
@@ -49,11 +49,11 @@
     { "label": "A Milli Hit", "date": "2008-04-15", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Grammy Best Rap Album", "date": "2009-02-08", "color": "#fbbf24", "shape": "heart" },
     { "label": "Son Dwayne III Born", "date": "2009-10-22", "color": "#ef4444", "shape": "heart" },
-    { "label": "Prison Sentence Start", "date": "2010-03-08", "color": "#6b7280", "shape": "circle" },
-    { "label": "Released from Prison", "date": "2010-11-04", "color": "#6b7280", "shape": "circle" },
+    { "label": "Prison Sentence Start", "date": "2010-03-08", "color": "#64748b", "shape": "circle" },
+    { "label": "Released from Prison", "date": "2010-11-04", "color": "#64748b", "shape": "circle" },
     { "label": "Tha Carter IV #1", "date": "2011-08-29", "color": "#3b82f6", "shape": "star" },
     { "label": "I Am Not a Human Being II", "date": "2013-03-26", "color": "#3b82f6", "shape": "star" },
-    { "label": "Cash Money Lawsuit", "date": "2015-01-23", "color": "#6b7280", "shape": "circle" },
+    { "label": "Cash Money Lawsuit", "date": "2015-01-23", "color": "#64748b", "shape": "circle" },
     { "label": "Tha Carter V #1", "date": "2018-09-28", "color": "#3b82f6", "shape": "star" },
     { "label": "Uproar Hit", "date": "2018-10-06", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Funeral Album", "date": "2020-01-31", "color": "#9333ea", "shape": "star" },

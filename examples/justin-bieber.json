@@ -15,7 +15,7 @@
       "label": "Transition Period",
       "startDate": "2012-06-19",
       "endDate": "2015-11-12",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Purpose Era",
@@ -45,7 +45,7 @@
     { "label": "My World 2.0 #1", "date": "2010-03-23", "color": "#9333ea", "shape": "star" },
     { "label": "Never Say Never Film", "date": "2011-02-11", "color": "#fbbf24", "shape": "diamond" },
     { "label": "Under the Mistletoe", "date": "2011-11-01", "color": "#ef4444", "shape": "star" },
-    { "label": "Believe Released", "date": "2012-06-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Believe Released", "date": "2012-06-19", "color": "#64748b", "shape": "star" },
     { "label": "Purpose Released", "date": "2015-11-13", "color": "#3b82f6", "shape": "star" },
     { "label": "What Do You Mean #1", "date": "2015-09-28", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Grammy for Where Are U Now", "date": "2016-02-15", "color": "#fbbf24", "shape": "heart" },
@@ -55,7 +55,7 @@
     { "label": "10,000 Hours Grammy", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
     { "label": "Justice Released", "date": "2021-03-19", "color": "#10b981", "shape": "star" },
     { "label": "Peaches #1", "date": "2021-04-03", "color": "#10b981", "shape": "diamond" },
-    { "label": "Ramsay Hunt Diagnosis", "date": "2022-06-10", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Ramsay Hunt Diagnosis", "date": "2022-06-10", "color": "#64748b", "shape": "diamond" },
     { "label": "Son Jack Blues Born", "date": "2024-08-23", "color": "#ef4444", "shape": "heart" }
   ]
 }

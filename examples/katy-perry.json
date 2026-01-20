@@ -9,7 +9,7 @@
       "label": "Gospel Era",
       "startDate": "2001-03-06",
       "endDate": "2006-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "One of the Boys Era",
@@ -43,7 +43,7 @@
     }
   ],
   "moments": [
-    { "label": "Katy Hudson Gospel Album", "date": "2001-03-06", "color": "#6b7280", "shape": "star" },
+    { "label": "Katy Hudson Gospel Album", "date": "2001-03-06", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Capitol Records", "date": "2007-04-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "I Kissed a Girl #1", "date": "2008-06-28", "color": "#ec4899", "shape": "star" },
     { "label": "Hot n Cold Hit", "date": "2008-09-09", "color": "#ec4899", "shape": "diamond" },
@@ -55,7 +55,7 @@
     { "label": "E.T. #1", "date": "2011-04-09", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Last Friday Night #1", "date": "2011-08-20", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Ties Michael Jackson Record", "date": "2011-08-20", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Divorced Russell Brand", "date": "2012-02-10", "color": "#6b7280", "shape": "circle" },
+    { "label": "Divorced Russell Brand", "date": "2012-02-10", "color": "#64748b", "shape": "circle" },
     { "label": "Roar #1", "date": "2013-09-28", "color": "#9333ea", "shape": "diamond" },
     { "label": "Prism Album", "date": "2013-10-18", "color": "#9333ea", "shape": "star" },
     { "label": "Dark Horse #1", "date": "2014-01-25", "color": "#9333ea", "shape": "diamond" },

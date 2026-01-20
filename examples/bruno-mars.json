@@ -9,7 +9,7 @@
       "label": "Songwriting/Production Era",
       "startDate": "2006-01-01",
       "endDate": "2010-10-03",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Doo-Wops & Hooligans Era",
@@ -37,9 +37,9 @@
     }
   ],
   "moments": [
-    { "label": "Moved to Los Angeles", "date": "2003-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to Los Angeles", "date": "2003-06-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Motown", "date": "2004-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Dropped by Motown", "date": "2007-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Dropped by Motown", "date": "2007-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Founded Smeezingtons", "date": "2009-01-01", "color": "#10b981", "shape": "star" },
     { "label": "Nothin' on You (B.o.B)", "date": "2010-04-27", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Just the Way You Are #1", "date": "2010-09-18", "color": "#f59e0b", "shape": "star" },

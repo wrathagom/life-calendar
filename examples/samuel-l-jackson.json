@@ -9,7 +9,7 @@
       "label": "Theater & Early Film",
       "startDate": "1972-01-01",
       "endDate": "1990-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Breakthrough Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Morehouse College Graduate", "date": "1972-05-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Morehouse College Graduate", "date": "1972-05-01", "color": "#64748b", "shape": "star" },
     { "label": "Married LaTanya Richardson", "date": "1980-08-01", "color": "#ef4444", "shape": "heart" },
-    { "label": "School Daze", "date": "1988-02-12", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Goodfellas", "date": "1990-09-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "School Daze", "date": "1988-02-12", "color": "#64748b", "shape": "diamond" },
+    { "label": "Goodfellas", "date": "1990-09-19", "color": "#64748b", "shape": "diamond" },
     { "label": "Jungle Fever Breakthrough", "date": "1991-06-07", "color": "#3b82f6", "shape": "star" },
     { "label": "Cannes - Best Supporting", "date": "1991-05-01", "color": "#fbbf24", "shape": "heart" },
     { "label": "Jurassic Park", "date": "1993-06-11", "color": "#3b82f6", "shape": "diamond" },

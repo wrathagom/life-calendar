@@ -10,7 +10,7 @@
       "label": "Early Career",
       "startDate": "1978-04-07",
       "endDate": "1983-10-30",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Purple Rain Era",
@@ -38,25 +38,25 @@
     }
   ],
   "moments": [
-    { "label": "For You Debut Album", "date": "1978-04-07", "color": "#6b7280", "shape": "star" },
-    { "label": "Prince Self-Titled", "date": "1979-10-19", "color": "#6b7280", "shape": "star" },
-    { "label": "I Wanna Be Your Lover Hit", "date": "1979-08-24", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Dirty Mind", "date": "1980-10-08", "color": "#6b7280", "shape": "star" },
-    { "label": "1999 Released", "date": "1982-10-27", "color": "#6b7280", "shape": "star" },
-    { "label": "Little Red Corvette", "date": "1983-02-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "For You Debut Album", "date": "1978-04-07", "color": "#64748b", "shape": "star" },
+    { "label": "Prince Self-Titled", "date": "1979-10-19", "color": "#64748b", "shape": "star" },
+    { "label": "I Wanna Be Your Lover Hit", "date": "1979-08-24", "color": "#64748b", "shape": "diamond" },
+    { "label": "Dirty Mind", "date": "1980-10-08", "color": "#64748b", "shape": "star" },
+    { "label": "1999 Released", "date": "1982-10-27", "color": "#64748b", "shape": "star" },
+    { "label": "Little Red Corvette", "date": "1983-02-09", "color": "#64748b", "shape": "diamond" },
     { "label": "Purple Rain Album & Film", "date": "1984-06-25", "color": "#9333ea", "shape": "star" },
     { "label": "When Doves Cry #1", "date": "1984-07-07", "color": "#9333ea", "shape": "diamond" },
     { "label": "Let's Go Crazy #1", "date": "1984-09-29", "color": "#9333ea", "shape": "diamond" },
     { "label": "Oscar for Purple Rain", "date": "1985-03-25", "color": "#fbbf24", "shape": "heart" },
     { "label": "Around the World in a Day", "date": "1985-04-22", "color": "#9333ea", "shape": "star" },
     { "label": "Sign o' the Times", "date": "1987-03-30", "color": "#9333ea", "shape": "star" },
-    { "label": "Batman Soundtrack", "date": "1989-06-20", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Batman Soundtrack", "date": "1989-06-20", "color": "#4b5563", "shape": "star" },
     { "label": "Diamonds and Pearls", "date": "1991-10-01", "color": "#3b82f6", "shape": "star" },
     { "label": "Changed Name to Symbol", "date": "1993-06-07", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Emancipation (Independent)", "date": "1996-11-19", "color": "#f59e0b", "shape": "star" },
     { "label": "Rock Hall of Fame", "date": "2004-03-15", "color": "#fbbf24", "shape": "heart" },
     { "label": "Super Bowl XLI Halftime", "date": "2007-02-04", "color": "#fbbf24", "shape": "heart" },
     { "label": "3121 #1 Album", "date": "2006-03-21", "color": "#ec4899", "shape": "star" },
-    { "label": "Passed Away", "date": "2016-04-21", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "2016-04-21", "color": "#64748b", "shape": "heart" }
   ]
 }

@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1988-01-01",
       "endDate": "1996-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Good Will Hunting Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Mystic Pizza", "date": "1988-10-21", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Harvard Attended", "date": "1988-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "School Ties", "date": "1992-09-18", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Courage Under Fire", "date": "1996-07-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Mystic Pizza", "date": "1988-10-21", "color": "#64748b", "shape": "diamond" },
+    { "label": "Harvard Attended", "date": "1988-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "School Ties", "date": "1992-09-18", "color": "#64748b", "shape": "diamond" },
+    { "label": "Courage Under Fire", "date": "1996-07-12", "color": "#64748b", "shape": "star" },
     { "label": "Good Will Hunting - Oscar Win (Screenplay)", "date": "1998-03-23", "color": "#fbbf24", "shape": "heart" },
     { "label": "Saving Private Ryan", "date": "1998-07-24", "color": "#3b82f6", "shape": "star" },
     { "label": "Rounders", "date": "1998-09-11", "color": "#3b82f6", "shape": "diamond" },

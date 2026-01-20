@@ -9,7 +9,7 @@
       "label": "Praise Break Era",
       "startDate": "2014-04-01",
       "endDate": "2017-08-24",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Freudian Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Praise Break EP", "date": "2014-04-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Pilgrim's Paradise EP", "date": "2015-06-27", "color": "#6b7280", "shape": "star" },
+    { "label": "Praise Break EP", "date": "2014-04-01", "color": "#64748b", "shape": "star" },
+    { "label": "Pilgrim's Paradise EP", "date": "2015-06-27", "color": "#64748b", "shape": "star" },
     { "label": "Get You with Kali Uchis", "date": "2017-04-04", "color": "#3b82f6", "shape": "star" },
     { "label": "Freudian Debut Album", "date": "2017-08-25", "color": "#3b82f6", "shape": "star" },
     { "label": "Best Part with H.E.R.", "date": "2017-08-25", "color": "#3b82f6", "shape": "diamond" },

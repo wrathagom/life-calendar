@@ -45,7 +45,7 @@
     { "label": "Rolling in the Deep #1", "date": "2011-05-21", "color": "#ef4444", "shape": "diamond" },
     { "label": "6 Grammys in One Night", "date": "2012-02-12", "color": "#fbbf24", "shape": "heart" },
     { "label": "Son Angelo Born", "date": "2012-10-19", "color": "#ef4444", "shape": "heart" },
-    { "label": "Skyfall (James Bond)", "date": "2012-10-05", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Skyfall (James Bond)", "date": "2012-10-05", "color": "#4b5563", "shape": "star" },
     { "label": "Oscar for Skyfall", "date": "2013-02-24", "color": "#fbbf24", "shape": "heart" },
     { "label": "MBE from Queen Elizabeth", "date": "2013-12-19", "color": "#9333ea", "shape": "diamond" },
     { "label": "25 Released", "date": "2015-11-20", "color": "#3b82f6", "shape": "star" },

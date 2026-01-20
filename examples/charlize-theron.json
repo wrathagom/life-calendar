@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1995-01-01",
       "endDate": "2002-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Oscar Era",
@@ -31,12 +31,12 @@
     }
   ],
   "moments": [
-    { "label": "Ballet Training in NYC", "date": "1993-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Moved to Los Angeles", "date": "1994-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Children of the Corn III", "date": "1995-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Devil's Advocate", "date": "1997-10-17", "color": "#6b7280", "shape": "star" },
-    { "label": "Mighty Joe Young", "date": "1998-12-25", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Cider House Rules", "date": "1999-12-17", "color": "#6b7280", "shape": "star" },
+    { "label": "Ballet Training in NYC", "date": "1993-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Moved to Los Angeles", "date": "1994-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Children of the Corn III", "date": "1995-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Devil's Advocate", "date": "1997-10-17", "color": "#64748b", "shape": "star" },
+    { "label": "Mighty Joe Young", "date": "1998-12-25", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Cider House Rules", "date": "1999-12-17", "color": "#64748b", "shape": "star" },
     { "label": "Monster - Oscar Win", "date": "2004-02-29", "color": "#fbbf24", "shape": "heart" },
     { "label": "North Country - Oscar Nom", "date": "2005-10-21", "color": "#9333ea", "shape": "star" },
     { "label": "Aeon Flux", "date": "2005-12-02", "color": "#9333ea", "shape": "diamond" },

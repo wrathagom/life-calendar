@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2007-09-30",
       "endDate": "2011-06-27",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Finally Famous Era",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Freestyled for Kanye at Radio Station", "date": "2005-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Freestyled for Kanye at Radio Station", "date": "2005-06-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to G.O.O.D. Music", "date": "2007-09-30", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Finally Famous Mixtape Series", "date": "2007-09-30", "color": "#6b7280", "shape": "star" },
+    { "label": "Finally Famous Mixtape Series", "date": "2007-09-30", "color": "#64748b", "shape": "star" },
     { "label": "Finally Famous Album", "date": "2011-06-28", "color": "#3b82f6", "shape": "star" },
     { "label": "Dance (A$$) Hit", "date": "2011-08-15", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Mercy Verse", "date": "2012-04-03", "color": "#3b82f6", "shape": "diamond" },

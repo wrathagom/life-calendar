@@ -34,7 +34,7 @@
       "label": "Comeback Attempt",
       "startDate": "2009-09-02",
       "endDate": "2012-02-11",
-      "color": "#6b7280"
+      "color": "#64748b"
     }
   ],
   "moments": [
@@ -55,8 +55,8 @@
     { "label": "Daughter Bobbi Kristina Born", "date": "1993-03-04", "color": "#ef4444", "shape": "heart" },
     { "label": "My Love Is Your Love", "date": "1998-11-17", "color": "#3b82f6", "shape": "star" },
     { "label": "It's Not Right Grammy", "date": "2000-02-23", "color": "#fbbf24", "shape": "heart" },
-    { "label": "I Look to You (Comeback)", "date": "2009-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "I Look to You (Comeback)", "date": "2009-09-01", "color": "#64748b", "shape": "star" },
     { "label": "Rock Hall of Fame", "date": "2020-11-07", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Passed Away", "date": "2012-02-11", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "2012-02-11", "color": "#64748b", "shape": "heart" }
   ]
 }

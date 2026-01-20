@@ -15,7 +15,7 @@
       "label": "Virgin/Island Struggle",
       "startDate": "2001-01-23",
       "endDate": "2005-04-11",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Emancipation / Comeback",
@@ -41,8 +41,8 @@
     { "label": "One Sweet Day #1 (16 weeks)", "date": "1995-12-02", "color": "#ec4899", "shape": "diamond" },
     { "label": "Fantasy #1", "date": "1995-09-30", "color": "#ec4899", "shape": "diamond" },
     { "label": "Butterfly Album", "date": "1997-09-16", "color": "#ec4899", "shape": "star" },
-    { "label": "Glitter Soundtrack", "date": "2001-09-11", "color": "#6b7280", "shape": "star" },
-    { "label": "Breakdown / Hospitalized", "date": "2001-07-26", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Glitter Soundtrack", "date": "2001-09-11", "color": "#64748b", "shape": "star" },
+    { "label": "Breakdown / Hospitalized", "date": "2001-07-26", "color": "#64748b", "shape": "diamond" },
     { "label": "The Emancipation of Mimi", "date": "2005-04-12", "color": "#f59e0b", "shape": "star" },
     { "label": "We Belong Together #1 (14 weeks)", "date": "2005-06-04", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Grammy Best R&B Album", "date": "2006-02-08", "color": "#fbbf24", "shape": "heart" },

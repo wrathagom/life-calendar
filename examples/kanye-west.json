@@ -9,7 +9,7 @@
       "label": "Producer Era",
       "startDate": "1996-01-01",
       "endDate": "2004-02-09",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "College Trilogy",
@@ -33,20 +33,20 @@
       "label": "Donda Era",
       "startDate": "2021-08-29",
       "endDate": "2024-12-31",
-      "color": "#1a1a1a"
+      "color": "#4b5563"
     }
   ],
   "moments": [
-    { "label": "First Production Credit", "date": "1996-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Produced for Jay-Z Blueprint", "date": "2001-09-11", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Car Accident", "date": "2002-10-23", "color": "#6b7280", "shape": "diamond" },
+    { "label": "First Production Credit", "date": "1996-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Produced for Jay-Z Blueprint", "date": "2001-09-11", "color": "#64748b", "shape": "diamond" },
+    { "label": "Car Accident", "date": "2002-10-23", "color": "#64748b", "shape": "diamond" },
     { "label": "Through the Wire Single", "date": "2003-09-30", "color": "#ec4899", "shape": "star" },
     { "label": "The College Dropout", "date": "2004-02-10", "color": "#ec4899", "shape": "star" },
     { "label": "Late Registration", "date": "2005-08-30", "color": "#ec4899", "shape": "star" },
     { "label": "Graduation", "date": "2007-09-11", "color": "#ec4899", "shape": "star" },
-    { "label": "Mother Donda Passes", "date": "2007-11-10", "color": "#6b7280", "shape": "heart" },
+    { "label": "Mother Donda Passes", "date": "2007-11-10", "color": "#64748b", "shape": "heart" },
     { "label": "808s & Heartbreak", "date": "2008-11-24", "color": "#3b82f6", "shape": "star" },
-    { "label": "VMA Taylor Swift Incident", "date": "2009-09-13", "color": "#6b7280", "shape": "diamond" },
+    { "label": "VMA Taylor Swift Incident", "date": "2009-09-13", "color": "#64748b", "shape": "diamond" },
     { "label": "My Beautiful Dark Twisted Fantasy", "date": "2010-11-22", "color": "#3b82f6", "shape": "star" },
     { "label": "Watch the Throne with Jay-Z", "date": "2011-08-08", "color": "#fbbf24", "shape": "star" },
     { "label": "Yeezus Released", "date": "2013-06-18", "color": "#ef4444", "shape": "star" },
@@ -54,8 +54,8 @@
     { "label": "The Life of Pablo", "date": "2016-02-14", "color": "#ef4444", "shape": "star" },
     { "label": "Ye Released", "date": "2018-06-01", "color": "#ef4444", "shape": "star" },
     { "label": "Jesus Is King", "date": "2019-10-25", "color": "#fbbf24", "shape": "star" },
-    { "label": "Donda Released", "date": "2021-08-29", "color": "#1a1a1a", "shape": "star" },
-    { "label": "Donda 2 Released", "date": "2022-02-23", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Donda Released", "date": "2021-08-29", "color": "#4b5563", "shape": "star" },
+    { "label": "Donda 2 Released", "date": "2022-02-23", "color": "#4b5563", "shape": "star" },
     { "label": "24 Grammy Wins Total", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" }
   ]
 }

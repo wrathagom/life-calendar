@@ -45,7 +45,7 @@
     { "label": "My Everything Released", "date": "2014-08-25", "color": "#ec4899", "shape": "star" },
     { "label": "Problem #1", "date": "2014-06-21", "color": "#ec4899", "shape": "diamond" },
     { "label": "Dangerous Woman Released", "date": "2016-05-20", "color": "#ef4444", "shape": "star" },
-    { "label": "Manchester Arena Bombing", "date": "2017-05-22", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Manchester Arena Bombing", "date": "2017-05-22", "color": "#64748b", "shape": "diamond" },
     { "label": "One Love Manchester Concert", "date": "2017-06-04", "color": "#ef4444", "shape": "heart" },
     { "label": "Sweetener Released", "date": "2018-08-17", "color": "#9333ea", "shape": "star" },
     { "label": "Thank U, Next Single", "date": "2018-11-03", "color": "#9333ea", "shape": "star" },

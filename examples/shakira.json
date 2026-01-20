@@ -9,7 +9,7 @@
       "label": "Early Colombian Career",
       "startDate": "1990-06-01",
       "endDate": "1998-09-28",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Dónde Están los Ladrones Era",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "First Album Magia", "date": "1991-06-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Pies Descalzos", "date": "1995-10-06", "color": "#6b7280", "shape": "star" },
+    { "label": "First Album Magia", "date": "1991-06-01", "color": "#64748b", "shape": "star" },
+    { "label": "Pies Descalzos", "date": "1995-10-06", "color": "#64748b", "shape": "star" },
     { "label": "Dónde Están los Ladrones", "date": "1998-09-29", "color": "#f59e0b", "shape": "star" },
     { "label": "MTV Unplugged Success", "date": "2000-01-12", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Laundry Service (English)", "date": "2001-11-13", "color": "#ec4899", "shape": "star" },
@@ -53,7 +53,7 @@
     { "label": "Son Sasha Born", "date": "2015-01-29", "color": "#ef4444", "shape": "heart" },
     { "label": "El Dorado Album", "date": "2017-05-26", "color": "#ef4444", "shape": "star" },
     { "label": "Super Bowl LIV Halftime", "date": "2020-02-02", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Split from Piqué", "date": "2022-06-04", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Split from Piqué", "date": "2022-06-04", "color": "#64748b", "shape": "diamond" },
     { "label": "BZRP Music Session #53", "date": "2023-01-11", "color": "#ef4444", "shape": "star" },
     { "label": "Las Mujeres Ya No Lloran", "date": "2024-03-22", "color": "#ef4444", "shape": "star" },
     { "label": "3 Grammy Wins Total", "date": "2006-02-08", "color": "#fbbf24", "shape": "heart" }

@@ -9,7 +9,7 @@
       "label": "Child Actor Era",
       "startDate": "1986-01-01",
       "endDate": "1994-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Indie & Character Roles",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Commercial Acting Begins", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Empire of the Sun", "date": "1987-12-09", "color": "#6b7280", "shape": "star" },
-    { "label": "Newsies", "date": "1992-04-10", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Little Women", "date": "1994-12-21", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Commercial Acting Begins", "date": "1986-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Empire of the Sun", "date": "1987-12-09", "color": "#64748b", "shape": "star" },
+    { "label": "Newsies", "date": "1992-04-10", "color": "#64748b", "shape": "diamond" },
+    { "label": "Little Women", "date": "1994-12-21", "color": "#64748b", "shape": "diamond" },
     { "label": "American Psycho", "date": "2000-04-14", "color": "#3b82f6", "shape": "star" },
     { "label": "The Machinist - 63 lb Loss", "date": "2004-01-18", "color": "#3b82f6", "shape": "star" },
     { "label": "Married Sibi Blažić", "date": "2000-01-29", "color": "#ef4444", "shape": "heart" },

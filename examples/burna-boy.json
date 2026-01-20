@@ -9,7 +9,7 @@
       "label": "L.I.F.E. Era",
       "startDate": "2012-09-01",
       "endDate": "2015-11-24",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "On a Spaceship Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Like to Party Debut", "date": "2012-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "L.I.F.E. Debut Album", "date": "2013-08-12", "color": "#6b7280", "shape": "star" },
+    { "label": "Like to Party Debut", "date": "2012-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "L.I.F.E. Debut Album", "date": "2013-08-12", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Atlantic Records", "date": "2017-01-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Outside Album", "date": "2018-01-26", "color": "#3b82f6", "shape": "star" },
     { "label": "Ye Hit Goes Viral", "date": "2018-04-27", "color": "#f59e0b", "shape": "star" },

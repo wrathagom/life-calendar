@@ -9,7 +9,7 @@
       "label": "Live.Love.A$AP Era",
       "startDate": "2011-10-31",
       "endDate": "2013-01-14",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Long.Live.A$AP Era",
@@ -37,19 +37,19 @@
     }
   ],
   "moments": [
-    { "label": "A$AP Mob Formed", "date": "2006-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Live.Love.A$AP Mixtape", "date": "2011-10-31", "color": "#6b7280", "shape": "star" },
-    { "label": "Peso Viral Hit", "date": "2011-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "A$AP Mob Formed", "date": "2006-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Live.Love.A$AP Mixtape", "date": "2011-10-31", "color": "#64748b", "shape": "star" },
+    { "label": "Peso Viral Hit", "date": "2011-08-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to RCA/Polo Grounds", "date": "2011-10-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Long.Live.A$AP #1 Album", "date": "2013-01-15", "color": "#9333ea", "shape": "star" },
     { "label": "F**kin' Problems Hit", "date": "2012-10-24", "color": "#9333ea", "shape": "diamond" },
     { "label": "Fashion Week Appearances", "date": "2013-09-01", "color": "#f59e0b", "shape": "diamond" },
     { "label": "At.Long.Last.A$AP #1", "date": "2015-05-26", "color": "#3b82f6", "shape": "star" },
     { "label": "L$D Hit", "date": "2015-05-26", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "AWGE Founded", "date": "2013-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "AWGE Founded", "date": "2013-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Testing Album", "date": "2018-05-25", "color": "#f59e0b", "shape": "star" },
     { "label": "Praise the Lord Hit", "date": "2018-05-25", "color": "#f59e0b", "shape": "diamond" },
-    { "label": "Sweden Arrest", "date": "2019-07-03", "color": "#6b7280", "shape": "circle" },
+    { "label": "Sweden Arrest", "date": "2019-07-03", "color": "#64748b", "shape": "circle" },
     { "label": "Relationship with Rihanna Public", "date": "2020-11-01", "color": "#ef4444", "shape": "heart" },
     { "label": "Son RZA Born", "date": "2022-05-13", "color": "#ef4444", "shape": "heart" },
     { "label": "Son Riot Born", "date": "2023-08-01", "color": "#ef4444", "shape": "heart" },

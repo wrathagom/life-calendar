@@ -10,7 +10,7 @@
       "label": "Pre-Queen Era",
       "startDate": "1964-01-01",
       "endDate": "1970-06-26",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Queen Formation & Rise",
@@ -38,7 +38,7 @@
     }
   ],
   "moments": [
-    { "label": "Moved to England", "date": "1964-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Moved to England", "date": "1964-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Met Brian May & Roger", "date": "1970-04-01", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Queen Formed", "date": "1970-06-27", "color": "#3b82f6", "shape": "star" },
     { "label": "Queen Debut Album", "date": "1973-07-13", "color": "#3b82f6", "shape": "star" },
@@ -57,6 +57,6 @@
     { "label": "A Kind of Magic", "date": "1986-06-02", "color": "#ef4444", "shape": "star" },
     { "label": "Final Concert (Knebworth)", "date": "1986-08-09", "color": "#ef4444", "shape": "heart" },
     { "label": "Innuendo Album", "date": "1991-02-04", "color": "#9333ea", "shape": "star" },
-    { "label": "Passed Away", "date": "1991-11-24", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "1991-11-24", "color": "#64748b", "shape": "heart" }
   ]
 }

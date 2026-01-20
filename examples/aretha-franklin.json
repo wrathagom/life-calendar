@@ -10,7 +10,7 @@
       "label": "Gospel & Early Career",
       "startDate": "1956-01-01",
       "endDate": "1966-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Atlantic Records Peak",
@@ -32,8 +32,8 @@
     }
   ],
   "moments": [
-    { "label": "First Recording (Age 14)", "date": "1956-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Signed to Columbia", "date": "1960-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "First Recording (Age 14)", "date": "1956-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Signed to Columbia", "date": "1960-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Atlantic Records", "date": "1966-11-01", "color": "#f59e0b", "shape": "diamond" },
     { "label": "I Never Loved a Man", "date": "1967-02-10", "color": "#f59e0b", "shape": "star" },
     { "label": "Respect #1", "date": "1967-06-03", "color": "#f59e0b", "shape": "diamond" },
@@ -51,6 +51,6 @@
     { "label": "Obama Inauguration", "date": "2009-01-20", "color": "#fbbf24", "shape": "heart" },
     { "label": "Presidential Medal of Freedom", "date": "2005-11-09", "color": "#fbbf24", "shape": "heart" },
     { "label": "18 Grammy Wins Total", "date": "2008-02-10", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Passed Away", "date": "2018-08-16", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "2018-08-16", "color": "#64748b", "shape": "heart" }
   ]
 }

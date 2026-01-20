@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2010-01-01",
       "endDate": "2012-04-16",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Pluto Era",
@@ -37,9 +37,9 @@
     }
   ],
   "moments": [
-    { "label": "1000 Mixtape", "date": "2010-09-21", "color": "#6b7280", "shape": "star" },
+    { "label": "1000 Mixtape", "date": "2010-09-21", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Epic/A1/Freebandz", "date": "2011-09-22", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Tony Montana Breakthrough", "date": "2011-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Tony Montana Breakthrough", "date": "2011-08-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Pluto Debut Album", "date": "2012-04-17", "color": "#3b82f6", "shape": "star" },
     { "label": "Turn On the Lights Hit", "date": "2012-09-11", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Honest Album", "date": "2014-04-22", "color": "#3b82f6", "shape": "star" },

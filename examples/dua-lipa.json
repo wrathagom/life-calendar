@@ -25,8 +25,8 @@
     }
   ],
   "moments": [
-    { "label": "Moved to London Alone (15)", "date": "2010-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "First YouTube Covers", "date": "2012-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Moved to London Alone (15)", "date": "2010-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "First YouTube Covers", "date": "2012-08-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Warner Music", "date": "2015-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "New Love Debut Single", "date": "2015-08-21", "color": "#ec4899", "shape": "star" },
     { "label": "Dua Lipa Self-Titled", "date": "2017-06-02", "color": "#ec4899", "shape": "star" },

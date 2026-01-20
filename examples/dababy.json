@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2015-01-01",
       "endDate": "2019-03-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Baby on Baby Era",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Nonfiction Mixtape", "date": "2015-03-01", "color": "#6b7280", "shape": "star" },
-    { "label": "God's Work Mixtape", "date": "2016-01-18", "color": "#6b7280", "shape": "star" },
-    { "label": "Blank Blank Mixtape", "date": "2018-03-03", "color": "#6b7280", "shape": "star" },
+    { "label": "Nonfiction Mixtape", "date": "2015-03-01", "color": "#64748b", "shape": "star" },
+    { "label": "God's Work Mixtape", "date": "2016-01-18", "color": "#64748b", "shape": "star" },
+    { "label": "Blank Blank Mixtape", "date": "2018-03-03", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Interscope", "date": "2019-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Baby on Baby Album #7", "date": "2019-03-01", "color": "#3b82f6", "shape": "star" },
     { "label": "Suge Breakthrough Hit", "date": "2019-03-04", "color": "#3b82f6", "shape": "star" },
@@ -45,6 +45,6 @@
     { "label": "Rockstar #1 for 7 Weeks", "date": "2020-07-18", "color": "#fbbf24", "shape": "heart" },
     { "label": "Levitating Remix Hit", "date": "2020-10-01", "color": "#ef4444", "shape": "diamond" },
     { "label": "Grammy for Rockstar", "date": "2021-03-14", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Rolling Loud Controversy", "date": "2021-07-25", "color": "#6b7280", "shape": "circle" }
+    { "label": "Rolling Loud Controversy", "date": "2021-07-25", "color": "#64748b", "shape": "circle" }
   ]
 }

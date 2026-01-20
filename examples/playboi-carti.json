@@ -9,7 +9,7 @@
       "label": "Mixtape Era",
       "startDate": "2015-08-14",
       "endDate": "2017-04-13",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Self-Titled Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "In Abundance Mixtape", "date": "2015-08-14", "color": "#6b7280", "shape": "star" },
-    { "label": "Broke Boi Goes Viral", "date": "2015-06-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "In Abundance Mixtape", "date": "2015-08-14", "color": "#64748b", "shape": "star" },
+    { "label": "Broke Boi Goes Viral", "date": "2015-06-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to A$AP Mob/Interscope", "date": "2016-09-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Magnolia Breakthrough", "date": "2017-03-10", "color": "#ef4444", "shape": "star" },
     { "label": "Playboi Carti Mixtape", "date": "2017-04-14", "color": "#ef4444", "shape": "star" },

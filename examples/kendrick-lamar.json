@@ -9,7 +9,7 @@
       "label": "Mixtape Era (K-Dot)",
       "startDate": "2003-01-01",
       "endDate": "2011-07-01",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Section.80 / GKMC Era",
@@ -37,21 +37,21 @@
     }
   ],
   "moments": [
-    { "label": "First Mixtape (16 years old)", "date": "2003-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "First Mixtape (16 years old)", "date": "2003-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Top Dawg", "date": "2004-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Section.80 Released", "date": "2011-07-02", "color": "#3b82f6", "shape": "star" },
     { "label": "Good Kid, m.A.A.d City", "date": "2012-10-22", "color": "#3b82f6", "shape": "star" },
     { "label": "Swimming Pools #1 Rap", "date": "2012-08-28", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Control Verse", "date": "2013-08-13", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Control Verse", "date": "2013-08-13", "color": "#64748b", "shape": "diamond" },
     { "label": "To Pimp a Butterfly", "date": "2015-03-15", "color": "#ef4444", "shape": "star" },
     { "label": "Grammy Best Rap Album TPAB", "date": "2016-02-15", "color": "#fbbf24", "shape": "heart" },
     { "label": "Untitled Unmastered", "date": "2016-03-04", "color": "#ef4444", "shape": "star" },
     { "label": "DAMN. Released", "date": "2017-04-14", "color": "#ef4444", "shape": "star" },
     { "label": "HUMBLE. #1", "date": "2017-04-29", "color": "#ef4444", "shape": "diamond" },
     { "label": "Pulitzer Prize for DAMN.", "date": "2018-04-16", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Black Panther Soundtrack", "date": "2018-02-09", "color": "#1a1a1a", "shape": "star" },
+    { "label": "Black Panther Soundtrack", "date": "2018-02-09", "color": "#4b5563", "shape": "star" },
     { "label": "Mr. Morale & Big Steppers", "date": "2022-05-13", "color": "#9333ea", "shape": "star" },
-    { "label": "Drake Feud Peaks", "date": "2024-04-19", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Drake Feud Peaks", "date": "2024-04-19", "color": "#64748b", "shape": "diamond" },
     { "label": "Not Like Us #1", "date": "2024-05-11", "color": "#10b981", "shape": "diamond" },
     { "label": "GNX Surprise Release", "date": "2024-11-22", "color": "#f59e0b", "shape": "star" },
     { "label": "Super Bowl LIX Halftime", "date": "2025-02-09", "color": "#fbbf24", "shape": "heart" },

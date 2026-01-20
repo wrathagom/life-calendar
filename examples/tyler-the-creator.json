@@ -9,7 +9,7 @@
       "label": "Odd Future Era",
       "startDate": "2007-12-01",
       "endDate": "2013-04-01",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Wolf / Cherry Bomb Era",
@@ -37,10 +37,10 @@
     }
   ],
   "moments": [
-    { "label": "Odd Future Formed", "date": "2007-12-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Bastard Mixtape", "date": "2009-12-25", "color": "#6b7280", "shape": "star" },
-    { "label": "Yonkers Goes Viral", "date": "2011-02-14", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Goblin Released", "date": "2011-05-10", "color": "#6b7280", "shape": "star" },
+    { "label": "Odd Future Formed", "date": "2007-12-01", "color": "#64748b", "shape": "star" },
+    { "label": "Bastard Mixtape", "date": "2009-12-25", "color": "#64748b", "shape": "star" },
+    { "label": "Yonkers Goes Viral", "date": "2011-02-14", "color": "#64748b", "shape": "diamond" },
+    { "label": "Goblin Released", "date": "2011-05-10", "color": "#64748b", "shape": "star" },
     { "label": "VMA Best New Artist", "date": "2011-08-28", "color": "#fbbf24", "shape": "heart" },
     { "label": "Wolf Released", "date": "2013-04-02", "color": "#f59e0b", "shape": "star" },
     { "label": "Cherry Bomb Released", "date": "2015-04-13", "color": "#f59e0b", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "SoundCloud Era",
       "startDate": "2012-01-01",
       "endDate": "2018-03-29",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Amala / Hot Pink Era",
@@ -31,11 +31,11 @@
     }
   ],
   "moments": [
-    { "label": "First SoundCloud Uploads", "date": "2012-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "So High Viral Hit", "date": "2014-08-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "First SoundCloud Uploads", "date": "2012-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "So High Viral Hit", "date": "2014-08-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Kemosabe/RCA", "date": "2014-08-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Mooo! Goes Viral", "date": "2018-08-10", "color": "#f59e0b", "shape": "diamond" },
-    { "label": "Amala Debut Album", "date": "2018-03-30", "color": "#6b7280", "shape": "star" },
+    { "label": "Amala Debut Album", "date": "2018-03-30", "color": "#64748b", "shape": "star" },
     { "label": "Hot Pink Album", "date": "2019-11-07", "color": "#ec4899", "shape": "star" },
     { "label": "Say So #1", "date": "2020-05-09", "color": "#ec4899", "shape": "diamond" },
     { "label": "Grammy Best Pop Duo (Kiss Me More)", "date": "2022-04-03", "color": "#fbbf24", "shape": "heart" },

@@ -9,7 +9,7 @@
       "label": "Independent Era",
       "startDate": "2005-01-01",
       "endDate": "2011-01-28",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "+ Era",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "First EP Released", "date": "2005-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Moved to London", "date": "2008-09-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "First EP Released", "date": "2005-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Moved to London", "date": "2008-09-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Asylum Records", "date": "2011-01-29", "color": "#9333ea", "shape": "diamond" },
     { "label": "+ Album Released", "date": "2011-09-09", "color": "#f59e0b", "shape": "star" },
     { "label": "The A Team Success", "date": "2011-06-12", "color": "#f59e0b", "shape": "diamond" },
@@ -53,7 +53,7 @@
     { "label": "Daughter Lyra Born", "date": "2020-09-01", "color": "#ef4444", "shape": "heart" },
     { "label": "= Album Released", "date": "2021-10-29", "color": "#9333ea", "shape": "star" },
     { "label": "Bad Habits #1", "date": "2021-07-02", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Subtract Album", "date": "2023-05-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Subtract Album", "date": "2023-05-05", "color": "#64748b", "shape": "star" },
     { "label": "Copyright Trial Victory", "date": "2023-05-04", "color": "#10b981", "shape": "diamond" },
     { "label": "Mathematics Tour", "date": "2022-04-23", "color": "#9333ea", "shape": "star" },
     { "label": "Autumn Variations", "date": "2023-09-29", "color": "#bc6c25", "shape": "star" }

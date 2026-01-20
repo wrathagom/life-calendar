@@ -31,7 +31,7 @@
     }
   ],
   "moments": [
-    { "label": "YouTube Cover Artist", "date": "2009-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "YouTube Cover Artist", "date": "2009-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Girl Meets World Premiere", "date": "2014-06-27", "color": "#ec4899", "shape": "star" },
     { "label": "Eyes Wide Open Debut Album", "date": "2015-04-14", "color": "#ec4899", "shape": "star" },
     { "label": "Evolution Album", "date": "2016-10-14", "color": "#9333ea", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Child Actor Era",
       "startDate": "1994-01-01",
       "endDate": "2002-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Indie Darling",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - North", "date": "1994-07-22", "color": "#6b7280", "shape": "star" },
-    { "label": "Manny & Lo", "date": "1996-07-26", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Horse Whisperer", "date": "1998-05-15", "color": "#6b7280", "shape": "star" },
-    { "label": "Ghost World", "date": "2001-07-20", "color": "#6b7280", "shape": "star" },
+    { "label": "Film Debut - North", "date": "1994-07-22", "color": "#64748b", "shape": "star" },
+    { "label": "Manny & Lo", "date": "1996-07-26", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Horse Whisperer", "date": "1998-05-15", "color": "#64748b", "shape": "star" },
+    { "label": "Ghost World", "date": "2001-07-20", "color": "#64748b", "shape": "star" },
     { "label": "Lost in Translation", "date": "2003-09-12", "color": "#3b82f6", "shape": "star" },
     { "label": "Girl with a Pearl Earring", "date": "2003-12-12", "color": "#3b82f6", "shape": "star" },
     { "label": "Match Point", "date": "2005-12-28", "color": "#3b82f6", "shape": "star" },

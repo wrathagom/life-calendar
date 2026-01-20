@@ -9,7 +9,7 @@
       "label": "Australian TV Era",
       "startDate": "2008-01-01",
       "endDate": "2012-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Hollywood Breakthrough",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Neighbours TV Series", "date": "2008-06-10", "color": "#6b7280", "shape": "star" },
-    { "label": "Moved to Hollywood", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Pan Am TV Series", "date": "2011-09-25", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Neighbours TV Series", "date": "2008-06-10", "color": "#64748b", "shape": "star" },
+    { "label": "Moved to Hollywood", "date": "2011-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Pan Am TV Series", "date": "2011-09-25", "color": "#64748b", "shape": "diamond" },
     { "label": "The Wolf of Wall Street Breakthrough", "date": "2013-12-25", "color": "#3b82f6", "shape": "star" },
     { "label": "Focus", "date": "2015-02-27", "color": "#3b82f6", "shape": "diamond" },
     { "label": "The Legend of Tarzan", "date": "2016-07-01", "color": "#3b82f6", "shape": "diamond" },

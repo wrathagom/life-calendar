@@ -9,7 +9,7 @@
       "label": "The Voice / Early Career",
       "startDate": "2014-01-01",
       "endDate": "2018-04-26",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "If I Know Me Era",
@@ -31,7 +31,7 @@
     }
   ],
   "moments": [
-    { "label": "The Voice Season 6", "date": "2014-02-24", "color": "#6b7280", "shape": "star" },
+    { "label": "The Voice Season 6", "date": "2014-02-24", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Big Loud Records", "date": "2016-01-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "If I Know Me Debut Album", "date": "2018-04-27", "color": "#3b82f6", "shape": "star" },
     { "label": "Up Down Hit", "date": "2017-12-08", "color": "#3b82f6", "shape": "diamond" },
@@ -41,7 +41,7 @@
     { "label": "7 Summers Hit", "date": "2020-08-14", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Dangerous: Double Album #1", "date": "2021-01-08", "color": "#9333ea", "shape": "star" },
     { "label": "10 Weeks at #1 Billboard", "date": "2021-03-20", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Controversy/Suspension", "date": "2021-02-02", "color": "#6b7280", "shape": "circle" },
+    { "label": "Controversy/Suspension", "date": "2021-02-02", "color": "#64748b", "shape": "circle" },
     { "label": "Wasted on You #1 Hot 100", "date": "2021-02-13", "color": "#9333ea", "shape": "diamond" },
     { "label": "Sand in My Boots Hit", "date": "2021-09-04", "color": "#9333ea", "shape": "diamond" },
     { "label": "One Thing at a Time #1", "date": "2023-03-03", "color": "#f59e0b", "shape": "star" },

@@ -9,7 +9,7 @@
       "label": "Theater & Early Film",
       "startDate": "1975-01-01",
       "endDate": "1979-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Rise to Stardom",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Yale Drama School MFA", "date": "1975-05-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Broadway Debut - Trelawny", "date": "1975-10-27", "color": "#6b7280", "shape": "star" },
-    { "label": "Julia Film Debut", "date": "1977-10-02", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Deer Hunter", "date": "1978-12-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Yale Drama School MFA", "date": "1975-05-01", "color": "#64748b", "shape": "star" },
+    { "label": "Broadway Debut - Trelawny", "date": "1975-10-27", "color": "#64748b", "shape": "star" },
+    { "label": "Julia Film Debut", "date": "1977-10-02", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Deer Hunter", "date": "1978-12-08", "color": "#64748b", "shape": "star" },
     { "label": "Oscar Nom - The Deer Hunter", "date": "1979-04-09", "color": "#fbbf24", "shape": "diamond" },
     { "label": "Married Don Gummer", "date": "1978-09-30", "color": "#ef4444", "shape": "heart" },
     { "label": "Kramer vs. Kramer - Oscar Win", "date": "1980-04-14", "color": "#fbbf24", "shape": "heart" },

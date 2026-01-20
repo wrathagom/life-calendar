@@ -9,7 +9,7 @@
       "label": "Theater & TV Era",
       "startDate": "1977-01-01",
       "endDate": "1987-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Film Breakthrough",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Fordham University Graduate", "date": "1977-05-01", "color": "#6b7280", "shape": "star" },
-    { "label": "St. Elsewhere TV Series", "date": "1982-10-26", "color": "#6b7280", "shape": "star" },
+    { "label": "Fordham University Graduate", "date": "1977-05-01", "color": "#64748b", "shape": "star" },
+    { "label": "St. Elsewhere TV Series", "date": "1982-10-26", "color": "#64748b", "shape": "star" },
     { "label": "Married Pauletta Pearson", "date": "1983-06-25", "color": "#ef4444", "shape": "heart" },
-    { "label": "Cry Freedom", "date": "1987-11-06", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Cry Freedom", "date": "1987-11-06", "color": "#64748b", "shape": "diamond" },
     { "label": "Glory - Oscar Win", "date": "1990-03-26", "color": "#fbbf24", "shape": "heart" },
     { "label": "Mo' Better Blues", "date": "1990-08-03", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Malcolm X", "date": "1992-11-18", "color": "#3b82f6", "shape": "star" },

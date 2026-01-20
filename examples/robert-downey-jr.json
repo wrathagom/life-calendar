@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1970-01-01",
       "endDate": "1992-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Struggles Era",
@@ -31,11 +31,11 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Pound (Age 5)", "date": "1970-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Saturday Night Live Cast", "date": "1985-11-09", "color": "#6b7280", "shape": "star" },
-    { "label": "Weird Science", "date": "1985-08-02", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Less Than Zero", "date": "1987-11-06", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Chaplin - Oscar Nom", "date": "1992-12-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Film Debut - Pound (Age 5)", "date": "1970-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Saturday Night Live Cast", "date": "1985-11-09", "color": "#64748b", "shape": "star" },
+    { "label": "Weird Science", "date": "1985-08-02", "color": "#64748b", "shape": "diamond" },
+    { "label": "Less Than Zero", "date": "1987-11-06", "color": "#64748b", "shape": "diamond" },
+    { "label": "Chaplin - Oscar Nom", "date": "1992-12-25", "color": "#64748b", "shape": "star" },
     { "label": "Married Deborah Falconer", "date": "1992-05-29", "color": "#ef4444", "shape": "heart" },
     { "label": "Son Indio Born", "date": "1993-09-07", "color": "#ef4444", "shape": "heart" },
     { "label": "First Arrest", "date": "1996-06-23", "color": "#64748b", "shape": "circle" },

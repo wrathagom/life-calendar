@@ -9,7 +9,7 @@
       "label": "DJ Jazzy Jeff Era",
       "startDate": "1986-01-01",
       "endDate": "1990-09-09",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Fresh Prince Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "DJ Jazzy Jeff Partnership", "date": "1986-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Parents Just Don't Understand", "date": "1988-05-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "DJ Jazzy Jeff Partnership", "date": "1986-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Parents Just Don't Understand", "date": "1988-05-09", "color": "#64748b", "shape": "diamond" },
     { "label": "First Grammy Win", "date": "1989-02-22", "color": "#fbbf24", "shape": "heart" },
     { "label": "Fresh Prince of Bel-Air Premiere", "date": "1990-09-10", "color": "#3b82f6", "shape": "star" },
     { "label": "Son Trey Born", "date": "1992-11-11", "color": "#ef4444", "shape": "heart" },
@@ -49,7 +49,7 @@
     { "label": "Hancock", "date": "2008-07-02", "color": "#9333ea", "shape": "diamond" },
     { "label": "Aladdin - Genie", "date": "2019-05-24", "color": "#f59e0b", "shape": "diamond" },
     { "label": "King Richard - Oscar Win", "date": "2022-03-27", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Oscars Incident", "date": "2022-03-27", "color": "#6b7280", "shape": "circle" },
+    { "label": "Oscars Incident", "date": "2022-03-27", "color": "#64748b", "shape": "circle" },
     { "label": "Emancipation", "date": "2022-12-09", "color": "#f59e0b", "shape": "star" },
     { "label": "Bad Boys: Ride or Die", "date": "2024-06-07", "color": "#f59e0b", "shape": "diamond" }
   ]

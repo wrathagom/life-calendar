@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1987-01-01",
       "endDate": "1989-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Pretty Woman Era",
@@ -31,9 +31,9 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Satisfaction", "date": "1988-02-12", "color": "#6b7280", "shape": "star" },
-    { "label": "Mystic Pizza", "date": "1988-10-21", "color": "#6b7280", "shape": "star" },
-    { "label": "Steel Magnolias - Oscar Nom", "date": "1989-11-15", "color": "#6b7280", "shape": "star" },
+    { "label": "Film Debut - Satisfaction", "date": "1988-02-12", "color": "#64748b", "shape": "star" },
+    { "label": "Mystic Pizza", "date": "1988-10-21", "color": "#64748b", "shape": "star" },
+    { "label": "Steel Magnolias - Oscar Nom", "date": "1989-11-15", "color": "#64748b", "shape": "star" },
     { "label": "Pretty Woman", "date": "1990-03-23", "color": "#ec4899", "shape": "star" },
     { "label": "Flatliners", "date": "1990-08-10", "color": "#ec4899", "shape": "diamond" },
     { "label": "Sleeping with the Enemy", "date": "1991-02-08", "color": "#ec4899", "shape": "diamond" },

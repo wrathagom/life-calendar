@@ -9,7 +9,7 @@
       "label": "Myspace Era",
       "startDate": "2008-01-01",
       "endDate": "2012-04-15",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "True Romance Era",
@@ -37,8 +37,8 @@
     }
   ],
   "moments": [
-    { "label": "Started Posting on Myspace", "date": "2008-01-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Wrote I Love It for Icona Pop", "date": "2012-05-09", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Started Posting on Myspace", "date": "2008-01-01", "color": "#64748b", "shape": "star" },
+    { "label": "Wrote I Love It for Icona Pop", "date": "2012-05-09", "color": "#64748b", "shape": "diamond" },
     { "label": "True Romance Debut Album", "date": "2013-04-12", "color": "#9333ea", "shape": "star" },
     { "label": "Boom Clap Hit (#1 UK)", "date": "2014-06-17", "color": "#9333ea", "shape": "diamond" },
     { "label": "Fancy with Iggy Azalea #1", "date": "2014-06-07", "color": "#9333ea", "shape": "star" },

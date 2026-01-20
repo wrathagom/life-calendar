@@ -9,7 +9,7 @@
       "label": "Minor Era",
       "startDate": "2019-08-23",
       "endDate": "2021-11-25",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "This Is What It Feels Like Era",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Mean It Single Debut", "date": "2019-08-23", "color": "#6b7280", "shape": "star" },
+    { "label": "Mean It Single Debut", "date": "2019-08-23", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Interscope Records", "date": "2020-01-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "minor EP", "date": "2020-07-10", "color": "#6b7280", "shape": "star" },
-    { "label": "I Miss You, I'm Sorry Hit", "date": "2020-12-18", "color": "#6b7280", "shape": "diamond" },
+    { "label": "minor EP", "date": "2020-07-10", "color": "#64748b", "shape": "star" },
+    { "label": "I Miss You, I'm Sorry Hit", "date": "2020-12-18", "color": "#64748b", "shape": "diamond" },
     { "label": "Olivia Rodrigo SOUR Tour", "date": "2022-04-02", "color": "#9333ea", "shape": "diamond" },
     { "label": "This Is What It Feels Like EP", "date": "2021-11-26", "color": "#9333ea", "shape": "star" },
     { "label": "Taylor Swift Eras Tour Opener", "date": "2023-03-17", "color": "#fbbf24", "shape": "heart" },

@@ -10,7 +10,7 @@
       "label": "The Quarrymen",
       "startDate": "1956-03-01",
       "endDate": "1960-08-16",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Beatlemania",
@@ -38,10 +38,10 @@
     }
   ],
   "moments": [
-    { "label": "The Quarrymen Formed", "date": "1956-03-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Met Paul McCartney", "date": "1957-07-06", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Mother Julia Killed", "date": "1958-07-15", "color": "#6b7280", "shape": "heart" },
-    { "label": "Hamburg Residencies Begin", "date": "1960-08-17", "color": "#6b7280", "shape": "star" },
+    { "label": "The Quarrymen Formed", "date": "1956-03-01", "color": "#64748b", "shape": "star" },
+    { "label": "Met Paul McCartney", "date": "1957-07-06", "color": "#64748b", "shape": "diamond" },
+    { "label": "Mother Julia Killed", "date": "1958-07-15", "color": "#64748b", "shape": "heart" },
+    { "label": "Hamburg Residencies Begin", "date": "1960-08-17", "color": "#64748b", "shape": "star" },
     { "label": "Signed by Brian Epstein", "date": "1962-01-24", "color": "#9333ea", "shape": "diamond" },
     { "label": "Love Me Do Released", "date": "1962-10-05", "color": "#ef4444", "shape": "star" },
     { "label": "Please Please Me #1", "date": "1963-02-22", "color": "#ef4444", "shape": "diamond" },
@@ -49,14 +49,14 @@
     { "label": "Son Julian Born", "date": "1963-04-08", "color": "#ef4444", "shape": "heart" },
     { "label": "British Invasion of US", "date": "1964-02-07", "color": "#ef4444", "shape": "diamond" },
     { "label": "A Hard Day's Night Film", "date": "1964-07-06", "color": "#ef4444", "shape": "star" },
-    { "label": "Bigger Than Jesus Controversy", "date": "1966-03-04", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Bigger Than Jesus Controversy", "date": "1966-03-04", "color": "#64748b", "shape": "diamond" },
     { "label": "Sgt. Pepper's Released", "date": "1967-06-01", "color": "#9333ea", "shape": "star" },
     { "label": "Met Yoko Ono", "date": "1966-11-09", "color": "#f59e0b", "shape": "heart" },
     { "label": "Married Yoko Ono", "date": "1969-03-20", "color": "#f59e0b", "shape": "heart" },
-    { "label": "Beatles Disbanded", "date": "1970-04-10", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Beatles Disbanded", "date": "1970-04-10", "color": "#64748b", "shape": "diamond" },
     { "label": "Imagine Released", "date": "1971-09-09", "color": "#3b82f6", "shape": "star" },
     { "label": "Son Sean Born", "date": "1975-10-09", "color": "#f59e0b", "shape": "heart" },
     { "label": "Double Fantasy", "date": "1980-11-17", "color": "#f59e0b", "shape": "star" },
-    { "label": "Assassinated", "date": "1980-12-08", "color": "#6b7280", "shape": "heart" }
+    { "label": "Assassinated", "date": "1980-12-08", "color": "#64748b", "shape": "heart" }
   ]
 }

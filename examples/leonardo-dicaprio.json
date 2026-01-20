@@ -9,7 +9,7 @@
       "label": "Child Actor Era",
       "startDate": "1989-01-01",
       "endDate": "1992-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Teen Heartthrob Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "TV Debut - Parenthood", "date": "1990-08-20", "color": "#6b7280", "shape": "star" },
-    { "label": "Growing Pains Cast", "date": "1991-09-11", "color": "#6b7280", "shape": "diamond" },
+    { "label": "TV Debut - Parenthood", "date": "1990-08-20", "color": "#64748b", "shape": "star" },
+    { "label": "Growing Pains Cast", "date": "1991-09-11", "color": "#64748b", "shape": "diamond" },
     { "label": "This Boy's Life", "date": "1993-04-09", "color": "#ec4899", "shape": "star" },
     { "label": "What's Eating Gilbert Grape", "date": "1993-12-17", "color": "#ec4899", "shape": "star" },
     { "label": "First Oscar Nomination", "date": "1994-03-21", "color": "#fbbf24", "shape": "diamond" },

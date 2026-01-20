@@ -25,7 +25,7 @@
     }
   ],
   "moments": [
-    { "label": "Location Breakthrough", "date": "2016-07-21", "color": "#6b7280", "shape": "star" },
+    { "label": "Location Breakthrough", "date": "2016-07-21", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Right Hand/RCA", "date": "2016-08-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "American Teen Debut", "date": "2017-03-03", "color": "#3b82f6", "shape": "star" },
     { "label": "Young Dumb & Broke Hit", "date": "2017-07-01", "color": "#3b82f6", "shape": "diamond" },

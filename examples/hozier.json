@@ -9,7 +9,7 @@
       "label": "Take Me to Church Era",
       "startDate": "2013-09-13",
       "endDate": "2016-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Wasteland, Baby! Era",
@@ -25,10 +25,10 @@
     }
   ],
   "moments": [
-    { "label": "Take Me to Church Single", "date": "2013-09-13", "color": "#6b7280", "shape": "star" },
-    { "label": "Take Me to Church Goes Viral", "date": "2014-03-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Take Me to Church Single", "date": "2013-09-13", "color": "#64748b", "shape": "star" },
+    { "label": "Take Me to Church Goes Viral", "date": "2014-03-01", "color": "#64748b", "shape": "diamond" },
     { "label": "Signed to Columbia/Island", "date": "2014-03-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Hozier Self-Titled Album", "date": "2014-09-19", "color": "#6b7280", "shape": "star" },
+    { "label": "Hozier Self-Titled Album", "date": "2014-09-19", "color": "#64748b", "shape": "star" },
     { "label": "Take Me to Church Grammy Nom", "date": "2015-02-08", "color": "#fbbf24", "shape": "diamond" },
     { "label": "Saturday Night Live", "date": "2014-10-25", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Nina Cried Power EP", "date": "2018-09-06", "color": "#3b82f6", "shape": "star" },

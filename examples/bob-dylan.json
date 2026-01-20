@@ -9,7 +9,7 @@
       "label": "Folk Revival",
       "startDate": "1961-01-24",
       "endDate": "1965-07-24",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Electric Era",
@@ -37,18 +37,18 @@
     }
   ],
   "moments": [
-    { "label": "Arrived in New York", "date": "1961-01-24", "color": "#6b7280", "shape": "star" },
-    { "label": "Bob Dylan Debut Album", "date": "1962-03-19", "color": "#6b7280", "shape": "star" },
-    { "label": "The Freewheelin'", "date": "1963-05-27", "color": "#6b7280", "shape": "star" },
-    { "label": "Blowin' in the Wind Released", "date": "1963-05-27", "color": "#6b7280", "shape": "diamond" },
-    { "label": "The Times They Are a-Changin'", "date": "1964-01-13", "color": "#6b7280", "shape": "star" },
-    { "label": "Another Side of Bob Dylan", "date": "1964-08-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Arrived in New York", "date": "1961-01-24", "color": "#64748b", "shape": "star" },
+    { "label": "Bob Dylan Debut Album", "date": "1962-03-19", "color": "#64748b", "shape": "star" },
+    { "label": "The Freewheelin'", "date": "1963-05-27", "color": "#64748b", "shape": "star" },
+    { "label": "Blowin' in the Wind Released", "date": "1963-05-27", "color": "#64748b", "shape": "diamond" },
+    { "label": "The Times They Are a-Changin'", "date": "1964-01-13", "color": "#64748b", "shape": "star" },
+    { "label": "Another Side of Bob Dylan", "date": "1964-08-08", "color": "#64748b", "shape": "star" },
     { "label": "Bringing It All Back Home", "date": "1965-03-22", "color": "#3b82f6", "shape": "star" },
     { "label": "Like a Rolling Stone", "date": "1965-07-20", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Newport Folk Fest Electric", "date": "1965-07-25", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Highway 61 Revisited", "date": "1965-08-30", "color": "#3b82f6", "shape": "star" },
     { "label": "Blonde on Blonde", "date": "1966-05-16", "color": "#3b82f6", "shape": "star" },
-    { "label": "Motorcycle Accident", "date": "1966-07-29", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Motorcycle Accident", "date": "1966-07-29", "color": "#64748b", "shape": "diamond" },
     { "label": "John Wesley Harding", "date": "1967-12-27", "color": "#f59e0b", "shape": "star" },
     { "label": "Nashville Skyline", "date": "1969-04-09", "color": "#f59e0b", "shape": "star" },
     { "label": "Blood on the Tracks", "date": "1975-01-17", "color": "#ef4444", "shape": "star" },

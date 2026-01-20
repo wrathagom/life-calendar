@@ -9,7 +9,7 @@
       "label": "Football Era",
       "startDate": "1991-01-01",
       "endDate": "1995-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "WWE Era",
@@ -31,7 +31,7 @@
     }
   ],
   "moments": [
-    { "label": "University of Miami Football", "date": "1991-09-01", "color": "#6b7280", "shape": "star" },
+    { "label": "University of Miami Football", "date": "1991-09-01", "color": "#64748b", "shape": "star" },
     { "label": "National Championship", "date": "1991-01-01", "color": "#fbbf24", "shape": "heart" },
     { "label": "Married Dany Garcia", "date": "1997-05-03", "color": "#ef4444", "shape": "heart" },
     { "label": "WWE Debut - Survivor Series", "date": "1996-11-17", "color": "#3b82f6", "shape": "star" },

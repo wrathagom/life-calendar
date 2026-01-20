@@ -9,7 +9,7 @@
       "label": "Child Prodigy Era",
       "startDate": "2007-01-01",
       "endDate": "2016-09-08",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "H.E.R. Era",
@@ -25,9 +25,9 @@
     }
   ],
   "moments": [
-    { "label": "Today Show Performance at 10", "date": "2007-09-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Signed to RCA as Gabi Wilson", "date": "2011-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Radio Disney Appearances", "date": "2014-01-01", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Today Show Performance at 10", "date": "2007-09-01", "color": "#64748b", "shape": "star" },
+    { "label": "Signed to RCA as Gabi Wilson", "date": "2011-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Radio Disney Appearances", "date": "2014-01-01", "color": "#64748b", "shape": "diamond" },
     { "label": "H.E.R. Volume 1 EP", "date": "2016-09-09", "color": "#9333ea", "shape": "star" },
     { "label": "Focus Breakthrough", "date": "2016-09-09", "color": "#9333ea", "shape": "diamond" },
     { "label": "H.E.R. Volume 2 EP", "date": "2017-06-16", "color": "#9333ea", "shape": "star" },

@@ -10,7 +10,7 @@
       "label": "Early Experimentation",
       "startDate": "1964-06-05",
       "endDate": "1972-06-05",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Ziggy Stardust Era",
@@ -38,11 +38,11 @@
     }
   ],
   "moments": [
-    { "label": "First Single (Davie Jones)", "date": "1964-06-05", "color": "#6b7280", "shape": "star" },
-    { "label": "David Bowie Name Adopted", "date": "1966-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Space Oddity", "date": "1969-07-11", "color": "#6b7280", "shape": "star" },
-    { "label": "The Man Who Sold the World", "date": "1970-11-04", "color": "#6b7280", "shape": "star" },
-    { "label": "Hunky Dory", "date": "1971-12-17", "color": "#6b7280", "shape": "star" },
+    { "label": "First Single (Davie Jones)", "date": "1964-06-05", "color": "#64748b", "shape": "star" },
+    { "label": "David Bowie Name Adopted", "date": "1966-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Space Oddity", "date": "1969-07-11", "color": "#64748b", "shape": "star" },
+    { "label": "The Man Who Sold the World", "date": "1970-11-04", "color": "#64748b", "shape": "star" },
+    { "label": "Hunky Dory", "date": "1971-12-17", "color": "#64748b", "shape": "star" },
     { "label": "Ziggy Stardust Album", "date": "1972-06-06", "color": "#ef4444", "shape": "star" },
     { "label": "Starman TV Performance", "date": "1972-07-06", "color": "#ef4444", "shape": "diamond" },
     { "label": "Aladdin Sane", "date": "1973-04-13", "color": "#ef4444", "shape": "star" },
@@ -57,6 +57,6 @@
     { "label": "Under Pressure w/ Queen", "date": "1981-10-26", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Rock Hall of Fame", "date": "1996-01-17", "color": "#fbbf24", "shape": "heart" },
     { "label": "Blackstar Released", "date": "2016-01-08", "color": "#9333ea", "shape": "star" },
-    { "label": "Passed Away", "date": "2016-01-10", "color": "#6b7280", "shape": "heart" }
+    { "label": "Passed Away", "date": "2016-01-10", "color": "#64748b", "shape": "heart" }
   ]
 }

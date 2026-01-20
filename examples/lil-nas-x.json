@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Twitter Fame Began", "date": "2017-06-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Twitter Fame Began", "date": "2017-06-01", "color": "#64748b", "shape": "star" },
     { "label": "Old Town Road Released", "date": "2018-12-03", "color": "#f59e0b", "shape": "star" },
     { "label": "Song Goes Viral on TikTok", "date": "2019-02-01", "color": "#f59e0b", "shape": "diamond" },
-    { "label": "Removed from Country Chart", "date": "2019-03-26", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Removed from Country Chart", "date": "2019-03-26", "color": "#64748b", "shape": "diamond" },
     { "label": "Billy Ray Cyrus Remix", "date": "2019-04-05", "color": "#10b981", "shape": "star" },
     { "label": "Old Town Road #1 (19 weeks)", "date": "2019-04-13", "color": "#10b981", "shape": "diamond" },
     { "label": "Longest #1 in History", "date": "2019-07-29", "color": "#fbbf24", "shape": "heart" },

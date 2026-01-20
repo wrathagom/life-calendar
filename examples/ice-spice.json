@@ -25,7 +25,7 @@
     }
   ],
   "moments": [
-    { "label": "Started Making Music", "date": "2021-01-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Started Making Music", "date": "2021-01-01", "color": "#64748b", "shape": "star" },
     { "label": "Munch (Feelin' U) Goes Viral", "date": "2022-08-10", "color": "#f59e0b", "shape": "star" },
     { "label": "Drake Shoutout", "date": "2022-10-15", "color": "#f59e0b", "shape": "diamond" },
     { "label": "Signed to 10K Projects/Capitol", "date": "2022-08-01", "color": "#9333ea", "shape": "diamond" },

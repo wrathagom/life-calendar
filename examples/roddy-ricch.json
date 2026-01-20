@@ -9,7 +9,7 @@
       "label": "Feed Tha Streets Era",
       "startDate": "2017-11-22",
       "endDate": "2019-12-05",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Please Excuse Me Era",
@@ -25,10 +25,10 @@
     }
   ],
   "moments": [
-    { "label": "Feed Tha Streets Mixtape", "date": "2017-11-22", "color": "#6b7280", "shape": "star" },
+    { "label": "Feed Tha Streets Mixtape", "date": "2017-11-22", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Atlantic/Bird Vision", "date": "2018-05-01", "color": "#9333ea", "shape": "diamond" },
-    { "label": "Die Young Hit", "date": "2018-07-27", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Feed Tha Streets II", "date": "2018-11-09", "color": "#6b7280", "shape": "star" },
+    { "label": "Die Young Hit", "date": "2018-07-27", "color": "#64748b", "shape": "diamond" },
+    { "label": "Feed Tha Streets II", "date": "2018-11-09", "color": "#64748b", "shape": "star" },
     { "label": "Racks in the Middle Grammy", "date": "2020-01-26", "color": "#fbbf24", "shape": "heart" },
     { "label": "Please Excuse Me Debut #1", "date": "2019-12-06", "color": "#3b82f6", "shape": "star" },
     { "label": "The Box #1 (11 Weeks)", "date": "2020-01-25", "color": "#3b82f6", "shape": "star" },

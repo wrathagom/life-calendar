@@ -9,7 +9,7 @@
       "label": "Early Career",
       "startDate": "1981-01-01",
       "endDate": "1985-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Top Gun Era",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Film Debut - Endless Love", "date": "1981-07-17", "color": "#6b7280", "shape": "star" },
-    { "label": "Risky Business", "date": "1983-08-05", "color": "#6b7280", "shape": "star" },
+    { "label": "Film Debut - Endless Love", "date": "1981-07-17", "color": "#64748b", "shape": "star" },
+    { "label": "Risky Business", "date": "1983-08-05", "color": "#64748b", "shape": "star" },
     { "label": "Top Gun", "date": "1986-05-16", "color": "#3b82f6", "shape": "star" },
     { "label": "The Color of Money", "date": "1986-10-17", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Married Mimi Rogers", "date": "1987-05-09", "color": "#ef4444", "shape": "heart" },

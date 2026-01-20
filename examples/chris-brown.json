@@ -15,7 +15,7 @@
       "label": "Comeback Era",
       "startDate": "2009-09-02",
       "endDate": "2014-08-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Royalty / Heartbreak Era",
@@ -37,11 +37,11 @@
     { "label": "Exclusive Album", "date": "2007-11-06", "color": "#3b82f6", "shape": "star" },
     { "label": "Kiss Kiss #1", "date": "2007-11-17", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Forever Success", "date": "2008-05-27", "color": "#3b82f6", "shape": "diamond" },
-    { "label": "Graffiti Album", "date": "2009-12-08", "color": "#6b7280", "shape": "star" },
-    { "label": "F.A.M.E. Album #1", "date": "2011-03-22", "color": "#6b7280", "shape": "star" },
+    { "label": "Graffiti Album", "date": "2009-12-08", "color": "#64748b", "shape": "star" },
+    { "label": "F.A.M.E. Album #1", "date": "2011-03-22", "color": "#64748b", "shape": "star" },
     { "label": "Grammy Best R&B Album", "date": "2012-02-12", "color": "#fbbf24", "shape": "heart" },
-    { "label": "Fortune Album #1", "date": "2012-07-03", "color": "#6b7280", "shape": "star" },
-    { "label": "X Album", "date": "2014-09-16", "color": "#6b7280", "shape": "star" },
+    { "label": "Fortune Album #1", "date": "2012-07-03", "color": "#64748b", "shape": "star" },
+    { "label": "X Album", "date": "2014-09-16", "color": "#64748b", "shape": "star" },
     { "label": "Daughter Royalty Born", "date": "2014-06-27", "color": "#ef4444", "shape": "heart" },
     { "label": "Royalty Album", "date": "2015-12-18", "color": "#f59e0b", "shape": "star" },
     { "label": "Heartbreak on a Full Moon", "date": "2017-10-31", "color": "#f59e0b", "shape": "star" },

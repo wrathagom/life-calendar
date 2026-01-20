@@ -9,7 +9,7 @@
       "label": "Theater & TV Era",
       "startDate": "1964-01-01",
       "endDate": "1986-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Film Breakthrough",
@@ -31,8 +31,8 @@
     }
   ],
   "moments": [
-    { "label": "Broadway Debut - Hello Dolly!", "date": "1967-11-01", "color": "#6b7280", "shape": "star" },
-    { "label": "The Electric Company (TV)", "date": "1971-10-25", "color": "#6b7280", "shape": "star" },
+    { "label": "Broadway Debut - Hello Dolly!", "date": "1967-11-01", "color": "#64748b", "shape": "star" },
+    { "label": "The Electric Company (TV)", "date": "1971-10-25", "color": "#64748b", "shape": "star" },
     { "label": "Street Smart - Oscar Nom", "date": "1987-03-20", "color": "#3b82f6", "shape": "star" },
     { "label": "Lean on Me", "date": "1989-03-03", "color": "#3b82f6", "shape": "diamond" },
     { "label": "Driving Miss Daisy - Oscar Nom", "date": "1989-12-15", "color": "#3b82f6", "shape": "star" },

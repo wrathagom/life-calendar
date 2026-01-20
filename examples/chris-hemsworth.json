@@ -9,7 +9,7 @@
       "label": "Australian TV Era",
       "startDate": "2002-01-01",
       "endDate": "2010-12-31",
-      "color": "#6b7280"
+      "color": "#64748b"
     },
     {
       "label": "Thor Begins",
@@ -31,10 +31,10 @@
     }
   ],
   "moments": [
-    { "label": "Home and Away Cast", "date": "2004-05-01", "color": "#6b7280", "shape": "star" },
-    { "label": "Dancing with the Stars Australia", "date": "2006-10-07", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Moved to Hollywood", "date": "2009-01-01", "color": "#6b7280", "shape": "diamond" },
-    { "label": "Star Trek - Kirk's Father", "date": "2009-05-08", "color": "#6b7280", "shape": "star" },
+    { "label": "Home and Away Cast", "date": "2004-05-01", "color": "#64748b", "shape": "star" },
+    { "label": "Dancing with the Stars Australia", "date": "2006-10-07", "color": "#64748b", "shape": "diamond" },
+    { "label": "Moved to Hollywood", "date": "2009-01-01", "color": "#64748b", "shape": "diamond" },
+    { "label": "Star Trek - Kirk's Father", "date": "2009-05-08", "color": "#64748b", "shape": "star" },
     { "label": "Married Elsa Pataky", "date": "2010-12-26", "color": "#ef4444", "shape": "heart" },
     { "label": "Thor - Title Role", "date": "2011-05-06", "color": "#3b82f6", "shape": "star" },
     { "label": "Daughter India Born", "date": "2012-05-11", "color": "#ef4444", "shape": "heart" },
@@ -48,7 +48,7 @@
     { "label": "Avengers: Endgame", "date": "2019-04-26", "color": "#9333ea", "shape": "star" },
     { "label": "Extraction", "date": "2020-04-24", "color": "#9333ea", "shape": "star" },
     { "label": "Thor: Love and Thunder", "date": "2022-07-08", "color": "#9333ea", "shape": "star" },
-    { "label": "Alzheimer's Gene Revelation", "date": "2022-11-01", "color": "#6b7280", "shape": "circle" },
+    { "label": "Alzheimer's Gene Revelation", "date": "2022-11-01", "color": "#64748b", "shape": "circle" },
     { "label": "Extraction 2", "date": "2023-06-16", "color": "#f59e0b", "shape": "star" },
     { "label": "Furiosa", "date": "2024-05-24", "color": "#f59e0b", "shape": "star" }
   ]

@@ -15,7 +15,7 @@
       "label": "Good Girl Gone Bad Era",
       "startDate": "2007-06-05",
       "endDate": "2009-11-22",
-      "color": "#1a1a1a"
+      "color": "#4b5563"
     },
     {
       "label": "Rated R / Loud Era",
@@ -37,14 +37,14 @@
     }
   ],
   "moments": [
-    { "label": "Discovered by Evan Rogers", "date": "2003-12-01", "color": "#6b7280", "shape": "star" },
+    { "label": "Discovered by Evan Rogers", "date": "2003-12-01", "color": "#64748b", "shape": "star" },
     { "label": "Signed to Def Jam", "date": "2005-02-01", "color": "#9333ea", "shape": "diamond" },
     { "label": "Pon de Replay Debut", "date": "2005-05-24", "color": "#10b981", "shape": "star" },
     { "label": "Music of the Sun", "date": "2005-08-30", "color": "#10b981", "shape": "star" },
     { "label": "A Girl Like Me", "date": "2006-04-10", "color": "#10b981", "shape": "star" },
-    { "label": "Good Girl Gone Bad", "date": "2007-06-05", "color": "#1a1a1a", "shape": "star" },
-    { "label": "Umbrella #1 Global", "date": "2007-06-09", "color": "#1a1a1a", "shape": "diamond" },
-    { "label": "Chris Brown Assault", "date": "2009-02-08", "color": "#6b7280", "shape": "diamond" },
+    { "label": "Good Girl Gone Bad", "date": "2007-06-05", "color": "#4b5563", "shape": "star" },
+    { "label": "Umbrella #1 Global", "date": "2007-06-09", "color": "#4b5563", "shape": "diamond" },
+    { "label": "Chris Brown Assault", "date": "2009-02-08", "color": "#64748b", "shape": "diamond" },
     { "label": "Rated R Released", "date": "2009-11-23", "color": "#ef4444", "shape": "star" },
     { "label": "Loud Released", "date": "2010-11-12", "color": "#ef4444", "shape": "star" },
     { "label": "We Found Love #1", "date": "2011-11-12", "color": "#ef4444", "shape": "diamond" },
