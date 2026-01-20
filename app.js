@@ -1017,6 +1017,17 @@ function getMomentShapeSVG(shape, color) {
     }
 }
 
+// Get Unicode symbol for moment shape (used in tooltips)
+function getShapeSymbol(shape) {
+    switch (shape) {
+        case 'star': return '★';
+        case 'heart': return '♥';
+        case 'diamond': return '◆';
+        case 'circle': return '●';
+        default: return '★';
+    }
+}
+
 // Render a single calendar
 function renderCalendar(settings, calendarElement, totalCalendars = 1, alignmentInfo = null) {
     const lifeWeeks = getLifeExpectancyWeeks(settings);
@@ -1121,7 +1132,8 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
                 }
             }
             if (weekMoment && weekMoment.label) {
-                tooltip += ` ★ ${weekMoment.label}`;
+                const shapeSymbol = getShapeSymbol(weekMoment.shape || 'star');
+                tooltip += ` ${shapeSymbol} ${weekMoment.label}`;
             }
             week.title = tooltip;
             week.dataset.tooltip = tooltip;

@@ -75,6 +75,84 @@
             color: #888;
             font-style: italic;
         }
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.75rem 1rem;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #e5e5e5;
+            font-size: 1rem;
+        }
+        .search-box:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+        .search-box::placeholder {
+            color: #666;
+        }
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: #888;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover {
+            background: #252525;
+            color: #e5e5e5;
+        }
+        .filter-btn.active {
+            background: #3b82f6;
+            border-color: #3b82f6;
+            color: #fff;
+        }
+        .results-count {
+            color: #666;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+        .load-more {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #e5e5e5;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+        .load-more:hover {
+            background: #252525;
+            border-color: #3b82f6;
+        }
+        .load-more:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .no-results {
+            color: #666;
+            text-align: center;
+            padding: 2rem;
+        }
     </style>
 </head>
 <body>
@@ -82,27 +160,25 @@
         <h1>Life Calendar Examples</h1>
         <p class="subtitle">Pre-made life calendars for notable people. <a href="../">Back to app</a></p>
 
+        <div class="controls">
+            <input type="text" class="search-box" id="search" placeholder="Search by name...">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="musicians">Musicians</button>
+                <button class="filter-btn" data-category="actors">Actors</button>
+            </div>
+        </div>
+
+        <div id="results-count" class="results-count"></div>
+
         <div id="examples">
-            <p class="loading">Loading examples...</p>
+            <div class="examples-grid" id="examples-grid"></div>
+            <button id="load-more" class="load-more" style="display: none;">Load More</button>
         </div>
     </div>
 
     <script>
-        const categories = {
-            musicians: {
-                title: 'Musicians',
-                examples: []
-            },
-            actors: {
-                title: 'Actors & Actresses',
-                examples: []
-            }
-            // Future categories can be added here:
-            // athletes: { title: 'Athletes', examples: [] },
-            // scientists: { title: 'Scientists', examples: [] },
-        };
-
-        // Known examples (will be expanded as more are added)
+        // Example data with derived display names (no fetch needed!)
         const exampleFiles = [
             { file: 'adele', category: 'musicians' },
             { file: 'aretha-franklin', category: 'musicians' },
@@ -256,53 +332,114 @@
             { file: 'zendaya', category: 'actors' },
         ];
 
-        async function loadExamples() {
-            const container = document.getElementById('examples');
+        // Configuration
+        const BATCH_SIZE = 24;
 
-            // Load each example's metadata
-            for (const { file, category } of exampleFiles) {
-                try {
-                    const response = await fetch(`${file}.json`);
-                    if (response.ok) {
-                        const data = await response.json();
-                        categories[category].examples.push({
-                            file,
-                            name: data.name,
-                            periods: data.periods?.length || 0,
-                            moments: data.moments?.length || 0
-                        });
-                    }
-                } catch (e) {
-                    console.warn(`Failed to load ${file}:`, e);
-                }
+        // State
+        let currentFilter = 'all';
+        let searchQuery = '';
+        let displayedCount = 0;
+
+        // Convert filename to display name (e.g., 'taylor-swift' -> 'Taylor Swift')
+        function fileToName(file) {
+            return file
+                .split('-')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+        }
+
+        // Get category label
+        function getCategoryLabel(category) {
+            const labels = {
+                musicians: 'Musician',
+                actors: 'Actor'
+            };
+            return labels[category] || category;
+        }
+
+        // Filter examples based on current state
+        function getFilteredExamples() {
+            return exampleFiles
+                .filter(ex => {
+                    const matchesCategory = currentFilter === 'all' || ex.category === currentFilter;
+                    const name = fileToName(ex.file).toLowerCase();
+                    const matchesSearch = searchQuery === '' || name.includes(searchQuery.toLowerCase());
+                    return matchesCategory && matchesSearch;
+                })
+                .sort((a, b) => fileToName(a.file).localeCompare(fileToName(b.file)));
+        }
+
+        // Render a single example card
+        function createCard(ex) {
+            const card = document.createElement('a');
+            card.href = `../?example=${ex.file}`;
+            card.className = 'example-card';
+            card.innerHTML = `
+                <div class="example-name">${fileToName(ex.file)}</div>
+                <div class="example-meta">${getCategoryLabel(ex.category)}</div>
+            `;
+            return card;
+        }
+
+        // Render examples
+        function renderExamples(reset = false) {
+            const grid = document.getElementById('examples-grid');
+            const loadMoreBtn = document.getElementById('load-more');
+            const resultsCount = document.getElementById('results-count');
+
+            if (reset) {
+                grid.innerHTML = '';
+                displayedCount = 0;
             }
 
-            // Render categories
-            container.innerHTML = '';
-            for (const [key, cat] of Object.entries(categories)) {
-                if (cat.examples.length === 0) continue;
+            const filtered = getFilteredExamples();
+            const toShow = filtered.slice(displayedCount, displayedCount + BATCH_SIZE);
 
-                // Sort alphabetically
-                cat.examples.sort((a, b) => a.name.localeCompare(b.name));
+            toShow.forEach(ex => {
+                grid.appendChild(createCard(ex));
+            });
 
-                const section = document.createElement('div');
-                section.className = 'category';
-                section.innerHTML = `
-                    <h2>${cat.title}</h2>
-                    <div class="examples-grid">
-                        ${cat.examples.map(ex => `
-                            <a href="../?example=${ex.file}" class="example-card">
-                                <div class="example-name">${ex.name}</div>
-                                <div class="example-meta">${ex.periods} periods, ${ex.moments} moments</div>
-                            </a>
-                        `).join('')}
-                    </div>
-                `;
-                container.appendChild(section);
+            displayedCount += toShow.length;
+
+            // Update results count
+            resultsCount.textContent = `Showing ${displayedCount} of ${filtered.length} examples`;
+
+            // Show/hide load more button
+            if (displayedCount < filtered.length) {
+                loadMoreBtn.style.display = 'block';
+                loadMoreBtn.textContent = `Load More (${filtered.length - displayedCount} remaining)`;
+            } else {
+                loadMoreBtn.style.display = 'none';
+            }
+
+            // Show no results message
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div class="no-results">No examples found matching your search.</div>';
+                resultsCount.textContent = '';
             }
         }
 
-        loadExamples();
+        // Event listeners
+        document.getElementById('search').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderExamples(true);
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.category;
+                renderExamples(true);
+            });
+        });
+
+        document.getElementById('load-more').addEventListener('click', () => {
+            renderExamples(false);
+        });
+
+        // Initial render
+        renderExamples(true);
     </script>
 </body>
 </html>
