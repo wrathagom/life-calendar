@@ -1,6 +1,6 @@
 // Life expectancy data by country (2025)
 // Source: Worldometers - https://www.worldometers.info/demographics/life-expectancy/
-const LIFE_EXPECTANCY_DATA = {
+export const LIFE_EXPECTANCY_DATA = {
     "Hong Kong": { male: 83.1, female: 88.39 },
     "Japan": { male: 81.99, female: 88.03 },
     "South Korea": { male: 81.44, female: 87.4 },
@@ -124,4 +124,4 @@ const LIFE_EXPECTANCY_DATA = {
 };
 
 // Get sorted list of country names
-const COUNTRIES = Object.keys(LIFE_EXPECTANCY_DATA).sort();
+export const COUNTRIES = Object.keys(LIFE_EXPECTANCY_DATA).sort();

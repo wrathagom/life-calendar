@@ -1,33 +1,49 @@
+import { dom } from './dom.js';
+import { LIFE_EXPECTANCY_DATA, COUNTRIES } from './data.js';
+import {
+    calculateGrid,
+    formatWeekDate,
+    getMomentShapeSVG,
+    getPeriodPolygons,
+    getShapeSymbol,
+    getWeekIndexForDate,
+    getWeeksLived,
+    isMobile
+} from './utils.js';
+
 // DOM Elements
-const modal = document.getElementById('modal');
-const settingsForm = document.getElementById('settings-form');
-const nameInput = document.getElementById('name');
-const sexSelect = document.getElementById('sex');
-const dobInput = document.getElementById('dob');
-const countrySelect = document.getElementById('country');
-const themeSelect = document.getElementById('theme');
-const customLifeExpectancyInput = document.getElementById('custom-life-expectancy');
-const calendarIndexInput = document.getElementById('calendar-index');
-const advancedToggle = document.getElementById('advanced-toggle');
-const advancedOptions = document.getElementById('advanced-options');
-const calendarContainer = document.getElementById('calendar-container');
-const calendarsWrapper = document.getElementById('calendars-wrapper');
-const infoModal = document.getElementById('info-modal');
-const infoContent = document.getElementById('info-content');
-const infoClose = document.getElementById('info-close');
-const periodsList = document.getElementById('periods-list');
-const addPeriodBtn = document.getElementById('add-period-btn');
-const momentsList = document.getElementById('moments-list');
-const addMomentBtn = document.getElementById('add-moment-btn');
-const shareToast = document.getElementById('share-toast');
-const mobileTooltip = document.getElementById('mobile-tooltip');
-const addCalendarBtn = document.getElementById('add-calendar-btn');
-const globalMenu = document.getElementById('global-menu');
-const globalMenuToggle = document.getElementById('global-menu-toggle');
-const shareAllBtn = document.getElementById('share-all-btn');
-const downloadBtn = document.getElementById('download-btn');
-const cancelBtn = document.getElementById('cancel-btn');
-const swipeIndicator = document.getElementById('swipe-indicator');
+const {
+    modal,
+    settingsForm,
+    nameInput,
+    sexSelect,
+    dobInput,
+    countrySelect,
+    themeSelect,
+    customLifeExpectancyInput,
+    calendarIndexInput,
+    advancedToggle,
+    advancedOptions,
+    calendarContainer,
+    calendarsWrapper,
+    infoModal,
+    infoContent,
+    infoClose,
+    periodsList,
+    addPeriodBtn,
+    momentsList,
+    addMomentBtn,
+    formError,
+    shareToast,
+    mobileTooltip,
+    addCalendarBtn,
+    globalMenu,
+    globalMenuToggle,
+    shareAllBtn,
+    downloadBtn,
+    cancelBtn,
+    swipeIndicator
+} = dom;
 
 // Track active calendar index for mobile
 let activeCalendarIndex = 0;
@@ -50,6 +66,103 @@ let editingCalendarIndex = 0;
 
 // Track if we're adding a new calendar (for cancel behavior)
 let isAddingNewCalendar = false;
+
+function showFormError(message) {
+    if (!formError) return;
+    if (!message) {
+        formError.textContent = '';
+        formError.classList.add('hidden');
+        return;
+    }
+    formError.textContent = message;
+    formError.classList.remove('hidden');
+}
+
+function getExpectedDeathDate(settings) {
+    if (!settings || !settings.dob) return null;
+    const birthDate = new Date(settings.dob);
+    if (Number.isNaN(birthDate.getTime())) return null;
+    const totalWeeks = getLifeExpectancyWeeks(settings);
+    const deathDate = new Date(birthDate);
+    deathDate.setDate(deathDate.getDate() + totalWeeks * 7);
+    return deathDate;
+}
+
+function validateCalendarInput(settings, periods = [], moments = []) {
+    const errors = [];
+    const now = new Date();
+
+    if (!settings.sex) {
+        errors.push('Please select a sex.');
+    }
+    if (!settings.dob) {
+        errors.push('Please enter a date of birth.');
+    } else {
+        const dobDate = new Date(settings.dob);
+        if (Number.isNaN(dobDate.getTime())) {
+            errors.push('Please enter a valid date of birth.');
+        } else if (dobDate > now) {
+            errors.push('Date of birth cannot be in the future.');
+        }
+    }
+    if (!settings.country) {
+        errors.push('Please select a country.');
+    }
+
+    if (settings.customLifeExpectancy !== null && settings.customLifeExpectancy !== undefined) {
+        if (Number.isNaN(settings.customLifeExpectancy) || settings.customLifeExpectancy <= 0 || settings.customLifeExpectancy > 150) {
+            errors.push('Custom life expectancy must be between 1 and 150 years.');
+        }
+    }
+
+    const birthDate = settings.dob ? new Date(settings.dob) : null;
+    const deathDate = getExpectedDeathDate(settings);
+
+    periods.forEach((period, index) => {
+        const hasStart = !!period.startDate;
+        const hasEnd = !!period.endDate;
+        if (hasStart !== hasEnd) {
+            errors.push(`Period ${index + 1} needs both a start and end date.`);
+            return;
+        }
+        if (!hasStart || !hasEnd) return;
+        const startDate = new Date(period.startDate);
+        const endDate = new Date(period.endDate);
+        if (Number.isNaN(startDate.getTime()) || Number.isNaN(endDate.getTime())) {
+            errors.push(`Period ${index + 1} has an invalid date.`);
+            return;
+        }
+        if (startDate > endDate) {
+            errors.push(`Period ${index + 1} start date must be before the end date.`);
+            return;
+        }
+        if (birthDate && endDate < birthDate) {
+            errors.push(`Period ${index + 1} ends before the date of birth.`);
+            return;
+        }
+        if (deathDate && startDate > deathDate) {
+            errors.push(`Period ${index + 1} starts after the expected life span.`);
+        }
+    });
+
+    moments.forEach((moment, index) => {
+        if (!moment.date) return;
+        const momentDate = new Date(moment.date);
+        if (Number.isNaN(momentDate.getTime())) {
+            errors.push(`Moment ${index + 1} has an invalid date.`);
+            return;
+        }
+        if (birthDate && momentDate < birthDate) {
+            errors.push(`Moment ${index + 1} occurs before the date of birth.`);
+            return;
+        }
+        if (deathDate && momentDate > deathDate) {
+            errors.push(`Moment ${index + 1} occurs after the expected life span.`);
+        }
+    });
+
+    return errors;
+}
 
 // Initialize
 async function init() {
@@ -365,6 +478,7 @@ function saveCalendars() {
 // Setup event listeners
 function setupEventListeners() {
     settingsForm.addEventListener('submit', handleSubmit);
+    settingsForm.addEventListener('input', () => showFormError(''));
     advancedToggle.addEventListener('click', toggleAdvanced);
     themeSelect.addEventListener('change', previewTheme);
     infoClose.addEventListener('click', closeInfoModal);
@@ -471,7 +585,7 @@ async function downloadCalendars() {
     controlElements.forEach(el => el.style.visibility = 'hidden');
 
     try {
-        const canvas = await html2canvas(calendarsWrapper, {
+        const canvas = await window.html2canvas(calendarsWrapper, {
             backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg-primary').trim() || '#1a1a2e',
             scale: 2, // Higher resolution
             logging: false
@@ -498,25 +612,41 @@ function handleSubmit(e) {
 
     const calendarIndex = parseInt(calendarIndexInput.value);
     const customLE = customLifeExpectancyInput.value;
+    const settings = {
+        name: nameInput.value.trim() || null,
+        sex: sexSelect.value,
+        dob: dobInput.value,
+        country: countrySelect.value,
+        theme: themeSelect.value,
+        customLifeExpectancy: customLE ? parseFloat(customLE) : null
+    };
+    const existing = calendars[calendarIndex];
+    const periods = existing ? (existing.periods || []) : [];
+    const moments = existing ? (existing.moments || []) : [];
+    const errors = validateCalendarInput(settings, periods, moments);
+    if (errors.length > 0) {
+        showFormError(errors[0]);
+        return;
+    }
 
     // Update or add calendar settings
     if (calendarIndex < calendars.length) {
         // Update existing calendar - preserve periods and moments
-        calendars[calendarIndex].name = nameInput.value.trim() || null;
-        calendars[calendarIndex].sex = sexSelect.value;
-        calendars[calendarIndex].dob = dobInput.value;
-        calendars[calendarIndex].country = countrySelect.value;
-        calendars[calendarIndex].theme = themeSelect.value;
-        calendars[calendarIndex].customLifeExpectancy = customLE ? parseFloat(customLE) : null;
+        calendars[calendarIndex].name = settings.name;
+        calendars[calendarIndex].sex = settings.sex;
+        calendars[calendarIndex].dob = settings.dob;
+        calendars[calendarIndex].country = settings.country;
+        calendars[calendarIndex].theme = settings.theme;
+        calendars[calendarIndex].customLifeExpectancy = settings.customLifeExpectancy;
     } else {
         // Add new calendar with empty periods/moments
         calendars.push({
-            name: nameInput.value.trim() || null,
-            sex: sexSelect.value,
-            dob: dobInput.value,
-            country: countrySelect.value,
-            theme: themeSelect.value,
-            customLifeExpectancy: customLE ? parseFloat(customLE) : null,
+            name: settings.name,
+            sex: settings.sex,
+            dob: settings.dob,
+            country: settings.country,
+            theme: settings.theme,
+            customLifeExpectancy: settings.customLifeExpectancy,
             periods: [],
             moments: []
         });
@@ -677,6 +807,7 @@ function closeInfoModal() {
 
 // Open modal for a specific calendar
 function openModal(calendarIndex = 0) {
+    showFormError('');
     calendarIndexInput.value = calendarIndex;
     editingCalendarIndex = calendarIndex;
 
@@ -907,136 +1038,33 @@ function getLifeExpectancyWeeks(settings) {
     return Math.round(years * 52);
 }
 
-// Get weeks lived
-function getWeeksLived(dob) {
-    const birthDate = new Date(dob);
-    const now = new Date();
-    const diffTime = now - birthDate;
-    const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
-    return Math.max(0, diffWeeks);
-}
-
-// Get week index for a given date
-function getWeekIndexForDate(dob, date) {
-    const birthDate = new Date(dob);
-    const targetDate = new Date(date);
-    const diffTime = targetDate - birthDate;
-    const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
-    return diffWeeks;
-}
-
-// Get SVG polygon points for multi-period splits
-function getPeriodPolygons(count) {
-    // Returns array of SVG polygon point strings for each segment
-    // Using 100x100 viewBox coordinates
-    switch (count) {
-        case 2:
-            // Diagonal split: top-left triangle, bottom-right triangle
-            return [
-                '0,0 100,0 0,100',
-                '100,0 100,100 0,100'
-            ];
-        case 3:
-            // Y-split / pinwheel: top, bottom-right, bottom-left
-            return [
-                '0,0 100,0 50,50',
-                '100,0 100,100 50,50',
-                '0,0 50,50 100,100 0,100'
-            ];
-        case 4:
-            // X-split into quarters: left, top, right, bottom
-            return [
-                '0,0 50,50 0,100',
-                '0,0 100,0 50,50',
-                '100,0 100,100 50,50',
-                '50,50 100,100 0,100'
-            ];
-        default:
-            return [];
-    }
-}
-
-// Get all periods for a week index (supports overlapping periods)
-function getPeriodsForWeek(weekIndex, dob, calendarIndex) {
-    const calendar = calendars[calendarIndex];
-    if (!calendar || !calendar.periods) return [];
-
-    const birthDate = new Date(dob);
-    const weekDate = new Date(birthDate);
-    weekDate.setDate(weekDate.getDate() + weekIndex * 7);
-
-    const matchingPeriods = [];
-    for (const period of calendar.periods) {
-        if (!period.startDate || !period.endDate) continue;
-
-        const startDate = new Date(period.startDate);
-        const endDate = new Date(period.endDate);
-
-        if (weekDate >= startDate && weekDate <= endDate) {
-            matchingPeriods.push(period);
-        }
-    }
-    // Limit to 4 periods max for display
-    return matchingPeriods.slice(0, 4);
-}
-
-// Get moment for a week index
-function getMomentForWeek(weekIndex, dob, calendarIndex) {
-    const calendar = calendars[calendarIndex];
-    if (!calendar || !calendar.moments) return null;
-
-    const birthDate = new Date(dob);
-    const weekDate = new Date(birthDate);
-    weekDate.setDate(weekDate.getDate() + weekIndex * 7);
-    const weekEnd = new Date(weekDate);
-    weekEnd.setDate(weekEnd.getDate() + 7);
-
-    for (const moment of calendar.moments) {
-        if (!moment.date) continue;
-        const momentDate = new Date(moment.date);
-        if (momentDate >= weekDate && momentDate < weekEnd) {
-            return moment;
-        }
-    }
-    return null;
-}
-
-// Get SVG path for moment shape
-function getMomentShapeSVG(shape, color) {
-    switch (shape) {
-        case 'star':
-            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
-        case 'heart':
-            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
-        case 'diamond':
-            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2L2 12l10 10 10-10L12 2z"/></svg>`;
-        case 'circle':
-            return `<svg viewBox="0 0 24 24" fill="${color}"><circle cx="12" cy="12" r="10"/></svg>`;
-        default:
-            return `<svg viewBox="0 0 24 24" fill="${color}"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>`;
-    }
-}
-
-// Get Unicode symbol for moment shape (used in tooltips)
-function getShapeSymbol(shape) {
-    switch (shape) {
-        case 'star': return '★';
-        case 'heart': return '♥';
-        case 'diamond': return '◆';
-        case 'circle': return '●';
-        default: return '★';
-    }
-}
-
 // Render a single calendar
 function renderCalendar(settings, calendarElement, totalCalendars = 1, alignmentInfo = null) {
     const lifeWeeks = getLifeExpectancyWeeks(settings);
     const weeksLived = getWeeksLived(settings.dob);
     const birthDate = new Date(settings.dob);
-    const calendarIndex = parseInt(calendarElement.dataset.index);
 
     // Clear existing
     calendarElement.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+
+    const periodRanges = (settings.periods || [])
+        .filter(p => p.startDate && p.endDate)
+        .map(p => ({
+            startWeek: getWeekIndexForDate(settings.dob, p.startDate),
+            endWeek: getWeekIndexForDate(settings.dob, p.endDate),
+            period: p
+        }))
+        .filter(p => p.endWeek >= p.startWeek);
+
+    const momentsByWeek = new Map();
+    (settings.moments || []).forEach(moment => {
+        if (!moment.date) return;
+        const weekIndex = getWeekIndexForDate(settings.dob, moment.date);
+        if (!momentsByWeek.has(weekIndex)) {
+            momentsByWeek.set(weekIndex, moment);
+        }
+    });
 
     // Use alignment info if available (for multi-calendar comparison)
     let columns, rows, cellSize, totalWeeks, birthOffset;
@@ -1077,9 +1105,17 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
             week.classList.add('empty');
         } else {
             // Check for periods for this calendar
-            const weekPeriods = getPeriodsForWeek(lifeWeekIndex, settings.dob, calendarIndex);
-            // Check for moments for this calendar
-            const weekMoment = getMomentForWeek(lifeWeekIndex, settings.dob, calendarIndex);
+            const weekPeriods = [];
+            if (periodRanges.length > 0) {
+                for (const range of periodRanges) {
+                    if (lifeWeekIndex >= range.startWeek && lifeWeekIndex <= range.endWeek) {
+                        weekPeriods.push(range.period);
+                        if (weekPeriods.length >= 4) break;
+                    }
+                }
+            }
+
+            const weekMoment = momentsByWeek.get(lifeWeekIndex) || null;
 
             if (weekPeriods.length > 0) {
                 week.classList.add('has-period');
@@ -1139,8 +1175,10 @@ function renderCalendar(settings, calendarElement, totalCalendars = 1, alignment
             week.dataset.tooltip = tooltip;
         }
 
-        calendarElement.appendChild(week);
+        fragment.appendChild(week);
     }
+
+    calendarElement.appendChild(fragment);
 }
 
 // Get calendar index - on mobile use active calendar, otherwise use data-index
@@ -1226,74 +1264,6 @@ function removeCalendar(index) {
     renderAllCalendars();
 }
 
-// Format date for tooltip
-function formatWeekDate(date, weekIndex) {
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-    const age = Math.floor(weekIndex / 52);
-    const weekOfYear = (weekIndex % 52) + 1;
-
-    return `${month} ${year} (Age ${age}, Week ${weekOfYear})`;
-}
-
-// Check if we're on mobile (matches CSS media query)
-function isMobile() {
-    return window.innerWidth <= 768;
-}
-
-// Calculate optimal grid dimensions to fill the viewport
-function calculateGrid(totalWeeks, numCalendars = 1) {
-    const gap = 2;
-
-    // Use visualViewport if available (more accurate on mobile), otherwise fall back to window
-    const visualVP = window.visualViewport;
-    let viewportWidth = visualVP ? visualVP.width : window.innerWidth;
-    let viewportHeight = visualVP ? visualVP.height : window.innerHeight;
-
-    // Add padding to account for browser chrome and prevent overflow
-    // Mobile browsers have dynamic toolbars that can cause issues
-    const padding = 16;
-    viewportWidth -= padding * 2;
-    viewportHeight -= padding * 2;
-
-    // On mobile, calendars are shown one at a time (swipe view), so don't divide width
-    const effectiveNumCalendars = isMobile() ? 1 : numCalendars;
-
-    // Divide width by number of calendars (with gap between them)
-    const calendarGap = 24;
-    const availableWidth = (viewportWidth - (effectiveNumCalendars - 1) * calendarGap) / effectiveNumCalendars;
-
-    let bestColumns = 52;
-    let bestRows = Math.ceil(totalWeeks / 52);
-    let bestCellSize = 1;
-
-    // Try different column counts to find the one that maximizes cell size
-    // while fitting everything on screen
-    for (let cols = 30; cols <= 150; cols++) {
-        const rows = Math.ceil(totalWeeks / cols);
-
-        // Calculate the cell size needed to fit this grid
-        // Total width = cols * cellSize + (cols - 1) * gap
-        // Total height = rows * cellSize + (rows - 1) * gap
-        const maxCellWidth = (availableWidth - (cols - 1) * gap) / cols;
-        const maxCellHeight = (viewportHeight - (rows - 1) * gap) / rows;
-        const cellSize = Math.min(maxCellWidth, maxCellHeight);
-
-        if (cellSize > bestCellSize && cellSize >= 2) {
-            bestCellSize = cellSize;
-            bestColumns = cols;
-            bestRows = rows;
-        }
-    }
-
-    return {
-        columns: bestColumns,
-        rows: bestRows,
-        cellSize: Math.floor(bestCellSize)
-    };
-}
 
 // Handle window resize
 let resizeTimeout;

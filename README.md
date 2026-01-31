@@ -79,6 +79,8 @@ npx serve
 
 Then open http://localhost:8000
 
+No dependencies are required; `node_modules` is not needed for local use.
+
 ## License
 
 MIT
