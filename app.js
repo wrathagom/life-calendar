@@ -41,6 +41,7 @@ const {
     globalMenuToggle,
     shareAllBtn,
     downloadBtn,
+    resetBtn,
     cancelBtn,
     swipeIndicator
 } = dom;
@@ -493,6 +494,7 @@ function setupEventListeners() {
     globalMenuToggle.addEventListener('click', toggleGlobalMenu);
     shareAllBtn.addEventListener('click', shareAllCalendars);
     downloadBtn.addEventListener('click', downloadCalendars);
+    resetBtn.addEventListener('click', resetAllCalendars);
     cancelBtn.addEventListener('click', cancelModal);
 }
 
@@ -557,6 +559,35 @@ function cancelModal() {
 // Toggle global menu
 function toggleGlobalMenu() {
     globalMenu.classList.toggle('expanded');
+}
+
+function resetAllCalendars() {
+    const confirmed = window.confirm('Reset all calendars and clear saved data?');
+    if (!confirmed) return;
+
+    calendars = [];
+    activeCalendarIndex = 0;
+    editingCalendarIndex = 0;
+    isAddingNewCalendar = false;
+
+    localStorage.removeItem(CALENDARS_KEY);
+    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(PERIODS_KEY);
+    localStorage.removeItem(MOMENTS_KEY);
+    localStorage.removeItem('life-calendar-highlights');
+
+    if (window.location.hash) {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+
+    themeSelect.value = 'default';
+    applyTheme('default');
+    updateFavicon();
+    globalMenu.classList.remove('expanded');
+    calendarsWrapper.innerHTML = '';
+    calendarContainer.classList.remove('visible');
+    modal.classList.remove('hidden');
+    openModal(0);
 }
 
 // Share all calendars

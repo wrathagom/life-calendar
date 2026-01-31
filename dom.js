@@ -27,6 +27,7 @@ export const dom = {
     globalMenuToggle: document.getElementById('global-menu-toggle'),
     shareAllBtn: document.getElementById('share-all-btn'),
     downloadBtn: document.getElementById('download-btn'),
+    resetBtn: document.getElementById('reset-btn'),
     cancelBtn: document.getElementById('cancel-btn'),
     swipeIndicator: document.getElementById('swipe-indicator')
 };
