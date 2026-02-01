@@ -1,0 +1,15 @@
+# ============================================================
+# This file is used by cd-info to display directory information
+# Learn more: https://github.com/wrathagom/cd-info
+# ============================================================
+# --- END CD-INFO HEADER ---
+
+# Quick Commands
+  - `docker compose up`  Start local server
+
+# Project
+  - `open index.html`             Open the app directly (no server)
+
+# Links
+  - Demo: https://calebmkeller.com/life-calendar
+  - Examples: https://calebmkeller.com/life-calendar?example=adele
